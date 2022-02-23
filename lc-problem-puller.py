@@ -112,26 +112,20 @@ def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
 
 
 def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
-    data = pd.read_csv('leetcode/.meta.csv', index_col='slug').to_dict('index')
+    data = pd.read_csv('leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval}).to_dict('index')
 
-    solutions = {f.split('.')[0]: f.split('.')[1] for f in os.listdir('leetcode') if not f.startswith('.')}
-
-    if slug not in data.keys() or data['slug']['lang'] != solutions[slug]:
+    # adding new problem or solution
+    if slug not in data.keys():
         data[slug] = {
             'id': slug_data['question_frontend_id'],
             'difficulty': slug_data['difficulty'],
             'tags': [tag['name'] for tag in slug_data['topic_tags']],
-            'lang': lang
+            'lang': [lang]
         }
-        pd.DataFrame.from_dict(data).transpose().to_csv('leetcode/.meta.csv', index_label='slug', index=True)
+    else:
+        data[slug]['lang'].append(lang)
 
-    for problem in data.keys():
-        # keeping meta.csv actual by removing problems with no solution, but it's not much likeable to happen
-        if problem not in solutions:
-            del data[problem]
-            pd.DataFrame.from_dict(data).transpose().to_csv('leetcode/.meta.csv', index_label='slug', index=True)
-
-
+    pd.DataFrame.from_dict(data).transpose().to_csv('leetcode/.meta.csv', index_label='slug', index=True)
 
 
 def main():
