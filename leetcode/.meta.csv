@@ -1,3 +1,5 @@
 slug,difficulty,id,lang,tags
 two-sum,Easy,1,['golang'],"['Array', 'Hash Table']"
 palindrome-number,Easy,9,['golang'],['Math']
+add-two-numbers,Medium,2,['golang'],"['Linked List', 'Math', 'Recursion']"
+longest-substring-without-repeating-characters,Medium,3,['golang'],"['Hash Table', 'String', 'Sliding Window']"
