@@ -150,7 +150,7 @@ def clear_leetcode_meta_file(data: dict):
 
 def generate_leetcode_readme(data: dict):
     header = '## leetcode solutions'
-    problems_table = '|Problem|Solutions|Difficulty|Tags|\n|-|-|-|-|\n'
+    problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
     stats = {
         'solved': 0,
         'by_diff': dict(),
@@ -221,7 +221,7 @@ def main():
     parser = argparse.ArgumentParser(description="Pulls problems from leetcode and sets up env in local repo")
     parser.add_argument('problems', type=str, nargs='+', help='Name or link to the problems')
     parser.add_argument('--lang', dest='lang', action='store', default='golang', help='Solution lang')
-    parser.add_argument('--dir', dest='dir', action='store', default='leetcode', help='Solutions directory')
+    parser.add_argument('--dir', dest='dir', action='store', default='../leetcode', help='Solutions directory')
     args = parser.parse_args()
 
     slugs = get_title_slugs(args.problems, args.lang, args.dir)
