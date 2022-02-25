@@ -1,0 +1,21 @@
+slug,id,lang,difficulty,tags,module
+Stone Pile,1005,c++,84,['problem for beginners'],1
+Troubleduons,1155,c++,305,[],1
+Hyperjump,1296,c++,80,[],1
+Gamers,1401,c++,321,[],1
+Line Fighting,2025,c++,77,[],1
+Median on the Plane,1207,c++,177,['geometry'],2
+Spy,1322,c++,324,[],2
+Elephpotamus,1444,c++,639,['geometry'],2
+Country of Fools,1604,c++,220,[],2
+Visits,1726,c++,197,[],2
+Disk Tree,1067,c++,486,['data structures'],3
+Monobilliards,1494,c++,131,['data structures'],3
+War Games 2,1521,c++,192,['data structures'],3
+White Streaks,1628,c++,293,['data structures'],3
+Billionaires,1650,c++,339,['data structures'],3
+Map Coloring,1080,c++,229,['graph theory'],4
+Network,1160,c++,226,['graph theory'],4
+Currency Exchange,1162,c++,342,['graph theory'],4
+Russian Pipelines,1450,c++,225,['graph theory'],4
+Mobile Telegraphs,1806,c++,402,['graph theory'],4

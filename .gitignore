@@ -1,3 +1,4 @@
 test-cases
 .idea
-cf-problem-puller.py
+tools/cf-problem-puller.py
+tools/acm.timus-problem-puller.py
