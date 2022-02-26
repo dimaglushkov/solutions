@@ -7,3 +7,5 @@
 | [2. add-two-numbers](https://leetcode.com/problems/add-two-numbers/) | [golang](/leetcode/add-two-numbers.go) | Medium | Linked List, Math, Recursion |
 | [3. longest-substring-without-repeating-characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [golang](/leetcode/longest-substring-without-repeating-characters.go) | Medium | Hash Table, String, Sliding Window |
 | [4. median-of-two-sorted-arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [golang](/leetcode/median-of-two-sorted-arrays.go) | Hard | Array, Binary Search, Divide and Conquer |
+| [14. longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | [golang](/leetcode/longest-common-prefix.go) | Easy | String |
+| [13. roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | [golang](/leetcode/roman-to-integer.go) | Easy | Hash Table, Math, String |

@@ -4,3 +4,5 @@ palindrome-number,Easy,9,['golang'],['Math']
 add-two-numbers,Medium,2,['golang'],"['Linked List', 'Math', 'Recursion']"
 longest-substring-without-repeating-characters,Medium,3,['golang'],"['Hash Table', 'String', 'Sliding Window']"
 median-of-two-sorted-arrays,Hard,4,['golang'],"['Array', 'Binary Search', 'Divide and Conquer']"
+longest-common-prefix,Easy,14,['golang'],['String']
+roman-to-integer,Easy,13,['golang'],"['Hash Table', 'Math', 'String']"
