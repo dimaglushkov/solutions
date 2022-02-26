@@ -6,3 +6,4 @@ longest-substring-without-repeating-characters,Medium,3,['golang'],"['Hash Table
 median-of-two-sorted-arrays,Hard,4,['golang'],"['Array', 'Binary Search', 'Divide and Conquer']"
 longest-common-prefix,Easy,14,['golang'],['String']
 roman-to-integer,Easy,13,['golang'],"['Hash Table', 'Math', 'String']"
+implement-strstr,Easy,28,['golang'],"['Two Pointers', 'String', 'String Matching']"
