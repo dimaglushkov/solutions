@@ -7,7 +7,7 @@ lang_specifics = {
     'golang': {
         'ext': 'go',
         'com': '//',
-        'prefix': 'package main\n\n'
+        'prefix': 'package main\n\nimport "fmt"\n\n',
     },
     'python': {
         'ext': 'py',
@@ -93,6 +93,61 @@ def get_slug_data(name: str) -> dict:
     return api_instance.graphql_post(body=graphql_request).to_dict()
 
 
+def get_test_cases(data: dict) -> list:
+    tests = list()
+    translation_table = {
+        '<strong>': '',
+        '</strong>': '',
+        '&quot;': '"',
+        "Input: ": '',
+        "Output: ": '',
+        '<pre>': ''
+    }
+    desc = data['content']
+    rows = desc.split('\n')
+    inputs_sets = [d for d in rows if 'Input:' in d]
+    outputs = [d for d in rows if 'Output:' in d]
+
+    if len(inputs_sets) != len(outputs):
+        print(f"Warning: different number of input and output examples for task")
+        return tests
+
+    for ttk, ttv in translation_table.items():
+        for i, s in enumerate(inputs_sets):
+            inputs_sets[i] = s.replace(ttk, ttv)
+        for i, s in enumerate(outputs):
+            outputs[i] = s.replace(ttk, ttv)
+
+    for j, inps in enumerate(inputs_sets):
+        variables = {i.split(' = ')[0]: i.split(' = ')[1] for i in inps.split(', ')}
+        tests.append({
+            'input': variables,
+            'output': outputs[j]
+        })
+    return tests
+
+
+def generate_test_code(tests: list, code: str) -> str:
+    tester = '\n\nfunc main() {\n'
+
+    func_decl = code.split('\n')[0]
+    func_name = func_decl.replace('func ', '').split('(')[0]
+    func_params = {p.split(' ')[0]: ''.join(p.split(' ')[1:]) for p in func_decl.split('(')[1].split(')')[0].split(', ')}
+    # param_types = [v for v in func_params.values()]
+    # same_type = all(p == param_types[0] for p in param_types[1:])
+    for i, t in enumerate(tests):
+        param_def = f'\t// Example {i + 1} \n'
+        args = []
+        for vn, vt in func_params.items():
+            param_def += f'\tvar {vn}{i + 1} {vt} = {t["input"][vn]}\n'
+            args.append(f'{vn}{i + 1}')
+        run_def = f'\tfmt.Println("Expected: {t["output"]}\tOutput: ", {func_name}({", ".join(args)}))\n\n'
+
+        tester += param_def + run_def
+
+    return tester + '}\n'
+
+
 def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
     source_link = f'https://leetcode.com/problems/{slug}/'
     code_snippet = ''
@@ -107,6 +162,11 @@ def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
 
     code += f'{lang_specifics[lang]["com"]} source: {source_link}\n\n'
     code += code_snippet
+
+    # experimental feature, tested only with golang
+    if lang == 'golang':
+        code += generate_test_code(get_test_cases(data), code_snippet)
+
     with open(file, 'w') as code_file:
         code_file.write(code)
 
@@ -219,20 +279,22 @@ def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
 
 def main():
     parser = argparse.ArgumentParser(description="Pulls problems from leetcode and sets up env in local repo")
-    parser.add_argument('problems', type=str, nargs='+', help='Name or link to the problems')
+    parser.add_argument('problems', default='', type=str, nargs='+', help='Name or link to the problems')
     parser.add_argument('--lang', dest='lang', action='store', default='golang', help='Solution lang')
     parser.add_argument('--dir', dest='dir', action='store', default='../leetcode', help='Solutions directory')
     args = parser.parse_args()
 
-    slugs = get_title_slugs(args.problems, args.lang, args.dir)
-    if len(slugs) == 0:
-        print("Nothing to do")
-        return
+    if args.problems != '':
+        slugs = get_title_slugs(args.problems, args.lang, args.dir)
+        if len(slugs) == 0:
+            print("Nothing to do")
+            return
 
-    for slug, file in slugs.items():
-        slug_data = get_slug_data(slug)['data']['question']
-        create_code_template(slug, file, args.lang, slug_data)
-        update_meta_file(slug, args.lang, slug_data)
+        for slug, file in slugs.items():
+            slug_data = get_slug_data(slug)['data']['question']
+            create_code_template(slug, file, args.lang, slug_data)
+            update_meta_file(slug, args.lang, slug_data)
+
     data = pd.read_csv('../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
     clear_leetcode_meta_file(data)
     generate_leetcode_readme(data)
