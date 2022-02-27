@@ -10,3 +10,4 @@
 | [14. longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/) | [golang](/leetcode/longest-common-prefix.go) | Easy | String |
 | [13. roman-to-integer](https://leetcode.com/problems/roman-to-integer/) | [golang](/leetcode/roman-to-integer.go) | Easy | Hash Table, Math, String |
 | [28. implement-strstr](https://leetcode.com/problems/implement-strstr/) | [golang](/leetcode/implement-strstr.go) | Easy | Two Pointers, String, String Matching |
+| [459. repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern/) | [golang](/leetcode/repeated-substring-pattern.go) | Easy | String, String Matching |
