@@ -2,43 +2,35 @@ package main
 
 import (
 	"fmt"
-	"strings"
 )
 
 // source: https://leetcode.com/problems/implement-strstr/
 
-/*func strStr(haystack string, needle string) int {
+func strStr(haystack string, needle string) int {
 	nLen := len(needle)
 	res := -1
-	curNeedleI := 0
 
-	if nLen == 0 {
+	if nLen == 0 || haystack == needle {
 		return 0
 	}
 
-	for i := 0; i < len(haystack); i++ {
-		for curNeedleI < nLen && i < len(haystack) && haystack[i] == needle[curNeedleI] {
-			curNeedleI++
-			i++
-		}
-		if curNeedleI == nLen {
-			res = i - curNeedleI
+	for i := 0; i <= len(haystack)-nLen; i++ {
+		s1 := haystack[i : i+nLen]
+		if s1 == needle {
+			res = i
 			break
-		} else {
-			i -= curNeedleI
 		}
-		curNeedleI = 0
 	}
 
 	return res
-}*/
+}
 
-func strStr(haystack string, needle string) int {
+/*func strStr(haystack string, needle string) int {
 	if needle == "" {
 		return 0
 	}
 	return strings.Index(haystack, needle)
-}
+}*/
 
 func main() {
 	// Example 1
@@ -71,4 +63,8 @@ func main() {
 	var needle6 string = "issip"
 	fmt.Println("Expected: 4 Output: ", strStr(haystack6, needle6))
 
+	// Example 7
+	var haystack7 string = "abc"
+	var needle7 string = "c"
+	fmt.Println("Expected: 2 Output: ", strStr(haystack7, needle7))
 }
