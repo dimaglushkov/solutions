@@ -10,3 +10,6 @@ implement-strstr,Easy,28,['golang'],"['Two Pointers', 'String', 'String Matching
 repeated-substring-pattern,Easy,459,['golang'],"['String', 'String Matching']"
 sudoku-solver,Hard,37,['golang'],"['Array', 'Backtracking', 'Matrix']"
 valid-sudoku,Medium,36,['golang'],"['Array', 'Hash Table', 'Matrix']"
+string-to-integer-atoi,Medium,8,['golang'],['String']
+check-if-numbers-are-ascending-in-a-sentence,Easy,2042,['golang'],['String']
+maximum-subarray,Easy,53,['golang'],"['Array', 'Divide and Conquer', 'Dynamic Programming']"

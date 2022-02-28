@@ -13,3 +13,6 @@
 | [459. repeated-substring-pattern](https://leetcode.com/problems/repeated-substring-pattern/) | [golang](/leetcode/repeated-substring-pattern.go) | Easy | String, String Matching |
 | [37. sudoku-solver](https://leetcode.com/problems/sudoku-solver/) | [golang](/leetcode/sudoku-solver.go) | Hard | Array, Backtracking, Matrix |
 | [36. valid-sudoku](https://leetcode.com/problems/valid-sudoku/) | [golang](/leetcode/valid-sudoku.go) | Medium | Array, Hash Table, Matrix |
+| [8. string-to-integer-atoi](https://leetcode.com/problems/string-to-integer-atoi/) | [golang](/leetcode/string-to-integer-atoi.go) | Medium | String |
+| [2042. check-if-numbers-are-ascending-in-a-sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/) | [golang](/leetcode/check-if-numbers-are-ascending-in-a-sentence.go) | Easy | String |
+| [53. maximum-subarray](https://leetcode.com/problems/maximum-subarray/) | [golang](/leetcode/maximum-subarray.go) | Easy | Array, Divide and Conquer, Dynamic Programming |
