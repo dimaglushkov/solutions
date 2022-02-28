@@ -1,24 +1,24 @@
-slug,difficulty,contest,problem,lang
-112A,800,112,A,python
-158A,800,158,A,python
-231A,800,231,A,python
-236A,800,236,A,python
-263A,800,263,A,python
-266A,800,266,A,python
-281A,800,281,A,python
-282A,800,282,A,python
-339A,800,339,A,python
-4A,800,4,A,python
-50A,800,50,A,python
-546A,800,546,A,python
-71A,800,71,A,python
-133A,900,133,A,python
-160A,900,160,A,python
-318A,900,318,A,python
-580A,900,580,A,python
-96A,900,96,A,python
-118A,1000,118,A,python
-122A,1000,122,A,python
-1A,1000,1,A,python
-58A,1000,58,A,python
-69A,1000,69,A,python
+difficulty,contest,problem,lang,tags,slug
+800,112,A,python,"['implementation', 'strings', '*800']",Petya and Strings
+800,158,A,python,"['*special problem', 'implementation', '*800']",Next Round
+800,231,A,python,"['bruteforce', 'greedy', '*800']",Team
+800,236,A,python,"['bruteforce', 'implementation', 'strings', '*800']",Boy or Girl
+800,263,A,python,"['implementation', '*800']",Beautiful Matrix
+800,266,A,python,"['implementation', '*800']",Stones on the Table
+800,281,A,python,"['implementation', 'strings', '*800']",Word Capitalization
+800,282,A,python,"['implementation', '*800']",Bit++
+800,339,A,python,"['greedy', 'implementation', 'sortings', 'strings', '*800']",Helpful Maths
+800,4,A,python,"['bruteforce', 'math', '*800']",Watermelon
+800,50,A,python,"['greedy', 'math', '*800']",Domino piling
+800,546,A,python,"['bruteforce', 'implementation', 'math', '*800']",Soldier and Bananas
+800,71,A,python,"['strings', '*800']",Way Too Long Words
+900,133,A,python,"['implementation', '*900']",HQ9+
+900,160,A,python,"['greedy', 'sortings', '*900']",Twins
+900,318,A,python,"['math', '*900']",Even Odds
+900,580,A,python,"['bruteforce', 'dp', 'implementation', '*900']",Kefa and First Steps
+900,96,A,python,"['implementation', 'strings', '*900']",Football
+1000,118,A,python,"['implementation', 'strings', '*1000']",String Task
+1000,122,A,python,"['bruteforce', 'number theory', '*1000']",Lucky Division
+1000,1,A,python,"['math', '*1000']",Theatre Square
+1000,58,A,python,"['greedy', 'strings', '*1000']",Chat room
+1000,69,A,python,"['implementation', 'math', '*1000']",Young Physicist
