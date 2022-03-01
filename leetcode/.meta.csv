@@ -13,3 +13,8 @@ valid-sudoku,Medium,36,['golang'],"['Array', 'Hash Table', 'Matrix']"
 string-to-integer-atoi,Medium,8,['golang'],['String']
 check-if-numbers-are-ascending-in-a-sentence,Easy,2042,['golang'],['String']
 maximum-subarray,Easy,53,['golang'],"['Array', 'Divide and Conquer', 'Dynamic Programming']"
+word-frequency,Medium,192,['bash'],['Shell']
+counting-bits,Easy,338,['golang'],"['Dynamic Programming', 'Bit Manipulation']"
+search-in-rotated-sorted-array,Medium,33,['golang'],"['Array', 'Binary Search']"
+climbing-stairs,Easy,70,['golang'],"['Math', 'Dynamic Programming', 'Memoization']"
+pascals-triangle,Easy,118,['golang'],"['Array', 'Dynamic Programming']"
