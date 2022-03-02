@@ -23,3 +23,6 @@
 | [118. Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | [golang](/leetcode/pascals-triangle.go) | Easy | Array, Dynamic Programming |
 | [75. Sort colors](https://leetcode.com/problems/sort-colors/) | [golang](/leetcode/sort-colors.go) | Medium | Array, Two Pointers, Sorting |
 | [15. 3sum](https://leetcode.com/problems/3sum/) | [golang](/leetcode/3sum.go) | Medium | Array, Two Pointers, Sorting |
+| [392. Is subsequence](https://leetcode.com/problems/is-subsequence/) | [golang](/leetcode/is-subsequence.go) | Easy | Two Pointers, String, Dynamic Programming |
+| [20. Valid parentheses](https://leetcode.com/problems/valid-parentheses/) | [golang](/leetcode/valid-parentheses.go) | Easy | String, Stack |
+| [71. Simplify path](https://leetcode.com/problems/simplify-path/) | [golang](/leetcode/simplify-path.go) | Medium | String, Stack |
