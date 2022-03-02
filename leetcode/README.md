@@ -21,3 +21,5 @@
 | [33. Search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [golang](/leetcode/search-in-rotated-sorted-array.go) | Medium | Array, Binary Search |
 | [70. Climbing stairs](https://leetcode.com/problems/climbing-stairs/) | [golang](/leetcode/climbing-stairs.go) | Easy | Math, Dynamic Programming, Memoization |
 | [118. Pascals triangle](https://leetcode.com/problems/pascals-triangle/) | [golang](/leetcode/pascals-triangle.go) | Easy | Array, Dynamic Programming |
+| [75. Sort colors](https://leetcode.com/problems/sort-colors/) | [golang](/leetcode/sort-colors.go) | Medium | Array, Two Pointers, Sorting |
+| [15. 3sum](https://leetcode.com/problems/3sum/) | [golang](/leetcode/3sum.go) | Medium | Array, Two Pointers, Sorting |
