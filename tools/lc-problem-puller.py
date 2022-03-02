@@ -12,6 +12,10 @@ lang_specifics = {
     'python': {
         'ext': 'py',
         'com': '#'
+    },
+    'bash': {
+        'ext': 'sh',
+        'com': '#'
     }
 }
 
@@ -235,7 +239,7 @@ def generate_leetcode_readme(data: dict):
             stats['by_lang'][lang] += 1
 
         solutions_links = ' '.join([f'[{lang}](/leetcode/{problem}.{lang_specifics[lang]["ext"]})' for lang in meta['lang']])
-        problems_table += f'| [{meta["id"]}. {problem}](https://leetcode.com/problems/{problem}/) ' \
+        problems_table += f'| [{meta["id"]}. {problem.replace("-", " ").capitalize() }](https://leetcode.com/problems/{problem}/) ' \
                           f'| {solutions_links} ' \
                           f'| {meta["difficulty"]} ' \
                           f'| {", ".join(meta["tags"])} |\n'
