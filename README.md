@@ -29,6 +29,7 @@ This repo stores my problem-solving related code
 | [392. Is subsequence](https://leetcode.com/problems/is-subsequence/) | [golang](/leetcode/is-subsequence.go) | Easy | Two Pointers, String, Dynamic Programming |
 | [20. Valid parentheses](https://leetcode.com/problems/valid-parentheses/) | [golang](/leetcode/valid-parentheses.go) | Easy | String, Stack |
 | [71. Simplify path](https://leetcode.com/problems/simplify-path/) | [golang](/leetcode/simplify-path.go) | Medium | String, Stack |
+| [413. Arithmetic slices](https://leetcode.com/problems/arithmetic-slices/) | [golang](/leetcode/arithmetic-slices.go) | Medium | Array, Dynamic Programming |
 
 
 ## codeforces
