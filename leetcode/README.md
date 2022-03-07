@@ -27,3 +27,4 @@
 | [20. Valid parentheses](https://leetcode.com/problems/valid-parentheses/) | [golang](/leetcode/valid-parentheses.go) | Easy | String, Stack |
 | [71. Simplify path](https://leetcode.com/problems/simplify-path/) | [golang](/leetcode/simplify-path.go) | Medium | String, Stack |
 | [413. Arithmetic slices](https://leetcode.com/problems/arithmetic-slices/) | [golang](/leetcode/arithmetic-slices.go) | Medium | Array, Dynamic Programming |
+| [21. Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [golang](/leetcode/merge-two-sorted-lists.go) | Easy | Linked List, Recursion |
