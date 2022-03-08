@@ -28,3 +28,4 @@
 | [71. Simplify path](https://leetcode.com/problems/simplify-path/) | [golang](/leetcode/simplify-path.go) | Medium | String, Stack |
 | [413. Arithmetic slices](https://leetcode.com/problems/arithmetic-slices/) | [golang](/leetcode/arithmetic-slices.go) | Medium | Array, Dynamic Programming |
 | [21. Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [golang](/leetcode/merge-two-sorted-lists.go) | Easy | Linked List, Recursion |
+| [141. Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [golang](/leetcode/linked-list-cycle.go) | Easy | Hash Table, Linked List, Two Pointers |
