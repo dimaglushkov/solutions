@@ -1,31 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/dimaglushkov/solutions/util"
+)
 
 // source: https://leetcode.com/problems/valid-parentheses/
 
-type stack struct {
-	values []rune
-	Len    int
-}
-
-func (s *stack) Push(val rune) {
-	s.values = append(s.values, val)
-	s.Len++
-}
-
-func (s *stack) Pop() (val rune, err error) {
-	if s.Len == 0 {
-		return val, fmt.Errorf("can't pop from an empty stack")
-	}
-	s.Len--
-	val = s.values[s.Len]
-	s.values = s.values[:s.Len]
-	return val, err
-}
-
 func isValid(s string) bool {
-	stack := stack{}
+	stack := util.NewStack[int32]()
 	pairs := map[rune]rune{
 		'{': '}',
 		'(': ')',
@@ -34,11 +17,11 @@ func isValid(s string) bool {
 	for _, c := range s {
 		if c == '[' || c == '{' || c == '(' {
 			stack.Push(c)
-		} else if sc, err := stack.Pop(); err != nil || pairs[sc] != c {
+		} else if sc, ok := stack.Pop(); ok || pairs[sc] != c {
 			return false
 		}
 	}
-	return stack.Len == 0
+	return stack.Size() == 0
 }
 
 func main() {
