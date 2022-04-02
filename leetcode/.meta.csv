@@ -28,3 +28,5 @@ merge-two-sorted-lists,Easy,21,['golang'],"['Linked List', 'Recursion']"
 linked-list-cycle,Easy,141,['golang'],"['Hash Table', 'Linked List', 'Two Pointers']"
 reverse-string,Easy,344,['golang'],"['Two Pointers', 'String', 'Recursion']"
 valid-palindrome-ii,Easy,680,['golang'],"['Two Pointers', 'String', 'Greedy']"
+find-center-of-star-graph,Easy,1791,['golang'],['Graph']
+all-paths-from-source-to-target,Medium,797,['golang'],"['Backtracking', 'Depth-First Search', 'Breadth-First Search', 'Graph']"

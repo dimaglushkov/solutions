@@ -31,3 +31,5 @@
 | [141. Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [golang](/leetcode/linked-list-cycle.go) | Easy | Hash Table, Linked List, Two Pointers |
 | [344. Reverse string](https://leetcode.com/problems/reverse-string/) | [golang](/leetcode/reverse-string.go) | Easy | Two Pointers, String, Recursion |
 | [680. Valid palindrome ii](https://leetcode.com/problems/valid-palindrome-ii/) | [golang](/leetcode/valid-palindrome-ii.go) | Easy | Two Pointers, String, Greedy |
+| [1791. Find center of star graph](https://leetcode.com/problems/find-center-of-star-graph/) | [golang](/leetcode/find-center-of-star-graph.go) | Easy | Graph |
+| [797. All paths from source to target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [golang](/leetcode/all-paths-from-source-to-target.go) | Medium | Backtracking, Depth-First Search, Breadth-First Search, Graph |
