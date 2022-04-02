@@ -32,7 +32,8 @@ This repo stores my problem-solving related code
 | [413. Arithmetic slices](https://leetcode.com/problems/arithmetic-slices/) | [golang](/leetcode/arithmetic-slices.go) | Medium | Array, Dynamic Programming |
 | [21. Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [golang](/leetcode/merge-two-sorted-lists.go) | Easy | Linked List, Recursion |
 | [141. Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | [golang](/leetcode/linked-list-cycle.go) | Easy | Hash Table, Linked List, Two Pointers |
-| [1249. Minimum remove to make valid parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [golang](/leetcode/minimum-remove-to-make-valid-parentheses.go) | Medium | String, Stack |
+| [344. Reverse string](https://leetcode.com/problems/reverse-string/) | [golang](/leetcode/reverse-string.go) | Easy | Two Pointers, String, Recursion |
+| [680. Valid palindrome ii](https://leetcode.com/problems/valid-palindrome-ii/) | [golang](/leetcode/valid-palindrome-ii.go) | Easy | Two Pointers, String, Greedy |
 
 
 ## codeforces

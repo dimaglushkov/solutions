@@ -9,22 +9,22 @@ func NewStack[T any]() *Stack[T] {
 }
 
 func (s *Stack[T]) Push(val T) {
-	s.values = append(s.values, val)
+	s.values = append[T](s.values, val)
 }
 
 func (s *Stack[T]) Pop() (val T, ok bool) {
-	if len(s.values) == 0 {
+	if len[T](s.values) == 0 {
 		return val, false
 	}
-	val = s.values[len(s.values)-1]
-	s.values = s.values[:len(s.values)-1]
+	val = s.values[len[T](s.values)-1]
+	s.values = s.values[:len[T](s.values)-1]
 	return val, true
 }
 
 func (s *Stack[T]) Size() int {
-	return len(s.values)
+	return len[T](s.values)
 }
 
 func (s *Stack[T]) Top() T {
-	return s.values[len(s.values)-1]
+	return s.values[len[T](s.values)-1]
 }
