@@ -33,3 +33,4 @@
 | [680. Valid palindrome ii](https://leetcode.com/problems/valid-palindrome-ii/) | [golang](/leetcode/valid-palindrome-ii.go) | Easy | Two Pointers, String, Greedy |
 | [1791. Find center of star graph](https://leetcode.com/problems/find-center-of-star-graph/) | [golang](/leetcode/find-center-of-star-graph.go) | Easy | Graph |
 | [797. All paths from source to target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [golang](/leetcode/all-paths-from-source-to-target.go) | Medium | Backtracking, Depth-First Search, Breadth-First Search, Graph |
+| [31. Next permutation](https://leetcode.com/problems/next-permutation/) | [golang](/leetcode/next-permutation.go) | Medium | Array, Two Pointers |
