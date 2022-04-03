@@ -37,6 +37,8 @@ This repo stores my problem-solving related code
 | [1791. Find center of star graph](https://leetcode.com/problems/find-center-of-star-graph/) | [golang](/leetcode/find-center-of-star-graph.go) | Easy | Graph |
 | [797. All paths from source to target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [golang](/leetcode/all-paths-from-source-to-target.go) | Medium | Backtracking, Depth-First Search, Breadth-First Search, Graph |
 | [31. Next permutation](https://leetcode.com/problems/next-permutation/) | [golang](/leetcode/next-permutation.go) | Medium | Array, Two Pointers |
+| [1920. Build array from permutation](https://leetcode.com/problems/build-array-from-permutation/) | [golang](/leetcode/build-array-from-permutation.go) | Easy | Array, Simulation |
+| [1929. Concatenation of array](https://leetcode.com/problems/concatenation-of-array/) | [golang](/leetcode/concatenation-of-array.go) | Easy | Array |
 
 
 ## codeforces

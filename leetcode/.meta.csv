@@ -31,3 +31,5 @@ valid-palindrome-ii,Easy,680,['golang'],"['Two Pointers', 'String', 'Greedy']"
 find-center-of-star-graph,Easy,1791,['golang'],['Graph']
 all-paths-from-source-to-target,Medium,797,['golang'],"['Backtracking', 'Depth-First Search', 'Breadth-First Search', 'Graph']"
 next-permutation,Medium,31,['golang'],"['Array', 'Two Pointers']"
+build-array-from-permutation,Easy,1920,['golang'],"['Array', 'Simulation']"
+concatenation-of-array,Easy,1929,['golang'],['Array']
