@@ -2,20 +2,8 @@ package main
 
 // source: https://leetcode.com/problems/add-two-numbers/
 
-/*type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-func buildList(num []int) *ListNode {
-	var prevNode, iNode *ListNode
-	for _, i := range num {
-		iNode = &ListNode{Val: i, Next: prevNode}
-		prevNode = iNode
-	}
-	return iNode
-}
-*/
-// Basically implementing 1st grade school algorithm to manually sum to numbers
+import . "github.com/dimaglushkov/solutions/util"
+
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var curNode *ListNode
 	var nextNode = &ListNode{}
@@ -47,7 +35,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 func main() {
-	l1 := buildList([]int{9, 9, 9, 9, 9, 9, 9})
-	l2 := buildList([]int{9, 9, 9, 9})
+	l1 := NewReverseList([]int{9, 9, 9, 9, 9, 9, 9})
+	l2 := NewReverseList([]int{9, 9, 9, 9})
 	addTwoNumbers(l1, l2)
 }

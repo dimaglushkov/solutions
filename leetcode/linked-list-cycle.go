@@ -2,13 +2,7 @@ package main
 
 // source: https://leetcode.com/problems/linked-list-cycle/
 
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
+import . "github.com/dimaglushkov/solutions/util"
 
 func hasCycle(head *ListNode) bool {
 	if head == nil || head.Next == nil {
