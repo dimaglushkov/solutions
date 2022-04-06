@@ -38,3 +38,4 @@
 | [1929. Concatenation of array](https://leetcode.com/problems/concatenation-of-array/) | [golang](/leetcode/concatenation-of-array.go) | Easy | Array |
 | [1721. Swapping nodes in a linked list](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [golang](/leetcode/swapping-nodes-in-a-linked-list.go) | Medium | Linked List, Two Pointers |
 | [11. Container with most water](https://leetcode.com/problems/container-with-most-water/) | [golang](/leetcode/container-with-most-water.go) | Medium | Array, Two Pointers, Greedy |
+| [923. 3sum with multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [golang](/leetcode/3sum-with-multiplicity.go) | Medium | Array, Hash Table, Two Pointers, Sorting, Counting |
