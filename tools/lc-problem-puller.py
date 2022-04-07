@@ -134,6 +134,9 @@ def get_test_cases(data: dict) -> list:
 def generate_test_code(tests: list, code: str) -> str:
     tester = '\n\nfunc main() {\n'
 
+    if '/**' in code:
+        code = code.split('*/\n')[-1]
+
     func_decl = code.split('\n')[0]
     func_name = func_decl.replace('func ', '').split('(')[0]
     func_params = {p.split(' ')[0]: ''.join(p.split(' ')[1:]) for p in func_decl.split('(')[1].split(')')[0].split(', ')}
@@ -152,9 +155,10 @@ def generate_test_code(tests: list, code: str) -> str:
     return tester + '}\n'
 
 
-def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
+def create_code_template(slug: str, file: str, lang: str, no_tests: bool, data: dict) -> None:
     source_link = f'https://leetcode.com/problems/{slug}/'
     code_snippet = ''
+
     for snippet in data['code_snippets']:
         if snippet['lang_slug'] == lang:
             code_snippet = snippet['code']
@@ -168,7 +172,7 @@ def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
     code += code_snippet
 
     # experimental feature, tested only with golang
-    if lang == 'golang':
+    if lang == 'golang' and not no_tests:
         code += generate_test_code(get_test_cases(data), code_snippet)
 
     with open(file, 'w') as code_file:
@@ -286,6 +290,7 @@ def main():
     parser.add_argument('problems', default='', type=str, nargs='+', help='Name or link to the problems')
     parser.add_argument('--lang', dest='lang', action='store', default='golang', help='Solution lang')
     parser.add_argument('--dir', dest='dir', action='store', default='../leetcode', help='Solutions directory')
+    parser.add_argument('--no-tests', dest='no_tests', action='store_true', default=False, help='Suppress automatic test creation')
     args = parser.parse_args()
 
     if args.problems != '':
@@ -296,7 +301,7 @@ def main():
 
         for slug, file in slugs.items():
             slug_data = get_slug_data(slug)['data']['question']
-            create_code_template(slug, file, args.lang, slug_data)
+            create_code_template(slug, file, args.lang, args.no_tests, slug_data)
             update_meta_file(slug, args.lang, slug_data)
 
     data = pd.read_csv('../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
