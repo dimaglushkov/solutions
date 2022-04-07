@@ -21,7 +21,7 @@ func isValid(s string) bool {
 			return false
 		}
 	}
-	return stack.Size() == 0
+	return stack.Len() == 0
 }
 
 func main() {

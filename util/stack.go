@@ -21,7 +21,7 @@ func (s *Stack[T]) Pop() (val T, ok bool) {
 	return val, true
 }
 
-func (s *Stack[T]) Size() int {
+func (s *Stack[T]) Len() int {
 	return len(s.values)
 }
 

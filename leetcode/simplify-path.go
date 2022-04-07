@@ -19,7 +19,7 @@ func (s *StringStack) Push(val string) {
 	s.Len++
 }
 
-func (s *StringStack) Pop() (val string, err error) {
+func (s *StringStack) pop() (val string, err error) {
 	if s.Len == 0 {
 		return val, fmt.Errorf("can't pop from an empty stack")
 	}
@@ -36,7 +36,7 @@ func simplifyPath(path string) string {
 			continue
 		}
 		if v == ".." {
-			_, _ = stack.Pop()
+			_, _ = stack.pop()
 			continue
 		}
 		stack.Push(v)

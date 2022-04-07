@@ -36,3 +36,4 @@ concatenation-of-array,Easy,1929,['golang'],['Array']
 swapping-nodes-in-a-linked-list,Medium,1721,['golang'],"['Linked List', 'Two Pointers']"
 container-with-most-water,Medium,11,['golang'],"['Array', 'Two Pointers', 'Greedy']"
 3sum-with-multiplicity,Medium,923,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting', 'Counting']"
+last-stone-weight,Easy,1046,['golang'],"['Array', 'Heap (Priority Queue)']"
