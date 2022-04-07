@@ -42,6 +42,7 @@ This repo stores my problem-solving related code
 | [1721. Swapping nodes in a linked list](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [golang](/leetcode/swapping-nodes-in-a-linked-list.go) | Medium | Linked List, Two Pointers |
 | [11. Container with most water](https://leetcode.com/problems/container-with-most-water/) | [golang](/leetcode/container-with-most-water.go) | Medium | Array, Two Pointers, Greedy |
 | [923. 3sum with multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | [golang](/leetcode/3sum-with-multiplicity.go) | Medium | Array, Hash Table, Two Pointers, Sorting, Counting |
+| [1046. Last stone weight](https://leetcode.com/problems/last-stone-weight/) | [golang](/leetcode/last-stone-weight.go) | Easy | Array, Heap (Priority Queue) |
 
 
 ## codeforces
