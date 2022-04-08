@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/dimaglushkov/solutions/util"
+	"github.com/dimaglushkov/solutions/util/stack"
 )
 
 // source: https://leetcode.com/problems/valid-parentheses/
 
 func isValid(s string) bool {
-	stack := util.NewStack[int32]()
+	stack := stack.NewStack[int32]()
 	pairs := map[rune]rune{
 		'{': '}',
 		'(': ')',

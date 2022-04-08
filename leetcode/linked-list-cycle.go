@@ -2,7 +2,9 @@ package main
 
 // source: https://leetcode.com/problems/linked-list-cycle/
 
-import . "github.com/dimaglushkov/solutions/util"
+import (
+	. "github.com/dimaglushkov/solutions/util/list"
+)
 
 func hasCycle(head *ListNode) bool {
 	if head == nil || head.Next == nil {

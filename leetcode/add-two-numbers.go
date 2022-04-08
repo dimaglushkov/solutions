@@ -2,7 +2,9 @@ package main
 
 // source: https://leetcode.com/problems/add-two-numbers/
 
-import . "github.com/dimaglushkov/solutions/util"
+import (
+	. "github.com/dimaglushkov/solutions/util/list"
+)
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var curNode *ListNode

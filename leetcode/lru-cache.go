@@ -1,9 +1,7 @@
 package main
 
-import "fmt"
-
 // source: https://leetcode.com/problems/lru-cache/
-
+/*
 type Node struct {
 	key, value int
 	prev, next *Node
@@ -73,12 +71,6 @@ func (this *LRUCache) bumpNode(node *Node) {
 	this.head.next = node
 }
 
-/**
- * Your LRUCache object will be instantiated and called as such:
- * obj := Constructor(capacity);
- * param_1 := obj.Get(key);
- * obj.Put(key,value);
- */
 func main() {
 	var c1 = Constructor(2)
 	c1.Put(1, 1)           // cache is {1=1}
@@ -112,3 +104,4 @@ func main() {
 	fmt.Println(c2.Get(5))
 
 }
+*/
