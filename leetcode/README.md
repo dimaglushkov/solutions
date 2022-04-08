@@ -43,3 +43,9 @@
 | [146. Lru cache](https://leetcode.com/problems/lru-cache/) | [golang](/leetcode/lru-cache.go) | Medium | Hash Table, Linked List, Design, Doubly-Linked List |
 | [703. Kth largest element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [golang](/leetcode/kth-largest-element-in-a-stream.go) | Easy | Tree, Design, Binary Search Tree, Heap (Priority Queue), Binary Tree, Data Stream |
 | [460. Lfu cache](https://leetcode.com/problems/lfu-cache/) | [golang](/leetcode/lfu-cache.go) | Hard | Hash Table, Linked List, Design, Doubly-Linked List |
+| [1480. Running sum of 1d array](https://leetcode.com/problems/running-sum-of-1d-array/) | [golang](/leetcode/running-sum-of-1d-array.go) | Easy | Array, Prefix Sum |
+| [1672. Richest customer wealth](https://leetcode.com/problems/richest-customer-wealth/) | [golang](/leetcode/richest-customer-wealth.go) | Easy | Array, Matrix |
+| [2011. Final value of variable after performing operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [golang](/leetcode/final-value-of-variable-after-performing-operations.go) | Easy | Array, String, Simulation |
+| [2114. Maximum number of words found in sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | [golang](/leetcode/maximum-number-of-words-found-in-sentences.go) | Easy | Array, String |
+| [1108. Defanging an ip address](https://leetcode.com/problems/defanging-an-ip-address/) | [golang](/leetcode/defanging-an-ip-address.go) | Easy | String |
+| [1476. Subrectangle queries](https://leetcode.com/problems/subrectangle-queries/) | [golang](/leetcode/subrectangle-queries.go) | Medium | Array, Design, Matrix |
