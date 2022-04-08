@@ -39,3 +39,4 @@ container-with-most-water,Medium,11,['golang'],"['Array', 'Two Pointers', 'Greed
 last-stone-weight,Easy,1046,['golang'],"['Array', 'Heap (Priority Queue)']"
 lru-cache,Medium,146,['golang'],"['Hash Table', 'Linked List', 'Design', 'Doubly-Linked List']"
 kth-largest-element-in-a-stream,Easy,703,['golang'],"['Tree', 'Design', 'Binary Search Tree', 'Heap (Priority Queue)', 'Binary Tree', 'Data Stream']"
+lfu-cache,Hard,460,['golang'],"['Hash Table', 'Linked List', 'Design', 'Doubly-Linked List']"

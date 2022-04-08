@@ -1,60 +1,63 @@
 package main
 
+import "fmt"
+
 // source: https://leetcode.com/problems/lru-cache/
-/*
-type Node struct {
+
+type LRUCacheNode struct {
 	key, value int
-	prev, next *Node
+	prev, next *LRUCacheNode
 }
 
 type LRUCache struct {
 	cap        int
-	values     map[int]*Node
-	head, tail *Node
+	values     map[int]*LRUCacheNode
+	head, tail *LRUCacheNode
 }
 
-func Constructor(capacity int) LRUCache {
+// NewLRUCache To run this code at leetcode replace the name of this method with Constructor
+func NewLRUCache(capacity int) LRUCache {
 	cache := LRUCache{
 		cap:    capacity,
-		values: make(map[int]*Node, capacity),
-		head:   new(Node),
-		tail:   new(Node),
+		values: make(map[int]*LRUCacheNode, capacity),
+		head:   new(LRUCacheNode),
+		tail:   new(LRUCacheNode),
 	}
 	cache.head.next = cache.tail
 	cache.tail.prev = cache.head
 	return cache
 }
 
-func (this *LRUCache) Get(key int) int {
-	if node, ok := this.values[key]; ok {
-		this.bumpNode(node)
+func (c *LRUCache) Get(key int) int {
+	if node, ok := c.values[key]; ok {
+		c.bumpNode(node)
 		return node.value
 	}
 	return -1
 }
 
-func (this *LRUCache) Put(key int, value int) {
-	if node, ok := this.values[key]; ok {
+func (c *LRUCache) Put(key int, value int) {
+	if node, ok := c.values[key]; ok {
 		node.value = value
-		this.bumpNode(node)
+		c.bumpNode(node)
 		return
 	}
 
-	node := &Node{
+	node := &LRUCacheNode{
 		key:   key,
 		value: value,
 	}
-	this.values[key] = node
-	this.bumpNode(node)
-	if len(this.values) > this.cap {
-		delete(this.values, this.tail.prev.key)
-		this.tail.prev.prev.next = this.tail
-		this.tail.prev = this.tail.prev.prev
+	c.values[key] = node
+	c.bumpNode(node)
+	if len(c.values) > c.cap {
+		delete(c.values, c.tail.prev.key)
+		c.tail.prev.prev.next = c.tail
+		c.tail.prev = c.tail.prev.prev
 	}
 }
 
-func (this *LRUCache) bumpNode(node *Node) {
-	if this.head.next == node {
+func (c *LRUCache) bumpNode(node *LRUCacheNode) {
+	if c.head.next == node {
 		return
 	}
 
@@ -65,14 +68,14 @@ func (this *LRUCache) bumpNode(node *Node) {
 		node.next.prev = node.prev
 	}
 
-	node.prev = this.head
-	node.next = this.head.next
-	this.head.next.prev = node
-	this.head.next = node
+	node.prev = c.head
+	node.next = c.head.next
+	c.head.next.prev = node
+	c.head.next = node
 }
 
 func main() {
-	var c1 = Constructor(2)
+	var c1 = NewLRUCache(2)
 	c1.Put(1, 1)           // cache is {1=1}
 	c1.Put(2, 2)           // cache is {1=1, 2=2}
 	fmt.Println(c1.Get(1)) // return 1
@@ -87,7 +90,7 @@ func main() {
 
 	//["LRUCache","put","put","put","put","get","get","get","get","put","get","get","get","get","get"]
 	//[[3],		  [1,1],[2,2],[3,3],[4,4],[4],   [3],  [2],  [1],  [5,5],[1],  [2],  [3],  [4],  [5]]
-	var c2 = Constructor(3)
+	var c2 = NewLRUCache(3)
 	c2.Put(1, 1)
 	c2.Put(2, 2)
 	c2.Put(3, 3)
@@ -104,4 +107,3 @@ func main() {
 	fmt.Println(c2.Get(5))
 
 }
-*/

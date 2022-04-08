@@ -10,7 +10,8 @@ type KthLargest struct {
 	k      int
 }
 
-func Constructor(k int, values []int) KthLargest {
+// NewKthLargest To run this code at leetcode replace the name of this method with Constructor
+func NewKthLargest(k int, values []int) KthLargest {
 	l := KthLargest{}
 	l.values = append(make([]int, 0, len(values)), values...)
 	l.k = k
@@ -21,34 +22,34 @@ func Constructor(k int, values []int) KthLargest {
 	return l
 }
 
-func (this KthLargest) Len() int           { return len(this.values) }
-func (this KthLargest) Less(i, j int) bool { return this.values[i] < this.values[j] }
-func (this KthLargest) Swap(i, j int) {
-	this.values[i], this.values[j] = this.values[j], this.values[i]
+func (l KthLargest) Len() int           { return len(l.values) }
+func (l KthLargest) Less(i, j int) bool { return l.values[i] < l.values[j] }
+func (l KthLargest) Swap(i, j int) {
+	l.values[i], l.values[j] = l.values[j], l.values[i]
 }
 
-func (this *KthLargest) Push(x any) {
-	this.values = append(this.values, x.(int))
+func (l *KthLargest) Push(x any) {
+	l.values = append(l.values, x.(int))
 }
 
-func (this *KthLargest) Pop() any {
-	old := *this
+func (l *KthLargest) Pop() any {
+	old := *l
 	n := len(old.values)
 	x := old.values[n-1]
-	this.values = old.values[0 : n-1]
+	l.values = old.values[0 : n-1]
 	return x
 }
 
-func (this *KthLargest) Add(val int) int {
-	heap.Push(this, val)
-	for len(this.values) > this.k {
-		heap.Pop(this)
+func (l *KthLargest) Add(val int) int {
+	heap.Push(l, val)
+	for len(l.values) > l.k {
+		heap.Pop(l)
 	}
-	return this.values[0]
+	return l.values[0]
 }
 
 func main() {
-	var l3 = Constructor(2, []int{0})
+	var l3 = NewKthLargest(2, []int{0})
 	fmt.Println(l3.Add(-1))
 	fmt.Println(l3.Add(1))
 	fmt.Println(l3.Add(-2))
@@ -56,7 +57,7 @@ func main() {
 	fmt.Println(l3.Add(3))
 	println()
 
-	var l2 = Constructor(1, []int{})
+	var l2 = NewKthLargest(1, []int{})
 	fmt.Println(l2.Add(-3))
 	fmt.Println(l2.Add(-2))
 	fmt.Println(l2.Add(-4))
@@ -64,7 +65,7 @@ func main() {
 	fmt.Println(l2.Add(4))
 	println()
 
-	var l = Constructor(3, []int{4, 5, 8, 2})
+	var l = NewKthLargest(3, []int{4, 5, 8, 2})
 	fmt.Println(l.Add(3))  // return 4
 	fmt.Println(l.Add(5))  // return 5
 	fmt.Println(l.Add(10)) // return 5

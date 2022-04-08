@@ -42,3 +42,4 @@
 | [1046. Last stone weight](https://leetcode.com/problems/last-stone-weight/) | [golang](/leetcode/last-stone-weight.go) | Easy | Array, Heap (Priority Queue) |
 | [146. Lru cache](https://leetcode.com/problems/lru-cache/) | [golang](/leetcode/lru-cache.go) | Medium | Hash Table, Linked List, Design, Doubly-Linked List |
 | [703. Kth largest element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [golang](/leetcode/kth-largest-element-in-a-stream.go) | Easy | Tree, Design, Binary Search Tree, Heap (Priority Queue), Binary Tree, Data Stream |
+| [460. Lfu cache](https://leetcode.com/problems/lfu-cache/) | [golang](/leetcode/lfu-cache.go) | Hard | Hash Table, Linked List, Design, Doubly-Linked List |
