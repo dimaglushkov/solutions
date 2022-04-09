@@ -52,6 +52,7 @@ This repo stores my problem-solving related code
 | [2114. Maximum number of words found in sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | [golang](/leetcode/maximum-number-of-words-found-in-sentences.go) | Easy | Array, String |
 | [1108. Defanging an ip address](https://leetcode.com/problems/defanging-an-ip-address/) | [golang](/leetcode/defanging-an-ip-address.go) | Easy | String |
 | [1476. Subrectangle queries](https://leetcode.com/problems/subrectangle-queries/) | [golang](/leetcode/subrectangle-queries.go) | Medium | Array, Design, Matrix |
+| [347. Top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/) | [golang](/leetcode/top-k-frequent-elements.go) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect |
 
 
 ## codeforces

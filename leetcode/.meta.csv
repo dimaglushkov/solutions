@@ -46,3 +46,4 @@ final-value-of-variable-after-performing-operations,Easy,2011,['golang'],"['Arra
 maximum-number-of-words-found-in-sentences,Easy,2114,['golang'],"['Array', 'String']"
 defanging-an-ip-address,Easy,1108,['golang'],['String']
 subrectangle-queries,Medium,1476,['golang'],"['Array', 'Design', 'Matrix']"
+top-k-frequent-elements,Medium,347,['golang'],"['Array', 'Hash Table', 'Divide and Conquer', 'Sorting', 'Heap (Priority Queue)', 'Bucket Sort', 'Counting', 'Quickselect']"
