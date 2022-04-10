@@ -52,4 +52,4 @@
 | [347. Top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/) | [golang](/leetcode/top-k-frequent-elements.go) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect |
 | [17. Letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [golang](/leetcode/letter-combinations-of-a-phone-number.go) | Medium | Hash Table, String, Backtracking |
 | [682. Baseball game](https://leetcode.com/problems/baseball-game/) | [golang](/leetcode/baseball-game.go) | Easy | Array, Stack, Simulation |
-| [980. Unique paths iii](https://leetcode.com/problems/unique-paths-iii/) | [python](/leetcode/unique-paths-iii.py) | Hard | Array, Backtracking, Bit Manipulation, Matrix |
+| [980. Unique paths iii](https://leetcode.com/problems/unique-paths-iii/) | [python](/leetcode/unique-paths-iii.py), [golang](/leetcode/unique-paths-iii.py) | Hard | Array, Backtracking, Bit Manipulation, Matrix |
