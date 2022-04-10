@@ -1,4 +1,4 @@
-package util
+package stack
 
 type Stack[T any] struct {
 	values []T
