@@ -48,3 +48,4 @@ defanging-an-ip-address,Easy,1108,['golang'],['String']
 subrectangle-queries,Medium,1476,['golang'],"['Array', 'Design', 'Matrix']"
 top-k-frequent-elements,Medium,347,['golang'],"['Array', 'Hash Table', 'Divide and Conquer', 'Sorting', 'Heap (Priority Queue)', 'Bucket Sort', 'Counting', 'Quickselect']"
 letter-combinations-of-a-phone-number,Medium,17,['golang'],"['Hash Table', 'String', 'Backtracking']"
+baseball-game,Easy,682,['golang'],"['Array', 'Stack', 'Simulation']"
