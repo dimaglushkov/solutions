@@ -4,20 +4,21 @@ package main
 
 type SubrectangleQueries [][]int
 
-func Constructor(rectangle [][]int) SubrectangleQueries {
+// NewSubrectangleQueries rename to Constructor for leetcode
+func NewSubrectangleQueries(rectangle [][]int) SubrectangleQueries {
 	return rectangle
 }
 
-func (this *SubrectangleQueries) UpdateSubrectangle(row1 int, col1 int, row2 int, col2 int, newValue int) {
+func (q *SubrectangleQueries) UpdateSubrectangle(row1 int, col1 int, row2 int, col2 int, newValue int) {
 	for i := row1; i <= row2; i++ {
 		for j := col1; j <= col2; j++ {
-			(*this)[i][j] = newValue
+			(*q)[i][j] = newValue
 		}
 	}
 }
 
-func (this *SubrectangleQueries) GetValue(row int, col int) int {
-	return (*this)[row][col]
+func (q *SubrectangleQueries) GetValue(row int, col int) int {
+	return (*q)[row][col]
 }
 
 /**
@@ -28,7 +29,7 @@ func (this *SubrectangleQueries) GetValue(row int, col int) int {
  */
 
 func main() {
-	q := Constructor([][]int{{1, 2, 1}, {4, 3, 4}, {3, 2, 1}, {1, 1, 1}})
+	q := NewSubrectangleQueries([][]int{{1, 2, 1}, {4, 3, 4}, {3, 2, 1}, {1, 1, 1}})
 	println(q.GetValue(0, 2))
 	q.UpdateSubrectangle(0, 0, 3, 2, 5)
 	println(q.GetValue(0, 2))
