@@ -12,60 +12,52 @@ import (
 // I've implemented it with what I believe is a small preprocessing to significantly
 // decrease execution time by manually checking for simple cells before running backtrack
 
-// This exact implementation may not be the best in terms of code quality
-// because I've tried other approaches and was basically rewriting a lot of code :/
+type SudokuBoard [9][9]int8
 
-type SudokuSolver struct {
-	board [9][9]int8
-}
-
-func NewSudokuSolver(board [][]byte) SudokuSolver {
-	ss := SudokuSolver{}
+func NewSudokuBoard(board [][]byte) SudokuBoard {
+	sb := SudokuBoard{}
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
 			if board[i][j] != byte('.') {
-				cellVal, err := strconv.ParseInt(string(board[i][j]), 10, 8)
-				if err != nil {
-					panic(err)
-				}
-				ss.board[i][j] = int8(cellVal)
+				cellVal, _ := strconv.ParseInt(string(board[i][j]), 10, 8)
+				sb[i][j] = int8(cellVal)
 			} else {
-				ss.board[i][j] = -1
+				sb[i][j] = -1
 			}
 		}
 	}
-	return ss
+	return sb
 }
 
-func guessValue(ss SudokuSolver, i int, j int, v int8) SudokuSolver {
-	ss.board[i][j] = v
-	return ss
+func guessValue(sb SudokuBoard, i int, j int, v int8) SudokuBoard {
+	sb[i][j] = v
+	return sb
 }
 
-func backtrack(ss SudokuSolver) (SudokuSolver, bool) {
+func backtrack(sb SudokuBoard) (SudokuBoard, bool) {
 	var posVal []int8
 	var nextUnknownCell [2]int
 
-	if nextUnknownCell = ss.getNextUnknownCell(); nextUnknownCell[0] == -1 {
-		return ss, true
+	if nextUnknownCell = sb.getNextUnknownCell(); nextUnknownCell[0] == -1 {
+		return sb, true
 	}
-	if posVal = ss.getPossibleValues(nextUnknownCell[0], nextUnknownCell[1]); len(posVal) == 0 {
-		return ss, false
+	if posVal = sb.getPossibleValues(nextUnknownCell[0], nextUnknownCell[1]); len(posVal) == 0 {
+		return sb, false
 	}
 
 	for _, pv := range posVal {
-		temp, status := backtrack(guessValue(ss, nextUnknownCell[0], nextUnknownCell[1], pv))
+		temp, status := backtrack(guessValue(sb, nextUnknownCell[0], nextUnknownCell[1], pv))
 		if status {
 			return temp, true
 		}
 	}
-	return ss, false
+	return sb, false
 }
 
-func (ss *SudokuSolver) getNextUnknownCell() [2]int {
+func (sb *SudokuBoard) getNextUnknownCell() [2]int {
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
-			if ss.board[i][j] == -1 {
+			if sb[i][j] == -1 {
 				return [2]int{i, j}
 			}
 		}
@@ -73,19 +65,7 @@ func (ss *SudokuSolver) getNextUnknownCell() [2]int {
 	return [2]int{-1, -1}
 }
 
-func (ss *SudokuSolver) countUnknownCells() int {
-	var count int
-	for i := 0; i < 9; i++ {
-		for j := 0; j < 9; j++ {
-			if ss.board[i][j] == -1 {
-				count++
-			}
-		}
-	}
-	return count
-}
-
-func (ss *SudokuSolver) getPossibleValues(i int, j int) []int8 {
+func (sb *SudokuBoard) getPossibleValues(i int, j int) []int8 {
 	var posVal = make([]int8, 0, 10)
 	var isValPossible [10]bool
 	for n := 1; n < 10; n++ {
@@ -95,18 +75,18 @@ func (ss *SudokuSolver) getPossibleValues(i int, j int) []int8 {
 	squareVerOff, squareHorOff := i/3*3, j/3*3
 	for m := 0; m < 3; m++ {
 		for n := 0; n < 3; n++ {
-			if ss.board[m+squareVerOff][n+squareHorOff] != -1 {
-				isValPossible[ss.board[m+squareVerOff][n+squareHorOff]] = false
+			if sb[m+squareVerOff][n+squareHorOff] != -1 {
+				isValPossible[sb[m+squareVerOff][n+squareHorOff]] = false
 			}
 		}
 	}
 
 	for m := 0; m < 9; m++ {
-		if ss.board[i][m] != -1 {
-			isValPossible[ss.board[i][m]] = false
+		if sb[i][m] != -1 {
+			isValPossible[sb[i][m]] = false
 		}
-		if ss.board[m][j] != -1 {
-			isValPossible[ss.board[m][j]] = false
+		if sb[m][j] != -1 {
+			isValPossible[sb[m][j]] = false
 		}
 	}
 
@@ -119,60 +99,60 @@ func (ss *SudokuSolver) getPossibleValues(i int, j int) []int8 {
 	return posVal
 }
 
-func (ss *SudokuSolver) fillSimpleCells(i int, j int) {
-	if ss.board[i][j] != -1 {
+func (sb *SudokuBoard) fillSimpleCells(i int, j int) {
+	if sb[i][j] != -1 {
 		return
 	}
 
-	posVal := ss.getPossibleValues(i, j)
+	posVal := sb.getPossibleValues(i, j)
 	sqi := i/3*3 + j/3
 
 	if len(posVal) == 1 {
-		ss.board[i][j] = posVal[0]
+		sb[i][j] = posVal[0]
 		for ind := range posVal {
 			ci, cj := ind/10, ind%10
 			csqi := ci/3*3 + cj/3
 			if csqi == sqi || i == ci || j == cj {
-				ss.fillSimpleCells(ci, cj)
+				sb.fillSimpleCells(ci, cj)
 			}
 		}
 	}
 }
 
-func (ss *SudokuSolver) Solve() {
+func (sb *SudokuBoard) Solve() {
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
-			if ss.board[i][j] == -1 {
-				ss.fillSimpleCells(i, j)
+			if sb[i][j] == -1 {
+				sb.fillSimpleCells(i, j)
 			}
 		}
 	}
-	*ss, _ = backtrack(*ss)
+	*sb, _ = backtrack(*sb)
 }
 
-func (ss *SudokuSolver) Print() {
+func (sb *SudokuBoard) Print() {
 	result := make([]string, 9)
 	for i := 0; i < 9; i++ {
 		var values = make([]string, 9)
 		for j := 0; j < 9; j++ {
-			values[j] = fmt.Sprintf("\"%d\"", ss.board[i][j])
+			values[j] = fmt.Sprintf("\"%d\"", sb[i][j])
 		}
 
 		result[i] = fmt.Sprintf("[%s]", strings.Join(values, ","))
 	}
-	fmt.Printf("[%s]", strings.Join(result, ","))
+	fmt.Printf("[%s]", strings.Join(result, "\n,"))
 }
 
-func (ss *SudokuSolver) SetBoard(board [][]byte) {
+func (sb *SudokuBoard) SetBoard(board [][]byte) {
 	for i := 0; i < 9; i++ {
 		for j := 0; j < 9; j++ {
-			board[i][j] = strconv.FormatInt(int64(ss.board[i][j]), 10)[0]
+			board[i][j] = strconv.FormatInt(int64(sb[i][j]), 10)[0]
 		}
 	}
 }
 
 func solveSudoku(board [][]byte) {
-	ss := NewSudokuSolver(board)
+	ss := NewSudokuBoard(board)
 	ss.Solve()
 	ss.SetBoard(board)
 }
@@ -190,7 +170,10 @@ func main() {
 		{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
 		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
 	}
-	solveSudoku(board1)
-	//fmt.Println("Expected: [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4","8"],["1","9","8","3","4","2","5","6","7"],["8","5","9","7","6","1","4","2","3"],["4","2","6","8","5","3","7","9","1"],["7","1","3","9","2","4","8","5","6"],["9","6","1","5","3","7","2","8","4"],["2","8","7","4","1","9","6","3","5"],["3","4","5","2","8","6","1","7","9"]]	Output: ", solveSudoku(board1))
+	ss := NewSudokuBoard(board1)
+	ss.Solve()
+	ss.SetBoard(board1)
+	fmt.Println("Expected:\n[[\"5\",\"3\",\"4\",\"6\",\"7\",\"8\",\"9\",\"1\",\"2\"],\n[\"6\",\"7\",\"2\",\"1\",\"9\",\"5\",\"3\",\"4\",\"8\"],\n[\"1\",\"9\",\"8\",\"3\",\"4\",\"2\",\"5\",\"6\",\"7\"],\n[\"8\",\"5\",\"9\",\"7\",\"6\",\"1\",\"4\",\"2\",\"3\"],\n[\"4\",\"2\",\"6\",\"8\",\"5\",\"3\",\"7\",\"9\",\"1\"],\n[\"7\",\"1\",\"3\",\"9\",\"2\",\"4\",\"8\",\"5\",\"6\"],\n[\"9\",\"6\",\"1\",\"5\",\"3\",\"7\",\"2\",\"8\",\"4\"],\n[\"2\",\"8\",\"7\",\"4\",\"1\",\"9\",\"6\",\"3\",\"5\"],\n[\"3\",\"4\",\"5\",\"2\",\"8\",\"6\",\"1\",\"7\",\"9\"]]	\nOutput: \n")
+	ss.Print()
 
 }

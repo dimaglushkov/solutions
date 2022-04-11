@@ -51,3 +51,4 @@ letter-combinations-of-a-phone-number,Medium,17,['golang'],"['Hash Table', 'Stri
 baseball-game,Easy,682,['golang'],"['Array', 'Stack', 'Simulation']"
 unique-paths-iii,Hard,980,"['python', 'golang']","['Array', 'Backtracking', 'Bit Manipulation', 'Matrix']"
 design-parking-system,Easy,1603,['golang'],"['Design', 'Simulation', 'Counting']"
+shift-2d-grid,Easy,1260,['golang'],"['Array', 'Matrix', 'Simulation']"

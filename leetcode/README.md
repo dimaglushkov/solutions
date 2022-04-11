@@ -54,3 +54,4 @@
 | [682. Baseball game](https://leetcode.com/problems/baseball-game/) | [golang](/leetcode/baseball-game.go) | Easy | Array, Stack, Simulation |
 | [980. Unique paths iii](https://leetcode.com/problems/unique-paths-iii/) | [python](/leetcode/unique-paths-iii.py) [golang](/leetcode/unique-paths-iii.go) | Hard | Array, Backtracking, Bit Manipulation, Matrix |
 | [1603. Design parking system](https://leetcode.com/problems/design-parking-system/) | [golang](/leetcode/design-parking-system.go) | Easy | Design, Simulation, Counting |
+| [1260. Shift 2d grid](https://leetcode.com/problems/shift-2d-grid/) | [golang](/leetcode/shift-2d-grid.go) | Easy | Array, Matrix, Simulation |
