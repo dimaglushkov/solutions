@@ -66,6 +66,7 @@ This repo stores my problem-solving related code
 | [1260. Shift 2d grid](https://leetcode.com/problems/shift-2d-grid/) | [golang](/leetcode/shift-2d-grid.go) | Easy | Array, Matrix, Simulation |
 | [289. Game of life](https://leetcode.com/problems/game-of-life/) | [golang](/leetcode/game-of-life.go) | Medium | Array, Matrix, Simulation |
 | [59. Spiral matrix ii](https://leetcode.com/problems/spiral-matrix-ii/) | [golang](/leetcode/spiral-matrix-ii.go) | Medium | Array, Matrix, Simulation |
+| [1557. Minimum number of vertices to reach all nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [golang](/leetcode/minimum-number-of-vertices-to-reach-all-nodes.go) | Medium | Graph |
 
 
 ## codeforces
