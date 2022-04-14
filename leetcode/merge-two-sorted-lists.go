@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	. "github.com/dimaglushkov/solutions/util/list"
+	. "github.com/dimaglushkov/solutions/ads/list"
 )
 
 // source: https://leetcode.com/problems/merge-two-sorted-lists/

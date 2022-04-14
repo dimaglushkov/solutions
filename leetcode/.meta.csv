@@ -55,3 +55,4 @@ shift-2d-grid,Easy,1260,['golang'],"['Array', 'Matrix', 'Simulation']"
 game-of-life,Medium,289,['golang'],"['Array', 'Matrix', 'Simulation']"
 spiral-matrix-ii,Medium,59,['golang'],"['Array', 'Matrix', 'Simulation']"
 minimum-number-of-vertices-to-reach-all-nodes,Medium,1557,['golang'],['Graph']
+search-in-a-binary-search-tree,Easy,700,['golang'],"['Tree', 'Binary Search Tree', 'Binary Tree']"
