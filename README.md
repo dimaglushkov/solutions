@@ -68,6 +68,7 @@ This repo stores my problem-solving related code
 | [59. Spiral matrix ii](https://leetcode.com/problems/spiral-matrix-ii/) | [golang](/leetcode/spiral-matrix-ii.go) | Medium | Array, Matrix, Simulation |
 | [1557. Minimum number of vertices to reach all nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [golang](/leetcode/minimum-number-of-vertices-to-reach-all-nodes.go) | Medium | Graph |
 | [700. Search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [golang](/leetcode/search-in-a-binary-search-tree.go) | Easy | Tree, Binary Search Tree, Binary Tree |
+| [669. Trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [golang](/leetcode/trim-a-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 
 
 ## codeforces
