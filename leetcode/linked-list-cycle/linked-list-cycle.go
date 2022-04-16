@@ -20,7 +20,7 @@ func hasCycle(head *ListNode) bool {
 	return head == p
 }
 
-/*func hasCycle(head *ListNode) bool {
+func hasCycle1(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return false
 	}
@@ -34,19 +34,4 @@ func hasCycle(head *ListNode) bool {
 		head = head.Next
 	}
 	return false
-}*/
-
-func main() {
-	/*	// Example 1
-		var head1 *ListNode = [3,2,0,-4]
-		fmt.Println("Expected: true	Output: ", hasCycle(head1))
-
-		// Example 2
-		var head2 *ListNode = [1,2]
-		fmt.Println("Expected: true	Output: ", hasCycle(head2))
-
-		// Example 3
-		var head3 *ListNode = []int{1}
-		fmt.Println("Expected: false	Output: ", hasCycle(head3))*/
-
 }

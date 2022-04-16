@@ -7,43 +7,6 @@ import (
 
 // source: https://leetcode.com/problems/simplify-path/
 
-/*
-// Stack-based implementation since this problem has "stack" in tags list
-type StringStack struct {
-	Values []string
-	Len    int
-}
-
-func (s *StringStack) Push(val string) {
-	s.Values = append(s.Values, val)
-	s.Len++
-}
-
-func (s *StringStack) pop() (val string, err error) {
-	if s.Len == 0 {
-		return val, fmt.Errorf("can't pop from an empty stack")
-	}
-	s.Len--
-	val = s.Values[s.Len]
-	s.Values = s.Values[:s.Len]
-	return val, err
-}
-
-func simplifyPath(path string) string {
-	var stack StringStack
-	for _, v := range strings.Split(path, "/") {
-		if v == "." || v == "" {
-			continue
-		}
-		if v == ".." {
-			_, _ = stack.pop()
-			continue
-		}
-		stack.Push(v)
-	}
-	return "/" + strings.Join(stack.Values, "/")
-}*/
-
 func simplifyPath(path string) string {
 	var locations []string
 	for _, v := range strings.Split(path, "/") {

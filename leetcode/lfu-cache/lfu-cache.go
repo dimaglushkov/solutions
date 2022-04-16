@@ -16,7 +16,7 @@ type LFUCache struct {
 	buckets *list.List
 }
 
-func NewLFUCache(capacity int) LFUCache {
+func Constructor(capacity int) LFUCache {
 	cache := LFUCache{
 		cap:    capacity,
 		kv:     make(map[int]*list.Element, capacity),
@@ -84,8 +84,8 @@ type LFUCache struct {
 	buckets               map[int]*list.List
 }
 
-// NewLFUCache To run this code at leetcode replace the name of this method with Constructor
-func NewLFUCache(capacity int) LFUCache {
+// Constructor To run this code at leetcode replace the name of this method with Constructor
+func Constructor(capacity int) LFUCache {
 	cache := LFUCache{
 		cap:     capacity,
 		kv:      make(map[int]*list.Element, capacity),
@@ -148,7 +148,7 @@ func (c *LFUCache) bumpElem(elem *list.Element) {
 }
 
 func main() {
-	c4 := NewLFUCache(10)
+	c4 := Constructor(10)
 	c4.Put(10, 13)
 	c4.Put(3, 17)
 	c4.Put(6, 11)
@@ -259,7 +259,7 @@ func main() {
 	c4.Put(13, 28)
 	c4.Put(11, 26)
 
-	c3 := NewLFUCache(1)
+	c3 := Constructor(1)
 	c3.Put(2, 1)
 	println(c3.Get(2))
 	c3.Put(3, 2)
@@ -267,12 +267,12 @@ func main() {
 	println(c3.Get(3))
 	println()
 
-	c2 := NewLFUCache(0)
+	c2 := Constructor(0)
 	c2.Put(0, 0)
 	println(c2.Get(0))
 	println()
 
-	c1 := NewLFUCache(2)
+	c1 := Constructor(2)
 	c1.Put(1, 1)       // cache=[1,_], cnt(1)=1
 	c1.Put(2, 2)       // cache=[2,1], cnt(2)=1, cnt(1)=1
 	println(c1.Get(1)) // return 1

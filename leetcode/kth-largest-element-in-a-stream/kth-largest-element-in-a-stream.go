@@ -10,8 +10,8 @@ type KthLargest struct {
 	k      int
 }
 
-// NewKthLargest To run this code at leetcode replace the name of this method with Constructor
-func NewKthLargest(k int, values []int) KthLargest {
+// Constructor To run this code at leetcode replace the name of this method with Constructor
+func Constructor(k int, values []int) KthLargest {
 	l := KthLargest{}
 	l.values = append(make([]int, 0, len(values)), values...)
 	l.k = k
@@ -49,7 +49,7 @@ func (l *KthLargest) Add(val int) int {
 }
 
 func main() {
-	var l3 = NewKthLargest(2, []int{0})
+	var l3 = Constructor(2, []int{0})
 	fmt.Println(l3.Add(-1))
 	fmt.Println(l3.Add(1))
 	fmt.Println(l3.Add(-2))
@@ -57,7 +57,7 @@ func main() {
 	fmt.Println(l3.Add(3))
 	println()
 
-	var l2 = NewKthLargest(1, []int{})
+	var l2 = Constructor(1, []int{})
 	fmt.Println(l2.Add(-3))
 	fmt.Println(l2.Add(-2))
 	fmt.Println(l2.Add(-4))
@@ -65,7 +65,7 @@ func main() {
 	fmt.Println(l2.Add(4))
 	println()
 
-	var l = NewKthLargest(3, []int{4, 5, 8, 2})
+	var l = Constructor(3, []int{4, 5, 8, 2})
 	fmt.Println(l.Add(3))  // return 4
 	fmt.Println(l.Add(5))  // return 5
 	fmt.Println(l.Add(10)) // return 5

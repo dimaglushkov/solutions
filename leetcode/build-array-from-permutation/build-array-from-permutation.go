@@ -4,18 +4,10 @@ import "fmt"
 
 // source: https://leetcode.com/problems/build-array-from-permutation/
 
-/*func buildArray(nums []int) []int {
+func buildArray(nums []int) []int {
 	res := make([]int, len(nums))
 	for i, v := range nums {
 		res[i] = nums[v]
-	}
-	return res
-}*/
-
-func buildArray(nums []int) []int {
-	res := make([]int, len(nums))
-	for i := 0; i < len(nums); i++ {
-		res[i] = nums[nums[i]]
 	}
 	return res
 }

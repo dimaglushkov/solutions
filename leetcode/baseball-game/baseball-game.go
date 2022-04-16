@@ -7,7 +7,7 @@ import (
 
 // source: https://leetcode.com/problems/baseball-game/
 
-/*func calPoints(ops []string) int {
+func calPoints1(ops []string) int {
 	results := []int{}
 	res := 0
 	v := 0
@@ -34,7 +34,7 @@ import (
 
 	}
 	return res
-}*/
+}
 
 func calPoints(ops []string) int {
 	results := []int{}

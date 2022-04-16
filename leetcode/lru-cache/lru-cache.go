@@ -15,8 +15,7 @@ type LRUCache struct {
 	head, tail *LRUCacheNode
 }
 
-// NewLRUCache To run this code at leetcode replace the name of this method with Constructor
-func NewLRUCache(capacity int) LRUCache {
+func Constructor(capacity int) LRUCache {
 	cache := LRUCache{
 		cap:    capacity,
 		values: make(map[int]*LRUCacheNode, capacity),
@@ -75,7 +74,7 @@ func (c *LRUCache) bumpNode(node *LRUCacheNode) {
 }
 
 func main() {
-	var c1 = NewLRUCache(2)
+	var c1 = Constructor(2)
 	c1.Put(1, 1)           // cache is {1=1}
 	c1.Put(2, 2)           // cache is {1=1, 2=2}
 	fmt.Println(c1.Get(1)) // return 1
@@ -90,7 +89,7 @@ func main() {
 
 	//["LRUCache","put","put","put","put","get","get","get","get","put","get","get","get","get","get"]
 	//[[3],		  [1,1],[2,2],[3,3],[4,4],[4],   [3],  [2],  [1],  [5,5],[1],  [2],  [3],  [4],  [5]]
-	var c2 = NewLRUCache(3)
+	var c2 = Constructor(3)
 	c2.Put(1, 1)
 	c2.Put(2, 2)
 	c2.Put(3, 3)

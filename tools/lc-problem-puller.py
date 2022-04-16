@@ -27,9 +27,13 @@ def get_title_slugs(problems: list, lang: str, d: str) -> dict:
             slug = problem
             if problem.endswith('/'):
                 slug = slug[:-1].split('/')[-1]
-            slugs[slug] = os.path.join(d, f'{slug}.{lang_specifics[lang]["ext"]}')
+            slugs[slug] = os.path.join(d, slug, f'{slug}.{lang_specifics[lang]["ext"]}')
+            if not os.path.exists(os.path.join(d, slug)):
+                os.mkdir(os.path.join(d, slug))
         else:
-            slugs[problem] = os.path.join(d, f'{problem}.{lang_specifics[lang]["ext"]}')
+            slugs[problem] = os.path.join(d, problem, f'{problem}.{lang_specifics[lang]["ext"]}')
+            if not os.path.exists(os.path.join(d, problem)):
+                os.mkdir(os.path.join(d, problem))
 
     existing_solutions = list()
     for k, v in slugs.items():
@@ -183,13 +187,14 @@ def clear_leetcode_meta_file(data: dict):
     # keeping meta.csv actual by removing problems with no solution
     # obviously not the prettiest way to do it
     solutions = dict()
-    for f in os.listdir('../leetcode'):
-        if not f.startswith('.'):
-            problem = f.split('.')[0]
-            if problem not in solutions:
-                solutions[problem] = [f.split('.')[1]]
-            else:
-                solutions[problem].append(f.split('.')[1])
+    for pkg in os.listdir('../leetcode'):
+        if os.path.isdir(f'../leetcode/{pkg}'):
+            for f in os.listdir(f'../leetcode/{pkg}'):
+                problem = f.split('.')[0]
+                if problem not in solutions:
+                    solutions[problem] = [f.split('.')[1]]
+                else:
+                    solutions[problem].append(f.split('.')[1])
 
     problem_to_del = list()
     lang_to_del = dict()
@@ -242,7 +247,7 @@ def generate_leetcode_readme(data: dict):
                 stats['by_lang'][lang] = 0
             stats['by_lang'][lang] += 1
 
-        solutions_links = ' '.join([f'[{lang}](/leetcode/{problem}.{lang_specifics[lang]["ext"]})' for lang in meta['lang']])
+        solutions_links = ' '.join([f'[{lang}](/leetcode/{problem}/{problem}.{lang_specifics[lang]["ext"]})' for lang in meta['lang']])
         problems_table += f'| [{meta["id"]}. {problem.replace("-", " ").capitalize() }](https://leetcode.com/problems/{problem}/) ' \
                           f'| {solutions_links} ' \
                           f'| {meta["difficulty"]} ' \
@@ -293,7 +298,7 @@ def main():
     parser.add_argument('--no-tests', dest='no_tests', action='store_true', default=False, help='Suppress automatic test creation')
     args = parser.parse_args()
 
-    if args.problems != '':
+    if args.problems != ['']:
         slugs = get_title_slugs(args.problems, args.lang, args.dir)
         if len(slugs) == 0:
             print("Nothing to do")

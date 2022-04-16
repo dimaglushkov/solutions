@@ -4,7 +4,6 @@ package main
 
 type ParkingSystem [3]int
 
-// NewParkingSystem rename to Constructor for leetcode
 func Constructor(big int, medium int, small int) ParkingSystem {
 	return ParkingSystem{big, medium, small}
 }
