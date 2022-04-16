@@ -6,7 +6,7 @@ import (
 
 // source: https://leetcode.com/problems/convert-bst-to-greater-tree/
 
-var convertBSTSum int
+var sum int
 
 // convertBSTUtil returns the sum of the right subtree of the current node
 func convertBSTUtil(cur *TreeNode) {
@@ -14,18 +14,18 @@ func convertBSTUtil(cur *TreeNode) {
 		return
 	}
 	convertBSTUtil(cur.Right)
-	convertBSTSum += cur.Val
-	cur.Val = convertBSTSum
+	sum += cur.Val
+	cur.Val = sum
 	convertBSTUtil(cur.Left)
 }
 
 func convertBST(root *TreeNode) *TreeNode {
-	convertBSTSum = 0
+	sum = 0
 	convertBSTUtil(root)
 	return root
 }
 
 func main() {
-	root := New([]int{4, 1, 6, 0, 2, 5, 7, -1, -1, -1, 3, -1, -1, -1, 8})
+	root := NewTreeNode([]int{4, 1, 6, 0, 2, 5, 7, -1, -1, -1, 3, -1, -1, -1, 8})
 	convertBST(root)
 }
