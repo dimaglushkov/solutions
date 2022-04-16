@@ -61,4 +61,6 @@
 | [700. Search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [golang](/leetcode/search-in-a-binary-search-tree/search-in-a-binary-search-tree.go) | Easy | Tree, Binary Search Tree, Binary Tree |
 | [669. Trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [golang](/leetcode/trim-a-binary-search-tree/trim-a-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [538. Convert bst to greater tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [golang](/leetcode/convert-bst-to-greater-tree/convert-bst-to-greater-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
-| [2236. Root equals sum of children](https://leetcode.com/problems/root-equals-sum-of-children/) | [golang](/leetcode/root-equals-sum-of-children/root-equals-sum-of-children.go), [golang](/leetcode/root-equals-sum-of-children/root-equals-sum-of-children.go) | Easy | Tree, Binary Tree |
+| [2236. Root equals sum of children](https://leetcode.com/problems/root-equals-sum-of-children/) | [golang](/leetcode/root-equals-sum-of-children/root-equals-sum-of-children.go) | Easy | Tree, Binary Tree |
+| [2235. Add two integers](https://leetcode.com/problems/add-two-integers/) | [golang](/leetcode/add-two-integers/add-two-integers.go) | Easy | Math |
+| [1470. Shuffle the array](https://leetcode.com/problems/shuffle-the-array/) | [golang](/leetcode/shuffle-the-array/shuffle-the-array.go) | Easy | Array |
