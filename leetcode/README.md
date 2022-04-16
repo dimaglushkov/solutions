@@ -52,7 +52,7 @@
 | [347. Top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/) | [golang](/leetcode/top-k-frequent-elements/top-k-frequent-elements.go) | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect |
 | [17. Letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [golang](/leetcode/letter-combinations-of-a-phone-number/letter-combinations-of-a-phone-number.go) | Medium | Hash Table, String, Backtracking |
 | [682. Baseball game](https://leetcode.com/problems/baseball-game/) | [golang](/leetcode/baseball-game/baseball-game.go) | Easy | Array, Stack, Simulation |
-| [980. Unique paths iii](https://leetcode.com/problems/unique-paths-iii/) | [golang](/leetcode/unique-paths-iii/unique-paths-iii.go) [python](/leetcode/unique-paths-iii/unique-paths-iii.py) | Hard | Array, Backtracking, Bit Manipulation, Matrix |
+| [980. Unique paths iii](https://leetcode.com/problems/unique-paths-iii/) | [golang](/leetcode/unique-paths-iii/unique-paths-iii.go), [python](/leetcode/unique-paths-iii/unique-paths-iii.py) | Hard | Array, Backtracking, Bit Manipulation, Matrix |
 | [1603. Design parking system](https://leetcode.com/problems/design-parking-system/) | [golang](/leetcode/design-parking-system/design-parking-system.go) | Easy | Design, Simulation, Counting |
 | [1260. Shift 2d grid](https://leetcode.com/problems/shift-2d-grid/) | [golang](/leetcode/shift-2d-grid/shift-2d-grid.go) | Easy | Array, Matrix, Simulation |
 | [289. Game of life](https://leetcode.com/problems/game-of-life/) | [golang](/leetcode/game-of-life/game-of-life.go) | Medium | Array, Matrix, Simulation |
@@ -61,3 +61,4 @@
 | [700. Search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [golang](/leetcode/search-in-a-binary-search-tree/search-in-a-binary-search-tree.go) | Easy | Tree, Binary Search Tree, Binary Tree |
 | [669. Trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [golang](/leetcode/trim-a-binary-search-tree/trim-a-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [538. Convert bst to greater tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [golang](/leetcode/convert-bst-to-greater-tree/convert-bst-to-greater-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [2236. Root equals sum of children](https://leetcode.com/problems/root-equals-sum-of-children/) | [golang](/leetcode/root-equals-sum-of-children/root-equals-sum-of-children.go), [golang](/leetcode/root-equals-sum-of-children/root-equals-sum-of-children.go) | Easy | Tree, Binary Tree |
