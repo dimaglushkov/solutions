@@ -57,3 +57,4 @@ spiral-matrix-ii,Medium,59,['golang'],"['Array', 'Matrix', 'Simulation']"
 minimum-number-of-vertices-to-reach-all-nodes,Medium,1557,['golang'],['Graph']
 search-in-a-binary-search-tree,Easy,700,['golang'],"['Tree', 'Binary Search Tree', 'Binary Tree']"
 trim-a-binary-search-tree,Medium,669,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
+convert-bst-to-greater-tree,Medium,538,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"

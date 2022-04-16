@@ -60,3 +60,4 @@
 | [1557. Minimum number of vertices to reach all nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [golang](/leetcode/minimum-number-of-vertices-to-reach-all-nodes.go) | Medium | Graph |
 | [700. Search in a binary search tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [golang](/leetcode/search-in-a-binary-search-tree.go) | Easy | Tree, Binary Search Tree, Binary Tree |
 | [669. Trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [golang](/leetcode/trim-a-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [538. Convert bst to greater tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [golang](/leetcode/convert-bst-to-greater-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
