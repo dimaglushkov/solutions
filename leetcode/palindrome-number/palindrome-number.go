@@ -27,7 +27,7 @@ func isPalindrome1(x int) bool {
 }
 
 // flip the number and check if flipped one is equal to the source one
-func isPalindrome2(x int) bool {
+func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
 	}

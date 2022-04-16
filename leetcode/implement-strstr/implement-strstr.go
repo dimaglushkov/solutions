@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 // source: https://leetcode.com/problems/implement-strstr/
@@ -25,12 +26,12 @@ func strStr(haystack string, needle string) int {
 	return res
 }
 
-/*func strStr(haystack string, needle string) int {
+func strStr1(haystack string, needle string) int {
 	if needle == "" {
 		return 0
 	}
-	return strings.index(haystack, needle)
-}*/
+	return strings.Index(haystack, needle)
+}
 
 func main() {
 	// Example 1

@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	"math/bits"
 )
 
 // source: https://leetcode.com/problems/counting-bits/
 
-/*func countBits(n int) []int {
+func countBits1(n int) []int {
 	res := make([]int, 0, n+1)
 
 	for i := 0; i <= n; i++ {
@@ -14,7 +15,7 @@ import (
 	}
 
 	return res
-}*/
+}
 
 // Instead of calculating a new value on every step, using previous values
 func countBits(n int) []int {
