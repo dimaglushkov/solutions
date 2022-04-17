@@ -61,3 +61,5 @@ convert-bst-to-greater-tree,Medium,538,['golang'],"['Tree', 'Depth-First Search'
 root-equals-sum-of-children,Easy,2236,['golang'],"['Tree', 'Binary Tree']"
 add-two-integers,Easy,2235,['golang'],['Math']
 shuffle-the-array,Easy,1470,['golang'],['Array']
+sort-an-array,Medium,912,['golang'],"['Array', 'Divide and Conquer', 'Sorting', 'Heap (Priority Queue)', 'Merge Sort', 'Bucket Sort', 'Radix Sort', 'Counting Sort']"
+increasing-order-search-tree,Easy,897,['golang'],"['Stack', 'Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"

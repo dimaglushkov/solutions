@@ -64,3 +64,5 @@
 | [2236. Root equals sum of children](https://leetcode.com/problems/root-equals-sum-of-children/) | [golang](/leetcode/root-equals-sum-of-children/root-equals-sum-of-children.go) | Easy | Tree, Binary Tree |
 | [2235. Add two integers](https://leetcode.com/problems/add-two-integers/) | [golang](/leetcode/add-two-integers/add-two-integers.go) | Easy | Math |
 | [1470. Shuffle the array](https://leetcode.com/problems/shuffle-the-array/) | [golang](/leetcode/shuffle-the-array/shuffle-the-array.go) | Easy | Array |
+| [912. Sort an array](https://leetcode.com/problems/sort-an-array/) | [golang](/leetcode/sort-an-array/sort-an-array.go) | Medium | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort |
+| [897. Increasing order search tree](https://leetcode.com/problems/increasing-order-search-tree/) | [golang](/leetcode/increasing-order-search-tree/increasing-order-search-tree.go) | Easy | Stack, Tree, Depth-First Search, Binary Search Tree, Binary Tree |
