@@ -70,6 +70,7 @@ This repo stores my problem-solving related code
 | [912. Sort an array](https://leetcode.com/problems/sort-an-array/) | [golang](/leetcode/sort-an-array/sort-an-array.go) | Medium | Array, Divide and Conquer, Sorting, Heap (Priority Queue), Merge Sort, Bucket Sort, Radix Sort, Counting Sort |
 | [897. Increasing order search tree](https://leetcode.com/problems/increasing-order-search-tree/) | [golang](/leetcode/increasing-order-search-tree/increasing-order-search-tree.go) | Easy | Stack, Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [230. Kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [golang](/leetcode/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [1769. Minimum number of operations to move all balls to each box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | [golang](/leetcode/minimum-number-of-operations-to-move-all-balls-to-each-box/minimum-number-of-operations-to-move-all-balls-to-each-box.go) | Medium | Array, String |
 
 
 ## codeforces
