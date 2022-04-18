@@ -12,7 +12,7 @@ func NewTreeNode(data []int) *TreeNode {
 
 func (r *TreeNode) insertNode(data []int, i int) *TreeNode {
 	var root *TreeNode
-	if i >= len(data) {
+	if i >= len(data) || data[i] == -1 {
 		return root
 	}
 	root = &TreeNode{Val: data[i]}
