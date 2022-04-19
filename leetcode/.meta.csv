@@ -69,3 +69,4 @@ n-th-tribonacci-number,Easy,1137,['golang'],"['Math', 'Dynamic Programming', 'Me
 word-break,Medium,139,['golang'],"['Hash Table', 'String', 'Dynamic Programming', 'Trie', 'Memoization']"
 fibonacci-number,Easy,509,['golang'],"['Math', 'Dynamic Programming', 'Recursion', 'Memoization']"
 maximum-nesting-depth-of-the-parentheses,Easy,1614,['golang'],"['String', 'Stack']"
+recover-binary-search-tree,Medium,99,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
