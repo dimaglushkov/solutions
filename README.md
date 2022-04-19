@@ -71,6 +71,10 @@ This repo stores my problem-solving related code
 | [897. Increasing order search tree](https://leetcode.com/problems/increasing-order-search-tree/) | [golang](/leetcode/increasing-order-search-tree/increasing-order-search-tree.go) | Easy | Stack, Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [230. Kth smallest element in a bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [golang](/leetcode/kth-smallest-element-in-a-bst/kth-smallest-element-in-a-bst.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [1769. Minimum number of operations to move all balls to each box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | [golang](/leetcode/minimum-number-of-operations-to-move-all-balls-to-each-box/minimum-number-of-operations-to-move-all-balls-to-each-box.go) | Medium | Array, String |
+| [1137. N th tribonacci number](https://leetcode.com/problems/n-th-tribonacci-number/) | [golang](/leetcode/n-th-tribonacci-number/n-th-tribonacci-number.go) | Easy | Math, Dynamic Programming, Memoization |
+| [139. Word break](https://leetcode.com/problems/word-break/) | [golang](/leetcode/word-break/word-break.go) | Medium | Hash Table, String, Dynamic Programming, Trie, Memoization |
+| [509. Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | [golang](/leetcode/fibonacci-number/fibonacci-number.go) | Easy | Math, Dynamic Programming, Recursion, Memoization |
+| [1614. Maximum nesting depth of the parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [golang](/leetcode/maximum-nesting-depth-of-the-parentheses/maximum-nesting-depth-of-the-parentheses.go) | Easy | String, Stack |
 
 
 ## codeforces

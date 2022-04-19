@@ -65,3 +65,7 @@ sort-an-array,Medium,912,['golang'],"['Array', 'Divide and Conquer', 'Sorting', 
 increasing-order-search-tree,Easy,897,['golang'],"['Stack', 'Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 kth-smallest-element-in-a-bst,Medium,230,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 minimum-number-of-operations-to-move-all-balls-to-each-box,Medium,1769,['golang'],"['Array', 'String']"
+n-th-tribonacci-number,Easy,1137,['golang'],"['Math', 'Dynamic Programming', 'Memoization']"
+word-break,Medium,139,['golang'],"['Hash Table', 'String', 'Dynamic Programming', 'Trie', 'Memoization']"
+fibonacci-number,Easy,509,['golang'],"['Math', 'Dynamic Programming', 'Recursion', 'Memoization']"
+maximum-nesting-depth-of-the-parentheses,Easy,1614,['golang'],"['String', 'Stack']"
