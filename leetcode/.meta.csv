@@ -72,3 +72,5 @@ maximum-nesting-depth-of-the-parentheses,Easy,1614,['golang'],"['String', 'Stack
 recover-binary-search-tree,Medium,99,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 binary-search-tree-iterator,Medium,173,['golang'],"['Stack', 'Tree', 'Design', 'Binary Search Tree', 'Binary Tree', 'Iterator']"
 sqrtx,Easy,69,['golang'],"['Math', 'Binary Search']"
+reverse-integer,Medium,7,['golang'],['Math']
+4sum,Medium,18,['golang'],"['Array', 'Two Pointers', 'Sorting']"

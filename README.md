@@ -78,6 +78,8 @@ This repo stores my problem-solving related code
 | [99. Recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree/) | [golang](/leetcode/recover-binary-search-tree/recover-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [173. Binary search tree iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [golang](/leetcode/binary-search-tree-iterator/binary-search-tree-iterator.go) | Medium | Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator |
 | [69. Sqrtx](https://leetcode.com/problems/sqrtx/) | [golang](/leetcode/sqrtx/sqrtx.go) | Easy | Math, Binary Search |
+| [7. Reverse integer](https://leetcode.com/problems/reverse-integer/) | [golang](/leetcode/reverse-integer/reverse-integer.go) | Medium | Math |
+| [18. 4sum](https://leetcode.com/problems/4sum/) | [golang](/leetcode/4sum/4sum.go) | Medium | Array, Two Pointers, Sorting |
 
 
 ## codeforces
