@@ -81,6 +81,7 @@ This repo stores my problem-solving related code
 | [7. Reverse integer](https://leetcode.com/problems/reverse-integer/) | [golang](/leetcode/reverse-integer/reverse-integer.go) | Medium | Math |
 | [18. 4sum](https://leetcode.com/problems/4sum/) | [golang](/leetcode/4sum/4sum.go) | Medium | Array, Two Pointers, Sorting |
 | [695. Max area of island](https://leetcode.com/problems/max-area-of-island/) | [golang](/leetcode/max-area-of-island/max-area-of-island.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix |
+| [153. Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [golang](/leetcode/find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.go) | Medium | Array, Binary Search |
 
 
 ## codeforces
