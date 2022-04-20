@@ -70,3 +70,4 @@ word-break,Medium,139,['golang'],"['Hash Table', 'String', 'Dynamic Programming'
 fibonacci-number,Easy,509,['golang'],"['Math', 'Dynamic Programming', 'Recursion', 'Memoization']"
 maximum-nesting-depth-of-the-parentheses,Easy,1614,['golang'],"['String', 'Stack']"
 recover-binary-search-tree,Medium,99,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
+binary-search-tree-iterator,Medium,173,['golang'],"['Stack', 'Tree', 'Design', 'Binary Search Tree', 'Binary Tree', 'Iterator']"

@@ -73,3 +73,4 @@
 | [509. Fibonacci number](https://leetcode.com/problems/fibonacci-number/) | [golang](/leetcode/fibonacci-number/fibonacci-number.go) | Easy | Math, Dynamic Programming, Recursion, Memoization |
 | [1614. Maximum nesting depth of the parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [golang](/leetcode/maximum-nesting-depth-of-the-parentheses/maximum-nesting-depth-of-the-parentheses.go) | Easy | String, Stack |
 | [99. Recover binary search tree](https://leetcode.com/problems/recover-binary-search-tree/) | [golang](/leetcode/recover-binary-search-tree/recover-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [173. Binary search tree iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [golang](/leetcode/binary-search-tree-iterator/binary-search-tree-iterator.go) | Medium | Stack, Tree, Design, Binary Search Tree, Binary Tree, Iterator |
