@@ -76,3 +76,4 @@ reverse-integer,Medium,7,['golang'],['Math']
 4sum,Medium,18,['golang'],"['Array', 'Two Pointers', 'Sorting']"
 max-area-of-island,Medium,695,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"
 find-minimum-in-rotated-sorted-array,Medium,153,['golang'],"['Array', 'Binary Search']"
+design-hashset,Easy,705,['golang'],"['Array', 'Hash Table', 'Linked List', 'Design', 'Hash Function']"
