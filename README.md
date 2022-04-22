@@ -83,6 +83,7 @@ This repo stores my problem-solving related code
 | [695. Max area of island](https://leetcode.com/problems/max-area-of-island/) | [golang](/leetcode/max-area-of-island/max-area-of-island.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix |
 | [153. Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [golang](/leetcode/find-minimum-in-rotated-sorted-array/find-minimum-in-rotated-sorted-array.go) | Medium | Array, Binary Search |
 | [705. Design hashset](https://leetcode.com/problems/design-hashset/) | [golang](/leetcode/design-hashset/design-hashset.go) | Easy | Array, Hash Table, Linked List, Design, Hash Function |
+| [706. Design hashmap](https://leetcode.com/problems/design-hashmap/) | [golang](/leetcode/design-hashmap/design-hashmap.go) | Easy | Array, Hash Table, Linked List, Design, Hash Function |
 
 
 ## codeforces
