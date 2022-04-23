@@ -79,3 +79,7 @@ find-minimum-in-rotated-sorted-array,Medium,153,['golang'],"['Array', 'Binary Se
 design-hashset,Easy,705,['golang'],"['Array', 'Hash Table', 'Linked List', 'Design', 'Hash Function']"
 design-hashmap,Easy,706,['golang'],"['Array', 'Hash Table', 'Linked List', 'Design', 'Hash Function']"
 encode-and-decode-tinyurl,Medium,535,['golang'],"['Hash Table', 'String', 'Design', 'Hash Function']"
+repeated-dna-sequences,Medium,187,['golang'],"['Hash Table', 'String', 'Bit Manipulation', 'Sliding Window', 'Rolling Hash', 'Hash Function']"
+zigzag-conversion,Medium,6,['golang'],['String']
+longest-palindromic-substring,Medium,5,['golang'],"['String', 'Dynamic Programming']"
+merge-nodes-in-between-zeros,Medium,2181,['golang'],"['Linked List', 'Simulation']"

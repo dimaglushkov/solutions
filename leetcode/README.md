@@ -82,3 +82,7 @@
 | [705. Design hashset](https://leetcode.com/problems/design-hashset/) | [golang](/leetcode/design-hashset/design-hashset.go) | Easy | Array, Hash Table, Linked List, Design, Hash Function |
 | [706. Design hashmap](https://leetcode.com/problems/design-hashmap/) | [golang](/leetcode/design-hashmap/design-hashmap.go) | Easy | Array, Hash Table, Linked List, Design, Hash Function |
 | [535. Encode and decode tinyurl](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [golang](/leetcode/encode-and-decode-tinyurl/encode-and-decode-tinyurl.go) | Medium | Hash Table, String, Design, Hash Function |
+| [187. Repeated dna sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [golang](/leetcode/repeated-dna-sequences/repeated-dna-sequences.go) | Medium | Hash Table, String, Bit Manipulation, Sliding Window, Rolling Hash, Hash Function |
+| [6. Zigzag conversion](https://leetcode.com/problems/zigzag-conversion/) | [golang](/leetcode/zigzag-conversion/zigzag-conversion.go) | Medium | String |
+| [5. Longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/) | [golang](/leetcode/longest-palindromic-substring/longest-palindromic-substring.go) | Medium | String, Dynamic Programming |
+| [2181. Merge nodes in between zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | [golang](/leetcode/merge-nodes-in-between-zeros/merge-nodes-in-between-zeros.go) | Medium | Linked List, Simulation |
