@@ -4,7 +4,7 @@ Problems solved in total: 84
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
-| ![by diffs](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_tags.svg) |
+| ![by diffs](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg) |
  
 |Problem|Solution|Difficulty|Tags|
 |-|-|-|-|

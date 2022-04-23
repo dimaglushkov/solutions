@@ -285,7 +285,7 @@ Problems solved in total: {stats["solved"]}
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
-| ![by diffs](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_tags.svg) |
+| ![by diffs](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg) |
  
 '''
 
