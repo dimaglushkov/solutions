@@ -2,7 +2,13 @@
 This repo stores my problem-solving related code
 
 ## leetcode solutions
+    
+Problems solved in total: 84
 
+| Solutions by difficulty | Solutions by tags |
+|-|-|
+| ![by diffs](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_tags.svg) |
+ 
 |Problem|Solution|Difficulty|Tags|
 |-|-|-|-|
 | [1. Two sum](https://leetcode.com/problems/two-sum/) | [golang](/leetcode/two-sum/two-sum.go) | Easy | Array, Hash Table |

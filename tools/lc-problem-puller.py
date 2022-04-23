@@ -2,6 +2,8 @@ import argparse
 import leetcode
 import os
 import pandas as pd
+from matplotlib import pyplot as plt
+from svg.charts import pie
 
 lang_specifics = {
     'golang': {
@@ -18,6 +20,8 @@ lang_specifics = {
         'com': '#'
     }
 }
+
+charts = {'by_diff', 'by_tags'}
 
 
 def get_title_slugs(problems: list, lang: str, d: str) -> dict:
@@ -224,13 +228,28 @@ def clear_leetcode_meta_file(data: dict):
 def generate_leetcode_readme(data: dict):
     header = '## leetcode solutions'
     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
+
+    # Getting simple stats and generating rows for the table
+    for problem, meta in data.items():
+        solutions_links = ', '.join([f'[{lang}](/leetcode/{problem}/{problem}.{lang_specifics[lang]["ext"]})' for lang in meta['lang']])
+        problems_table += f'| [{meta["id"]}. {problem.replace("-", " ").capitalize() }](https://leetcode.com/problems/{problem}/) ' \
+                          f'| {solutions_links} ' \
+                          f'| {meta["difficulty"]} ' \
+                          f'| {", ".join(meta["tags"])} |\n'
+    stats_str = generate_svg_stats(data)
+    readme = header + stats_str + problems_table
+    with open('../leetcode/README.md', 'w') as readme_file:
+        readme_file.write(readme)
+
+
+def generate_svg_stats(data: dict) -> str:
     stats = {
         'solved': 0,
         'by_diff': dict(),
         'by_tags': dict(),
         'by_lang': dict()
     }
-    # Getting simple stats and generating rows for the table
+
     for problem, meta in data.items():
         stats['solved'] += 1
         if meta['difficulty'] not in stats['by_diff']:
@@ -247,27 +266,46 @@ def generate_leetcode_readme(data: dict):
                 stats['by_lang'][lang] = 0
             stats['by_lang'][lang] += 1
 
-        solutions_links = ' '.join([f'[{lang}](/leetcode/{problem}/{problem}.{lang_specifics[lang]["ext"]})' for lang in meta['lang']])
-        problems_table += f'| [{meta["id"]}. {problem.replace("-", " ").capitalize() }](https://leetcode.com/problems/{problem}/) ' \
-                          f'| {solutions_links} ' \
-                          f'| {meta["difficulty"]} ' \
-                          f'| {", ".join(meta["tags"])} |\n'
-    line_break = '\n\t'
-    tab = ',\t'
-    stats_str = f'''```
-leetcode statistics:
- {stats['solved']} problems solved in total
- - Solved problems by difficulty:
-\t{line_break.join([diff + ' - ' + str(count) for diff, count in stats['by_diff'].items()])}
- - Solved problems by tags:
-\t{tab.join([tag + ' - ' + str(count) for tag, count in stats['by_tags'].items()])}
- - Solutions by languages:
-\t{line_break.join([lang + ' - ' + str(count) for lang, count in stats['by_lang'].items()])}
-```'''
-    # readme = header + '\n\n' + stats_str + '\n\n' + problems_table
-    readme = header + '\n\n' + problems_table
-    with open('../leetcode/README.md', 'w') as readme_file:
-        readme_file.write(readme)
+    stats['by_tags']['other'] = 0
+    to_del = list()
+    for tag, count in stats['by_tags'].items():
+        if count / stats['solved'] < 0.05:
+            stats['by_tags']['other'] += count
+            to_del.append(tag)
+
+    for tag in to_del:
+        del stats['by_tags'][tag]
+
+    for c in charts:
+        generate_chart(f'../leetcode/.{c}.svg', stats[c])
+
+    return f'''
+    
+Problems solved in total: {stats["solved"]}
+
+| Solutions by difficulty | Solutions by tags |
+|-|-|
+| ![by diffs](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/tree/leetcode/.by_tags.svg) |
+ 
+'''
+
+
+def generate_chart(path: str, data: dict):
+    fields = list()
+    values = list()
+    for k, v in data.items():
+        fields.append(k)
+        values.append(v)
+
+    fig1, ax1 = plt.subplots()
+    fig1.patch.set_facecolor('gray')
+    plt.rcParams['text.color'] = 'white'
+    ax1.pie(values, labels=fields, autopct='%1.1f%%', startangle=90)
+    ax1.axis('equal')
+    my_circle = plt.Circle((0, 0), 0.3, color='gray')
+    p = plt.gcf()
+    p.gca().add_artist(my_circle)
+    plt.savefig(path)
 
 
 def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
@@ -298,7 +336,7 @@ def main():
     parser.add_argument('--no-tests', dest='no_tests', action='store_true', default=False, help='Suppress automatic test creation')
     args = parser.parse_args()
 
-    if args.problems != ['']:
+    if args.problems != ['.']:
         slugs = get_title_slugs(args.problems, args.lang, args.dir)
         if len(slugs) == 0:
             print("Nothing to do")
