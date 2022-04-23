@@ -78,3 +78,4 @@ max-area-of-island,Medium,695,['golang'],"['Array', 'Depth-First Search', 'Bread
 find-minimum-in-rotated-sorted-array,Medium,153,['golang'],"['Array', 'Binary Search']"
 design-hashset,Easy,705,['golang'],"['Array', 'Hash Table', 'Linked List', 'Design', 'Hash Function']"
 design-hashmap,Easy,706,['golang'],"['Array', 'Hash Table', 'Linked List', 'Design', 'Hash Function']"
+encode-and-decode-tinyurl,Medium,535,['golang'],"['Hash Table', 'String', 'Design', 'Hash Function']"
