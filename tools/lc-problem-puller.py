@@ -226,7 +226,7 @@ def clear_leetcode_meta_file(data: dict):
 
 
 def generate_leetcode_readme(data: dict):
-    header = '## leetcode solutions'
+    header = '## leetcode'
     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
 
     # Getting simple stats and generating rows for the table

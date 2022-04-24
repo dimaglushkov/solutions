@@ -14,7 +14,7 @@ def main():
     text += '\n ## Table of Contents\n'
     i = 1
     for d in order:
-        text += f'[{i}. {d}](#{d})\n'
+        text += f'[{i}. {d}](#{d} solutions) <br>\n'
         i += 1
 
     text += '\n\n'

@@ -1,4 +1,4 @@
-## acm.timus.ru solutions
+## acm.timus.ru
 | Problem | Solution | Difficulty | Tags | University course module |
 |-|-|-|-|-|
 | [1005. Stone Pile](https://acm.timus.ru/problem.aspx?num=1005) | [c++](/acm.timus/1005.cpp) | 84 | problem for beginners | 1 |

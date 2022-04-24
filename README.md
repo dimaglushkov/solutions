@@ -3,19 +3,19 @@ This repo stores my problem-solving related code
 
 
  ## Table of Contents
-[1. contests](#contests)
-[2. leetcode](#leetcode)
-[3. codeforces](#codeforces)
-[4. acm.timus](#acm.timus)
+[1. contests](#contests solutions) <br>
+[2. leetcode](#leetcode solutions) <br>
+[3. codeforces](#codeforces solutions) <br>
+[4. acm.timus](#acm.timus solutions) <br>
 
 
-## Contests
+## contests
 | Name | Score | Date |
 |-|-|-|
 | [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | [solutions](/contests/leetcode-weekly-290) | 24 apr 2022 |
 
 
-## leetcode solutions
+## leetcode
     
 Problems solved in total: 84
 
@@ -139,7 +139,7 @@ Problems solved in total: 84
 | [69A. Young Physicist](https://codeforces.com/contest/69/problem/A) | [python](/codeforces/69A.py) | 1000 | implementation, math |
 
 
-## acm.timus.ru solutions
+## acm.timus.ru
 | Problem | Solution | Difficulty | Tags | University course module |
 |-|-|-|-|-|
 | [1005. Stone Pile](https://acm.timus.ru/problem.aspx?num=1005) | [c++](/acm.timus/1005.cpp) | 84 | problem for beginners | 1 |

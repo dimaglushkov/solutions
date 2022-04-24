@@ -1,4 +1,4 @@
-## leetcode solutions
+## leetcode
     
 Problems solved in total: 84
 
