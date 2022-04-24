@@ -1,6 +1,20 @@
 # solutions
 This repo stores my problem-solving related code
 
+
+ ## Table of Contents
+[1. contests](#contests)
+[2. leetcode](#leetcode)
+[3. codeforces](#codeforces)
+[4. acm.timus](#acm.timus)
+
+
+## Contests
+| Name | Score | Date |
+|-|-|-|
+| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | [solutions](/contests/leetcode-weekly-290) | 24 apr 2022 |
+
+
 ## leetcode solutions
     
 Problems solved in total: 84

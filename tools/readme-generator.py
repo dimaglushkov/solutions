@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-order = ['leetcode', 'codeforces', 'acm.timus']
+order = ['contests', 'leetcode', 'codeforces', 'acm.timus']
 
 
 def main():
@@ -10,6 +10,14 @@ def main():
 
     with open('.README.gen.md') as f:
         text += f.read() + '\n\n'
+
+    text += '\n ## Table of Contents\n'
+    i = 1
+    for d in order:
+        text += f'[{i}. {d}](#{d})\n'
+        i += 1
+
+    text += '\n\n'
 
     for d in order:
         readme = f'../{d}/README.md'
