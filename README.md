@@ -3,10 +3,10 @@ This repo stores my problem-solving related code
 
 
  ## Table of Contents
-[1. contests](#contests solutions) <br>
-[2. leetcode](#leetcode solutions) <br>
-[3. codeforces](#codeforces solutions) <br>
-[4. acm.timus](#acm.timus solutions) <br>
+[1. contests](#contests) <br>
+[2. leetcode](#leetcode) <br>
+[3. codeforces](#codeforces) <br>
+[4. acm.timus](#acm.timus) <br>
 
 
 ## contests
