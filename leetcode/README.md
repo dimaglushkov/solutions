@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 87
+Problems solved in total: 90
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -95,3 +95,6 @@ Problems solved in total: 87
 | [1396. Design underground system](https://leetcode.com/problems/design-underground-system/) | [golang](/leetcode/design-underground-system/design-underground-system.go) | Medium | Hash Table, String, Design |
 | [23. Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [golang](/leetcode/merge-k-sorted-lists/merge-k-sorted-lists.go) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort |
 | [16. 3sum closest](https://leetcode.com/problems/3sum-closest/) | [golang](/leetcode/3sum-closest/3sum-closest.go) | Medium | Array, Two Pointers, Sorting |
+| [2248. Intersection of multiple arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [golang](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go) | Easy |  |
+| [2249. Count lattice points inside a circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) | [golang](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | Medium |  |
+| [2250. Count number of rectangles containing each point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/) | [golang](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | Medium |  |

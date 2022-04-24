@@ -2,7 +2,7 @@ package main
 
 import "sort"
 
-//  :(
+// TLE :(
 func countRectangles(rectangles [][]int, points [][]int) []int {
 	res := make([]int, len(points))
 
