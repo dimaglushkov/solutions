@@ -6,7 +6,7 @@ This repo stores my problem-solving related code
 [1. contests](#contests) <br>
 [2. leetcode](#leetcode) <br>
 [3. codeforces](#codeforces) <br>
-[4. acm.timus](#acm.timus) <br>
+[4. acm.timus](#acmtimus) <br>
 
 
 ## contests
@@ -17,7 +17,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 84
+Problems solved in total: 85
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -109,6 +109,7 @@ Problems solved in total: 84
 | [6. Zigzag conversion](https://leetcode.com/problems/zigzag-conversion/) | [golang](/leetcode/zigzag-conversion/zigzag-conversion.go) | Medium | String |
 | [5. Longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/) | [golang](/leetcode/longest-palindromic-substring/longest-palindromic-substring.go) | Medium | String, Dynamic Programming |
 | [2181. Merge nodes in between zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | [golang](/leetcode/merge-nodes-in-between-zeros/merge-nodes-in-between-zeros.go) | Medium | Linked List, Simulation |
+| [1396. Design underground system](https://leetcode.com/problems/design-underground-system/) | [golang](/leetcode/design-underground-system/design-underground-system.go) | Medium | Hash Table, String, Design |
 
 
 ## codeforces

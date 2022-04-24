@@ -83,3 +83,4 @@ repeated-dna-sequences,Medium,187,['golang'],"['Hash Table', 'String', 'Bit Mani
 zigzag-conversion,Medium,6,['golang'],['String']
 longest-palindromic-substring,Medium,5,['golang'],"['String', 'Dynamic Programming']"
 merge-nodes-in-between-zeros,Medium,2181,['golang'],"['Linked List', 'Simulation']"
+design-underground-system,Medium,1396,['golang'],"['Hash Table', 'String', 'Design']"
