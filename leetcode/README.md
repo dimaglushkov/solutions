@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 85
+Problems solved in total: 86
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -93,3 +93,4 @@ Problems solved in total: 85
 | [5. Longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/) | [golang](/leetcode/longest-palindromic-substring/longest-palindromic-substring.go) | Medium | String, Dynamic Programming |
 | [2181. Merge nodes in between zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | [golang](/leetcode/merge-nodes-in-between-zeros/merge-nodes-in-between-zeros.go) | Medium | Linked List, Simulation |
 | [1396. Design underground system](https://leetcode.com/problems/design-underground-system/) | [golang](/leetcode/design-underground-system/design-underground-system.go) | Medium | Hash Table, String, Design |
+| [23. Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [golang](/leetcode/merge-k-sorted-lists/merge-k-sorted-lists.go) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort |

@@ -84,3 +84,4 @@ zigzag-conversion,Medium,6,['golang'],['String']
 longest-palindromic-substring,Medium,5,['golang'],"['String', 'Dynamic Programming']"
 merge-nodes-in-between-zeros,Medium,2181,['golang'],"['Linked List', 'Simulation']"
 design-underground-system,Medium,1396,['golang'],"['Hash Table', 'String', 'Design']"
+merge-k-sorted-lists,Hard,23,['golang'],"['Linked List', 'Divide and Conquer', 'Heap (Priority Queue)', 'Merge Sort']"
