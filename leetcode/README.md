@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 86
+Problems solved in total: 87
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -94,3 +94,4 @@ Problems solved in total: 86
 | [2181. Merge nodes in between zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | [golang](/leetcode/merge-nodes-in-between-zeros/merge-nodes-in-between-zeros.go) | Medium | Linked List, Simulation |
 | [1396. Design underground system](https://leetcode.com/problems/design-underground-system/) | [golang](/leetcode/design-underground-system/design-underground-system.go) | Medium | Hash Table, String, Design |
 | [23. Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [golang](/leetcode/merge-k-sorted-lists/merge-k-sorted-lists.go) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort |
+| [16. 3sum closest](https://leetcode.com/problems/3sum-closest/) | [golang](/leetcode/3sum-closest/3sum-closest.go) | Medium | Array, Two Pointers, Sorting |

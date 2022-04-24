@@ -85,3 +85,4 @@ longest-palindromic-substring,Medium,5,['golang'],"['String', 'Dynamic Programmi
 merge-nodes-in-between-zeros,Medium,2181,['golang'],"['Linked List', 'Simulation']"
 design-underground-system,Medium,1396,['golang'],"['Hash Table', 'String', 'Design']"
 merge-k-sorted-lists,Hard,23,['golang'],"['Linked List', 'Divide and Conquer', 'Heap (Priority Queue)', 'Merge Sort']"
+3sum-closest,Medium,16,['golang'],"['Array', 'Two Pointers', 'Sorting']"
