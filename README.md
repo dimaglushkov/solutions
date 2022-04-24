@@ -139,7 +139,7 @@ Problems solved in total: 84
 | [69A. Young Physicist](https://codeforces.com/contest/69/problem/A) | [python](/codeforces/69A.py) | 1000 | implementation, math |
 
 
-## acm.timus.ru
+## acm.timus
 | Problem | Solution | Difficulty | Tags | University course module |
 |-|-|-|-|-|
 | [1005. Stone Pile](https://acm.timus.ru/problem.aspx?num=1005) | [c++](/acm.timus/1005.cpp) | 84 | problem for beginners | 1 |
