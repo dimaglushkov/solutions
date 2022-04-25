@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 93
+Problems solved in total: 94
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -101,3 +101,4 @@ Problems solved in total: 93
 | [284. Peeking iterator](https://leetcode.com/problems/peeking-iterator/) | [golang](/leetcode/peeking-iterator/peeking-iterator.go) | Medium | Array, Design, Iterator |
 | [19. Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [golang](/leetcode/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | Medium | Linked List, Two Pointers |
 | [22. Generate parentheses](https://leetcode.com/problems/generate-parentheses/) | [golang](/leetcode/generate-parentheses/generate-parentheses.go) | Medium | String, Dynamic Programming, Backtracking |
+| [24. Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [golang](/leetcode/swap-nodes-in-pairs/swap-nodes-in-pairs.go) | Medium | Linked List, Recursion |
