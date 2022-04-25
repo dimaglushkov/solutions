@@ -89,3 +89,4 @@ merge-k-sorted-lists,Hard,23,['golang'],"['Linked List', 'Divide and Conquer', '
 intersection-of-multiple-arrays,Easy,2248,['golang'],[]
 count-lattice-points-inside-a-circle,Medium,2249,['golang'],[]
 count-number-of-rectangles-containing-each-point,Medium,2250,['golang'],[]
+peeking-iterator,Medium,284,['golang'],"['Array', 'Design', 'Iterator']"
