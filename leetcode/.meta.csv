@@ -91,3 +91,4 @@ count-lattice-points-inside-a-circle,Medium,2249,['golang'],[]
 count-number-of-rectangles-containing-each-point,Medium,2250,['golang'],[]
 peeking-iterator,Medium,284,['golang'],"['Array', 'Design', 'Iterator']"
 remove-nth-node-from-end-of-list,Medium,19,['golang'],"['Linked List', 'Two Pointers']"
+generate-parentheses,Medium,22,['golang'],"['String', 'Dynamic Programming', 'Backtracking']"

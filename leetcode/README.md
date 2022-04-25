@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 92
+Problems solved in total: 93
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -100,3 +100,4 @@ Problems solved in total: 92
 | [2250. Count number of rectangles containing each point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/) | [golang](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | Medium |  |
 | [284. Peeking iterator](https://leetcode.com/problems/peeking-iterator/) | [golang](/leetcode/peeking-iterator/peeking-iterator.go) | Medium | Array, Design, Iterator |
 | [19. Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [golang](/leetcode/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | Medium | Linked List, Two Pointers |
+| [22. Generate parentheses](https://leetcode.com/problems/generate-parentheses/) | [golang](/leetcode/generate-parentheses/generate-parentheses.go) | Medium | String, Dynamic Programming, Backtracking |
