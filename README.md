@@ -17,7 +17,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 91
+Problems solved in total: 92
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -116,6 +116,7 @@ Problems solved in total: 91
 | [2249. Count lattice points inside a circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) | [golang](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | Medium |  |
 | [2250. Count number of rectangles containing each point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/) | [golang](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | Medium |  |
 | [284. Peeking iterator](https://leetcode.com/problems/peeking-iterator/) | [golang](/leetcode/peeking-iterator/peeking-iterator.go) | Medium | Array, Design, Iterator |
+| [19. Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [golang](/leetcode/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | Medium | Linked List, Two Pointers |
 
 
 ## codeforces
