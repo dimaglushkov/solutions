@@ -154,7 +154,7 @@ def generate_test_code(tests: list, code: str) -> str:
         param_def = f'\t// Example {i + 1} \n'
         args = []
         for vn, vt in func_params.items():
-            param_def += f'\tvar {vn}{i + 1} {vt} = {t["input"][vn]}\n'
+            param_def += f'\tvar {vn}{i + 1} {("= " + vt) if "[]" in vt else (vt + " =")} {t["input"][vn].replace("[", "{").replace("]", "}")}\n'
             args.append(f'{vn}{i + 1}')
         run_def = f'\tfmt.Println("Expected: {t["output"]}\tOutput: ", {func_name}({", ".join(args)}))\n\n'
 
