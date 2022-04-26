@@ -95,3 +95,4 @@ generate-parentheses,Medium,22,['golang'],"['String', 'Dynamic Programming', 'Ba
 swap-nodes-in-pairs,Medium,24,['golang'],"['Linked List', 'Recursion']"
 min-cost-to-connect-all-points,Medium,1584,['golang'],"['Array', 'Union Find', 'Minimum Spanning Tree']"
 permutations,Medium,46,['golang'],"['Array', 'Backtracking']"
+combination-sum,Medium,39,['golang'],"['Array', 'Backtracking']"
