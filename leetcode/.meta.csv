@@ -94,3 +94,4 @@ remove-nth-node-from-end-of-list,Medium,19,['golang'],"['Linked List', 'Two Poin
 generate-parentheses,Medium,22,['golang'],"['String', 'Dynamic Programming', 'Backtracking']"
 swap-nodes-in-pairs,Medium,24,['golang'],"['Linked List', 'Recursion']"
 min-cost-to-connect-all-points,Medium,1584,['golang'],"['Array', 'Union Find', 'Minimum Spanning Tree']"
+permutations,Medium,46,['golang'],"['Array', 'Backtracking']"

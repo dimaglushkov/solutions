@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 95
+Problems solved in total: 96
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -103,3 +103,4 @@ Problems solved in total: 95
 | [22. Generate parentheses](https://leetcode.com/problems/generate-parentheses/) | [golang](/leetcode/generate-parentheses/generate-parentheses.go) | Medium | String, Dynamic Programming, Backtracking |
 | [24. Swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [golang](/leetcode/swap-nodes-in-pairs/swap-nodes-in-pairs.go) | Medium | Linked List, Recursion |
 | [1584. Min cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [golang](/leetcode/min-cost-to-connect-all-points/min-cost-to-connect-all-points.go) | Medium | Array, Union Find, Minimum Spanning Tree |
+| [46. Permutations](https://leetcode.com/problems/permutations/) | [golang](/leetcode/permutations/permutations.go) | Medium | Array, Backtracking |
