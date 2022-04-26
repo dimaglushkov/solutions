@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 97
+Problems solved in total: 98
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -105,3 +105,4 @@ Problems solved in total: 97
 | [1584. Min cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [golang](/leetcode/min-cost-to-connect-all-points/min-cost-to-connect-all-points.go) | Medium | Array, Union Find, Minimum Spanning Tree |
 | [46. Permutations](https://leetcode.com/problems/permutations/) | [golang](/leetcode/permutations/permutations.go) | Medium | Array, Backtracking |
 | [39. Combination sum](https://leetcode.com/problems/combination-sum/) | [golang](/leetcode/combination-sum/combination-sum.go) | Medium | Array, Backtracking |
+| [34. Find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [golang](/leetcode/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.go) | Medium | Array, Binary Search |
