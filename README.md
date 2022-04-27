@@ -17,7 +17,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 101
+Problems solved in total: 102
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -126,6 +126,7 @@ Problems solved in total: 101
 | [1202. Smallest string with swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [golang](/leetcode/smallest-string-with-swaps/smallest-string-with-swaps.go) | Medium | Hash Table, String, Depth-First Search, Breadth-First Search, Union Find |
 | [128. Longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [golang](/leetcode/longest-consecutive-sequence/longest-consecutive-sequence.go) | Medium | Array, Hash Table, Union Find |
 | [547. Number of provinces](https://leetcode.com/problems/number-of-provinces/) | [golang](/leetcode/number-of-provinces/number-of-provinces.go) | Medium | Depth-First Search, Breadth-First Search, Union Find, Graph |
+| [200. Number of islands](https://leetcode.com/problems/number-of-islands/) | [golang](/leetcode/number-of-islands/number-of-islands.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix |
 
 
 ## codeforces
