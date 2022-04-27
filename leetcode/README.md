@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 99
+Problems solved in total: 100
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -107,3 +107,4 @@ Problems solved in total: 99
 | [39. Combination sum](https://leetcode.com/problems/combination-sum/) | [golang](/leetcode/combination-sum/combination-sum.go) | Medium | Array, Backtracking |
 | [34. Find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [golang](/leetcode/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.go) | Medium | Array, Binary Search |
 | [1202. Smallest string with swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | [golang](/leetcode/smallest-string-with-swaps/smallest-string-with-swaps.go) | Medium | Hash Table, String, Depth-First Search, Breadth-First Search, Union Find |
+| [128. Longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [golang](/leetcode/longest-consecutive-sequence/longest-consecutive-sequence.go) | Medium | Array, Hash Table, Union Find |
