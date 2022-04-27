@@ -86,9 +86,9 @@ merge-nodes-in-between-zeros,Medium,2181,['golang'],"['Linked List', 'Simulation
 design-underground-system,Medium,1396,['golang'],"['Hash Table', 'String', 'Design']"
 merge-k-sorted-lists,Hard,23,['golang'],"['Linked List', 'Divide and Conquer', 'Heap (Priority Queue)', 'Merge Sort']"
 3sum-closest,Medium,16,['golang'],"['Array', 'Two Pointers', 'Sorting']"
-intersection-of-multiple-arrays,Easy,2248,['golang'],[]
-count-lattice-points-inside-a-circle,Medium,2249,['golang'],[]
-count-number-of-rectangles-containing-each-point,Medium,2250,['golang'],[]
+intersection-of-multiple-arrays,Easy,2248,['golang'],"['Array', 'Hash Table', 'Counting']"
+count-lattice-points-inside-a-circle,Medium,2249,['golang'],"['Array', 'Hash Table', 'Math', 'Geometry', 'Enumeration']"
+count-number-of-rectangles-containing-each-point,Medium,2250,['golang'],"['Array', 'Binary Search', 'Binary Indexed Tree', 'Sorting']"
 peeking-iterator,Medium,284,['golang'],"['Array', 'Design', 'Iterator']"
 remove-nth-node-from-end-of-list,Medium,19,['golang'],"['Linked List', 'Two Pointers']"
 generate-parentheses,Medium,22,['golang'],"['String', 'Dynamic Programming', 'Backtracking']"
