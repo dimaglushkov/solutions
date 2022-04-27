@@ -97,3 +97,4 @@ min-cost-to-connect-all-points,Medium,1584,['golang'],"['Array', 'Union Find', '
 permutations,Medium,46,['golang'],"['Array', 'Backtracking']"
 combination-sum,Medium,39,['golang'],"['Array', 'Backtracking']"
 find-first-and-last-position-of-element-in-sorted-array,Medium,34,['golang'],"['Array', 'Binary Search']"
+smallest-string-with-swaps,Medium,1202,['golang'],"['Hash Table', 'String', 'Depth-First Search', 'Breadth-First Search', 'Union Find']"
