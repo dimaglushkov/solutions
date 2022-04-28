@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 102
+Problems solved in total: 104
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -95,9 +95,9 @@ Problems solved in total: 102
 | [1396. Design underground system](https://leetcode.com/problems/design-underground-system/) | [golang](/leetcode/design-underground-system/design-underground-system.go) | Medium | Hash Table, String, Design |
 | [23. Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [golang](/leetcode/merge-k-sorted-lists/merge-k-sorted-lists.go) | Hard | Linked List, Divide and Conquer, Heap (Priority Queue), Merge Sort |
 | [16. 3sum closest](https://leetcode.com/problems/3sum-closest/) | [golang](/leetcode/3sum-closest/3sum-closest.go) | Medium | Array, Two Pointers, Sorting |
-| [2248. Intersection of multiple arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [golang](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go) | Easy |  |
-| [2249. Count lattice points inside a circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) | [golang](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | Medium |  |
-| [2250. Count number of rectangles containing each point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/) | [golang](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | Medium |  |
+| [2248. Intersection of multiple arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [golang](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go) | Easy | Array, Hash Table, Counting |
+| [2249. Count lattice points inside a circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) | [golang](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | Medium | Array, Hash Table, Math, Geometry, Enumeration |
+| [2250. Count number of rectangles containing each point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/) | [golang](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | Medium | Array, Binary Search, Binary Indexed Tree, Sorting |
 | [284. Peeking iterator](https://leetcode.com/problems/peeking-iterator/) | [golang](/leetcode/peeking-iterator/peeking-iterator.go) | Medium | Array, Design, Iterator |
 | [19. Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [golang](/leetcode/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | Medium | Linked List, Two Pointers |
 | [22. Generate parentheses](https://leetcode.com/problems/generate-parentheses/) | [golang](/leetcode/generate-parentheses/generate-parentheses.go) | Medium | String, Dynamic Programming, Backtracking |
@@ -110,3 +110,5 @@ Problems solved in total: 102
 | [128. Longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [golang](/leetcode/longest-consecutive-sequence/longest-consecutive-sequence.go) | Medium | Array, Hash Table, Union Find |
 | [547. Number of provinces](https://leetcode.com/problems/number-of-provinces/) | [golang](/leetcode/number-of-provinces/number-of-provinces.go) | Medium | Depth-First Search, Breadth-First Search, Union Find, Graph |
 | [200. Number of islands](https://leetcode.com/problems/number-of-islands/) | [golang](/leetcode/number-of-islands/number-of-islands.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix |
+| [104. Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [golang](/leetcode/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [1631. Path with minimum effort](https://leetcode.com/problems/path-with-minimum-effort/) | [golang](/leetcode/path-with-minimum-effort/path-with-minimum-effort.go) | Medium | Array, Binary Search, Depth-First Search, Breadth-First Search, Union Find, Heap (Priority Queue), Matrix |
