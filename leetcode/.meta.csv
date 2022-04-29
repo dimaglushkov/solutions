@@ -103,3 +103,7 @@ number-of-provinces,Medium,547,['golang'],"['Depth-First Search', 'Breadth-First
 number-of-islands,Medium,200,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"
 maximum-depth-of-binary-tree,Easy,104,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 path-with-minimum-effort,Medium,1631,['golang'],"['Array', 'Binary Search', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Heap (Priority Queue)', 'Matrix']"
+number-of-good-pairs,Easy,1512,['golang'],"['Array', 'Hash Table', 'Math', 'Counting']"
+kids-with-the-greatest-number-of-candies,Easy,1431,['golang'],['Array']
+subtract-the-product-and-sum-of-digits-of-an-integer,Easy,1281,['golang'],['Math']
+number-of-dice-rolls-with-target-sum,Medium,1155,['golang'],['Dynamic Programming']

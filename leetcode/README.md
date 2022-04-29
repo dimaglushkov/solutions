@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 104
+Problems solved in total: 108
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -112,3 +112,7 @@ Problems solved in total: 104
 | [200. Number of islands](https://leetcode.com/problems/number-of-islands/) | [golang](/leetcode/number-of-islands/number-of-islands.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Matrix |
 | [104. Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [golang](/leetcode/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [1631. Path with minimum effort](https://leetcode.com/problems/path-with-minimum-effort/) | [golang](/leetcode/path-with-minimum-effort/path-with-minimum-effort.go) | Medium | Array, Binary Search, Depth-First Search, Breadth-First Search, Union Find, Heap (Priority Queue), Matrix |
+| [1512. Number of good pairs](https://leetcode.com/problems/number-of-good-pairs/) | [golang](/leetcode/number-of-good-pairs/number-of-good-pairs.go) | Easy | Array, Hash Table, Math, Counting |
+| [1431. Kids with the greatest number of candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [golang](/leetcode/kids-with-the-greatest-number-of-candies/kids-with-the-greatest-number-of-candies.go) | Easy | Array |
+| [1281. Subtract the product and sum of digits of an integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [golang](/leetcode/subtract-the-product-and-sum-of-digits-of-an-integer/subtract-the-product-and-sum-of-digits-of-an-integer.go) | Easy | Math |
+| [1155. Number of dice rolls with target sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [golang](/leetcode/number-of-dice-rolls-with-target-sum/number-of-dice-rolls-with-target-sum.go) | Medium | Dynamic Programming |
