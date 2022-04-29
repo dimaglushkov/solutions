@@ -17,7 +17,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 108
+Problems solved in total: 109
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -133,6 +133,7 @@ Problems solved in total: 108
 | [1431. Kids with the greatest number of candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [golang](/leetcode/kids-with-the-greatest-number-of-candies/kids-with-the-greatest-number-of-candies.go) | Easy | Array |
 | [1281. Subtract the product and sum of digits of an integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [golang](/leetcode/subtract-the-product-and-sum-of-digits-of-an-integer/subtract-the-product-and-sum-of-digits-of-an-integer.go) | Easy | Math |
 | [1155. Number of dice rolls with target sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | [golang](/leetcode/number-of-dice-rolls-with-target-sum/number-of-dice-rolls-with-target-sum.go) | Medium | Dynamic Programming |
+| [785. Is graph bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [golang](/leetcode/is-graph-bipartite/is-graph-bipartite.go) | Medium | Depth-First Search, Breadth-First Search, Union Find, Graph |
 
 
 ## codeforces

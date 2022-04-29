@@ -107,3 +107,4 @@ number-of-good-pairs,Easy,1512,['golang'],"['Array', 'Hash Table', 'Math', 'Coun
 kids-with-the-greatest-number-of-candies,Easy,1431,['golang'],['Array']
 subtract-the-product-and-sum-of-digits-of-an-integer,Easy,1281,['golang'],['Math']
 number-of-dice-rolls-with-target-sum,Medium,1155,['golang'],['Dynamic Programming']
+is-graph-bipartite,Medium,785,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
