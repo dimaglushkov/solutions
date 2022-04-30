@@ -109,3 +109,4 @@ subtract-the-product-and-sum-of-digits-of-an-integer,Easy,1281,['golang'],['Math
 number-of-dice-rolls-with-target-sum,Medium,1155,['golang'],['Dynamic Programming']
 is-graph-bipartite,Medium,785,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
 number-of-ways-to-split-a-string,Medium,1573,['golang'],"['Math', 'String']"
+evaluate-division,Medium,399,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph', 'Shortest Path']"
