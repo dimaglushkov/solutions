@@ -110,3 +110,4 @@ number-of-dice-rolls-with-target-sum,Medium,1155,['golang'],['Dynamic Programmin
 is-graph-bipartite,Medium,785,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
 number-of-ways-to-split-a-string,Medium,1573,['golang'],"['Math', 'String']"
 evaluate-division,Medium,399,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph', 'Shortest Path']"
+backspace-string-compare,Easy,844,['golang'],"['Two Pointers', 'String', 'Stack', 'Simulation']"

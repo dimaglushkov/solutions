@@ -12,12 +12,14 @@ This repo stores my problem-solving related code
 ## contests
 | Name | Rank | Solutions | Date |
 |-|-|-|-|
-| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4779 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go), [3](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | 24 apr 2022 |
+| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4828 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go), [3 (TLE)](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | 24 apr 2022 |
+| [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) |  |  | 30 Apr 2022 |
+| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 6183 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go), [3 (TLE)](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | 01 may 2022 |
 
 
 ## leetcode
     
-Problems solved in total: 111
+Problems solved in total: 112
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -136,6 +138,7 @@ Problems solved in total: 111
 | [785. Is graph bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [golang](/leetcode/is-graph-bipartite/is-graph-bipartite.go) | Medium | Depth-First Search, Breadth-First Search, Union Find, Graph |
 | [1573. Number of ways to split a string](https://leetcode.com/problems/number-of-ways-to-split-a-string/) | [golang](/leetcode/number-of-ways-to-split-a-string/number-of-ways-to-split-a-string.go) | Medium | Math, String |
 | [399. Evaluate division](https://leetcode.com/problems/evaluate-division/) | [golang](/leetcode/evaluate-division/evaluate-division.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Graph, Shortest Path |
+| [844. Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [golang](/leetcode/backspace-string-compare/backspace-string-compare.go) | Easy | Two Pointers, String, Stack, Simulation |
 
 
 ## codeforces

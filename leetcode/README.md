@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 111
+Problems solved in total: 112
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -119,3 +119,4 @@ Problems solved in total: 111
 | [785. Is graph bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [golang](/leetcode/is-graph-bipartite/is-graph-bipartite.go) | Medium | Depth-First Search, Breadth-First Search, Union Find, Graph |
 | [1573. Number of ways to split a string](https://leetcode.com/problems/number-of-ways-to-split-a-string/) | [golang](/leetcode/number-of-ways-to-split-a-string/number-of-ways-to-split-a-string.go) | Medium | Math, String |
 | [399. Evaluate division](https://leetcode.com/problems/evaluate-division/) | [golang](/leetcode/evaluate-division/evaluate-division.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Graph, Shortest Path |
+| [844. Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [golang](/leetcode/backspace-string-compare/backspace-string-compare.go) | Easy | Two Pointers, String, Stack, Simulation |
