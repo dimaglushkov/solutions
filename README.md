@@ -12,14 +12,14 @@ This repo stores my problem-solving related code
 ## contests
 | Name | Rank | Solutions | Date |
 |-|-|-|-|
-| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4828 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go), [3 (TLE)](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | 24 apr 2022 |
-| [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) |  |  | 30 Apr 2022 |
-| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 6183 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go), [3 (TLE)](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | 01 may 2022 |
+| [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4828 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | 24 apr 2022 |
+| [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) | 6827 / 15519 | [1](/leetcode/count-prefixes-of-a-given-string/count-prefixes-of-a-given-string.go), [2](/leetcode/minimum-average-difference/minimum-average-difference.go) | 30 Apr 2022 |
+| [Leetcode Weekly Contest 291](https://leetcode.com/contest/weekly-contest-291/) | 6183 / 19491 | [1](/leetcode/remove-digit-from-number-to-maximize-result/remove-digit-from-number-to-maximize-result.go), [2](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | 01 may 2022 |
 
 
 ## leetcode
     
-Problems solved in total: 112
+Problems solved in total: 115
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -116,7 +116,6 @@ Problems solved in total: 112
 | [16. 3sum closest](https://leetcode.com/problems/3sum-closest/) | [golang](/leetcode/3sum-closest/3sum-closest.go) | Medium | Array, Two Pointers, Sorting |
 | [2248. Intersection of multiple arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | [golang](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go) | Easy | Array, Hash Table, Counting |
 | [2249. Count lattice points inside a circle](https://leetcode.com/problems/count-lattice-points-inside-a-circle/) | [golang](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | Medium | Array, Hash Table, Math, Geometry, Enumeration |
-| [2250. Count number of rectangles containing each point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/) | [golang](/leetcode/count-number-of-rectangles-containing-each-point/count-number-of-rectangles-containing-each-point.go) | Medium | Array, Binary Search, Binary Indexed Tree, Sorting |
 | [284. Peeking iterator](https://leetcode.com/problems/peeking-iterator/) | [golang](/leetcode/peeking-iterator/peeking-iterator.go) | Medium | Array, Design, Iterator |
 | [19. Remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [golang](/leetcode/remove-nth-node-from-end-of-list/remove-nth-node-from-end-of-list.go) | Medium | Linked List, Two Pointers |
 | [22. Generate parentheses](https://leetcode.com/problems/generate-parentheses/) | [golang](/leetcode/generate-parentheses/generate-parentheses.go) | Medium | String, Dynamic Programming, Backtracking |
@@ -139,6 +138,10 @@ Problems solved in total: 112
 | [1573. Number of ways to split a string](https://leetcode.com/problems/number-of-ways-to-split-a-string/) | [golang](/leetcode/number-of-ways-to-split-a-string/number-of-ways-to-split-a-string.go) | Medium | Math, String |
 | [399. Evaluate division](https://leetcode.com/problems/evaluate-division/) | [golang](/leetcode/evaluate-division/evaluate-division.go) | Medium | Array, Depth-First Search, Breadth-First Search, Union Find, Graph, Shortest Path |
 | [844. Backspace string compare](https://leetcode.com/problems/backspace-string-compare/) | [golang](/leetcode/backspace-string-compare/backspace-string-compare.go) | Easy | Two Pointers, String, Stack, Simulation |
+| [2255. Count prefixes of a given string](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | [golang](/leetcode/count-prefixes-of-a-given-string/count-prefixes-of-a-given-string.go) | Easy |  |
+| [2256. Minimum average difference](https://leetcode.com/problems/minimum-average-difference/) | [golang](/leetcode/minimum-average-difference/minimum-average-difference.go) | Medium |  |
+| [2259. Remove digit from number to maximize result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [golang](/leetcode/remove-digit-from-number-to-maximize-result/remove-digit-from-number-to-maximize-result.go) | Easy |  |
+| [2260. Minimum consecutive cards to pick up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | [golang](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | Medium |  |
 
 
 ## codeforces
