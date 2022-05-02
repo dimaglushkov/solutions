@@ -46,7 +46,7 @@ def generate_codeforces_readme(data: dict):
             text += f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
                     f'| {solutions_links} ' \
                     f'| {v["difficulty"]} ' \
-                    f'| {", ".join(v["tags"][:-1])} |\n'
+                    f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
         f.write(text)
 
 

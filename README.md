@@ -172,7 +172,7 @@ Problems solved in total: 117
 | [1A. Theatre Square](https://codeforces.com/contest/1/problem/A) | [python](/codeforces/1A/1A.py) | 1000 | math |
 | [58A. Chat room](https://codeforces.com/contest/58/problem/A) | [python](/codeforces/58A/58A.py) | 1000 | greedy, strings |
 | [69A. Young Physicist](https://codeforces.com/contest/69/problem/A) | [python](/codeforces/69A/69A.py) | 1000 | implementation, math |
-| [1669A. Division?](https://codeforces.com/contest/1669/problem/A) | [golang](/codeforces/1669A/1669A.go) | 800 |  |
+| [1669A. Division?](https://codeforces.com/contest/1669/problem/A) | [golang](/codeforces/1669A/1669A.go) | 800 | implementation |
 
 
 ## acm.timus
