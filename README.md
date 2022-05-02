@@ -13,13 +13,13 @@ This repo stores my problem-solving related code
 | Name | Rank | Solutions | Date |
 |-|-|-|-|
 | [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4828 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | 24 apr 2022 |
-| [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) | 6827 / 15519 | [1](/leetcode/count-prefixes-of-a-given-string/count-prefixes-of-a-given-string.go), [2](/leetcode/minimum-average-difference/minimum-average-difference.go) | 30 Apr 2022 |
+| [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) | 6827 / 15519 | [1](/leetcode/count-prefixes-of-a-given-string/count-prefixes-of-a-given-string.go), [2](/leetcode/minimum-average-difference/minimum-average-difference.go) | 30 apr 2022 |
 | [Leetcode Weekly Contest 291](https://leetcode.com/contest/weekly-contest-291/) | 6183 / 19491 | [1](/leetcode/remove-digit-from-number-to-maximize-result/remove-digit-from-number-to-maximize-result.go), [2](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | 01 may 2022 |
 
 
 ## leetcode
     
-Problems solved in total: 115
+Problems solved in total: 117
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -142,6 +142,8 @@ Problems solved in total: 115
 | [2256. Minimum average difference](https://leetcode.com/problems/minimum-average-difference/) | [golang](/leetcode/minimum-average-difference/minimum-average-difference.go) | Medium |  |
 | [2259. Remove digit from number to maximize result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [golang](/leetcode/remove-digit-from-number-to-maximize-result/remove-digit-from-number-to-maximize-result.go) | Easy |  |
 | [2260. Minimum consecutive cards to pick up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | [golang](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | Medium |  |
+| [48. Rotate image](https://leetcode.com/problems/rotate-image/) | [golang](/leetcode/rotate-image/rotate-image.go) | Medium | Array, Math, Matrix |
+| [905. Sort array by parity](https://leetcode.com/problems/sort-array-by-parity/) | [golang](/leetcode/sort-array-by-parity/sort-array-by-parity.go) | Easy | Array, Two Pointers, Sorting |
 
 
 ## codeforces

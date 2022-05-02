@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 115
+Problems solved in total: 117
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -123,3 +123,5 @@ Problems solved in total: 115
 | [2256. Minimum average difference](https://leetcode.com/problems/minimum-average-difference/) | [golang](/leetcode/minimum-average-difference/minimum-average-difference.go) | Medium |  |
 | [2259. Remove digit from number to maximize result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [golang](/leetcode/remove-digit-from-number-to-maximize-result/remove-digit-from-number-to-maximize-result.go) | Easy |  |
 | [2260. Minimum consecutive cards to pick up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | [golang](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | Medium |  |
+| [48. Rotate image](https://leetcode.com/problems/rotate-image/) | [golang](/leetcode/rotate-image/rotate-image.go) | Medium | Array, Math, Matrix |
+| [905. Sort array by parity](https://leetcode.com/problems/sort-array-by-parity/) | [golang](/leetcode/sort-array-by-parity/sort-array-by-parity.go) | Easy | Array, Two Pointers, Sorting |

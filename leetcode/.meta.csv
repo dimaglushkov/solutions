@@ -114,3 +114,5 @@ count-prefixes-of-a-given-string,Easy,2255,['golang'],[]
 minimum-average-difference,Medium,2256,['golang'],[]
 remove-digit-from-number-to-maximize-result,Easy,2259,['golang'],[]
 minimum-consecutive-cards-to-pick-up,Medium,2260,['golang'],[]
+rotate-image,Medium,48,['golang'],"['Array', 'Math', 'Matrix']"
+sort-array-by-parity,Easy,905,['golang'],"['Array', 'Two Pointers', 'Sorting']"
