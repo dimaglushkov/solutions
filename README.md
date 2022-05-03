@@ -19,7 +19,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 117
+Problems solved in total: 118
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -144,6 +144,7 @@ Problems solved in total: 117
 | [2260. Minimum consecutive cards to pick up](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up/) | [golang](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | Medium |  |
 | [48. Rotate image](https://leetcode.com/problems/rotate-image/) | [golang](/leetcode/rotate-image/rotate-image.go) | Medium | Array, Math, Matrix |
 | [905. Sort array by parity](https://leetcode.com/problems/sort-array-by-parity/) | [golang](/leetcode/sort-array-by-parity/sort-array-by-parity.go) | Easy | Array, Two Pointers, Sorting |
+| [581. Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [golang](/leetcode/shortest-unsorted-continuous-subarray/shortest-unsorted-continuous-subarray.go) | Medium | Array, Two Pointers, Stack, Greedy, Sorting, Monotonic Stack |
 
 
 ## codeforces
@@ -173,6 +174,7 @@ Problems solved in total: 117
 | [58A. Chat room](https://codeforces.com/contest/58/problem/A) | [python](/codeforces/58A/58A.py) | 1000 | greedy, strings |
 | [69A. Young Physicist](https://codeforces.com/contest/69/problem/A) | [python](/codeforces/69A/69A.py) | 1000 | implementation, math |
 | [1669A. Division?](https://codeforces.com/contest/1669/problem/A) | [golang](/codeforces/1669A/1669A.go) | 800 | implementation |
+| [1660B. Vlad and Candies](https://codeforces.com/contest/1660/problem/B) | [golang](/codeforces/1660B/1660B.go) | 800 | math |
 
 
 ## acm.timus
