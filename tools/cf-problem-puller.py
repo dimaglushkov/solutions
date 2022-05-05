@@ -14,11 +14,28 @@ lang_specifics = {
         'prefix': '''package main
 
 import (
+    "bufio"
     "fmt"
+    "os"
 )
 
 ''',
-        'main': 'func main(){\n\t\n}'
+        'main': '''
+var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
+
+func solve() string {
+    
+}
+        
+        
+func main() {
+    defer out.Flush()
+    var t int
+    for fmt.Fscanln(in, &t); t > 0; t-- {
+        fmt.Fprintln(out, solve())
+    }
+}    
+'''
     },
     'python': {
         'ext': 'py',
