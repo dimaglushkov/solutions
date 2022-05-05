@@ -19,7 +19,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 119
+Problems solved in total: 120
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -146,6 +146,7 @@ Problems solved in total: 119
 | [905. Sort array by parity](https://leetcode.com/problems/sort-array-by-parity/) | [golang](/leetcode/sort-array-by-parity/sort-array-by-parity.go) | Easy | Array, Two Pointers, Sorting |
 | [581. Shortest unsorted continuous subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [golang](/leetcode/shortest-unsorted-continuous-subarray/shortest-unsorted-continuous-subarray.go) | Medium | Array, Two Pointers, Stack, Greedy, Sorting, Monotonic Stack |
 | [1679. Max number of k sum pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [golang](/leetcode/max-number-of-k-sum-pairs/max-number-of-k-sum-pairs.go) | Medium | Array, Hash Table, Two Pointers, Sorting |
+| [225. Implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues/) | [golang](/leetcode/implement-stack-using-queues/implement-stack-using-queues.go) | Easy | Stack, Design, Queue |
 
 
 ## codeforces
