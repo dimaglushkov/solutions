@@ -120,3 +120,4 @@ shortest-unsorted-continuous-subarray,Medium,581,['golang'],"['Array', 'Two Poin
 max-number-of-k-sum-pairs,Medium,1679,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting']"
 implement-stack-using-queues,Easy,225,['golang'],"['Stack', 'Design', 'Queue']"
 remove-element,Easy,27,['golang'],"['Array', 'Two Pointers']"
+remove-all-adjacent-duplicates-in-string-ii,Medium,1209,['golang'],"['String', 'Stack']"

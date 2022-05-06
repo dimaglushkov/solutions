@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 121
+Problems solved in total: 122
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -129,3 +129,4 @@ Problems solved in total: 121
 | [1679. Max number of k sum pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [golang](/leetcode/max-number-of-k-sum-pairs/max-number-of-k-sum-pairs.go) | Medium | Array, Hash Table, Two Pointers, Sorting |
 | [225. Implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues/) | [golang](/leetcode/implement-stack-using-queues/implement-stack-using-queues.go) | Easy | Stack, Design, Queue |
 | [27. Remove element](https://leetcode.com/problems/remove-element/) | [golang](/leetcode/remove-element/remove-element.go) | Easy | Array, Two Pointers |
+| [1209. Remove all adjacent duplicates in string ii](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [golang](/leetcode/remove-all-adjacent-duplicates-in-string-ii/remove-all-adjacent-duplicates-in-string-ii.go) | Medium | String, Stack |
