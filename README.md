@@ -19,7 +19,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 122
+Problems solved in total: 123
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -149,6 +149,7 @@ Problems solved in total: 122
 | [225. Implement stack using queues](https://leetcode.com/problems/implement-stack-using-queues/) | [golang](/leetcode/implement-stack-using-queues/implement-stack-using-queues.go) | Easy | Stack, Design, Queue |
 | [27. Remove element](https://leetcode.com/problems/remove-element/) | [golang](/leetcode/remove-element/remove-element.go) | Easy | Array, Two Pointers |
 | [1209. Remove all adjacent duplicates in string ii](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [golang](/leetcode/remove-all-adjacent-duplicates-in-string-ii/remove-all-adjacent-duplicates-in-string-ii.go) | Medium | String, Stack |
+| [456. 132 pattern](https://leetcode.com/problems/132-pattern/) | [golang](/leetcode/132-pattern/132-pattern.go) | Medium | Array, Binary Search, Stack, Monotonic Stack, Ordered Set |
 
 
 ## codeforces
