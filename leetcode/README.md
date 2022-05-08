@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 123
+Problems solved in total: 125
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -131,3 +131,5 @@ Problems solved in total: 123
 | [27. Remove element](https://leetcode.com/problems/remove-element/) | [golang](/leetcode/remove-element/remove-element.go) | Easy | Array, Two Pointers |
 | [1209. Remove all adjacent duplicates in string ii](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [golang](/leetcode/remove-all-adjacent-duplicates-in-string-ii/remove-all-adjacent-duplicates-in-string-ii.go) | Medium | String, Stack |
 | [456. 132 pattern](https://leetcode.com/problems/132-pattern/) | [golang](/leetcode/132-pattern/132-pattern.go) | Medium | Array, Binary Search, Stack, Monotonic Stack, Ordered Set |
+| [409. Longest palindrome](https://leetcode.com/problems/longest-palindrome/) | [golang](/leetcode/longest-palindrome/longest-palindrome.go) | Easy | Hash Table, String, Greedy |
+| [561. Array partition i](https://leetcode.com/problems/array-partition-i/) | [golang](/leetcode/array-partition-i/array-partition-i.go) | Easy | Array, Greedy, Sorting, Counting Sort |
