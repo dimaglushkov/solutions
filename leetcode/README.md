@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 126
+Problems solved in total: 127
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -134,3 +134,4 @@ Problems solved in total: 126
 | [409. Longest palindrome](https://leetcode.com/problems/longest-palindrome/) | [golang](/leetcode/longest-palindrome/longest-palindrome.go) | Easy | Hash Table, String, Greedy |
 | [561. Array partition i](https://leetcode.com/problems/array-partition-i/) | [golang](/leetcode/array-partition-i/array-partition-i.go) | Easy | Array, Greedy, Sorting, Counting Sort |
 | [341. Flatten nested list iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [golang](/leetcode/flatten-nested-list-iterator/flatten-nested-list-iterator.go) | Medium | Stack, Tree, Depth-First Search, Design, Queue, Iterator |
+| [216. Combination sum iii](https://leetcode.com/problems/combination-sum-iii/) | [golang](/leetcode/combination-sum-iii/combination-sum-iii.go) | Medium | Array, Backtracking |

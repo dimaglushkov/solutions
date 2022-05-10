@@ -125,3 +125,4 @@ remove-all-adjacent-duplicates-in-string-ii,Medium,1209,['golang'],"['String', '
 longest-palindrome,Easy,409,['golang'],"['Hash Table', 'String', 'Greedy']"
 array-partition-i,Easy,561,['golang'],"['Array', 'Greedy', 'Sorting', 'Counting Sort']"
 flatten-nested-list-iterator,Medium,341,['golang'],"['Stack', 'Tree', 'Depth-First Search', 'Design', 'Queue', 'Iterator']"
+combination-sum-iii,Medium,216,['golang'],"['Array', 'Backtracking']"
