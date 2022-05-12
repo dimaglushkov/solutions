@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 127
+Problems solved in total: 129
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -135,3 +135,5 @@ Problems solved in total: 127
 | [561. Array partition i](https://leetcode.com/problems/array-partition-i/) | [golang](/leetcode/array-partition-i/array-partition-i.go) | Easy | Array, Greedy, Sorting, Counting Sort |
 | [341. Flatten nested list iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [golang](/leetcode/flatten-nested-list-iterator/flatten-nested-list-iterator.go) | Medium | Stack, Tree, Depth-First Search, Design, Queue, Iterator |
 | [216. Combination sum iii](https://leetcode.com/problems/combination-sum-iii/) | [golang](/leetcode/combination-sum-iii/combination-sum-iii.go) | Medium | Array, Backtracking |
+| [47. Permutations ii](https://leetcode.com/problems/permutations-ii/) | [golang](/leetcode/permutations-ii/permutations-ii.go) | Medium | Array, Backtracking |
+| [1641. Count sorted vowel strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | [golang](/leetcode/count-sorted-vowel-strings/count-sorted-vowel-strings.go) | Medium | Dynamic Programming |

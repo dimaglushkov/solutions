@@ -15,11 +15,12 @@ This repo stores my problem-solving related code
 | [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4828 / 19491 | [1](/leetcode/intersection-of-multiple-arrays/intersection-of-multiple-arrays.go), [2](/leetcode/count-lattice-points-inside-a-circle/count-lattice-points-inside-a-circle.go) | 24 apr 2022 |
 | [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) | 6827 / 15519 | [1](/leetcode/count-prefixes-of-a-given-string/count-prefixes-of-a-given-string.go), [2](/leetcode/minimum-average-difference/minimum-average-difference.go) | 30 apr 2022 |
 | [Leetcode Weekly Contest 291](https://leetcode.com/contest/weekly-contest-291/) | 6183 / 19491 | [1](/leetcode/remove-digit-from-number-to-maximize-result/remove-digit-from-number-to-maximize-result.go), [2](/leetcode/minimum-consecutive-cards-to-pick-up/minimum-consecutive-cards-to-pick-up.go) | 01 may 2022 |
+| [Codeforces Round #790 (Div. 4)](https://codeforces.com/contests/1676) | |  | 10 may 2022 | 
 
 
 ## leetcode
     
-Problems solved in total: 127
+Problems solved in total: 129
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -154,6 +155,8 @@ Problems solved in total: 127
 | [561. Array partition i](https://leetcode.com/problems/array-partition-i/) | [golang](/leetcode/array-partition-i/array-partition-i.go) | Easy | Array, Greedy, Sorting, Counting Sort |
 | [341. Flatten nested list iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [golang](/leetcode/flatten-nested-list-iterator/flatten-nested-list-iterator.go) | Medium | Stack, Tree, Depth-First Search, Design, Queue, Iterator |
 | [216. Combination sum iii](https://leetcode.com/problems/combination-sum-iii/) | [golang](/leetcode/combination-sum-iii/combination-sum-iii.go) | Medium | Array, Backtracking |
+| [47. Permutations ii](https://leetcode.com/problems/permutations-ii/) | [golang](/leetcode/permutations-ii/permutations-ii.go) | Medium | Array, Backtracking |
+| [1641. Count sorted vowel strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | [golang](/leetcode/count-sorted-vowel-strings/count-sorted-vowel-strings.go) | Medium | Dynamic Programming |
 
 
 ## codeforces
