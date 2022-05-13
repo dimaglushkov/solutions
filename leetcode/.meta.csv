@@ -128,3 +128,4 @@ flatten-nested-list-iterator,Medium,341,['golang'],"['Stack', 'Tree', 'Depth-Fir
 combination-sum-iii,Medium,216,['golang'],"['Array', 'Backtracking']"
 permutations-ii,Medium,47,['golang'],"['Array', 'Backtracking']"
 count-sorted-vowel-strings,Medium,1641,['golang'],['Dynamic Programming']
+populating-next-right-pointers-in-each-node-ii,Medium,117,['golang'],"['Linked List', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
