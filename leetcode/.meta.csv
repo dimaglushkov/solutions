@@ -129,3 +129,5 @@ combination-sum-iii,Medium,216,['golang'],"['Array', 'Backtracking']"
 permutations-ii,Medium,47,['golang'],"['Array', 'Backtracking']"
 count-sorted-vowel-strings,Medium,1641,['golang'],['Dynamic Programming']
 populating-next-right-pointers-in-each-node-ii,Medium,117,['golang'],"['Linked List', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+deepest-leaves-sum,Medium,1302,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+number-of-1-bits,Easy,191,['golang'],['Bit Manipulation']

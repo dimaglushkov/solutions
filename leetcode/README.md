@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 130
+Problems solved in total: 132
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -138,3 +138,5 @@ Problems solved in total: 130
 | [47. Permutations ii](https://leetcode.com/problems/permutations-ii/) | [golang](/leetcode/permutations-ii/permutations-ii.go) | Medium | Array, Backtracking |
 | [1641. Count sorted vowel strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | [golang](/leetcode/count-sorted-vowel-strings/count-sorted-vowel-strings.go) | Medium | Dynamic Programming |
 | [117. Populating next right pointers in each node ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [golang](/leetcode/populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.go) | Medium | Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [1302. Deepest leaves sum](https://leetcode.com/problems/deepest-leaves-sum/) | [golang](/leetcode/deepest-leaves-sum/deepest-leaves-sum.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [191. Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/) | [golang](/leetcode/number-of-1-bits/number-of-1-bits.go) | Easy | Bit Manipulation |
