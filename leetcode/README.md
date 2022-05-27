@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 132
+Problems solved in total: 133
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -140,3 +140,4 @@ Problems solved in total: 132
 | [117. Populating next right pointers in each node ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [golang](/leetcode/populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.go) | Medium | Linked List, Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [1302. Deepest leaves sum](https://leetcode.com/problems/deepest-leaves-sum/) | [golang](/leetcode/deepest-leaves-sum/deepest-leaves-sum.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [191. Number of 1 bits](https://leetcode.com/problems/number-of-1-bits/) | [golang](/leetcode/number-of-1-bits/number-of-1-bits.go) | Easy | Bit Manipulation |
+| [1342. Number of steps to reduce a number to zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [golang](/leetcode/number-of-steps-to-reduce-a-number-to-zero/number-of-steps-to-reduce-a-number-to-zero.go) | Easy | Math, Bit Manipulation |
