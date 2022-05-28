@@ -132,3 +132,4 @@ populating-next-right-pointers-in-each-node-ii,Medium,117,['golang'],"['Linked L
 deepest-leaves-sum,Medium,1302,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 number-of-1-bits,Easy,191,['golang'],['Bit Manipulation']
 number-of-steps-to-reduce-a-number-to-zero,Easy,1342,['golang'],"['Math', 'Bit Manipulation']"
+missing-number,Easy,268,['golang'],"['Array', 'Hash Table', 'Math', 'Bit Manipulation', 'Sorting']"
