@@ -110,10 +110,10 @@ is-graph-bipartite,Medium,785,['golang'],"['Depth-First Search', 'Breadth-First 
 number-of-ways-to-split-a-string,Medium,1573,['golang'],"['Math', 'String']"
 evaluate-division,Medium,399,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph', 'Shortest Path']"
 backspace-string-compare,Easy,844,['golang'],"['Two Pointers', 'String', 'Stack', 'Simulation']"
-count-prefixes-of-a-given-string,Easy,2255,['golang'],[]
-minimum-average-difference,Medium,2256,['golang'],[]
-remove-digit-from-number-to-maximize-result,Easy,2259,['golang'],[]
-minimum-consecutive-cards-to-pick-up,Medium,2260,['golang'],[]
+count-prefixes-of-a-given-string,Easy,2255,['golang'],"['Array', 'String']"
+minimum-average-difference,Medium,2256,['golang'],"['Array', 'Prefix Sum']"
+remove-digit-from-number-to-maximize-result,Easy,2259,['golang'],"['String', 'Greedy', 'Enumeration']"
+minimum-consecutive-cards-to-pick-up,Medium,2260,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
 rotate-image,Medium,48,['golang'],"['Array', 'Math', 'Matrix']"
 sort-array-by-parity,Easy,905,['golang'],"['Array', 'Two Pointers', 'Sorting']"
 shortest-unsorted-continuous-subarray,Medium,581,['golang'],"['Array', 'Two Pointers', 'Stack', 'Greedy', 'Sorting', 'Monotonic Stack']"
