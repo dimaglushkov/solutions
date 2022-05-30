@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 135
+Problems solved in total: 136
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -143,3 +143,4 @@ Problems solved in total: 135
 | [1342. Number of steps to reduce a number to zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [golang](/leetcode/number-of-steps-to-reduce-a-number-to-zero/number-of-steps-to-reduce-a-number-to-zero.go) | Easy | Math, Bit Manipulation |
 | [268. Missing number](https://leetcode.com/problems/missing-number/) | [golang](/leetcode/missing-number/missing-number.go) | Easy | Array, Hash Table, Math, Bit Manipulation, Sorting |
 | [318. Maximum product of word lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [golang](/leetcode/maximum-product-of-word-lengths/maximum-product-of-word-lengths.go) | Medium | Array, String, Bit Manipulation |
+| [29. Divide two integers](https://leetcode.com/problems/divide-two-integers/) | [golang](/leetcode/divide-two-integers/divide-two-integers.go) | Medium | Math, Bit Manipulation |

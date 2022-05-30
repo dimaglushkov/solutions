@@ -134,3 +134,4 @@ number-of-1-bits,Easy,191,['golang'],['Bit Manipulation']
 number-of-steps-to-reduce-a-number-to-zero,Easy,1342,['golang'],"['Math', 'Bit Manipulation']"
 missing-number,Easy,268,['golang'],"['Array', 'Hash Table', 'Math', 'Bit Manipulation', 'Sorting']"
 maximum-product-of-word-lengths,Medium,318,['golang'],"['Array', 'String', 'Bit Manipulation']"
+divide-two-integers,Medium,29,['golang'],"['Math', 'Bit Manipulation']"
