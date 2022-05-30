@@ -1,5 +1,6 @@
 package main
 
+/*
 import (
 	"sort"
 	"strconv"
@@ -28,7 +29,7 @@ func countDistinct(nums []int, k int, p int) int {
 	sort.Ints(div)
 
 	for i := 0; i <= k; i++ {
-		for
+
 	}
 
 	return 0
@@ -56,3 +57,4 @@ func permute(nums []int) [][]int {
 func main() {
 	countDistinct([]int{2, 3, 3, 2, 2}, 2, 2)
 }
+*/
