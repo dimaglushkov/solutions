@@ -20,7 +20,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 137
+Problems solved in total: 138
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -165,6 +165,7 @@ Problems solved in total: 137
 | [318. Maximum product of word lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [golang](/leetcode/maximum-product-of-word-lengths/maximum-product-of-word-lengths.go) | Medium | Array, String, Bit Manipulation |
 | [29. Divide two integers](https://leetcode.com/problems/divide-two-integers/) | [golang](/leetcode/divide-two-integers/divide-two-integers.go) | Medium | Math, Bit Manipulation |
 | [1461. Check if a string contains all binary codes of size k](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [golang](/leetcode/check-if-a-string-contains-all-binary-codes-of-size-k/check-if-a-string-contains-all-binary-codes-of-size-k.go) | Medium | Hash Table, String, Bit Manipulation, Rolling Hash, Hash Function |
+| [867. Transpose matrix](https://leetcode.com/problems/transpose-matrix/) | [golang](/leetcode/transpose-matrix/transpose-matrix.go) | Easy | Array, Matrix, Simulation |
 
 
 ## codeforces
