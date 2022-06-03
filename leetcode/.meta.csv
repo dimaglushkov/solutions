@@ -137,3 +137,4 @@ maximum-product-of-word-lengths,Medium,318,['golang'],"['Array', 'String', 'Bit 
 divide-two-integers,Medium,29,['golang'],"['Math', 'Bit Manipulation']"
 check-if-a-string-contains-all-binary-codes-of-size-k,Medium,1461,['golang'],"['Hash Table', 'String', 'Bit Manipulation', 'Rolling Hash', 'Hash Function']"
 transpose-matrix,Easy,867,['golang'],"['Array', 'Matrix', 'Simulation']"
+range-sum-query-2d-immutable,Medium,304,['golang'],"['Array', 'Design', 'Matrix', 'Prefix Sum']"
