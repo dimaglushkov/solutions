@@ -20,7 +20,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 139
+Problems solved in total: 140
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -167,6 +167,7 @@ Problems solved in total: 139
 | [1461. Check if a string contains all binary codes of size k](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | [golang](/leetcode/check-if-a-string-contains-all-binary-codes-of-size-k/check-if-a-string-contains-all-binary-codes-of-size-k.go) | Medium | Hash Table, String, Bit Manipulation, Rolling Hash, Hash Function |
 | [867. Transpose matrix](https://leetcode.com/problems/transpose-matrix/) | [golang](/leetcode/transpose-matrix/transpose-matrix.go) | Easy | Array, Matrix, Simulation |
 | [304. Range sum query 2d immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [golang](/leetcode/range-sum-query-2d-immutable/range-sum-query-2d-immutable.go) | Medium | Array, Design, Matrix, Prefix Sum |
+| [160. Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [golang](/leetcode/intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | Easy | Hash Table, Linked List, Two Pointers |
 
 
 ## codeforces
