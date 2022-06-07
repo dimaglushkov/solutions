@@ -139,3 +139,4 @@ check-if-a-string-contains-all-binary-codes-of-size-k,Medium,1461,['golang'],"['
 transpose-matrix,Easy,867,['golang'],"['Array', 'Matrix', 'Simulation']"
 range-sum-query-2d-immutable,Medium,304,['golang'],"['Array', 'Design', 'Matrix', 'Prefix Sum']"
 intersection-of-two-linked-lists,Easy,160,['golang'],"['Hash Table', 'Linked List', 'Two Pointers']"
+merge-sorted-array,Easy,88,['golang'],"['Array', 'Two Pointers', 'Sorting']"
