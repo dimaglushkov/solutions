@@ -20,7 +20,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 142
+Problems solved in total: 144
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -170,6 +170,8 @@ Problems solved in total: 142
 | [160. Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [golang](/leetcode/intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | Easy | Hash Table, Linked List, Two Pointers |
 | [88. Merge sorted array](https://leetcode.com/problems/merge-sorted-array/) | [golang](/leetcode/merge-sorted-array/merge-sorted-array.go) | Easy | Array, Two Pointers, Sorting |
 | [1332. Remove palindromic subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [golang](/leetcode/remove-palindromic-subsequences/remove-palindromic-subsequences.go) | Easy | Two Pointers, String |
+| [51. N queens](https://leetcode.com/problems/n-queens/) | [golang](/leetcode/n-queens/n-queens.go) | Hard | Array, Backtracking |
+| [52. N queens ii](https://leetcode.com/problems/n-queens-ii/) | [golang](/leetcode/n-queens-ii/n-queens-ii.go) | Hard | Backtracking |
 
 
 ## codeforces

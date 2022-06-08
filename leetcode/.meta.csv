@@ -141,3 +141,5 @@ range-sum-query-2d-immutable,Medium,304,['golang'],"['Array', 'Design', 'Matrix'
 intersection-of-two-linked-lists,Easy,160,['golang'],"['Hash Table', 'Linked List', 'Two Pointers']"
 merge-sorted-array,Easy,88,['golang'],"['Array', 'Two Pointers', 'Sorting']"
 remove-palindromic-subsequences,Easy,1332,['golang'],"['Two Pointers', 'String']"
+n-queens,Hard,51,['golang'],"['Array', 'Backtracking']"
+n-queens-ii,Hard,52,['golang'],['Backtracking']
