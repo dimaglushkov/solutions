@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 141
+Problems solved in total: 142
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -149,3 +149,4 @@ Problems solved in total: 141
 | [304. Range sum query 2d immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [golang](/leetcode/range-sum-query-2d-immutable/range-sum-query-2d-immutable.go) | Medium | Array, Design, Matrix, Prefix Sum |
 | [160. Intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [golang](/leetcode/intersection-of-two-linked-lists/intersection-of-two-linked-lists.go) | Easy | Hash Table, Linked List, Two Pointers |
 | [88. Merge sorted array](https://leetcode.com/problems/merge-sorted-array/) | [golang](/leetcode/merge-sorted-array/merge-sorted-array.go) | Easy | Array, Two Pointers, Sorting |
+| [1332. Remove palindromic subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [golang](/leetcode/remove-palindromic-subsequences/remove-palindromic-subsequences.go) | Easy | Two Pointers, String |
