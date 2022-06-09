@@ -143,3 +143,4 @@ merge-sorted-array,Easy,88,['golang'],"['Array', 'Two Pointers', 'Sorting']"
 remove-palindromic-subsequences,Easy,1332,['golang'],"['Two Pointers', 'String']"
 n-queens,Hard,51,['golang'],"['Array', 'Backtracking']"
 n-queens-ii,Hard,52,['golang'],['Backtracking']
+two-sum-ii-input-array-is-sorted,Medium,167,['golang'],"['Array', 'Two Pointers', 'Binary Search']"

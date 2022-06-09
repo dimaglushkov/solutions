@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 144
+Problems solved in total: 145
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -152,3 +152,4 @@ Problems solved in total: 144
 | [1332. Remove palindromic subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | [golang](/leetcode/remove-palindromic-subsequences/remove-palindromic-subsequences.go) | Easy | Two Pointers, String |
 | [51. N queens](https://leetcode.com/problems/n-queens/) | [golang](/leetcode/n-queens/n-queens.go) | Hard | Array, Backtracking |
 | [52. N queens ii](https://leetcode.com/problems/n-queens-ii/) | [golang](/leetcode/n-queens-ii/n-queens-ii.go) | Hard | Backtracking |
+| [167. Two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [golang](/leetcode/two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.go) | Medium | Array, Two Pointers, Binary Search |
