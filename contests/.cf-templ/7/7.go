@@ -22,3 +22,39 @@ func main() {
 		fmt.Fprintln(out, solve())
 	}
 }
+
+// util functions
+func max(x, y int) int {
+	if x > y {
+		return x
+	}
+	return y
+}
+
+func min(x, y int) int {
+	if x < y {
+		return x
+	}
+	return y
+}
+
+func abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
+
+func dupMap[K comparable, V any](x map[K]V) map[K]V {
+	y := make(map[K]V, len(x))
+	for k, v := range x {
+		y[k] = v
+	}
+	return y
+}
+
+func dupSlice[T any](x []T) []T {
+	y := make([]T, len(x))
+	copy(y, x)
+	return y
+}
