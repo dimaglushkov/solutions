@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 146
+Problems solved in total: 147
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -154,3 +154,4 @@ Problems solved in total: 146
 | [52. N queens ii](https://leetcode.com/problems/n-queens-ii/) | [golang](/leetcode/n-queens-ii/n-queens-ii.go) | Hard | Backtracking |
 | [167. Two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [golang](/leetcode/two-sum-ii-input-array-is-sorted/two-sum-ii-input-array-is-sorted.go) | Medium | Array, Two Pointers, Binary Search |
 | [1695. Maximum erasure value](https://leetcode.com/problems/maximum-erasure-value/) | [golang](/leetcode/maximum-erasure-value/maximum-erasure-value.go) | Medium | Array, Hash Table, Sliding Window |
+| [120. Triangle](https://leetcode.com/problems/triangle/) | [golang](/leetcode/triangle/triangle.go) | Medium | Array, Dynamic Programming |

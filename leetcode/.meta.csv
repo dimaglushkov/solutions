@@ -145,3 +145,4 @@ n-queens,Hard,51,['golang'],"['Array', 'Backtracking']"
 n-queens-ii,Hard,52,['golang'],['Backtracking']
 two-sum-ii-input-array-is-sorted,Medium,167,['golang'],"['Array', 'Two Pointers', 'Binary Search']"
 maximum-erasure-value,Medium,1695,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
+triangle,Medium,120,['golang'],"['Array', 'Dynamic Programming']"
