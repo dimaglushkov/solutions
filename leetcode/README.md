@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 148
+Problems solved in total: 149
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -156,3 +156,4 @@ Problems solved in total: 148
 | [1695. Maximum erasure value](https://leetcode.com/problems/maximum-erasure-value/) | [golang](/leetcode/maximum-erasure-value/maximum-erasure-value.go) | Medium | Array, Hash Table, Sliding Window |
 | [120. Triangle](https://leetcode.com/problems/triangle/) | [golang](/leetcode/triangle/triangle.go) | Medium | Array, Dynamic Programming |
 | [583. Delete operation for two strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | [golang](/leetcode/delete-operation-for-two-strings/delete-operation-for-two-strings.go) | Medium | String, Dynamic Programming |
+| [1048. Longest string chain](https://leetcode.com/problems/longest-string-chain/) | [golang](/leetcode/longest-string-chain/longest-string-chain.go) | Medium | Array, Hash Table, Two Pointers, String, Dynamic Programming |
