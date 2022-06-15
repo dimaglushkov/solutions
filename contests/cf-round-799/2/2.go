@@ -4,15 +4,30 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() string {
-	var s string
-	fmt.Fscan(in, &s)
+	var n int
+	fmt.Fscan(in, &n)
+	var values = make(map[int]bool, n)
+	var tmp int
+	var res int
+	for i := 0; i < n; i++ {
+		fmt.Fscan(in, &tmp)
+		if !values[tmp] {
+			values[tmp] = true
+		}
+	}
 
-	return ""
+	res = len(values)
+	if (n-res)%2 == 1 {
+		res--
+	}
+
+	return strconv.FormatInt(int64(res), 10)
 }
 
 func main() {
@@ -23,6 +38,7 @@ func main() {
 	}
 }
 
+// util functions
 func max(x, y int) int {
 	if x > y {
 		return x

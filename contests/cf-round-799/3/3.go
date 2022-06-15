@@ -9,10 +9,26 @@ import (
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() string {
-	var s string
-	fmt.Fscan(in, &s)
+	var board [8]string
+	for i := 0; i < 8; i++ {
+		fmt.Fscan(in, &board[i])
+	}
 
-	return ""
+	var x, y int
+
+	for i := 1; i < 7; i++ {
+		for j := 1; j < 7; j++ {
+			if board[i][j] == '#' &&
+				board[i-1][j-1] == '#' &&
+				board[i+1][j-1] == '#' &&
+				board[i-1][j+1] == '#' &&
+				board[i+1][j+1] == '#' {
+				x, y = i, j
+			}
+		}
+	}
+
+	return fmt.Sprintf("%d %d", x+1, y+1)
 }
 
 func main() {
@@ -23,6 +39,7 @@ func main() {
 	}
 }
 
+// util functions
 func max(x, y int) int {
 	if x > y {
 		return x

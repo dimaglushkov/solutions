@@ -4,15 +4,51 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
+	"strings"
 )
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() string {
-	var s string
-	fmt.Fscan(in, &s)
+	var time string
+	var h, m, ii, hi, mi int
+	fmt.Fscan(in, &time)
+	fmt.Fscan(in, &ii)
+	var tmp int64
+	tmp, _ = strconv.ParseInt(strings.Split(time, ":")[0], 10, 32)
+	h = int(tmp)
 
-	return ""
+	tmp, _ = strconv.ParseInt(strings.Split(time, ":")[1], 10, 32)
+	m = int(tmp)
+
+	hi = ii / 60
+	mi = ii % 60
+
+	var res int
+	var sh, sm = h, m
+	for true {
+		m += mi
+
+		if m > 59 {
+			h++
+			m %= 60
+		}
+		h += hi
+		if h > 23 {
+			h %= 24
+		}
+
+		if h/10 == m%10 && h%10 == m/10 {
+			res++
+		}
+
+		if sh == h && sm == m {
+			break
+		}
+	}
+
+	return strconv.FormatInt(int64(res), 10)
 }
 
 func main() {
@@ -43,20 +79,6 @@ func abs(x int) int {
 		return -x
 	}
 	return x
-}
-
-func dupMap[K comparable, V any](x map[K]V) map[K]V {
-	y := make(map[K]V, len(x))
-	for k, v := range x {
-		y[k] = v
-	}
-	return y
-}
-
-func dupSlice[T any](x []T) []T {
-	y := make([]T, len(x))
-	copy(y, x)
-	return y
 }
 
 func makeMatrix(n, m int) [][]int {

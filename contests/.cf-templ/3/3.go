@@ -58,3 +58,11 @@ func dupSlice[T any](x []T) []T {
 	copy(y, x)
 	return y
 }
+
+func makeMatrix(n, m int) [][]int {
+	x := make([][]int, n)
+	for i := range x {
+		x[i] = make([]int, m)
+	}
+	return x
+}
