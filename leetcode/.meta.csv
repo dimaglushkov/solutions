@@ -148,3 +148,4 @@ maximum-erasure-value,Medium,1695,['golang'],"['Array', 'Hash Table', 'Sliding W
 triangle,Medium,120,['golang'],"['Array', 'Dynamic Programming']"
 delete-operation-for-two-strings,Medium,583,['golang'],"['String', 'Dynamic Programming']"
 longest-string-chain,Medium,1048,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'String', 'Dynamic Programming']"
+valid-anagram,Easy,242,['golang'],"['Hash Table', 'String', 'Sorting']"

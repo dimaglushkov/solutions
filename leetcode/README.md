@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 149
+Problems solved in total: 150
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -157,3 +157,4 @@ Problems solved in total: 149
 | [120. Triangle](https://leetcode.com/problems/triangle/) | [golang](/leetcode/triangle/triangle.go) | Medium | Array, Dynamic Programming |
 | [583. Delete operation for two strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | [golang](/leetcode/delete-operation-for-two-strings/delete-operation-for-two-strings.go) | Medium | String, Dynamic Programming |
 | [1048. Longest string chain](https://leetcode.com/problems/longest-string-chain/) | [golang](/leetcode/longest-string-chain/longest-string-chain.go) | Medium | Array, Hash Table, Two Pointers, String, Dynamic Programming |
+| [242. Valid anagram](https://leetcode.com/problems/valid-anagram/) | [golang](/leetcode/valid-anagram/valid-anagram.go) | Easy | Hash Table, String, Sorting |
