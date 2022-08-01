@@ -21,7 +21,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 150
+Problems solved in total: 151
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -179,6 +179,7 @@ Problems solved in total: 150
 | [583. Delete operation for two strings](https://leetcode.com/problems/delete-operation-for-two-strings/) | [golang](/leetcode/delete-operation-for-two-strings/delete-operation-for-two-strings.go) | Medium | String, Dynamic Programming |
 | [1048. Longest string chain](https://leetcode.com/problems/longest-string-chain/) | [golang](/leetcode/longest-string-chain/longest-string-chain.go) | Medium | Array, Hash Table, Two Pointers, String, Dynamic Programming |
 | [242. Valid anagram](https://leetcode.com/problems/valid-anagram/) | [golang](/leetcode/valid-anagram/valid-anagram.go) | Easy | Hash Table, String, Sorting |
+| [62. Unique paths](https://leetcode.com/problems/unique-paths/) | [golang](/leetcode/unique-paths/unique-paths.go) | Medium | Math, Dynamic Programming, Combinatorics |
 
 
 ## codeforces
