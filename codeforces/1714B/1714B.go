@@ -4,15 +4,30 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() string {
-	var s string
-	fmt.Fscan(in, &s)
+	var n int
+	fmt.Fscan(in, &n)
+	nums := make([]int, n)
+	for i := 0; i < n; i++ {
+		fmt.Fscan(in, &nums[i])
+	}
 
-	return ""
+	cnt := 0
+	set := make(map[int]bool)
+	for i := n - 1; i >= 0; i-- {
+		if exists := set[nums[i]]; exists {
+			break
+		}
+		set[nums[i]] = true
+		cnt++
+	}
+
+	return strconv.FormatInt(int64(n-cnt), 10)
 }
 
 func main() {

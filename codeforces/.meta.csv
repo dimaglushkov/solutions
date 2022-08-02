@@ -33,3 +33,7 @@ id,name,contest,problem,difficulty,tags,lang
 1692C,Where's the Bishop?,1692,C,,['implementation'],['golang']
 1692D,The Clock,1692,D,,"['brute force', 'implementation']",['golang']
 1692F,3SUM,1692,F,,"['brute force', 'math']",['golang']
+1714A,Everyone Loves to Sleep,1714,A,,['math'],['golang']
+1714B,Remove Prefix,1714,B,,['implementation'],['golang']
+1714C,Minimum  Varied Number,1714,C,,['greedy'],['golang']
+1714E,Add Modulo 10,1714,E,,"['math', 'number theory']",['golang']

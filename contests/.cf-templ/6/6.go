@@ -45,20 +45,6 @@ func abs(x int) int {
 	return x
 }
 
-func dupMap[K comparable, V any](x map[K]V) map[K]V {
-	y := make(map[K]V, len(x))
-	for k, v := range x {
-		y[k] = v
-	}
-	return y
-}
-
-func dupSlice[T any](x []T) []T {
-	y := make([]T, len(x))
-	copy(y, x)
-	return y
-}
-
 func makeMatrix(n, m int) [][]int {
 	x := make([][]int, n)
 	for i := range x {

@@ -17,11 +17,13 @@ This repo stores my problem-solving related code
 | [Leetcode Weekly Contest 291](https://leetcode.com/contest/weekly-contest-291/) | 6183 / 19491 | [solutions](/contests/lc-weekly-291) | 01 may 2022 |
 | [Codeforces Round #790 (Div. 4)](https://codeforces.com/contests/1676) | 7449 / 29363 | [solutions](/contests/cf-round-790) | 10 may 2022 | 
 | [Codeforces Round #799 (Div. 4)](https://codeforces.com/contests/1692) | 3515 / 20029 | [solutions](/contests/cf-round-799) | 14 jun 2022 | 
+| [Codeforces Round #811 (Div. 3)](https://codeforces.com/contests/1714) | 3935 / 30969 | [solutions](/contests/cf-round-811) | 01 aug 2022 | 
+
 
 
 ## leetcode
     
-Problems solved in total: 151
+Problems solved in total: 152
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -219,7 +221,10 @@ Problems solved in total: 151
 | [1692C. Where's the Bishop?](https://codeforces.com/contest/1692/problem/C) | [golang](/codeforces/1692C/1692C.go) | nan | implementation |
 | [1692D. The Clock](https://codeforces.com/contest/1692/problem/D) | [golang](/codeforces/1692D/1692D.go) | nan | brute force, implementation |
 | [1692F. 3SUM](https://codeforces.com/contest/1692/problem/F) | [golang](/codeforces/1692F/1692F.go) | nan | brute force, math |
-| [1070A. Find a Number](https://codeforces.com/contest/1070/problem/A) | [golang](/codeforces/1070A/1070A.go) | 2200.0 | dp, graphs, number theory, shortest paths |
+| [1714A. Everyone Loves to Sleep](https://codeforces.com/contest/1714/problem/A) | [golang](/codeforces/1714A/1714A.go) | nan | math |
+| [1714B. Remove Prefix](https://codeforces.com/contest/1714/problem/B) | [golang](/codeforces/1714B/1714B.go) | nan | implementation |
+| [1714C. Minimum  Varied Number](https://codeforces.com/contest/1714/problem/C) | [golang](/codeforces/1714C/1714C.go) | nan | greedy |
+| [1714E. Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | [golang](/codeforces/1714E/1714E.go) | nan | math, number theory |
 
 
 ## acm.timus

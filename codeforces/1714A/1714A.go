@@ -9,10 +9,26 @@ import (
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() string {
-	var s string
-	fmt.Fscan(in, &s)
+	var n, h, m int
+	fmt.Fscan(in, &n, &h, &m)
 
-	return ""
+	var hi, mi, res int
+	res = 10000
+	t := 60*h + m
+	for i := 0; i < n; i++ {
+		fmt.Fscan(in, &hi, &mi)
+		ti := 60*hi + mi
+		if ti < t {
+			ti += 24 * 60
+		}
+		if ti-t < res {
+			res = ti - t
+		}
+	}
+
+	rh, rm := res/60, res%60
+
+	return fmt.Sprintf("%d %d", rh, rm)
 }
 
 func main() {
