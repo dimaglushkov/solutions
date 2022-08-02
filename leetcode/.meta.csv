@@ -150,3 +150,4 @@ delete-operation-for-two-strings,Medium,583,['golang'],"['String', 'Dynamic Prog
 longest-string-chain,Medium,1048,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'String', 'Dynamic Programming']"
 valid-anagram,Easy,242,['golang'],"['Hash Table', 'String', 'Sorting']"
 unique-paths,Medium,62,['golang'],"['Math', 'Dynamic Programming', 'Combinatorics']"
+kth-smallest-element-in-a-sorted-matrix,Medium,378,['golang'],"['Array', 'Binary Search', 'Sorting', 'Heap (Priority Queue)', 'Matrix']"
