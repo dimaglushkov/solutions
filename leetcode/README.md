@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 154
+Problems solved in total: 155
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -162,3 +162,4 @@ Problems solved in total: 154
 | [378. Kth smallest element in a sorted matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [golang](/leetcode/kth-smallest-element-in-a-sorted-matrix/kth-smallest-element-in-a-sorted-matrix.go) | Medium | Array, Binary Search, Sorting, Heap (Priority Queue), Matrix |
 | [729. My calendar i](https://leetcode.com/problems/my-calendar-i/) | [golang](/leetcode/my-calendar-i/my-calendar-i.go) | Medium | Binary Search, Design, Segment Tree, Ordered Set |
 | [858. Mirror reflection](https://leetcode.com/problems/mirror-reflection/) | [golang](/leetcode/mirror-reflection/mirror-reflection.go) | Medium | Math, Geometry |
+| [377. Combination sum iv](https://leetcode.com/problems/combination-sum-iv/) | [golang](/leetcode/combination-sum-iv/combination-sum-iv.go) | Medium | Array, Dynamic Programming |
