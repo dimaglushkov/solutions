@@ -154,3 +154,4 @@ kth-smallest-element-in-a-sorted-matrix,Medium,378,['golang'],"['Array', 'Binary
 my-calendar-i,Medium,729,['golang'],"['Binary Search', 'Design', 'Segment Tree', 'Ordered Set']"
 mirror-reflection,Medium,858,['golang'],"['Math', 'Geometry']"
 combination-sum-iv,Medium,377,['golang'],"['Array', 'Dynamic Programming']"
+poor-pigs,Hard,458,['golang'],"['Math', 'Dynamic Programming', 'Combinatorics']"
