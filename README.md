@@ -23,7 +23,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 157
+Problems solved in total: 158
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -188,6 +188,7 @@ Problems solved in total: 157
 | [377. Combination sum iv](https://leetcode.com/problems/combination-sum-iv/) | [golang](/leetcode/combination-sum-iv/combination-sum-iv.go) | Medium | Array, Dynamic Programming |
 | [458. Poor pigs](https://leetcode.com/problems/poor-pigs/) | [golang](/leetcode/poor-pigs/poor-pigs.go) | Hard | Math, Dynamic Programming, Combinatorics |
 | [300. Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [golang](/leetcode/longest-increasing-subsequence/longest-increasing-subsequence.go) | Medium | Array, Binary Search, Dynamic Programming |
+| [1220. Count vowels permutation](https://leetcode.com/problems/count-vowels-permutation/) | [golang](/leetcode/count-vowels-permutation/count-vowels-permutation.go) | Hard | Dynamic Programming |
 
 
 ## codeforces
