@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 156
+Problems solved in total: 157
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -164,3 +164,4 @@ Problems solved in total: 156
 | [858. Mirror reflection](https://leetcode.com/problems/mirror-reflection/) | [golang](/leetcode/mirror-reflection/mirror-reflection.go) | Medium | Math, Geometry |
 | [377. Combination sum iv](https://leetcode.com/problems/combination-sum-iv/) | [golang](/leetcode/combination-sum-iv/combination-sum-iv.go) | Medium | Array, Dynamic Programming |
 | [458. Poor pigs](https://leetcode.com/problems/poor-pigs/) | [golang](/leetcode/poor-pigs/poor-pigs.go) | Hard | Math, Dynamic Programming, Combinatorics |
+| [300. Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [golang](/leetcode/longest-increasing-subsequence/longest-increasing-subsequence.go) | Medium | Array, Binary Search, Dynamic Programming |

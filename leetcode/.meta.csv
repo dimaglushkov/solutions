@@ -155,3 +155,4 @@ my-calendar-i,Medium,729,['golang'],"['Binary Search', 'Design', 'Segment Tree',
 mirror-reflection,Medium,858,['golang'],"['Math', 'Geometry']"
 combination-sum-iv,Medium,377,['golang'],"['Array', 'Dynamic Programming']"
 poor-pigs,Hard,458,['golang'],"['Math', 'Dynamic Programming', 'Combinatorics']"
+longest-increasing-subsequence,Medium,300,['golang'],"['Array', 'Binary Search', 'Dynamic Programming']"
