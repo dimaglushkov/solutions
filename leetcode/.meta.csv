@@ -157,3 +157,4 @@ combination-sum-iv,Medium,377,['golang'],"['Array', 'Dynamic Programming']"
 poor-pigs,Hard,458,['golang'],"['Math', 'Dynamic Programming', 'Combinatorics']"
 longest-increasing-subsequence,Medium,300,['golang'],"['Array', 'Binary Search', 'Dynamic Programming']"
 count-vowels-permutation,Hard,1220,['golang'],['Dynamic Programming']
+binary-trees-with-factors,Medium,823,['golang'],"['Array', 'Hash Table', 'Dynamic Programming']"
