@@ -23,7 +23,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 159
+Problems solved in total: 160
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -190,6 +190,7 @@ Problems solved in total: 159
 | [300. Longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [golang](/leetcode/longest-increasing-subsequence/longest-increasing-subsequence.go) | Medium | Array, Binary Search, Dynamic Programming |
 | [1220. Count vowels permutation](https://leetcode.com/problems/count-vowels-permutation/) | [golang](/leetcode/count-vowels-permutation/count-vowels-permutation.go) | Hard | Dynamic Programming |
 | [823. Binary trees with factors](https://leetcode.com/problems/binary-trees-with-factors/) | [golang](/leetcode/binary-trees-with-factors/binary-trees-with-factors.go) | Medium | Array, Hash Table, Dynamic Programming |
+| [108. Convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [golang](/leetcode/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.go) | Easy | Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree |
 
 
 ## codeforces
