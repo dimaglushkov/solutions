@@ -159,3 +159,4 @@ longest-increasing-subsequence,Medium,300,['golang'],"['Array', 'Binary Search',
 count-vowels-permutation,Hard,1220,['golang'],['Dynamic Programming']
 binary-trees-with-factors,Medium,823,['golang'],"['Array', 'Hash Table', 'Dynamic Programming']"
 convert-sorted-array-to-binary-search-tree,Easy,108,['golang'],"['Array', 'Divide and Conquer', 'Tree', 'Binary Search Tree', 'Binary Tree']"
+validate-binary-search-tree,Medium,98,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
