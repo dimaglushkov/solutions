@@ -23,7 +23,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 161
+Problems solved in total: 162
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -192,6 +192,7 @@ Problems solved in total: 161
 | [823. Binary trees with factors](https://leetcode.com/problems/binary-trees-with-factors/) | [golang](/leetcode/binary-trees-with-factors/binary-trees-with-factors.go) | Medium | Array, Hash Table, Dynamic Programming |
 | [108. Convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [golang](/leetcode/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.go) | Easy | Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree |
 | [98. Validate binary search tree](https://leetcode.com/problems/validate-binary-search-tree/) | [golang](/leetcode/validate-binary-search-tree/validate-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [235. Lowest common ancestor of a binary search tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.go) | Easy | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 
 
 ## codeforces
