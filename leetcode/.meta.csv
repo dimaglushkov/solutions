@@ -161,3 +161,4 @@ binary-trees-with-factors,Medium,823,['golang'],"['Array', 'Hash Table', 'Dynami
 convert-sorted-array-to-binary-search-tree,Easy,108,['golang'],"['Array', 'Divide and Conquer', 'Tree', 'Binary Search Tree', 'Binary Tree']"
 validate-binary-search-tree,Medium,98,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 lowest-common-ancestor-of-a-binary-search-tree,Easy,235,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
+first-unique-character-in-a-string,Easy,387,['golang'],"['Hash Table', 'String', 'Queue', 'Counting']"

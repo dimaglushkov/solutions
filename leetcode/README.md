@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 162
+Problems solved in total: 163
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -170,3 +170,4 @@ Problems solved in total: 162
 | [108. Convert sorted array to binary search tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [golang](/leetcode/convert-sorted-array-to-binary-search-tree/convert-sorted-array-to-binary-search-tree.go) | Easy | Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree |
 | [98. Validate binary search tree](https://leetcode.com/problems/validate-binary-search-tree/) | [golang](/leetcode/validate-binary-search-tree/validate-binary-search-tree.go) | Medium | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [235. Lowest common ancestor of a binary search tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.go) | Easy | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [387. First unique character in a string](https://leetcode.com/problems/first-unique-character-in-a-string/) | [golang](/leetcode/first-unique-character-in-a-string/first-unique-character-in-a-string.go) | Easy | Hash Table, String, Queue, Counting |
