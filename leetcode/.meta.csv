@@ -162,3 +162,4 @@ convert-sorted-array-to-binary-search-tree,Easy,108,['golang'],"['Array', 'Divid
 validate-binary-search-tree,Medium,98,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 lowest-common-ancestor-of-a-binary-search-tree,Easy,235,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 first-unique-character-in-a-string,Easy,387,['golang'],"['Hash Table', 'String', 'Queue', 'Counting']"
+unique-morse-code-words,Easy,804,['golang'],"['Array', 'Hash Table', 'String']"
