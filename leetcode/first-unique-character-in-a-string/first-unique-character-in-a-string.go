@@ -1,29 +1,37 @@
 package main
 
-import "fmt"
-
 // source: https://leetcode.com/problems/first-unique-character-in-a-string/
 
 func firstUniqChar(s string) int {
-    m := make(map[rune]int)
-    for i, r := range s {
-        if _, ok := m[r]; ok {
-            m[r] = -1
-            continue
-        }
-        m[r] = i
-    }
+	m := make(map[rune]int)
+	d := make(map[rune]bool)
+	for i, r := range s {
+		if _, ok := d[r]; ok {
+			continue
+		}
+		if _, ok := m[r]; ok {
+			delete(m, r)
+			d[r] = true
+			continue
+		}
+		m[r] = i
+	}
 
-    res := 1000000
-    for _, i := range m {
-        if i > -1 && i < res {
-            res = i
-        }
-    }
+	if len(m) == 0 {
+		return -1
+	}
 
-    if res == 1000000 {
-        return -1
-    }
-    return res
+	res := 1000000
+	for _, i := range m {
+		if i < res {
+			res = i
+		}
+	}
 
+	return res
+
+}
+
+func main() {
+	firstUniqChar("aabb")
 }
