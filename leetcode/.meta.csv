@@ -174,3 +174,4 @@ minimum-recolors-to-get-k-consecutive-black-blocks,Easy,2379,['golang'],"['Strin
 time-needed-to-rearrange-a-binary-string,Medium,2380,['golang'],"['String', 'Dynamic Programming', 'Simulation']"
 shifting-letters-ii,Medium,2381,['golang'],"['Array', 'String', 'Prefix Sum']"
 word-ladder-ii,Hard,126,['golang'],"['Hash Table', 'String', 'Backtracking', 'Breadth-First Search']"
+max-sum-of-rectangle-no-larger-than-k,Hard,363,['golang'],"['Array', 'Binary Search', 'Matrix', 'Prefix Sum', 'Ordered Set']"

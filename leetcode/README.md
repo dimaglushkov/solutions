@@ -183,3 +183,4 @@ Problems solved in total: 176
 | [2380. Time needed to rearrange a binary string](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | [golang](/leetcode/time-needed-to-rearrange-a-binary-string/time-needed-to-rearrange-a-binary-string.go) | Medium | String, Dynamic Programming, Simulation |
 | [2381. Shifting letters ii](https://leetcode.com/problems/shifting-letters-ii/) | [golang](/leetcode/shifting-letters-ii/shifting-letters-ii.go) | Medium | Array, String, Prefix Sum |
 | [126. Word ladder ii](https://leetcode.com/problems/word-ladder-ii/) | [golang](/leetcode/word-ladder-ii/word-ladder-ii.go) | Hard | Hash Table, String, Backtracking, Breadth-First Search |
+| [363. Max sum of rectangle no larger than k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) | [golang](/leetcode/max-sum-of-rectangle-no-larger-than-k/max-sum-of-rectangle-no-larger-than-k.go) | Hard | Array, Binary Search, Matrix, Prefix Sum, Ordered Set |
