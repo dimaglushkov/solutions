@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 164
+Problems solved in total: 176
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -172,3 +172,14 @@ Problems solved in total: 164
 | [235. Lowest common ancestor of a binary search tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-search-tree/lowest-common-ancestor-of-a-binary-search-tree.go) | Easy | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
 | [387. First unique character in a string](https://leetcode.com/problems/first-unique-character-in-a-string/) | [golang](/leetcode/first-unique-character-in-a-string/first-unique-character-in-a-string.go) | Easy | Hash Table, String, Queue, Counting |
 | [804. Unique morse code words](https://leetcode.com/problems/unique-morse-code-words/) | [golang](/leetcode/unique-morse-code-words/unique-morse-code-words.go) | Easy | Array, Hash Table, String |
+| [1338. Reduce array size to the half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [golang](/leetcode/reduce-array-size-to-the-half/reduce-array-size-to-the-half.go) | Medium | Array, Hash Table, Greedy, Sorting, Heap (Priority Queue) |
+| [659. Split array into consecutive subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [golang](/leetcode/split-array-into-consecutive-subsequences/split-array-into-consecutive-subsequences.go) | Medium | Array, Hash Table, Greedy, Heap (Priority Queue) |
+| [342. Power of four](https://leetcode.com/problems/power-of-four/) | [golang](/leetcode/power-of-four/power-of-four.go) | Easy | Math, Bit Manipulation, Recursion |
+| [234. Palindrome linked list](https://leetcode.com/problems/palindrome-linked-list/) | [golang](/leetcode/palindrome-linked-list/palindrome-linked-list.go) | Easy | Linked List, Two Pointers, Stack, Recursion |
+| [326. Power of three](https://leetcode.com/problems/power-of-three/) | [golang](/leetcode/power-of-three/power-of-three.go) | Easy | Math, Recursion |
+| [383. Ransom note](https://leetcode.com/problems/ransom-note/) | [golang](/leetcode/ransom-note/ransom-note.go) | Easy | Hash Table, String, Counting |
+| [869. Reordered power of 2](https://leetcode.com/problems/reordered-power-of-2/) | [golang](/leetcode/reordered-power-of-2/reordered-power-of-2.go) | Medium | Math, Sorting, Counting, Enumeration |
+| [2379. Minimum recolors to get k consecutive black blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | [golang](/leetcode/minimum-recolors-to-get-k-consecutive-black-blocks/minimum-recolors-to-get-k-consecutive-black-blocks.go) | Easy | String, Sliding Window |
+| [2380. Time needed to rearrange a binary string](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/) | [golang](/leetcode/time-needed-to-rearrange-a-binary-string/time-needed-to-rearrange-a-binary-string.go) | Medium | String, Dynamic Programming, Simulation |
+| [2381. Shifting letters ii](https://leetcode.com/problems/shifting-letters-ii/) | [golang](/leetcode/shifting-letters-ii/shifting-letters-ii.go) | Medium | Array, String, Prefix Sum |
+| [126. Word ladder ii](https://leetcode.com/problems/word-ladder-ii/) | [golang](/leetcode/word-ladder-ii/word-ladder-ii.go) | Hard | Hash Table, String, Backtracking, Breadth-First Search |

@@ -149,7 +149,7 @@ def clear_codeforces_meta_file(data: dict):
     pd.DataFrame.from_dict(data).transpose().to_csv('../codeforces/.meta.csv', index_label='id', index=True)
 
 
-def create_code_template(lang: str, d: str, data: dict) -> None:
+def create_code_template(lang: str, d: str, no_tests: bool, data: dict) -> None:
     problem_id = f"{data['contestId']}{data['index']}"
     if not os.path.exists(os.path.join(d, problem_id)):
         os.mkdir(os.path.join(d, problem_id))
@@ -161,6 +161,9 @@ def create_code_template(lang: str, d: str, data: dict) -> None:
         code += lang_specifics[lang]["prefix"]
     code += f"{lang_specifics[lang]['com']} source: {source_link}\n\n"
     code += lang_specifics[lang]["main"]
+
+    # if not no_tests and (lang == "golang" or lang == "go"):
+    #     generate_tests()
 
     with open(file, 'w') as code_file:
         code_file.write(code)
@@ -194,6 +197,7 @@ def main():
     parser.add_argument('problems', default='', type=str, nargs='+', help='Name or link to the problems')
     parser.add_argument('--lang', dest='lang', action='store', default='golang', help='Solution lang')
     parser.add_argument('--dir', dest='dir', action='store', default='../codeforces', help='Solutions directory')
+    parser.add_argument('--no-tests', dest='no_tests', action='store_true', default=False, help='Suppress automatic test creation')
     args = parser.parse_args()
 
     if args.problems != ['.']:
@@ -205,7 +209,7 @@ def main():
 
         for problem_id in ids:
             data = get_problem_data(problem_id)
-            create_code_template(args.lang, args.dir, data)
+            create_code_template(args.lang, args.dir, args.no_tests, data)
             update_meta_file(args.lang, args.dir, data)
 
     data = pd.read_csv('../codeforces/.meta.csv', index_col='id', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
