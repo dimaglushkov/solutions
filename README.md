@@ -19,7 +19,8 @@ This repo stores my problem-solving related code
 | [Codeforces Round #799 (Div. 4)](https://codeforces.com/contests/1692) | 3515 / 20029 | [solutions](/contests/cf-round-799) | 14 jun 2022 | 
 | [Codeforces Round #811 (Div. 3)](https://codeforces.com/contests/1714) | 3935 / 30969 | [solutions](/contests/cf-round-811) | 01 aug 2022 |
 | [Leetcode Biweekly Contest 85](https://leetcode.com/contest/biweekly-contest-85) | 2962 / 23603 | [solutions](/contests/lc-biweekly-85) | 20 aug 2022 |
-
+| [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | ? / 31271 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
+ 
 
 
 ## leetcode
