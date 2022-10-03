@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 177
+Problems solved in total: 178
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -185,3 +185,4 @@ Problems solved in total: 177
 | [126. Word ladder ii](https://leetcode.com/problems/word-ladder-ii/) | [golang](/leetcode/word-ladder-ii/word-ladder-ii.go) | Hard | Hash Table, String, Backtracking, Breadth-First Search |
 | [363. Max sum of rectangle no larger than k](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) | [golang](/leetcode/max-sum-of-rectangle-no-larger-than-k/max-sum-of-rectangle-no-larger-than-k.go) | Hard | Array, Binary Search, Matrix, Prefix Sum, Ordered Set |
 | [1578. Minimum time to make rope colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) | [golang](/leetcode/minimum-time-to-make-rope-colorful/minimum-time-to-make-rope-colorful.go) | Medium | Array, String, Dynamic Programming, Greedy |
+| [91. Decode ways](https://leetcode.com/problems/decode-ways/) | [golang](/leetcode/decode-ways/decode-ways.go) | Medium | String, Dynamic Programming |
