@@ -39,3 +39,6 @@
 | [1714B. Remove Prefix](https://codeforces.com/contest/1714/problem/B) | [golang](/codeforces/1714B/1714B.go) | nan | implementation |
 | [1714C. Minimum  Varied Number](https://codeforces.com/contest/1714/problem/C) | [golang](/codeforces/1714C/1714C.go) | nan | greedy |
 | [1714E. Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | [golang](/codeforces/1714E/1714E.go) | nan | math, number theory |
+| [1729A. Two Elevators](https://codeforces.com/contest/1729/problem/A) | [golang](/codeforces/1729A/1729A.go) | 800.0 | math |
+| [1729B. Decode String](https://codeforces.com/contest/1729/problem/B) | [golang](/codeforces/1729B/1729B.go) | 800.0 | greedy, strings |
+| [1729C. Jumping on Tiles](https://codeforces.com/contest/1729/problem/C) | [golang](/codeforces/1729C/1729C.go) | 1100.0 | constructive algorithms, strings |

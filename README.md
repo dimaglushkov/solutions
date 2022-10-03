@@ -19,7 +19,7 @@ This repo stores my problem-solving related code
 | [Codeforces Round #799 (Div. 4)](https://codeforces.com/contests/1692) | 3515 / 20029 | [solutions](/contests/cf-round-799) | 14 jun 2022 | 
 | [Codeforces Round #811 (Div. 3)](https://codeforces.com/contests/1714) | 3935 / 30969 | [solutions](/contests/cf-round-811) | 01 aug 2022 |
 | [Leetcode Biweekly Contest 85](https://leetcode.com/contest/biweekly-contest-85) | 2962 / 23603 | [solutions](/contests/lc-biweekly-85) | 20 aug 2022 |
-| [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | ? / 31271 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
+| [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | 4833 / 31271 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
  
 
 
@@ -252,6 +252,9 @@ Problems solved in total: 176
 | [1714B. Remove Prefix](https://codeforces.com/contest/1714/problem/B) | [golang](/codeforces/1714B/1714B.go) | nan | implementation |
 | [1714C. Minimum  Varied Number](https://codeforces.com/contest/1714/problem/C) | [golang](/codeforces/1714C/1714C.go) | nan | greedy |
 | [1714E. Add Modulo 10](https://codeforces.com/contest/1714/problem/E) | [golang](/codeforces/1714E/1714E.go) | nan | math, number theory |
+| [1729A. Two Elevators](https://codeforces.com/contest/1729/problem/A) | [golang](/codeforces/1729A/1729A.go) | 800.0 | math |
+| [1729B. Decode String](https://codeforces.com/contest/1729/problem/B) | [golang](/codeforces/1729B/1729B.go) | 800.0 | greedy, strings |
+| [1729C. Jumping on Tiles](https://codeforces.com/contest/1729/problem/C) | [golang](/codeforces/1729C/1729C.go) | 1100.0 | constructive algorithms, strings |
 
 
 ## acm.timus

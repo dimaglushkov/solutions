@@ -37,3 +37,6 @@ id,name,contest,problem,difficulty,tags,lang
 1714B,Remove Prefix,1714,B,,['implementation'],['golang']
 1714C,Minimum  Varied Number,1714,C,,['greedy'],['golang']
 1714E,Add Modulo 10,1714,E,,"['math', 'number theory']",['golang']
+1729A,Two Elevators,1729,A,800.0,['math'],['golang']
+1729B,Decode String,1729,B,800.0,"['greedy', 'strings']",['golang']
+1729C,Jumping on Tiles,1729,C,1100.0,"['constructive algorithms', 'strings']",['golang']
