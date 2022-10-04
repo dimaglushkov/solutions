@@ -177,3 +177,4 @@ word-ladder-ii,Hard,126,['golang'],"['Hash Table', 'String', 'Backtracking', 'Br
 max-sum-of-rectangle-no-larger-than-k,Hard,363,['golang'],"['Array', 'Binary Search', 'Matrix', 'Prefix Sum', 'Ordered Set']"
 minimum-time-to-make-rope-colorful,Medium,1578,['golang'],"['Array', 'String', 'Dynamic Programming', 'Greedy']"
 decode-ways,Medium,91,['golang'],"['String', 'Dynamic Programming']"
+path-sum,Easy,112,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
