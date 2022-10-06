@@ -179,3 +179,4 @@ minimum-time-to-make-rope-colorful,Medium,1578,['golang'],"['Array', 'String', '
 decode-ways,Medium,91,['golang'],"['String', 'Dynamic Programming']"
 path-sum,Easy,112,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 add-one-row-to-tree,Medium,623,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+time-based-key-value-store,Medium,981,['golang'],"['Hash Table', 'String', 'Binary Search', 'Design']"
