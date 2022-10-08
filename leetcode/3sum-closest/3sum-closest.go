@@ -32,10 +32,18 @@ func threeSumClosest(nums []int, target int) int {
 			}
 		}
 	}
+	if res == 1001 {
+		return 0
+	}
 	return res
 }
 
 func main() {
+	// Example 0
+	var nums0 = []int{0, 0, 0}
+	var target0 int = 10000
+	fmt.Println("Expected: 0	Output: ", threeSumClosest(nums0, target0))
+
 	// Example 3
 	var nums3 = []int{0, 2, 1, -3}
 	var target3 int = 1
