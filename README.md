@@ -25,7 +25,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 181
+Problems solved in total: 182
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -214,6 +214,7 @@ Problems solved in total: 181
 | [112. Path sum](https://leetcode.com/problems/path-sum/) | [golang](/leetcode/path-sum/path-sum.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [623. Add one row to tree](https://leetcode.com/problems/add-one-row-to-tree/) | [golang](/leetcode/add-one-row-to-tree/add-one-row-to-tree.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [981. Time based key value store](https://leetcode.com/problems/time-based-key-value-store/) | [golang](/leetcode/time-based-key-value-store/time-based-key-value-store.go) | Medium | Hash Table, String, Binary Search, Design |
+| [732. My calendar iii](https://leetcode.com/problems/my-calendar-iii/) | [golang](/leetcode/my-calendar-iii/my-calendar-iii.go) | Hard | Binary Search, Design, Segment Tree, Ordered Set |
 
 
 ## codeforces
