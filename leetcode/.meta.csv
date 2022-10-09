@@ -181,3 +181,4 @@ path-sum,Easy,112,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Sear
 add-one-row-to-tree,Medium,623,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 time-based-key-value-store,Medium,981,['golang'],"['Hash Table', 'String', 'Binary Search', 'Design']"
 my-calendar-iii,Hard,732,['golang'],"['Binary Search', 'Design', 'Segment Tree', 'Ordered Set']"
+two-sum-iv-input-is-a-bst,Easy,653,['golang'],"['Hash Table', 'Two Pointers', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Search Tree', 'Binary Tree']"
