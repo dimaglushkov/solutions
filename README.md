@@ -25,7 +25,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 183
+Problems solved in total: 184
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -216,6 +216,7 @@ Problems solved in total: 183
 | [981. Time based key value store](https://leetcode.com/problems/time-based-key-value-store/) | [golang](/leetcode/time-based-key-value-store/time-based-key-value-store.go) | Medium | Hash Table, String, Binary Search, Design |
 | [732. My calendar iii](https://leetcode.com/problems/my-calendar-iii/) | [golang](/leetcode/my-calendar-iii/my-calendar-iii.go) | Hard | Binary Search, Design, Segment Tree, Ordered Set |
 | [653. Two sum iv input is a bst](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [golang](/leetcode/two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.go) | Easy | Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |
+| [1328. Break a palindrome](https://leetcode.com/problems/break-a-palindrome/) | [golang](/leetcode/break-a-palindrome/break-a-palindrome.go) | Medium | String, Greedy |
 
 
 ## codeforces
