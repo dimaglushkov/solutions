@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 184
+Problems solved in total: 185
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -192,3 +192,4 @@ Problems solved in total: 184
 | [732. My calendar iii](https://leetcode.com/problems/my-calendar-iii/) | [golang](/leetcode/my-calendar-iii/my-calendar-iii.go) | Hard | Binary Search, Design, Segment Tree, Ordered Set |
 | [653. Two sum iv input is a bst](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [golang](/leetcode/two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.go) | Easy | Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |
 | [1328. Break a palindrome](https://leetcode.com/problems/break-a-palindrome/) | [golang](/leetcode/break-a-palindrome/break-a-palindrome.go) | Medium | String, Greedy |
+| [334. Increasing triplet subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [golang](/leetcode/increasing-triplet-subsequence/increasing-triplet-subsequence.go) | Medium | Array, Greedy |

@@ -183,3 +183,4 @@ time-based-key-value-store,Medium,981,['golang'],"['Hash Table', 'String', 'Bina
 my-calendar-iii,Hard,732,['golang'],"['Binary Search', 'Design', 'Segment Tree', 'Ordered Set']"
 two-sum-iv-input-is-a-bst,Easy,653,['golang'],"['Hash Table', 'Two Pointers', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Search Tree', 'Binary Tree']"
 break-a-palindrome,Medium,1328,['golang'],"['String', 'Greedy']"
+increasing-triplet-subsequence,Medium,334,['golang'],"['Array', 'Greedy']"
