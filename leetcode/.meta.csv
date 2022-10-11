@@ -184,3 +184,8 @@ my-calendar-iii,Hard,732,['golang'],"['Binary Search', 'Design', 'Segment Tree',
 two-sum-iv-input-is-a-bst,Easy,653,['golang'],"['Hash Table', 'Two Pointers', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Search Tree', 'Binary Tree']"
 break-a-palindrome,Medium,1328,['golang'],"['String', 'Greedy']"
 increasing-triplet-subsequence,Medium,334,['golang'],"['Array', 'Greedy']"
+best-time-to-buy-and-sell-stock,Easy,121,['golang'],"['Array', 'Dynamic Programming']"
+valid-palindrome,Easy,125,['golang'],"['Two Pointers', 'String']"
+invert-binary-tree,Easy,226,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+binary-search,Easy,704,['golang'],"['Array', 'Binary Search']"
+flood-fill,Easy,733,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Matrix']"

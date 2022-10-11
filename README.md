@@ -25,7 +25,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 185
+Problems solved in total: 191
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -218,6 +218,11 @@ Problems solved in total: 185
 | [653. Two sum iv input is a bst](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [golang](/leetcode/two-sum-iv-input-is-a-bst/two-sum-iv-input-is-a-bst.go) | Easy | Hash Table, Two Pointers, Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |
 | [1328. Break a palindrome](https://leetcode.com/problems/break-a-palindrome/) | [golang](/leetcode/break-a-palindrome/break-a-palindrome.go) | Medium | String, Greedy |
 | [334. Increasing triplet subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [golang](/leetcode/increasing-triplet-subsequence/increasing-triplet-subsequence.go) | Medium | Array, Greedy |
+| [121. Best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [golang](/leetcode/best-time-to-buy-and-sell-stock/best-time-to-buy-and-sell-stock.go) | Easy | Array, Dynamic Programming |
+| [125. Valid palindrome](https://leetcode.com/problems/valid-palindrome/) | [golang](/leetcode/valid-palindrome/valid-palindrome.go) | Easy | Two Pointers, String |
+| [226. Invert binary tree](https://leetcode.com/problems/invert-binary-tree/) | [golang](/leetcode/invert-binary-tree/invert-binary-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [704. Binary search](https://leetcode.com/problems/binary-search/) | [golang](/leetcode/binary-search/binary-search.go) | Easy | Array, Binary Search |
+| [733. Flood fill](https://leetcode.com/problems/flood-fill/) | [golang](/leetcode/flood-fill/flood-fill.go) | Easy | Array, Depth-First Search, Breadth-First Search, Matrix |
 
 
 ## codeforces
