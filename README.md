@@ -224,6 +224,7 @@ Problems solved in total: 191
 | [226. Invert binary tree](https://leetcode.com/problems/invert-binary-tree/) | [golang](/leetcode/invert-binary-tree/invert-binary-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [704. Binary search](https://leetcode.com/problems/binary-search/) | [golang](/leetcode/binary-search/binary-search.go) | Easy | Array, Binary Search |
 | [733. Flood fill](https://leetcode.com/problems/flood-fill/) | [golang](/leetcode/flood-fill/flood-fill.go) | Easy | Array, Depth-First Search, Breadth-First Search, Matrix |
+| [976. Largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [golang](/leetcode/largest-perimeter-triangle/largest-perimeter-triangle.go) | Easy | Array, Math, Greedy, Sorting |
 
 
 ## codeforces
