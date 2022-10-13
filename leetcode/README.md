@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 191
+Problems solved in total: 192
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -199,3 +199,4 @@ Problems solved in total: 191
 | [704. Binary search](https://leetcode.com/problems/binary-search/) | [golang](/leetcode/binary-search/binary-search.go) | Easy | Array, Binary Search |
 | [733. Flood fill](https://leetcode.com/problems/flood-fill/) | [golang](/leetcode/flood-fill/flood-fill.go) | Easy | Array, Depth-First Search, Breadth-First Search, Matrix |
 | [976. Largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [golang](/leetcode/largest-perimeter-triangle/largest-perimeter-triangle.go) | Easy | Array, Math, Greedy, Sorting |
+| [237. Delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [golang](/leetcode/delete-node-in-a-linked-list/delete-node-in-a-linked-list.go) | Medium | Linked List |
