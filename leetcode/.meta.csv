@@ -191,3 +191,4 @@ binary-search,Easy,704,['golang'],"['Array', 'Binary Search']"
 flood-fill,Easy,733,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Matrix']"
 largest-perimeter-triangle,Easy,976,['golang'],"['Array', 'Math', 'Greedy', 'Sorting']"
 delete-node-in-a-linked-list,Medium,237,['golang'],['Linked List']
+delete-the-middle-node-of-a-linked-list,Medium,2095,['golang'],"['Linked List', 'Two Pointers']"
