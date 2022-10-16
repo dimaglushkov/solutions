@@ -10,7 +10,15 @@ import (
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() {
-
+	n, v := _readArr()
+	sort.Ints(v)
+	for i := 0; i < n-1; i++ {
+		if v[i] == v[i+1] {
+			_print("NO")
+			return
+		}
+	}
+	_print("YES")
 }
 
 func main() {

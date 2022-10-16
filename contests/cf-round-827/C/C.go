@@ -10,7 +10,20 @@ import (
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() {
+	//_readStr()
+	fmt.Scanln()
+	x := make([]string, 8)
+	for i := range x {
+		x[i] = _readStr()
+	}
 
+	for _, s := range x {
+		if s == "RRRRRRRR" {
+			_print("R")
+			return
+		}
+	}
+	_print("B")
 }
 
 func main() {

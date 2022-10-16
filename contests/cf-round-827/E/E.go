@@ -10,6 +10,34 @@ import (
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() {
+	n, q := _readInt(), _readInt()
+	var a = make([]int, n+2)
+	for i := 1; i <= n; i++ {
+		a[i] = a[i-1] + _readInt()
+	}
+	a[n+1] = a[n]
+
+	var r = make(map[int]int, q)
+	for i := 0; i < q; i++ {
+		k := _readInt()
+		if x, ok := r[k]; ok {
+			fmt.Printf("%d ", a[x])
+			continue
+		}
+		m := 0
+		for j := range r {
+			if j < k && j > m {
+				m = j
+			}
+		}
+		r[k] = r[m]
+		for j := r[m]; j < n && a[j+1]-a[j] <= k; j++ {
+			r[k]++
+		}
+
+		fmt.Printf("%d ", a[r[k]])
+	}
+	fmt.Println()
 
 }
 

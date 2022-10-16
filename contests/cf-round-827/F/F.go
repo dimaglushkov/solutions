@@ -5,12 +5,35 @@ import (
 	"fmt"
 	"os"
 	"sort"
+	"strings"
 )
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() {
+	s, t := strings.Builder{}, strings.Builder{}
+	s.WriteString("a")
+	t.WriteString("a")
+	n := _readInt()
+	for i := 0; i < n; i++ {
+		id, k, x := _readInt(), _readInt(), _readStr()
+		var target *strings.Builder
+		if id == 1 {
+			target = &s
+		} else {
+			target = &t
+		}
+		for j := 0; j < k; j++ {
+			target.WriteString(x)
+		}
 
+		ss, st := _sortStr(s.String()), _sortStr(t.String())
+		if strings.Compare(ss, _reverseStr(st)) == -1 {
+			_print("YES")
+		} else {
+			_print("NO")
+		}
+	}
 }
 
 func main() {

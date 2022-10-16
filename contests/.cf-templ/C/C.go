@@ -42,7 +42,7 @@ func _readArr() (int, []int) {
 	return n, v
 }
 func _print(x ...any) {
-	fmt.Fprintln(out, x)
+	fmt.Fprintln(out, x...)
 }
 func _max(x, y int) int {
 	if x > y {

@@ -10,6 +10,12 @@ import (
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
 func solve() {
+	a, b, c := _readInt(), _readInt(), _readInt()
+	if a+b == c || a+c == b || b+c == a {
+		_print("YES")
+	} else {
+		_print("NO")
+	}
 
 }
 

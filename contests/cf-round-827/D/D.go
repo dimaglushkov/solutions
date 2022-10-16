@@ -8,9 +8,44 @@ import (
 )
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
+var mem = make(map[int]map[int]bool)
+
+func gcd(a, b int) int {
+	if mem[a][b] {
+		return 1
+	}
+
+	for a != b {
+		if a > b {
+			a -= b
+		} else {
+			b -= a
+		}
+	}
+	if a == 1 {
+		if _, ok := mem[a]; !ok {
+			mem[a] = make(map[int]bool)
+		}
+		if _, ok := mem[b]; !ok {
+			mem[b] = make(map[int]bool)
+		}
+		mem[a][b] = true
+		mem[b][a] = true
+	}
+	return a
+}
 
 func solve() {
-
+	n, v := _readArr()
+	max := -3
+	for i := n - 1; i >= 0; i-- {
+		for j := i; j >= 0 && i+j > max; j-- {
+			if (v[j] == 1 || gcd(v[i], v[j]) == 1) && i+j > max {
+				max = i + j
+			}
+		}
+	}
+	_print(max + 2)
 }
 
 func main() {

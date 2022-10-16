@@ -26,7 +26,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 193
+Problems solved in total: 195
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -227,6 +227,8 @@ Problems solved in total: 193
 | [976. Largest perimeter triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [golang](/leetcode/largest-perimeter-triangle/largest-perimeter-triangle.go) | Easy | Array, Math, Greedy, Sorting |
 | [237. Delete node in a linked list](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [golang](/leetcode/delete-node-in-a-linked-list/delete-node-in-a-linked-list.go) | Medium | Linked List |
 | [2095. Delete the middle node of a linked list](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [golang](/leetcode/delete-the-middle-node-of-a-linked-list/delete-the-middle-node-of-a-linked-list.go) | Medium | Linked List, Two Pointers |
+| [2423. Remove letter to equalize frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/) | [golang](/leetcode/remove-letter-to-equalize-frequency/remove-letter-to-equalize-frequency.go) | Easy | Hash Table, String, Counting |
+| [1531. String compression ii](https://leetcode.com/problems/string-compression-ii/) | [golang](/leetcode/string-compression-ii/string-compression-ii.go) | Hard | String, Dynamic Programming |
 
 
 ## codeforces
