@@ -193,3 +193,9 @@ largest-perimeter-triangle,Easy,976,['golang'],"['Array', 'Math', 'Greedy', 'Sor
 delete-node-in-a-linked-list,Medium,237,['golang'],['Linked List']
 delete-the-middle-node-of-a-linked-list,Medium,2095,['golang'],"['Linked List', 'Two Pointers']"
 string-compression-ii,Hard,1531,['golang'],"['String', 'Dynamic Programming']"
+balanced-binary-tree,Easy,110,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
+implement-queue-using-stacks,Easy,232,['golang'],"['Stack', 'Design', 'Queue']"
+first-bad-version,Easy,278,['golang'],"['Binary Search', 'Interactive']"
+reverse-linked-list,Easy,206,['golang'],"['Linked List', 'Recursion']"
+majority-element,Easy,169,['golang'],"['Array', 'Hash Table', 'Divide and Conquer', 'Sorting', 'Counting']"
+add-binary,Easy,67,['golang'],"['Math', 'String', 'Bit Manipulation', 'Simulation']"

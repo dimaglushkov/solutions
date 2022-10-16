@@ -8,15 +8,17 @@ func longestPalindrome(s string) int {
 	var letters = make(map[rune]bool, len(s))
 	var res int
 	for _, r := range s {
-		if _, ok := letters[r]; ok {
+		if letters[r] {
 			res += 2
-			delete(letters, r)
+			letters[r] = false
 		} else {
 			letters[r] = true
 		}
 	}
-	for _ = range letters {
-		return res + 1
+	for _, x := range letters {
+		if x {
+			return res + 1
+		}
 	}
 	return res
 }
