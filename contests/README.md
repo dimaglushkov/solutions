@@ -10,4 +10,5 @@
 | [Leetcode Biweekly Contest 85](https://leetcode.com/contest/biweekly-contest-85) | 2962 / 23603 | [solutions](/contests/lc-biweekly-85) | 20 aug 2022 |
 | [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | 4833 / 31271 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
 | [Codeforces Round #826 (Div. 3)](https://codeforces.com/contest/1741) | 3102 / 17198 | [solutions](/contests/cf-round-826) | 11 oct 2022 |
+| [Codeforces Round #828 (Div. 3)](https://codeforces.com/contest/1744) | ? / ? | [solutions](/contests/cf-round-828) | 16 oct 2022 |
 
