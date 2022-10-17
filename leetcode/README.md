@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 201
+Problems solved in total: 204
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -209,3 +209,6 @@ Problems solved in total: 201
 | [169. Majority element](https://leetcode.com/problems/majority-element/) | [golang](/leetcode/majority-element/majority-element.go) | Easy | Array, Hash Table, Divide and Conquer, Sorting, Counting |
 | [67. Add binary](https://leetcode.com/problems/add-binary/) | [golang](/leetcode/add-binary/add-binary.go) | Easy | Math, String, Bit Manipulation, Simulation |
 | [1832. Check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [golang](/leetcode/check-if-the-sentence-is-pangram/check-if-the-sentence-is-pangram.go) | Easy | Hash Table, String |
+| [543. Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [golang](/leetcode/diameter-of-binary-tree/diameter-of-binary-tree.go) | Easy | Tree, Depth-First Search, Binary Tree |
+| [876. Middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list/) | [golang](/leetcode/middle-of-the-linked-list/middle-of-the-linked-list.go) | Easy | Linked List, Two Pointers |
+| [217. Contains duplicate](https://leetcode.com/problems/contains-duplicate/) | [golang](/leetcode/contains-duplicate/contains-duplicate.go) | Easy | Array, Hash Table, Sorting |

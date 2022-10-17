@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	. "github.com/dimaglushkov/solutions/ads/tree"
 )
 
@@ -16,20 +17,17 @@ func maxDepth(root *TreeNode) int {
 		if node == nil {
 			return h
 		}
-		var lHeight, rHeight = h, h
-		if node.Left != nil {
-			lHeight = height(node.Left, h+1)
-		}
-		if node.Right != nil {
-			rHeight = height(node.Right, h+1)
-		}
-		if lHeight > rHeight {
-			return lHeight
-		}
-		return rHeight
+		return max(height(node.Left, h+1), height(node.Right, h+1))
 	}
 
-	return height(root, 1)
+	return height(root, 0)
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 
 func main() {
