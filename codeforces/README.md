@@ -42,3 +42,14 @@
 | [1729A. Two Elevators](https://codeforces.com/contest/1729/problem/A) | [golang](/codeforces/1729A/1729A.go) | 800.0 | math |
 | [1729B. Decode String](https://codeforces.com/contest/1729/problem/B) | [golang](/codeforces/1729B/1729B.go) | 800.0 | greedy, strings |
 | [1729C. Jumping on Tiles](https://codeforces.com/contest/1729/problem/C) | [golang](/codeforces/1729C/1729C.go) | 1100.0 | constructive algorithms, strings |
+| [1703A. YES or YES?](https://codeforces.com/contest/1703/problem/A) | [golang](/codeforces/1703A/1703A.go) | 800.0 | brute force, implementation, strings |
+| [1703B. ICPC Balloons](https://codeforces.com/contest/1703/problem/B) | [golang](/codeforces/1703B/1703B.go) | 800.0 | data structures, implementation |
+| [1741A. Compare T-Shirt Sizes](https://codeforces.com/contest/1741/problem/A) | [golang](/codeforces/1741A/1741A.go) | 800.0 | implementation, implementation, strings |
+| [1741B. Funny Permutation](https://codeforces.com/contest/1741/problem/B) | [golang](/codeforces/1741B/1741B.go) | 800.0 | constructive algorithms, math |
+| [1741C. Minimize the Thickness](https://codeforces.com/contest/1741/problem/C) | [golang](/codeforces/1741C/1741C.go) | 1100.0 | brute force, greedy, math, two pointers |
+| [1741D. Masha and a Beautiful Tree](https://codeforces.com/contest/1741/problem/D) | [golang](/codeforces/1741D/1741D.go) | 1300.0 | dfs and similar, divide and conquer, graphs, sortings, trees |
+| [1744A. Number Replacement](https://codeforces.com/contest/1744/problem/A) | [golang](/codeforces/1744A/1744A.go) | nan | greedy, implementation |
+| [1744B. Even-Odd Increments ](https://codeforces.com/contest/1744/problem/B) | [golang](/codeforces/1744B/1744B.go) | nan | implementation, math |
+| [1744C. Traffic Light](https://codeforces.com/contest/1744/problem/C) | [golang](/codeforces/1744C/1744C.go) | nan | binary search, implementation, two pointers |
+| [1744D. Divisibility by 2^n](https://codeforces.com/contest/1744/problem/D) | [golang](/codeforces/1744D/1744D.go) | nan | greedy, math, sortings |
+| [1741E. Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | [golang](/codeforces/1741E/1741E.go) | 1600.0 | dp |
