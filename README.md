@@ -21,12 +21,13 @@ This repo stores my problem-solving related code
 | [Leetcode Biweekly Contest 85](https://leetcode.com/contest/biweekly-contest-85) | 2962 / 23603 | [solutions](/contests/lc-biweekly-85) | 20 aug 2022 |
 | [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | 4833 / 31271 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
 | [Codeforces Round #826 (Div. 3)](https://codeforces.com/contest/1741) | 3102 / 17198 | [solutions](/contests/cf-round-826) | 11 oct 2022 |
+| [Codeforces Round #828 (Div. 3)](https://codeforces.com/contest/1744) | ? / ? | [solutions](/contests/cf-round-828) | 16 oct 2022 |
 
 
 
 ## leetcode
     
-Problems solved in total: 200
+Problems solved in total: 201
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -234,6 +235,7 @@ Problems solved in total: 200
 | [206. Reverse linked list](https://leetcode.com/problems/reverse-linked-list/) | [golang](/leetcode/reverse-linked-list/reverse-linked-list.go) | Easy | Linked List, Recursion |
 | [169. Majority element](https://leetcode.com/problems/majority-element/) | [golang](/leetcode/majority-element/majority-element.go) | Easy | Array, Hash Table, Divide and Conquer, Sorting, Counting |
 | [67. Add binary](https://leetcode.com/problems/add-binary/) | [golang](/leetcode/add-binary/add-binary.go) | Easy | Math, String, Bit Manipulation, Simulation |
+| [1832. Check if the sentence is pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | [golang](/leetcode/check-if-the-sentence-is-pangram/check-if-the-sentence-is-pangram.go) | Easy | Hash Table, String |
 
 
 ## codeforces
