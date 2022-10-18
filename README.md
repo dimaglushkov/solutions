@@ -27,7 +27,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 204
+Problems solved in total: 205
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -239,6 +239,7 @@ Problems solved in total: 204
 | [543. Diameter of binary tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [golang](/leetcode/diameter-of-binary-tree/diameter-of-binary-tree.go) | Easy | Tree, Depth-First Search, Binary Tree |
 | [876. Middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list/) | [golang](/leetcode/middle-of-the-linked-list/middle-of-the-linked-list.go) | Easy | Linked List, Two Pointers |
 | [217. Contains duplicate](https://leetcode.com/problems/contains-duplicate/) | [golang](/leetcode/contains-duplicate/contains-duplicate.go) | Easy | Array, Hash Table, Sorting |
+| [38. Count and say](https://leetcode.com/problems/count-and-say/) | [golang](/leetcode/count-and-say/count-and-say.go) | Medium | String |
 
 
 ## codeforces

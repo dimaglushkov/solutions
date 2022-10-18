@@ -203,3 +203,4 @@ check-if-the-sentence-is-pangram,Easy,1832,['golang'],"['Hash Table', 'String']"
 diameter-of-binary-tree,Easy,543,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 middle-of-the-linked-list,Easy,876,['golang'],"['Linked List', 'Two Pointers']"
 contains-duplicate,Easy,217,['golang'],"['Array', 'Hash Table', 'Sorting']"
+count-and-say,Medium,38,['golang'],['String']
