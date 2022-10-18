@@ -83,3 +83,10 @@ func _reverseStr(s string) string {
 	}
 	return string(x)
 }
+func _makeMatrix(n, m int) [][]int {
+	x := make([][]int, n)
+	for i := range x {
+		x[i] = make([]int, m)
+	}
+	return x
+}
