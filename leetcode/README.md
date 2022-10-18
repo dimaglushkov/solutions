@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 205
+Problems solved in total: 207
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -213,3 +213,5 @@ Problems solved in total: 205
 | [876. Middle of the linked list](https://leetcode.com/problems/middle-of-the-linked-list/) | [golang](/leetcode/middle-of-the-linked-list/middle-of-the-linked-list.go) | Easy | Linked List, Two Pointers |
 | [217. Contains duplicate](https://leetcode.com/problems/contains-duplicate/) | [golang](/leetcode/contains-duplicate/contains-duplicate.go) | Easy | Array, Hash Table, Sorting |
 | [38. Count and say](https://leetcode.com/problems/count-and-say/) | [golang](/leetcode/count-and-say/count-and-say.go) | Medium | String |
+| [542. 01 matrix](https://leetcode.com/problems/01-matrix/) | [golang](/leetcode/01-matrix/01-matrix.go) | Medium | Array, Dynamic Programming, Breadth-First Search, Matrix |
+| [57. Insert interval](https://leetcode.com/problems/insert-interval/) | [golang](/leetcode/insert-interval/insert-interval.go) | Medium | Array |

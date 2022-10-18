@@ -204,3 +204,5 @@ diameter-of-binary-tree,Easy,543,['golang'],"['Tree', 'Depth-First Search', 'Bin
 middle-of-the-linked-list,Easy,876,['golang'],"['Linked List', 'Two Pointers']"
 contains-duplicate,Easy,217,['golang'],"['Array', 'Hash Table', 'Sorting']"
 count-and-say,Medium,38,['golang'],['String']
+01-matrix,Medium,542,['golang'],"['Array', 'Dynamic Programming', 'Breadth-First Search', 'Matrix']"
+insert-interval,Medium,57,['golang'],['Array']
