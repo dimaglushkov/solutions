@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 207
+Problems solved in total: 209
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -215,3 +215,5 @@ Problems solved in total: 207
 | [38. Count and say](https://leetcode.com/problems/count-and-say/) | [golang](/leetcode/count-and-say/count-and-say.go) | Medium | String |
 | [542. 01 matrix](https://leetcode.com/problems/01-matrix/) | [golang](/leetcode/01-matrix/01-matrix.go) | Medium | Array, Dynamic Programming, Breadth-First Search, Matrix |
 | [57. Insert interval](https://leetcode.com/problems/insert-interval/) | [golang](/leetcode/insert-interval/insert-interval.go) | Medium | Array |
+| [692. Top k frequent words](https://leetcode.com/problems/top-k-frequent-words/) | [golang](/leetcode/top-k-frequent-words/top-k-frequent-words.go) | Medium | Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting |
+| [12. Integer to roman](https://leetcode.com/problems/integer-to-roman/) | [golang](/leetcode/integer-to-roman/integer-to-roman.go) | Medium | Hash Table, Math, String |

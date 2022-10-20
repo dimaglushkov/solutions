@@ -206,3 +206,5 @@ contains-duplicate,Easy,217,['golang'],"['Array', 'Hash Table', 'Sorting']"
 count-and-say,Medium,38,['golang'],['String']
 01-matrix,Medium,542,['golang'],"['Array', 'Dynamic Programming', 'Breadth-First Search', 'Matrix']"
 insert-interval,Medium,57,['golang'],['Array']
+top-k-frequent-words,Medium,692,['golang'],"['Hash Table', 'String', 'Trie', 'Sorting', 'Heap (Priority Queue)', 'Bucket Sort', 'Counting']"
+integer-to-roman,Medium,12,['golang'],"['Hash Table', 'Math', 'String']"
