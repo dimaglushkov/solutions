@@ -10,32 +10,7 @@ url_template = 'https://codeforces.com/contest/{}/problem/{}?locale=en'
 lang_specifics = {
     'golang': {
         'ext': 'go',
-        'com': '//',
-        'prefix': '''package main
-
-import (
-    "bufio"
-    "fmt"
-    "os"
-)
-
-''',
-        'main': '''
-var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
-
-func solve() string {
-    
-}
-        
-        
-func main() {
-    defer out.Flush()
-    var t int
-    for fmt.Fscanln(in, &t); t > 0; t-- {
-        fmt.Fprintln(out, solve())
-    }
-}    
-'''
+        'com': '//'
     },
     'python': {
         'ext': 'py',
@@ -62,7 +37,7 @@ def generate_codeforces_readme(data: dict):
 
             text += f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
                     f'| {solutions_links} ' \
-                    f'| {v["difficulty"]} ' \
+                    f'| {str(v["difficulty"]).replace(".0", "").replace("nan", "")} ' \
                     f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
         f.write(text)
 
@@ -89,17 +64,6 @@ def get_problem_data(problem_id: list) -> dict:
         exit(1)
 
     all_problems_data = all_problems_data["result"]["problems"]
-
-    # def binary_search(contest_id):
-    #     l = 0
-    #     r = len(all_problems_data)
-    #     while l < r:
-    #         h = int((l + r) / 2)
-    #         if all_problems_data["result"]["problems"][h]["contestId"] > contest_id:
-    #             l = h + 1
-    #         else:
-    #             r = h
-    #     return l
 
     def search(contest_id, problem_id):
         i = 0
@@ -157,10 +121,25 @@ def create_code_template(lang: str, d: str, no_tests: bool, data: dict) -> None:
 
     source_link = url_template.format(data["contestId"], data["index"])
     code = ""
-    if "prefix" in lang_specifics[lang]:
-        code += lang_specifics[lang]["prefix"]
-    code += f"{lang_specifics[lang]['com']} source: {source_link}\n\n"
-    code += lang_specifics[lang]["main"]
+
+    if lang == "golang":
+        template = ""
+        with open(os.path.join(d, ".template.go")) as f:
+            template = f.readlines()
+        i = 0
+        while i < len(template):
+            if "func solve(" in template[i]:
+                break
+            else:
+                i += 1
+
+        template.insert(i, f"\n// source: {source_link}\n")
+        code = "".join(template)
+    else:
+        if "prefix" in lang_specifics[lang]:
+            code += lang_specifics[lang]["prefix"]
+        code += f"{lang_specifics[lang]['com']} source: {source_link}\n\n"
+        code += lang_specifics[lang]["main"]
 
     # if not no_tests and (lang == "golang" or lang == "go"):
     #     generate_tests()
@@ -183,14 +162,15 @@ def update_meta_file(lang: str, d: str, problem_data: dict) -> None:
             'name': problem_data['name'],
             'contest': problem_data['contestId'],
             'problem': problem_data['index'],
-            'difficulty': problem_data['rating'] if "rating" in problem_data else "",
+            'difficulty': str(problem_data['rating']) if "rating" in problem_data else "",
             'tags': problem_data['tags'] if "tags" in problem_data else [],
             'lang': [lang]
         }
     else:
         data[problem_id]['lang'].append(lang)
 
-    pd.DataFrame.from_dict(data).transpose().to_csv(meta_file, index_label='id', index=True)
+    df = pd.DataFrame.from_dict(data).transpose()
+    df.to_csv(meta_file, index_label='id', index=True, float_format='%.0f')
 
 def main():
     parser = argparse.ArgumentParser(description="Pulls problems from codeforces and sets up env in local repo")
