@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 209
+Problems solved in total: 211
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -217,3 +217,5 @@ Problems solved in total: 209
 | [57. Insert interval](https://leetcode.com/problems/insert-interval/) | [golang](/leetcode/insert-interval/insert-interval.go) | Medium | Array |
 | [692. Top k frequent words](https://leetcode.com/problems/top-k-frequent-words/) | [golang](/leetcode/top-k-frequent-words/top-k-frequent-words.go) | Medium | Hash Table, String, Trie, Sorting, Heap (Priority Queue), Bucket Sort, Counting |
 | [12. Integer to roman](https://leetcode.com/problems/integer-to-roman/) | [golang](/leetcode/integer-to-roman/integer-to-roman.go) | Medium | Hash Table, Math, String |
+| [973. K closest points to origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [golang](/leetcode/k-closest-points-to-origin/k-closest-points-to-origin.go) | Medium | Array, Math, Divide and Conquer, Geometry, Sorting, Heap (Priority Queue), Quickselect |
+| [433. Minimum genetic mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [golang](/leetcode/minimum-genetic-mutation/minimum-genetic-mutation.go) | Medium | Hash Table, String, Breadth-First Search |

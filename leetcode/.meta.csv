@@ -208,3 +208,5 @@ count-and-say,Medium,38,['golang'],['String']
 insert-interval,Medium,57,['golang'],['Array']
 top-k-frequent-words,Medium,692,['golang'],"['Hash Table', 'String', 'Trie', 'Sorting', 'Heap (Priority Queue)', 'Bucket Sort', 'Counting']"
 integer-to-roman,Medium,12,['golang'],"['Hash Table', 'Math', 'String']"
+k-closest-points-to-origin,Medium,973,['golang'],"['Array', 'Math', 'Divide and Conquer', 'Geometry', 'Sorting', 'Heap (Priority Queue)', 'Quickselect']"
+minimum-genetic-mutation,Medium,433,['golang'],"['Hash Table', 'String', 'Breadth-First Search']"
