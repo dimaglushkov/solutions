@@ -9,8 +9,18 @@ import (
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
+// source: https://codeforces.com/contest/1749/problem/A?locale=en
 func solve() {
-
+	n, m := _readInt(), _readInt()
+	for i := 0; i < m; i++ {
+		_readInt()
+		_readInt()
+	}
+	if n == m {
+		_print("NO")
+	} else {
+		_print("YES")
+	}
 }
 
 func main() {
@@ -32,13 +42,9 @@ func _readStr() string {
 	fmt.Fscan(in, &x)
 	return x
 }
-func _readArr(x ...int) (int, []int) {
+func _readArr() (int, []int) {
 	var n int
-	if len(x) == 0 {
-		fmt.Fscan(in, &n)
-	} else {
-		n = x[0]
-	}
+	fmt.Fscan(in, &n)
 	var v = make([]int, n)
 	for i := 0; i < n; i++ {
 		fmt.Fscan(in, &v[i])
@@ -48,30 +54,17 @@ func _readArr(x ...int) (int, []int) {
 func _print(x ...any) {
 	fmt.Fprintln(out, x...)
 }
-func _max(x ...int) int {
-	mi := 0
-	for i := 1; i < len(x); i++ {
-		if x[i] > x[mi] {
-			mi = i
-		}
+func _max(x, y int) int {
+	if x > y {
+		return x
 	}
-	return x[mi]
+	return y
 }
-func _min(x ...int) int {
-	mi := 0
-	for i := 1; i < len(x); i++ {
-		if x[i] < x[mi] {
-			mi = i
-		}
+func _min(x, y int) int {
+	if x < y {
+		return x
 	}
-	return x[mi]
-}
-func _sum(x ...int) int {
-	res := 0
-	for _, i := range x {
-		res += i
-	}
-	return res
+	return y
 }
 func _abs(x int) int {
 	if x < 0 {

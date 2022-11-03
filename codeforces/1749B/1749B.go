@@ -9,8 +9,52 @@ import (
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
+// source: https://codeforces.com/contest/1749/problem/B?locale=en
 func solve() {
+	n, a := _readArr()
+	_, b := _readArr(n)
+	_print(_sum(a...) + _sum(b...) - _max(b...))
+}
 
+func solve_() {
+	n := _readInt()
+	_, a := _readArr(n)
+	_, b := _readArr(n)
+	res := 0
+
+	cast := func(x int) {
+		d := b[x]
+		if x > 0 {
+			a[x-1] += d
+		}
+		if x < len(a)-1 {
+			a[x+1] += d
+		}
+		a = append(a[:x], a[x+1:]...)
+		b = append(b[:x], b[x+1:]...)
+	}
+
+	next := func() int {
+		mi, mv := 0, b[0]
+		for i := 1; i < len(b)-1; i++ {
+			if b[i]*2 < mv {
+				mi = i
+				mv = b[i] * 2
+			}
+		}
+		if i := len(b) - 1; b[i] < mv {
+			mi = i
+		}
+		return mi
+	}
+
+	for len(a) > 0 {
+		i := next()
+		res += a[i]
+		cast(i)
+	}
+
+	_print(res)
 }
 
 func main() {

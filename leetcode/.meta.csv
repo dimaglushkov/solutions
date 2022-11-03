@@ -210,3 +210,4 @@ top-k-frequent-words,Medium,692,['golang'],"['Hash Table', 'String', 'Trie', 'So
 integer-to-roman,Medium,12,['golang'],"['Hash Table', 'Math', 'String']"
 k-closest-points-to-origin,Medium,973,['golang'],"['Array', 'Math', 'Divide and Conquer', 'Geometry', 'Sorting', 'Heap (Priority Queue)', 'Quickselect']"
 minimum-genetic-mutation,Medium,433,['golang'],"['Hash Table', 'String', 'Breadth-First Search']"
+longest-palindrome-by-concatenating-two-letter-words,Medium,2131,['golang'],"['Array', 'Hash Table', 'String', 'Greedy', 'Counting']"
