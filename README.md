@@ -277,9 +277,9 @@ Problems solved in total: 212
 | [69A. Young Physicist](https://codeforces.com/contest/69/problem/A) | [python](/codeforces/69A/69A.py) | 1000 | implementation, math |
 | [1669A. Division?](https://codeforces.com/contest/1669/problem/A) | [golang](/codeforces/1669A/1669A.go) | 800 | implementation |
 | [1660B. Vlad and Candies](https://codeforces.com/contest/1660/problem/B) | [golang](/codeforces/1660B/1660B.go) | 800 | math |
-| [1674A. Number Transformation](https://codeforces.com/contest/1674/problem/A) | [golang](/codeforces/1674A/1674A.go) |  | constructive algorithms, math |
-| [1674B. Dictionary](https://codeforces.com/contest/1674/problem/B) | [golang](/codeforces/1674B/1674B.go) |  | combinatorics, math |
-| [1674C. Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | [golang](/codeforces/1674C/1674C.go) |  | combinatorics, implementation, strings |
+| [1674A. Number Transformation](https://codeforces.com/contest/1674/problem/A) | [golang](/codeforces/1674A/1674A.go) | 800 | constructive algorithms, math |
+| [1674B. Dictionary](https://codeforces.com/contest/1674/problem/B) | [golang](/codeforces/1674B/1674B.go) | 800 | combinatorics, math |
+| [1674C. Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | [golang](/codeforces/1674C/1674C.go) | 1000 | combinatorics, implementation, strings |
 | [1674D. A-B-C Sort](https://codeforces.com/contest/1674/problem/D) | [golang](/codeforces/1674D/1674D.go) | 800 | constructive algorithms, implementation, sortings |
 | [1692A. Marathon](https://codeforces.com/contest/1692/problem/A) | [golang](/codeforces/1692A/1692A.go) | 800 | implementation |
 | [1692B. All Distinct](https://codeforces.com/contest/1692/problem/B) | [golang](/codeforces/1692B/1692B.go) | 800 | greedy, sortings |
@@ -303,7 +303,7 @@ Problems solved in total: 212
 | [1744B. Even-Odd Increments ](https://codeforces.com/contest/1744/problem/B) | [golang](/codeforces/1744B/1744B.go) | 800 | implementation, math |
 | [1744C. Traffic Light](https://codeforces.com/contest/1744/problem/C) | [golang](/codeforces/1744C/1744C.go) | 1000 | binary search, implementation, two pointers |
 | [1744D. Divisibility by 2^n](https://codeforces.com/contest/1744/problem/D) | [golang](/codeforces/1744D/1744D.go) | 1200 | greedy, math, sortings |
-| [1741E. Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | [golang](/codeforces/1741E/1741E.go) |  | dp |
+| [1741E. Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | [golang](/codeforces/1741E/1741E.go) | 1600 | dp |
 | [1749A. Cowardly Rooks](https://codeforces.com/contest/1749/problem/A) | [golang](/codeforces/1749A/1749A.go) | 800 | greedy, implementation |
 | [1749B. Death's Blessing](https://codeforces.com/contest/1749/problem/B) | [golang](/codeforces/1749B/1749B.go) | 900 | greedy |
 
