@@ -55,3 +55,6 @@
 | [1741E. Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | [golang](/codeforces/1741E/1741E.go) | 1600 | dp |
 | [1749A. Cowardly Rooks](https://codeforces.com/contest/1749/problem/A) | [golang](/codeforces/1749A/1749A.go) | 800 | greedy, implementation |
 | [1749B. Death's Blessing](https://codeforces.com/contest/1749/problem/B) | [golang](/codeforces/1749B/1749B.go) | 900 | greedy |
+| [1747A. Two Groups](https://codeforces.com/contest/1747/problem/A) | [golang](/codeforces/1747A/1747A.go) |  | constructive algorithms |
+| [1747B. BAN BAN](https://codeforces.com/contest/1747/problem/B) | [golang](/codeforces/1747B/1747B.go) |  | constructive algorithms |
+| [1747C. Swap Game](https://codeforces.com/contest/1747/problem/C) | [golang](/codeforces/1747C/1747C.go) |  | games |

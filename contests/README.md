@@ -11,4 +11,5 @@
 | [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | 4833 / 31271 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
 | [Codeforces Round #826 (Div. 3)](https://codeforces.com/contest/1741) | 3102 / 17198 | [solutions](/contests/cf-round-826) | 11 oct 2022 |
 | [Codeforces Round #828 (Div. 3)](https://codeforces.com/contest/1744) | 2398 / 14451 | [solutions](/contests/cf-round-828) | 16 oct 2022 |
+| [Codeforces Round #832 (Div. 2)](https://codeforces.com/contest/1747) | 3708 / 13803 | [solutions](/contests/cf-round-832) | 4 nov 2022 |
 
