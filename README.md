@@ -28,7 +28,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 215
+Problems solved in total: 217
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -251,6 +251,8 @@ Problems solved in total: 215
 | [345. Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [golang](/leetcode/reverse-vowels-of-a-string/reverse-vowels-of-a-string.go) | Easy | Two Pointers, String |
 | [212. Word search ii](https://leetcode.com/problems/word-search-ii/) | [golang](/leetcode/word-search-ii/word-search-ii.go) | Hard | Array, String, Backtracking, Trie, Matrix |
 | [899. Orderly queue](https://leetcode.com/problems/orderly-queue/) | [golang](/leetcode/orderly-queue/orderly-queue.go) | Hard | Math, String, Sorting |
+| [208. Implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree/) | [golang](/leetcode/implement-trie-prefix-tree/implement-trie-prefix-tree.go) | Medium | Hash Table, String, Design, Trie |
+| [211. Design add and search words data structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [golang](/leetcode/design-add-and-search-words-data-structure/design-add-and-search-words-data-structure.go) | Medium | String, Depth-First Search, Design, Trie |
 
 
 ## codeforces

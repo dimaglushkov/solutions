@@ -214,3 +214,5 @@ longest-palindrome-by-concatenating-two-letter-words,Medium,2131,['golang'],"['A
 reverse-vowels-of-a-string,Easy,345,['golang'],"['Two Pointers', 'String']"
 word-search-ii,Hard,212,['golang'],"['Array', 'String', 'Backtracking', 'Trie', 'Matrix']"
 orderly-queue,Hard,899,['golang'],"['Math', 'String', 'Sorting']"
+implement-trie-prefix-tree,Medium,208,['golang'],"['Hash Table', 'String', 'Design', 'Trie']"
+design-add-and-search-words-data-structure,Medium,211,['golang'],"['String', 'Depth-First Search', 'Design', 'Trie']"
