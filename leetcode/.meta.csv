@@ -212,3 +212,4 @@ k-closest-points-to-origin,Medium,973,['golang'],"['Array', 'Math', 'Divide and 
 minimum-genetic-mutation,Medium,433,['golang'],"['Hash Table', 'String', 'Breadth-First Search']"
 longest-palindrome-by-concatenating-two-letter-words,Medium,2131,['golang'],"['Array', 'Hash Table', 'String', 'Greedy', 'Counting']"
 reverse-vowels-of-a-string,Easy,345,['golang'],"['Two Pointers', 'String']"
+word-search-ii,Hard,212,['golang'],"['Array', 'String', 'Backtracking', 'Trie', 'Matrix']"

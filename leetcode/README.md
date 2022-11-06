@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 213
+Problems solved in total: 214
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -221,3 +221,4 @@ Problems solved in total: 213
 | [433. Minimum genetic mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [golang](/leetcode/minimum-genetic-mutation/minimum-genetic-mutation.go) | Medium | Hash Table, String, Breadth-First Search |
 | [2131. Longest palindrome by concatenating two letter words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | [golang](/leetcode/longest-palindrome-by-concatenating-two-letter-words/longest-palindrome-by-concatenating-two-letter-words.go) | Medium | Array, Hash Table, String, Greedy, Counting |
 | [345. Reverse vowels of a string](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [golang](/leetcode/reverse-vowels-of-a-string/reverse-vowels-of-a-string.go) | Easy | Two Pointers, String |
+| [212. Word search ii](https://leetcode.com/problems/word-search-ii/) | [golang](/leetcode/word-search-ii/word-search-ii.go) | Hard | Array, String, Backtracking, Trie, Matrix |
