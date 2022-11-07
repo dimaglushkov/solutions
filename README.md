@@ -28,7 +28,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 217
+Problems solved in total: 218
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -253,6 +253,7 @@ Problems solved in total: 217
 | [899. Orderly queue](https://leetcode.com/problems/orderly-queue/) | [golang](/leetcode/orderly-queue/orderly-queue.go) | Hard | Math, String, Sorting |
 | [208. Implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree/) | [golang](/leetcode/implement-trie-prefix-tree/implement-trie-prefix-tree.go) | Medium | Hash Table, String, Design, Trie |
 | [211. Design add and search words data structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [golang](/leetcode/design-add-and-search-words-data-structure/design-add-and-search-words-data-structure.go) | Medium | String, Depth-First Search, Design, Trie |
+| [1323. Maximum 69 number](https://leetcode.com/problems/maximum-69-number/) | [golang](/leetcode/maximum-69-number/maximum-69-number.go) | Easy | Math, Greedy |
 
 
 ## codeforces

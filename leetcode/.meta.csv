@@ -216,3 +216,4 @@ word-search-ii,Hard,212,['golang'],"['Array', 'String', 'Backtracking', 'Trie', 
 orderly-queue,Hard,899,['golang'],"['Math', 'String', 'Sorting']"
 implement-trie-prefix-tree,Medium,208,['golang'],"['Hash Table', 'String', 'Design', 'Trie']"
 design-add-and-search-words-data-structure,Medium,211,['golang'],"['String', 'Depth-First Search', 'Design', 'Trie']"
+maximum-69-number,Easy,1323,['golang'],"['Math', 'Greedy']"
