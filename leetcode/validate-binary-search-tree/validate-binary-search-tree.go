@@ -9,23 +9,28 @@ import (
 
 // source: https://leetcode.com/problems/validate-binary-search-tree/
 
-func util(r *TreeNode, p *int) bool {
-	if r == nil {
-		return true
-	}
-	if !util(r.Left, p) || r.Val <= *p {
-		return false
-	}
-	*p = r.Val
-	return util(r.Right, p)
-}
-
 func isValidBST(root *TreeNode) bool {
-	var p = math.MinInt
-	return util(root, &p)
+	var dfs func(node *TreeNode, min, max int) bool
+	dfs = func(node *TreeNode, min, max int) bool {
+		if node == nil {
+			return true
+		}
+		if node.Left != nil && (!(node.Left.Val > min) || node.Left.Val >= node.Val) {
+			return false
+		}
+		if node.Right != nil && (!(node.Right.Val < max) || node.Right.Val <= node.Val) {
+			return false
+		}
+		return dfs(node.Left, min, node.Val) && dfs(node.Right, node.Val, max)
+	}
+
+	return dfs(root, math.MinInt, math.MaxInt)
 }
 
 func main() {
+	t2 := NewTreeNode([]int{5, 1, 4, -1, -1, 3, 6})
+	fmt.Println("Expected: false	Output: ", isValidBST(t2))
+
 	t1 := NewTreeNode([]int{5, 4, 6, -1, -1, 3, 7})
 	fmt.Println("Expected: false	Output: ", isValidBST(t1))
 

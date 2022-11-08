@@ -28,7 +28,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 225
+Problems solved in total: 227
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -261,6 +261,8 @@ Problems solved in total: 225
 | [1544. Make the string great](https://leetcode.com/problems/make-the-string-great/) | [golang](/leetcode/make-the-string-great/make-the-string-great.go) | Easy | String, Stack |
 | [322. Coin change](https://leetcode.com/problems/coin-change/) | [golang](/leetcode/coin-change/coin-change.go) | Medium | Array, Dynamic Programming, Breadth-First Search |
 | [238. Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) | [golang](/leetcode/product-of-array-except-self/product-of-array-except-self.go) | Medium | Array, Prefix Sum |
+| [155. Min stack](https://leetcode.com/problems/min-stack/) | [golang](/leetcode/min-stack/min-stack.go) | Medium | Stack, Design |
+| [994. Rotting oranges](https://leetcode.com/problems/rotting-oranges/) | [golang](/leetcode/rotting-oranges/rotting-oranges.go) | Medium | Array, Breadth-First Search, Matrix |
 
 
 ## codeforces

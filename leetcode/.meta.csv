@@ -224,3 +224,5 @@ course-schedule,Medium,207,['golang'],"['Depth-First Search', 'Breadth-First Sea
 make-the-string-great,Easy,1544,['golang'],"['String', 'Stack']"
 coin-change,Medium,322,['golang'],"['Array', 'Dynamic Programming', 'Breadth-First Search']"
 product-of-array-except-self,Medium,238,['golang'],"['Array', 'Prefix Sum']"
+min-stack,Medium,155,['golang'],"['Stack', 'Design']"
+rotting-oranges,Medium,994,['golang'],"['Array', 'Breadth-First Search', 'Matrix']"
