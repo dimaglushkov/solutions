@@ -28,7 +28,7 @@ This repo stores my problem-solving related code
 
 ## leetcode
     
-Problems solved in total: 218
+Problems solved in total: 225
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -254,6 +254,13 @@ Problems solved in total: 218
 | [208. Implement trie prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree/) | [golang](/leetcode/implement-trie-prefix-tree/implement-trie-prefix-tree.go) | Medium | Hash Table, String, Design, Trie |
 | [211. Design add and search words data structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [golang](/leetcode/design-add-and-search-words-data-structure/design-add-and-search-words-data-structure.go) | Medium | String, Depth-First Search, Design, Trie |
 | [1323. Maximum 69 number](https://leetcode.com/problems/maximum-69-number/) | [golang](/leetcode/maximum-69-number/maximum-69-number.go) | Easy | Math, Greedy |
+| [102. Binary tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [golang](/leetcode/binary-tree-level-order-traversal/binary-tree-level-order-traversal.go) | Medium | Tree, Breadth-First Search, Binary Tree |
+| [133. Clone graph](https://leetcode.com/problems/clone-graph/) | [golang](/leetcode/clone-graph/clone-graph.go) | Medium | Hash Table, Depth-First Search, Breadth-First Search, Graph |
+| [150. Evaluate reverse polish notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [golang](/leetcode/evaluate-reverse-polish-notation/evaluate-reverse-polish-notation.go) | Medium | Array, Math, Stack |
+| [207. Course schedule](https://leetcode.com/problems/course-schedule/) | [golang](/leetcode/course-schedule/course-schedule.go) | Medium | Depth-First Search, Breadth-First Search, Graph, Topological Sort |
+| [1544. Make the string great](https://leetcode.com/problems/make-the-string-great/) | [golang](/leetcode/make-the-string-great/make-the-string-great.go) | Easy | String, Stack |
+| [322. Coin change](https://leetcode.com/problems/coin-change/) | [golang](/leetcode/coin-change/coin-change.go) | Medium | Array, Dynamic Programming, Breadth-First Search |
+| [238. Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) | [golang](/leetcode/product-of-array-except-self/product-of-array-except-self.go) | Medium | Array, Prefix Sum |
 
 
 ## codeforces
