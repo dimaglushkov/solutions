@@ -1,48 +1,37 @@
 import argparse
+import json
+
 import leetcode
 import os
 import pandas as pd
 from matplotlib import pyplot as plt
-from svg.charts import pie
-
-lang_specifics = {
-    'golang': {
-        'ext': 'go',
-        'com': '//',
-        'prefix': 'package main\n\nimport "fmt"\n\n',
-    },
-    'python': {
-        'ext': 'py',
-        'com': '#'
-    },
-    'bash': {
-        'ext': 'sh',
-        'com': '#'
-    }
-}
-
-charts = {'by_diff', 'by_tags'}
 
 
-def get_title_slugs(problems: list, lang: str, d: str) -> dict:
+CHARTS = {'by_diff', 'by_tags'}
+META_FILE = ".meta.csv"
+with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
+    LANG_SPECS = json.load(json_file)
+
+
+def _get_title_slugs(problems: list, lang: str, d: str) -> dict:
     slugs = dict()
     for problem in problems:
         if problem.startswith('http'):
             slug = problem
             if problem.endswith('/'):
                 slug = slug[:-1].split('/')[-1]
-            slugs[slug] = os.path.join(d, slug, f'{slug}.{lang_specifics[lang]["ext"]}')
+            slugs[slug] = os.path.join(d, slug, f'{slug}.{LANG_SPECS[lang]["ext"]}')
             if not os.path.exists(os.path.join(d, slug)):
                 os.mkdir(os.path.join(d, slug))
         else:
-            slugs[problem] = os.path.join(d, problem, f'{problem}.{lang_specifics[lang]["ext"]}')
+            slugs[problem] = os.path.join(d, problem, f'{problem}.{LANG_SPECS[lang]["ext"]}')
             if not os.path.exists(os.path.join(d, problem)):
                 os.mkdir(os.path.join(d, problem))
 
     existing_solutions = list()
     for k, v in slugs.items():
         if os.path.exists(v):
-            print(f'Skipping {k}, {v} already exists. ')
+            print(f'Skipping {k}, {v} already exists.')
             existing_solutions.append(k)
     for i in existing_solutions:
         del slugs[i]
@@ -50,7 +39,7 @@ def get_title_slugs(problems: list, lang: str, d: str) -> dict:
     return slugs
 
 
-def get_slug_data(name: str) -> dict:
+def _get_slug_data(name: str) -> dict:
     configuration = leetcode.Configuration()
     configuration.api_key["Referer"] = "https://leetcode.com"
     configuration.debug = False
@@ -105,7 +94,7 @@ def get_slug_data(name: str) -> dict:
     return api_instance.graphql_post(body=graphql_request).to_dict()
 
 
-def get_test_cases(data: dict) -> list:
+def _get_test_cases(data: dict) -> list:
     tests = list()
     translation_table = {
         '<strong>': '',
@@ -139,31 +128,62 @@ def get_test_cases(data: dict) -> list:
     return tests
 
 
-def generate_test_code(tests: list, code: str) -> str:
-    tester = '\n\nfunc main() {\n'
+def _generate_go_test_code(tests: list, code: str) -> str:
+    tester = """\n
+func main() {
+    testCases := []struct {
+%__inputs__%
+%__output__%
+    }{
+%__testcases__%\t}
 
+%__runner__%
+}
+"""
     if '/**' in code:
         code = code.split('*/\n')[-1]
 
     func_decl = code.split('\n')[0]
     func_name = func_decl.replace('func ', '').split('(')[0]
     func_params = {p.split(' ')[0]: ''.join(p.split(' ')[1:]) for p in func_decl.split('(')[1].split(')')[0].split(', ')}
-    # param_types = [v for v in func_params.values()]
-    # same_type = all(p == param_types[0] for p in param_types[1:])
-    for i, t in enumerate(tests):
-        param_def = f'\t// Example {i + 1} \n'
-        args = []
+    func_return = func_decl.split(')')[-1].replace('{', '').strip()
+
+    inputs = list()
+    for n, t in func_params.items():
+        inputs.append(f"\t\t{n} {t}")
+    output = f"\t\twant {func_return}"
+
+    testcases = list()
+    for t in tests:
+        tc = list()
         for vn, vt in func_params.items():
-            param_def += f'\tvar {vn}{i + 1} {("= " + vt) if "[]" in vt else (vt + " =")} {t["input"][vn].replace("[", "{").replace("]", "}")}\n'
-            args.append(f'{vn}{i + 1}')
-        run_def = f'\tfmt.Println("Expected: {t["output"]}\tOutput: ", {func_name}({", ".join(args)}))\n\n'
+            tc.append(f'\t\t\t{vn}: {vt if "[]" in vt else ""} {t["input"][vn].replace("[", "{").replace("]", "}")},\n')
+        tc.append(f'\t\t\twant: {func_return if "[]" in func_return else ""} {t["output"].replace("[", "{").replace("]", "}")},\n')
+        tc_str = "".join(tc)
+        testcases.append("\t\t{\n" + tc_str + "\t\t},\n")
 
-        tester += param_def + run_def
+    func_call = f"{func_name}({', '.join(['tc.'+ p for p in func_params.keys() ])})"
+    runner = """
+    for _, tc := range testCases {
+        x := %__func_call__%
+        status := "ERROR"
+        // intentionally using this way of comparison
+        if fmt.Sprint(x) == fmt.Sprint(tc.want) {
+            status = "OK"
+        }
+        fmt.Println(status, "\tExpected: ", tc.want, " Actual: ", x)
+    }    
+""".replace("%__func_call__%", func_call)
 
-    return tester + '}\n'
+    tester = tester\
+        .replace("%__inputs__%", "\n".join(inputs))\
+        .replace("%__output__%", output)\
+        .replace("%__testcases__%", "".join(testcases))\
+        .replace("%__runner__%", runner)
+    return tester
 
 
-def create_code_template(slug: str, file: str, lang: str, no_tests: bool, data: dict) -> None:
+def _create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
     source_link = f'https://leetcode.com/problems/{slug}/'
     code_snippet = ''
 
@@ -173,21 +193,24 @@ def create_code_template(slug: str, file: str, lang: str, no_tests: bool, data: 
             break
 
     code = ''
-    if 'prefix' in lang_specifics[lang].keys():
-        code = lang_specifics[lang]['prefix']
+    if 'prefix' in LANG_SPECS[lang].keys():
+        code = LANG_SPECS[lang]['prefix']
 
-    code += f'{lang_specifics[lang]["com"]} source: {source_link}\n\n'
+    code += f'{LANG_SPECS[lang]["com"]} source: {source_link}\n\n'
     code += code_snippet
 
     # experimental feature, tested only with golang
-    if lang == 'golang' and not no_tests:
-        code += generate_test_code(get_test_cases(data), code_snippet)
+    if lang == 'golang':
+        try:
+            code += _generate_go_test_code(_get_test_cases(data), code_snippet)
+        except Exception as e:
+            print("Was not able to generate test code for " + slug)
 
     with open(file, 'w') as code_file:
         code_file.write(code)
 
 
-def clear_leetcode_meta_file(data: dict):
+def _clear_leetcode_meta_file(data: dict):
     # keeping meta.csv actual by removing problems with no solution
     # obviously not the prettiest way to do it
     solutions = dict()
@@ -209,7 +232,7 @@ def clear_leetcode_meta_file(data: dict):
             continue
 
         for lang_id, old_lang in enumerate(meta['lang']):
-            if lang_specifics[old_lang]['ext'] not in solutions[problem]:
+            if LANG_SPECS[old_lang]['ext'] not in solutions[problem]:
                 if problem not in lang_to_del:
                     lang_to_del[problem] = [lang_id]
                 else:
@@ -225,24 +248,24 @@ def clear_leetcode_meta_file(data: dict):
     pd.DataFrame.from_dict(data).transpose().to_csv('../../leetcode/.meta.csv', index_label='slug', index=True)
 
 
-def generate_leetcode_readme(data: dict):
+def _generate_leetcode_readme(data: dict):
     header = '## leetcode'
     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
 
     # Getting simple stats and generating rows for the table
     for problem, meta in data.items():
-        solutions_links = ', '.join([f'[{lang}](/leetcode/{problem}/{problem}.{lang_specifics[lang]["ext"]})' for lang in meta['lang']])
+        solutions_links = ', '.join([f'[{lang}](/leetcode/{problem}/{problem}.{LANG_SPECS[lang]["ext"]})' for lang in meta['lang']])
         problems_table += f'| [{meta["id"]}. {problem.replace("-", " ").capitalize() }](https://leetcode.com/problems/{problem}/) ' \
                           f'| {solutions_links} ' \
                           f'| {meta["difficulty"]} ' \
                           f'| {", ".join(meta["tags"])} |\n'
-    stats_str = generate_svg_stats(data)
+    stats_str = _generate_svg_stats(data)
     readme = header + stats_str + problems_table
     with open('../../leetcode/README.md', 'w') as readme_file:
         readme_file.write(readme)
 
 
-def generate_svg_stats(data: dict) -> str:
+def _generate_svg_stats(data: dict) -> str:
     stats = {
         'solved': 0,
         'by_diff': dict(),
@@ -276,8 +299,8 @@ def generate_svg_stats(data: dict) -> str:
     for tag in to_del:
         del stats['by_tags'][tag]
 
-    for c in charts:
-        generate_chart(f'../leetcode/.{c}.svg', stats[c])
+    for c in CHARTS:
+        _generate_chart(f'../leetcode/.{c}.svg', stats[c])
 
     return f'''
     
@@ -290,7 +313,7 @@ Problems solved in total: {stats["solved"]}
 '''
 
 
-def generate_chart(path: str, data: dict):
+def _generate_chart(path: str, data: dict):
     fields = list()
     values = list()
     for k, v in data.items():
@@ -308,7 +331,7 @@ def generate_chart(path: str, data: dict):
     plt.savefig(path)
 
 
-def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
+def _update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
     if not os.path.exists('../../leetcode/.meta.csv'):
         with open('../../leetcode/.meta.csv', 'w') as f:
             f.write('slug,id,difficulty,tags,lang\n')
@@ -328,29 +351,29 @@ def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
     pd.DataFrame.from_dict(data).transpose().to_csv('../../leetcode/.meta.csv', index_label='slug', index=True)
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Pulls problems from leetcode and sets up env in local repo")
-    parser.add_argument('problems', default='', type=str, nargs='+', help='Name or link to the problems')
-    parser.add_argument('--lang', dest='lang', action='store', default='golang', help='Solution lang')
-    parser.add_argument('--dir', dest='dir', action='store', default='../leetcode', help='Solutions directory')
-    parser.add_argument('--no-tests', dest='no_tests', action='store_true', default=False, help='Suppress automatic test creation')
-    args = parser.parse_args()
+def pull(problems: list, lang: str, sol_dir: str):
+    if lang not in LANG_SPECS:
+        print(f"Language {lang} is not supported yet\n"
+              "In order to add it you need to add its extension to tools/lib/cf-problem-puller.py, "
+              "look for LANG_SPECIFICS "
+              "& create corresponding template file in tools/templates.")
+        return
 
-    if args.problems != ['.']:
-        slugs = get_title_slugs(args.problems, args.lang, args.dir)
+    if problems != ['.']:
+        slugs = _get_title_slugs(problems, lang, sol_dir)
         if len(slugs) == 0:
             print("Nothing to do")
             return
 
         for slug, file in slugs.items():
-            slug_data = get_slug_data(slug)['data']['question']
-            create_code_template(slug, file, args.lang, args.no_tests, slug_data)
-            update_meta_file(slug, args.lang, slug_data)
+            slug_data = _get_slug_data(slug)['data']['question']
+            _create_code_template(slug, file, lang, slug_data)
+            _update_meta_file(slug, lang, slug_data)
 
     data = pd.read_csv('../../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
-    clear_leetcode_meta_file(data)
-    generate_leetcode_readme(data)
+    _clear_leetcode_meta_file(data)
+    _generate_leetcode_readme(data)
 
+def delete(problems: list, lang: str, sol_dir: str):
+    pass
 
-if __name__ == '__main__':
-    main()

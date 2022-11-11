@@ -2,7 +2,7 @@ import os.path
 
 import argparse
 
-DEFAULT_DIR = '../'
+DEFAULT_DIR = f"{os.path.dirname(__file__)}/.."
 
 def main():
     aliases = {

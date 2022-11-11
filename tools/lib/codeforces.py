@@ -1,3 +1,4 @@
+import json
 import os
 
 import pandas as pd
@@ -6,14 +7,8 @@ import requests
 URL_TEMPLATE = 'https://codeforces.com/contest/{}/problem/{}'
 META_FILE = '.meta.csv'
 
-LANG_SPECS = {
-    'golang': {
-        'ext': 'go'
-    },
-    'python': {
-        'ext': 'py'
-    }
-}
+with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
+    LANG_SPECS = json.load(json_file)
 
 
 def _generate_codeforces_readme(data: dict, sol_dir: str):
@@ -54,9 +49,9 @@ def _get_problem_data(problem_id: list) -> dict:
 
     all_problems_data = all_problems_data["result"]["problems"]
 
-    def search(contest_id, problem_id):
+    def search(contest_id, _problem_id):
         i = 0
-        while not (all_problems_data[i]["contestId"] == contest_id and all_problems_data[i]["index"] == problem_id):
+        while not (all_problems_data[i]["contestId"] == contest_id and all_problems_data[i]["index"] == _problem_id):
             i += 1
         return i
 
@@ -105,13 +100,11 @@ def _clear_codeforces_meta_file(data: dict, sol_dir: str):
 
 def _create_code_template(data: dict, lang: str, sol_dir: str) -> None:
     problem_id = f"{data['contestId']}{data['index']}"
-    x = os.getcwd()
     if not os.path.exists(os.path.join(sol_dir, problem_id)):
         os.mkdir(os.path.join(sol_dir, problem_id))
     file = os.path.join(sol_dir, problem_id, f"{problem_id}.{LANG_SPECS[lang]['ext']}")
 
     source_link = URL_TEMPLATE.format(data["contestId"], data["index"])
-    template = ""
     with open(f"templates/codeforces.{LANG_SPECS[lang]['ext']}") as f:
         template = f.readlines()
     i = 0
