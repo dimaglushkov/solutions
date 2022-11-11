@@ -6,7 +6,6 @@ import os
 import pandas as pd
 from matplotlib import pyplot as plt
 
-
 CHARTS = {'by_diff', 'by_tags'}
 META_FILE = ".meta.csv"
 with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
@@ -128,7 +127,7 @@ def _get_test_cases(data: dict) -> list:
     return tests
 
 
-def _generate_go_test_code(tests: list, code: str) -> str:
+def _generate_golang_test_code(tests: list, code: str) -> str:
     tester = """\n
 func main() {
     testCases := []struct {
@@ -145,7 +144,8 @@ func main() {
 
     func_decl = code.split('\n')[0]
     func_name = func_decl.replace('func ', '').split('(')[0]
-    func_params = {p.split(' ')[0]: ''.join(p.split(' ')[1:]) for p in func_decl.split('(')[1].split(')')[0].split(', ')}
+    func_params = {p.split(' ')[0]: ''.join(p.split(' ')[1:]) for p in
+                   func_decl.split('(')[1].split(')')[0].split(', ')}
     func_return = func_decl.split(')')[-1].replace('{', '').strip()
 
     inputs = list()
@@ -158,11 +158,14 @@ func main() {
         tc = list()
         for vn, vt in func_params.items():
             tc.append(f'\t\t\t{vn}: {vt if "[]" in vt else ""} {t["input"][vn].replace("[", "{").replace("]", "}")},\n')
-        tc.append(f'\t\t\twant: {func_return if "[]" in func_return else ""} {t["output"].replace("[", "{").replace("]", "}")},\n')
+        tc.append(
+            f'\t\t\twant: {func_return if "[]" in func_return else ""} '
+            f'{t["output"].replace("[", "{").replace("]", "}")},\n'
+        )
         tc_str = "".join(tc)
         testcases.append("\t\t{\n" + tc_str + "\t\t},\n")
 
-    func_call = f"{func_name}({', '.join(['tc.'+ p for p in func_params.keys() ])})"
+    func_call = f"{func_name}({', '.join(['tc.' + p for p in func_params.keys()])})"
     runner = """
     for _, tc := range testCases {
         x := %__func_call__%
@@ -175,10 +178,10 @@ func main() {
     }    
 """.replace("%__func_call__%", func_call)
 
-    tester = tester\
-        .replace("%__inputs__%", "\n".join(inputs))\
-        .replace("%__output__%", output)\
-        .replace("%__testcases__%", "".join(testcases))\
+    tester = tester \
+        .replace("%__inputs__%", "\n".join(inputs)) \
+        .replace("%__output__%", output) \
+        .replace("%__testcases__%", "".join(testcases)) \
         .replace("%__runner__%", runner)
     return tester
 
@@ -202,21 +205,22 @@ def _create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
     # experimental feature, tested only with golang
     if lang == 'golang':
         try:
-            code += _generate_go_test_code(_get_test_cases(data), code_snippet)
+            code += _generate_golang_test_code(_get_test_cases(data), code_snippet)
         except Exception as e:
-            print("Was not able to generate test code for " + slug)
+            print("Was not able to generate test code: " + slug)
 
     with open(file, 'w') as code_file:
         code_file.write(code)
 
 
-def _clear_leetcode_meta_file(data: dict):
+def _clear_leetcode_meta_file(data: dict, sol_dir: str):
     # keeping meta.csv actual by removing problems with no solution
     # obviously not the prettiest way to do it
     solutions = dict()
-    for pkg in os.listdir('../../leetcode'):
-        if os.path.isdir(f'../leetcode/{pkg}'):
-            for f in os.listdir(f'../leetcode/{pkg}'):
+    for pkg in os.listdir(sol_dir):
+        pkg_path = os.path.join(sol_dir, pkg)
+        if os.path.isdir(pkg_path):
+            for f in os.listdir(pkg_path):
                 problem = f.split('.')[0]
                 if problem not in solutions:
                     solutions[problem] = [f.split('.')[1]]
@@ -245,27 +249,29 @@ def _clear_leetcode_meta_file(data: dict):
     for problem in problem_to_del:
         del data[problem]
 
-    pd.DataFrame.from_dict(data).transpose().to_csv('../../leetcode/.meta.csv', index_label='slug', index=True)
+    pd.DataFrame.from_dict(data).transpose().to_csv(os.path.join(sol_dir, META_FILE), index_label='slug', index=True)
 
 
-def _generate_leetcode_readme(data: dict):
+def _generate_leetcode_readme(data: dict, sol_dir: str):
     header = '## leetcode'
     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
 
     # Getting simple stats and generating rows for the table
     for problem, meta in data.items():
-        solutions_links = ', '.join([f'[{lang}](/leetcode/{problem}/{problem}.{LANG_SPECS[lang]["ext"]})' for lang in meta['lang']])
-        problems_table += f'| [{meta["id"]}. {problem.replace("-", " ").capitalize() }](https://leetcode.com/problems/{problem}/) ' \
-                          f'| {solutions_links} ' \
-                          f'| {meta["difficulty"]} ' \
-                          f'| {", ".join(meta["tags"])} |\n'
+        solutions_links = ', '.join(
+            [f'[{lang}](/leetcode/{problem}/{problem}.{LANG_SPECS[lang]["ext"]})' for lang in meta['lang']])
+        problems_table += \
+            f'| [{meta["id"]}. {problem.replace("-", " ").capitalize()}](https://leetcode.com/problems/{problem}/) ' \
+            f'| {solutions_links} ' \
+            f'| {meta["difficulty"]} ' \
+            f'| {", ".join(meta["tags"])} |\n'
     stats_str = _generate_svg_stats(data)
     readme = header + stats_str + problems_table
-    with open('../../leetcode/README.md', 'w') as readme_file:
+    with open(os.path.join(sol_dir, 'README.md'), 'w') as readme_file:
         readme_file.write(readme)
 
 
-def _generate_svg_stats(data: dict) -> str:
+def _generate_svg_stats(data: dict, sol_dir: str) -> str:
     stats = {
         'solved': 0,
         'by_diff': dict(),
@@ -300,7 +306,7 @@ def _generate_svg_stats(data: dict) -> str:
         del stats['by_tags'][tag]
 
     for c in CHARTS:
-        _generate_chart(f'../leetcode/.{c}.svg', stats[c])
+        _generate_chart(os.path.join(sol_dir, f'{c}.svg'), stats[c])
 
     return f'''
     
@@ -331,11 +337,12 @@ def _generate_chart(path: str, data: dict):
     plt.savefig(path)
 
 
-def _update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
-    if not os.path.exists('../../leetcode/.meta.csv'):
-        with open('../../leetcode/.meta.csv', 'w') as f:
+def _update_meta_file(slug: str, lang: str, slug_data: dict, sol_dir: str) -> None:
+    meta_file = os.path.join(sol_dir, META_FILE)
+    if not os.path.exists(meta_file):
+        with open(meta_file, 'w') as f:
             f.write('slug,id,difficulty,tags,lang\n')
-    data = pd.read_csv('../../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval}).to_dict('index')
+    data = pd.read_csv(meta_file, index_col='slug', converters={'lang': pd.eval}).to_dict('index')
 
     # adding new problem or solution
     if slug not in data.keys():
@@ -348,7 +355,7 @@ def _update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
     else:
         data[slug]['lang'].append(lang)
 
-    pd.DataFrame.from_dict(data).transpose().to_csv('../../leetcode/.meta.csv', index_label='slug', index=True)
+    pd.DataFrame.from_dict(data).transpose().to_csv(meta_file, index_label='slug', index=True)
 
 
 def pull(problems: list, lang: str, sol_dir: str):
@@ -368,12 +375,27 @@ def pull(problems: list, lang: str, sol_dir: str):
         for slug, file in slugs.items():
             slug_data = _get_slug_data(slug)['data']['question']
             _create_code_template(slug, file, lang, slug_data)
-            _update_meta_file(slug, lang, slug_data)
+            _update_meta_file(slug, lang, slug_data, sol_dir)
 
-    data = pd.read_csv('../../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
-    _clear_leetcode_meta_file(data)
-    _generate_leetcode_readme(data)
+    data = pd.read_csv(
+        os.path.join(sol_dir, META_FILE), index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}
+    ).to_dict('index')
+    _clear_leetcode_meta_file(data, sol_dir)
+    _generate_leetcode_readme(data, sol_dir)
+
 
 def delete(problems: list, lang: str, sol_dir: str):
-    pass
+    for problem in problems:
+        if problem.startswith('http'):
+            if not problem.endswith('/'):
+                problem += '/'
+            problem = problem[:-1].split('/')[-1]
 
+        os.remove(os.path.join(sol_dir, problem, f'{problem}.{LANG_SPECS[lang]["ext"]}'))
+        os.rmdir(os.path.join(sol_dir, problem))
+
+    data = pd.read_csv(
+        os.path.join(sol_dir, META_FILE), index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}
+    ).to_dict('index')
+    _clear_leetcode_meta_file(data, sol_dir)
+    _generate_leetcode_readme(data, sol_dir)

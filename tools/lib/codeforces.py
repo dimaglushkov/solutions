@@ -120,8 +120,8 @@ def _create_code_template(data: dict, lang: str, sol_dir: str) -> None:
         code_file.write(code)
 
 
-def _update_meta_file(problem_data: dict, lang: str, directory: str) -> None:
-    meta_file = os.path.join(directory, META_FILE)
+def _update_meta_file(problem_data: dict, lang: str, sol_dir: str) -> None:
+    meta_file = os.path.join(sol_dir, META_FILE)
     if not os.path.exists(meta_file):
         with open(meta_file, 'w') as f:
             f.write('id,name,contest,problem,difficulty,tags,lang\n')
