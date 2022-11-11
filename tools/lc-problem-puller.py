@@ -14,10 +14,6 @@ lang_specifics = {
     'python': {
         'ext': 'py',
         'com': '#'
-    },
-    'bash': {
-        'ext': 'sh',
-        'com': '#'
     }
 }
 
@@ -191,7 +187,7 @@ def clear_leetcode_meta_file(data: dict):
     # keeping meta.csv actual by removing problems with no solution
     # obviously not the prettiest way to do it
     solutions = dict()
-    for pkg in os.listdir('../leetcode'):
+    for pkg in os.listdir('../../leetcode'):
         if os.path.isdir(f'../leetcode/{pkg}'):
             for f in os.listdir(f'../leetcode/{pkg}'):
                 problem = f.split('.')[0]
@@ -222,7 +218,7 @@ def clear_leetcode_meta_file(data: dict):
     for problem in problem_to_del:
         del data[problem]
 
-    pd.DataFrame.from_dict(data).transpose().to_csv('../leetcode/.meta.csv', index_label='slug', index=True)
+    pd.DataFrame.from_dict(data).transpose().to_csv('../../leetcode/.meta.csv', index_label='slug', index=True)
 
 
 def generate_leetcode_readme(data: dict):
@@ -238,7 +234,7 @@ def generate_leetcode_readme(data: dict):
                           f'| {", ".join(meta["tags"])} |\n'
     stats_str = generate_svg_stats(data)
     readme = header + stats_str + problems_table
-    with open('../leetcode/README.md', 'w') as readme_file:
+    with open('../../leetcode/README.md', 'w') as readme_file:
         readme_file.write(readme)
 
 
@@ -309,10 +305,10 @@ def generate_chart(path: str, data: dict):
 
 
 def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
-    if not os.path.exists('../leetcode/.meta.csv'):
-        with open('../leetcode/.meta.csv', 'w') as f:
+    if not os.path.exists('../../leetcode/.meta.csv'):
+        with open('../../leetcode/.meta.csv', 'w') as f:
             f.write('slug,id,difficulty,tags,lang\n')
-    data = pd.read_csv('../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval}).to_dict('index')
+    data = pd.read_csv('../../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval}).to_dict('index')
 
     # adding new problem or solution
     if slug not in data.keys():
@@ -325,7 +321,7 @@ def update_meta_file(slug: str, lang: str, slug_data: dict) -> None:
     else:
         data[slug]['lang'].append(lang)
 
-    pd.DataFrame.from_dict(data).transpose().to_csv('../leetcode/.meta.csv', index_label='slug', index=True)
+    pd.DataFrame.from_dict(data).transpose().to_csv('../../leetcode/.meta.csv', index_label='slug', index=True)
 
 
 def main():
@@ -347,7 +343,7 @@ def main():
             create_code_template(slug, file, args.lang, args.no_tests, slug_data)
             update_meta_file(slug, args.lang, slug_data)
 
-    data = pd.read_csv('../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
+    data = pd.read_csv('../../leetcode/.meta.csv', index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
     clear_leetcode_meta_file(data)
     generate_leetcode_readme(data)
 

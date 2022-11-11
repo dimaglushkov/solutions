@@ -2,13 +2,13 @@ import os
 
 import pandas as pd
 
-order = ['contests', 'leetcode', 'codeforces', 'acm.timus']
+order = ['tools', 'contests', 'leetcode', 'codeforces', 'acm.timus']
 
 
 def main():
     text = ''
 
-    with open('.README.gen.md') as f:
+    with open('../.README.gen.md') as f:
         text += f.read() + '\n\n'
 
     text += '\n ## Table of Contents\n'
@@ -27,7 +27,7 @@ def main():
         with open(readme) as f:
             text += f.read() + '\n\n'
 
-    with open('../README.md', 'w') as file:
+    with open('../../README.md', 'w') as file:
         file.write(text)
 
 

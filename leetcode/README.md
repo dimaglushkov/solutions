@@ -1,6 +1,6 @@
 ## leetcode
     
-Problems solved in total: 227
+Problems solved in total: 230
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -235,3 +235,6 @@ Problems solved in total: 227
 | [238. Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) | [golang](/leetcode/product-of-array-except-self/product-of-array-except-self.go) | Medium | Array, Prefix Sum |
 | [155. Min stack](https://leetcode.com/problems/min-stack/) | [golang](/leetcode/min-stack/min-stack.go) | Medium | Stack, Design |
 | [994. Rotting oranges](https://leetcode.com/problems/rotting-oranges/) | [golang](/leetcode/rotting-oranges/rotting-oranges.go) | Medium | Array, Breadth-First Search, Matrix |
+| [901. Online stock span](https://leetcode.com/problems/online-stock-span/) | [golang](/leetcode/online-stock-span/online-stock-span.go) | Medium | Stack, Design, Monotonic Stack, Data Stream |
+| [1047. Remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [golang](/leetcode/remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.go) | Easy | String, Stack |
+| [26. Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [golang](/leetcode/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | Easy | Array, Two Pointers |

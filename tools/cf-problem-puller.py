@@ -3,9 +3,8 @@ import os
 
 import pandas as pd
 import requests
-from bs4 import BeautifulSoup
 
-url_template = 'https://codeforces.com/contest/{}/problem/{}?locale=en'
+url_template = 'https://codeforces.com/contest/{}/problem/{}'
 
 lang_specifics = {
     'golang': {
@@ -15,11 +14,6 @@ lang_specifics = {
     'python': {
         'ext': 'py',
         'com': '#',
-        'main': 'def main():\n\t\n\nif __name__ == "__main__":\n\tmain()\n'
-    },
-    'bash': {
-        'ext': 'sh',
-        'com': '#'
     }
 }
 
@@ -30,7 +24,7 @@ def generate_codeforces_readme(data: dict):
 |-|-|-|-|
 '''
 
-    with open('../codeforces/README.md', 'w') as f:
+    with open('../../codeforces/README.md', 'w') as f:
         for k, v in data.items():
             solutions_links = ', '.join(
                 [f'[{lang}](/codeforces/{k}/{k}.{lang_specifics[lang]["ext"]})' for lang in v['lang']])
@@ -79,7 +73,7 @@ def clear_codeforces_meta_file(data: dict):
     # keeping meta.csv actual by removing problems with no solution
     # obviously not the prettiest way to do it
     solutions = dict()
-    for pkg in os.listdir('../codeforces'):
+    for pkg in os.listdir('../../codeforces'):
         if os.path.isdir(f'../codeforces/{pkg}'):
             for f in os.listdir(f'../codeforces/{pkg}'):
                 problem = f.split('.')[0]
@@ -110,7 +104,7 @@ def clear_codeforces_meta_file(data: dict):
     for problem in problem_to_del:
         del data[problem]
 
-    pd.DataFrame.from_dict(data).transpose().to_csv('../codeforces/.meta.csv', index_label='id', index=True)
+    pd.DataFrame.from_dict(data).transpose().to_csv('../../codeforces/.meta.csv', index_label='id', index=True)
 
 
 def create_code_template(lang: str, d: str, no_tests: bool, data: dict) -> None:
@@ -192,7 +186,7 @@ def main():
             create_code_template(args.lang, args.dir, args.no_tests, data)
             update_meta_file(args.lang, args.dir, data)
 
-    data = pd.read_csv('../codeforces/.meta.csv', index_col='id', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
+    data = pd.read_csv('../../codeforces/.meta.csv', index_col='id', converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
     clear_codeforces_meta_file(data)
     generate_codeforces_readme(data)
 

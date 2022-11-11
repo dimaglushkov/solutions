@@ -226,3 +226,6 @@ coin-change,Medium,322,['golang'],"['Array', 'Dynamic Programming', 'Breadth-Fir
 product-of-array-except-self,Medium,238,['golang'],"['Array', 'Prefix Sum']"
 min-stack,Medium,155,['golang'],"['Stack', 'Design']"
 rotting-oranges,Medium,994,['golang'],"['Array', 'Breadth-First Search', 'Matrix']"
+online-stock-span,Medium,901,['golang'],"['Stack', 'Design', 'Monotonic Stack', 'Data Stream']"
+remove-all-adjacent-duplicates-in-string,Easy,1047,['golang'],"['String', 'Stack']"
+remove-duplicates-from-sorted-array,Easy,26,['golang'],"['Array', 'Two Pointers']"
