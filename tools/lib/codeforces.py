@@ -1,11 +1,13 @@
 import json
 import os
+import shutil
 
 import pandas as pd
 import requests
 
 URL_TEMPLATE = 'https://codeforces.com/contest/{}/problem/{}'
 META_FILE = '.meta.csv'
+TEMPLATES_DIR = os.path.join(os.path.dirname(__file__), "..", "templates")
 
 with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
     LANG_SPECS = json.load(json_file)
@@ -105,7 +107,7 @@ def _create_code_template(data: dict, lang: str, sol_dir: str) -> None:
     file = os.path.join(sol_dir, problem_id, f"{problem_id}.{LANG_SPECS[lang]['ext']}")
 
     source_link = URL_TEMPLATE.format(data["contestId"], data["index"])
-    with open(f"templates/codeforces.{LANG_SPECS[lang]['ext']}") as f:
+    with open(os.path.join(TEMPLATES_DIR, f"codeforces.{LANG_SPECS[lang]['ext']}")) as f:
         template = f.readlines()
     i = 0
     while i < len(template):
@@ -200,3 +202,18 @@ def delete(problems: list, lang: str, sol_dir: str):
                        converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
     _clear_codeforces_meta_file(data, sol_dir)
     _generate_codeforces_readme(data, sol_dir)
+
+def contest(num: int, lang: str, sol_dir: str):
+    sol_dir = os.path.join(sol_dir, "new")
+    if os.path.isdir(sol_dir):
+        return
+
+    os.mkdir(sol_dir)
+    let = 'A'
+    for i in range(int(num)):
+        name = chr(ord(let) + i)
+        os.mkdir(os.path.join(sol_dir, name))
+        shutil.copyfile(
+            os.path.join(TEMPLATES_DIR, f"codeforces.{LANG_SPECS[lang]['ext']}"),
+            os.path.join(sol_dir, name, f"{name}.{LANG_SPECS[lang]['ext']}")
+        )
