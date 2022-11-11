@@ -1,5 +1,6 @@
+__pycache__
 test-cases
 .idea
-tools/acm.timus-problem-puller.py
+tools/lib/acm.timus-problem-puller.py
 other
 interviews

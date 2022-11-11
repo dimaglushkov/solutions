@@ -14,6 +14,10 @@ lang_specifics = {
     'python': {
         'ext': 'py',
         'com': '#'
+    },
+    'bash': {
+        'ext': 'sh',
+        'com': '#'
     }
 }
 

@@ -1,9 +1,6 @@
 import os
 
-import pandas as pd
-
 order = ['tools', 'contests', 'leetcode', 'codeforces', 'acm.timus']
-
 
 def main():
     text = ''
