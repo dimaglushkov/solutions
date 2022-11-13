@@ -37,7 +37,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
     
-Problems solved in total: 230
+Problems solved in total: 231
 
 | Solutions by difficulty | Solutions by tags |
 |-|-|
@@ -275,6 +275,7 @@ Problems solved in total: 230
 | [901. Online stock span](https://leetcode.com/problems/online-stock-span/) | [golang](/leetcode/online-stock-span/online-stock-span.go) | Medium | Stack, Design, Monotonic Stack, Data Stream |
 | [1047. Remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [golang](/leetcode/remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.go) | Easy | String, Stack |
 | [26. Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [golang](/leetcode/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | Easy | Array, Two Pointers |
+| [151. Reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string/) | [golang](/leetcode/reverse-words-in-a-string/reverse-words-in-a-string.go), [golang](/leetcode/reverse-words-in-a-string/reverse-words-in-a-string.go) | Medium | Two Pointers, String |
 
 
 ## codeforces
