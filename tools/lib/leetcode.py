@@ -265,7 +265,7 @@ def _generate_leetcode_readme(data: dict, sol_dir: str):
             f'| {solutions_links} ' \
             f'| {meta["difficulty"]} ' \
             f'| {", ".join(meta["tags"])} |\n'
-    stats_str = _generate_svg_stats(data)
+    stats_str = _generate_svg_stats(data, sol_dir)
     readme = header + stats_str + problems_table
     with open(os.path.join(sol_dir, 'README.md'), 'w') as readme_file:
         readme_file.write(readme)
