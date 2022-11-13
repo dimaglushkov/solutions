@@ -195,7 +195,7 @@ def _create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
             code_snippet = snippet['code']
             break
 
-    code = 'package main\n\n'
+    code = 'package main\n\nimport (\n\t"fmt"\n)\n'
     if 'prefix' in LANG_SPECS[lang].keys():
         code = LANG_SPECS[lang]['prefix']
 
