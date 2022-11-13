@@ -1,11 +1,11 @@
 ## leetcode
-    
+
 Problems solved in total: 231
 
-| Solutions by difficulty | Solutions by tags |
+|Solutions by tags|Solutions by difficulty|
 |-|-|
-| ![by diffs](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg) |
- 
+|![by_tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg)|![by_difficulty](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_difficulty.svg)|
+
 |Problem|Solution|Difficulty|Tags|
 |-|-|-|-|
 | [1. Two sum](https://leetcode.com/problems/two-sum/) | [golang](/leetcode/two-sum/two-sum.go) | Easy | Array, Hash Table |

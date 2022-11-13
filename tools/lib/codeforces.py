@@ -5,6 +5,9 @@ import shutil
 import pandas as pd
 import requests
 
+from . import shared
+
+CHARTS = ['by_difficulty', 'by_tags']
 URL_TEMPLATE = 'https://codeforces.com/contest/{}/problem/{}'
 META_FILE = '.meta.csv'
 TEMPLATES_DIR = os.path.join(os.path.dirname(__file__), "..", "templates")
@@ -14,20 +17,23 @@ with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_fi
 
 
 def _generate_codeforces_readme(data: dict, sol_dir: str):
-    text = '''## codeforces
-| Problem | Solution | Difficulty | Tags |
+    header = '## codeforces'
+    problems_table = '''| Problem | Solution | Difficulty | Tags |
 |-|-|-|-|
 '''
-    with open(os.path.join(sol_dir, 'README.md'), 'w') as f:
-        for k, v in data.items():
-            solutions_links = ', '.join(
-                [f'[{lang}](/codeforces/{k}/{k}.{LANG_SPECS[lang]["ext"]})' for lang in v['lang']])
+    for k, v in data.items():
+        solutions_links = ', '.join(
+            [f'[{lang}](/codeforces/{k}/{k}.{LANG_SPECS[lang]["ext"]})' for lang in v['lang']])
 
-            text += f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
-                    f'| {solutions_links} ' \
-                    f'| {str(v["difficulty"]).replace(".0", "").replace("nan", "")} ' \
-                    f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
-        f.write(text)
+        problems_table += f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
+                f'| {solutions_links} ' \
+                f'| {str(v["difficulty"]).replace(".0", "").replace("nan", "")} ' \
+                f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
+
+    stats_str = shared.generate_svg_stats(data, sol_dir, CHARTS)
+    readme = header + stats_str + problems_table
+    with open(os.path.join(sol_dir, 'README.md'), 'w') as readme_file:
+        readme_file.write(readme)
 
 
 def _get_problems_id(problems: list) -> list:

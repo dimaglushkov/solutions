@@ -1,4 +1,11 @@
 ## codeforces
+
+Problems solved in total: 57
+
+|Solutions by difficulty|Solutions by tags|
+|-|-|
+|![by_difficulty](https://github.com/dimaglushkov/solutions/blob/master/codeforces/.by_difficulty.svg)|![by_tags](https://github.com/dimaglushkov/solutions/blob/master/codeforces/.by_tags.svg)|
+
 | Problem | Solution | Difficulty | Tags |
 |-|-|-|-|
 | [112A. Petya and Strings](https://codeforces.com/contest/112/problem/A) | [python](/codeforces/112A/112A.py) | 800 | implementation, strings |

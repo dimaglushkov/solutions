@@ -36,13 +36,13 @@ In order to get more information consider checking [tools](https://github.com/di
 
 
 ## leetcode
-    
+
 Problems solved in total: 231
 
-| Solutions by difficulty | Solutions by tags |
+|Solutions by tags|Solutions by difficulty|
 |-|-|
-| ![by diffs](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_diff.svg) | ![by tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg) |
- 
+|![by_tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg)|![by_difficulty](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_difficulty.svg)|
+
 |Problem|Solution|Difficulty|Tags|
 |-|-|-|-|
 | [1. Two sum](https://leetcode.com/problems/two-sum/) | [golang](/leetcode/two-sum/two-sum.go) | Easy | Array, Hash Table |
@@ -279,6 +279,13 @@ Problems solved in total: 231
 
 
 ## codeforces
+
+Problems solved in total: 57
+
+|Solutions by difficulty|Solutions by tags|
+|-|-|
+|![by_difficulty](https://github.com/dimaglushkov/solutions/blob/master/codeforces/.by_difficulty.svg)|![by_tags](https://github.com/dimaglushkov/solutions/blob/master/codeforces/.by_tags.svg)|
+
 | Problem | Solution | Difficulty | Tags |
 |-|-|-|-|
 | [112A. Petya and Strings](https://codeforces.com/contest/112/problem/A) | [python](/codeforces/112A/112A.py) | 800 | implementation, strings |
