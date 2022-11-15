@@ -1,10 +1,10 @@
 ## leetcode
 
-Problems solved in total: 231
+Problems solved in total: 233
 
-|Solutions by tags|Solutions by difficulty|
+|Solutions by difficulty|Solutions by tags|
 |-|-|
-|![by_tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg)|![by_difficulty](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_difficulty.svg)|
+|![by_difficulty](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_difficulty.svg)|![by_tags](https://github.com/dimaglushkov/solutions/blob/master/leetcode/.by_tags.svg)|
 
 |Problem|Solution|Difficulty|Tags|
 |-|-|-|-|
@@ -239,3 +239,5 @@ Problems solved in total: 231
 | [1047. Remove all adjacent duplicates in string](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [golang](/leetcode/remove-all-adjacent-duplicates-in-string/remove-all-adjacent-duplicates-in-string.go) | Easy | String, Stack |
 | [26. Remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [golang](/leetcode/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go) | Easy | Array, Two Pointers |
 | [151. Reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string/) | [golang](/leetcode/reverse-words-in-a-string/reverse-words-in-a-string.go), [golang](/leetcode/reverse-words-in-a-string/reverse-words-in-a-string.go) | Medium | Two Pointers, String |
+| [947. Most stones removed with same row or column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | [golang](/leetcode/most-stones-removed-with-same-row-or-column/most-stones-removed-with-same-row-or-column.go) | Medium | Depth-First Search, Union Find, Graph |
+| [222. Count complete tree nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [golang](/leetcode/count-complete-tree-nodes/count-complete-tree-nodes.go) | Medium | Binary Search, Tree, Depth-First Search, Binary Tree |
