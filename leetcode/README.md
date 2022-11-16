@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 233
+Problems solved in total: 237
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -241,3 +241,7 @@ Problems solved in total: 233
 | [151. Reverse words in a string](https://leetcode.com/problems/reverse-words-in-a-string/) | [golang](/leetcode/reverse-words-in-a-string/reverse-words-in-a-string.go), [golang](/leetcode/reverse-words-in-a-string/reverse-words-in-a-string.go) | Medium | Two Pointers, String |
 | [947. Most stones removed with same row or column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) | [golang](/leetcode/most-stones-removed-with-same-row-or-column/most-stones-removed-with-same-row-or-column.go) | Medium | Depth-First Search, Union Find, Graph |
 | [222. Count complete tree nodes](https://leetcode.com/problems/count-complete-tree-nodes/) | [golang](/leetcode/count-complete-tree-nodes/count-complete-tree-nodes.go) | Medium | Binary Search, Tree, Depth-First Search, Binary Tree |
+| [56. Merge intervals](https://leetcode.com/problems/merge-intervals/) | [golang](/leetcode/merge-intervals/merge-intervals.go) | Medium | Array, Sorting |
+| [374. Guess number higher or lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [golang](/leetcode/guess-number-higher-or-lower/guess-number-higher-or-lower.go) | Easy | Binary Search, Interactive |
+| [236. Lowest common ancestor of a binary tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
+| [721. Accounts merge](https://leetcode.com/problems/accounts-merge/) | [golang](/leetcode/accounts-merge/accounts-merge.go) | Medium | Array, String, Depth-First Search, Breadth-First Search, Union Find |
