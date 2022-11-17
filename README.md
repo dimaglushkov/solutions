@@ -37,7 +37,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 237
+Problems solved in total: 238
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -282,6 +282,7 @@ Problems solved in total: 237
 | [374. Guess number higher or lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [golang](/leetcode/guess-number-higher-or-lower/guess-number-higher-or-lower.go) | Easy | Binary Search, Interactive |
 | [236. Lowest common ancestor of a binary tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
 | [721. Accounts merge](https://leetcode.com/problems/accounts-merge/) | [golang](/leetcode/accounts-merge/accounts-merge.go) | Medium | Array, String, Depth-First Search, Breadth-First Search, Union Find |
+| [223. Rectangle area](https://leetcode.com/problems/rectangle-area/) | [golang](/leetcode/rectangle-area/rectangle-area.go) | Medium | Math, Geometry |
 
 
 ## codeforces
