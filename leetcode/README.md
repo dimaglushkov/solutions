@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 242
+Problems solved in total: 243
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -250,3 +250,4 @@ Problems solved in total: 242
 | [263. Ugly number](https://leetcode.com/problems/ugly-number/) | [golang](/leetcode/ugly-number/ugly-number.go) | Easy | Math |
 | [2395. Find subarrays with equal sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [golang](/leetcode/find-subarrays-with-equal-sum/find-subarrays-with-equal-sum.go) | Easy | Array, Hash Table |
 | [224. Basic calculator](https://leetcode.com/problems/basic-calculator/) | [golang](/leetcode/basic-calculator/basic-calculator.go) | Hard | Math, String, Stack, Recursion |
+| [279. Perfect squares](https://leetcode.com/problems/perfect-squares/) | [golang](/leetcode/perfect-squares/perfect-squares.go) | Medium | Math, Dynamic Programming, Breadth-First Search |

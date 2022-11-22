@@ -241,3 +241,4 @@ partition-equal-subset-sum,Medium,416,['golang'],"['Array', 'Dynamic Programming
 ugly-number,Easy,263,['golang'],['Math']
 find-subarrays-with-equal-sum,Easy,2395,['golang'],"['Array', 'Hash Table']"
 basic-calculator,Hard,224,['golang'],"['Math', 'String', 'Stack', 'Recursion']"
+perfect-squares,Medium,279,['golang'],"['Math', 'Dynamic Programming', 'Breadth-First Search']"

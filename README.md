@@ -1,7 +1,7 @@
 # solutions
 This repo stores my problem-solving related code
 
-me @ leetcode: [leetcode.com/dimaglushkov/](https://leetcode.com/dimaglushkov/)
+me @ leetcode: [leetcode.com/dimaglushkov](https://leetcode.com/dimaglushkov/)
 
 me @ codeforces: [codeforces.com/profile/dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 
@@ -43,7 +43,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 242
+Problems solved in total: 243
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -293,6 +293,7 @@ Problems solved in total: 242
 | [263. Ugly number](https://leetcode.com/problems/ugly-number/) | [golang](/leetcode/ugly-number/ugly-number.go) | Easy | Math |
 | [2395. Find subarrays with equal sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [golang](/leetcode/find-subarrays-with-equal-sum/find-subarrays-with-equal-sum.go) | Easy | Array, Hash Table |
 | [224. Basic calculator](https://leetcode.com/problems/basic-calculator/) | [golang](/leetcode/basic-calculator/basic-calculator.go) | Hard | Math, String, Stack, Recursion |
+| [279. Perfect squares](https://leetcode.com/problems/perfect-squares/) | [golang](/leetcode/perfect-squares/perfect-squares.go) | Medium | Math, Dynamic Programming, Breadth-First Search |
 
 
 ## codeforces
