@@ -3,7 +3,7 @@ package main
 // source: https://leetcode.com/problems/linked-list-cycle/
 
 import (
-	. "github.com/dimaglushkov/solutions/ads/list"
+	. "github.com/dimaglushkov/solutions/ADS/list"
 )
 
 func hasCycle(head *ListNode) bool {

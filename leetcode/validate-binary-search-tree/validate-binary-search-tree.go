@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	. "github.com/dimaglushkov/solutions/ads/tree"
+	. "github.com/dimaglushkov/solutions/ADS/tree"
 )
 
 // source: https://leetcode.com/problems/validate-binary-search-tree/

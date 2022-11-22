@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "github.com/dimaglushkov/solutions/ads/list"
+	. "github.com/dimaglushkov/solutions/ADS/list"
 )
 
 // source: https://leetcode.com/problems/intersection-of-two-linked-lists/

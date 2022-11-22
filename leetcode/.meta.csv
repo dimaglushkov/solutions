@@ -237,3 +237,7 @@ guess-number-higher-or-lower,Easy,374,['golang'],"['Binary Search', 'Interactive
 lowest-common-ancestor-of-a-binary-tree,Medium,236,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 accounts-merge,Medium,721,['golang'],"['Array', 'String', 'Depth-First Search', 'Breadth-First Search', 'Union Find']"
 rectangle-area,Medium,223,['golang'],"['Math', 'Geometry']"
+partition-equal-subset-sum,Medium,416,['golang'],"['Array', 'Dynamic Programming']"
+ugly-number,Easy,263,['golang'],['Math']
+find-subarrays-with-equal-sum,Easy,2395,['golang'],"['Array', 'Hash Table']"
+basic-calculator,Hard,224,['golang'],"['Math', 'String', 'Stack', 'Recursion']"

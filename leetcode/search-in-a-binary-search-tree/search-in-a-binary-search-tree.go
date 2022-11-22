@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "github.com/dimaglushkov/solutions/ads/tree"
+	. "github.com/dimaglushkov/solutions/ADS/tree"
 )
 
 func DFS(root *TreeNode, val int, res **TreeNode) {

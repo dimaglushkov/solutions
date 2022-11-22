@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/dimaglushkov/solutions/ads/stack"
+	"github.com/dimaglushkov/solutions/ADS/stack"
 )
 
 // source: https://leetcode.com/problems/valid-parentheses/

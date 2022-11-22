@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	. "github.com/dimaglushkov/solutions/ads/tree"
+	. "github.com/dimaglushkov/solutions/ADS/tree"
 )
 
 // source: https://leetcode.com/problems/root-equals-sum-of-children/

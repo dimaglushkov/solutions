@@ -3,7 +3,7 @@ package main
 // source: https://leetcode.com/problems/add-two-numbers/
 
 import (
-	. "github.com/dimaglushkov/solutions/ads/list"
+	. "github.com/dimaglushkov/solutions/ADS/list"
 )
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {

@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 238
+Problems solved in total: 242
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -246,3 +246,7 @@ Problems solved in total: 238
 | [236. Lowest common ancestor of a binary tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
 | [721. Accounts merge](https://leetcode.com/problems/accounts-merge/) | [golang](/leetcode/accounts-merge/accounts-merge.go) | Medium | Array, String, Depth-First Search, Breadth-First Search, Union Find |
 | [223. Rectangle area](https://leetcode.com/problems/rectangle-area/) | [golang](/leetcode/rectangle-area/rectangle-area.go) | Medium | Math, Geometry |
+| [416. Partition equal subset sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [golang](/leetcode/partition-equal-subset-sum/partition-equal-subset-sum.go) | Medium | Array, Dynamic Programming |
+| [263. Ugly number](https://leetcode.com/problems/ugly-number/) | [golang](/leetcode/ugly-number/ugly-number.go) | Easy | Math |
+| [2395. Find subarrays with equal sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [golang](/leetcode/find-subarrays-with-equal-sum/find-subarrays-with-equal-sum.go) | Easy | Array, Hash Table |
+| [224. Basic calculator](https://leetcode.com/problems/basic-calculator/) | [golang](/leetcode/basic-calculator/basic-calculator.go) | Hard | Math, String, Stack, Recursion |

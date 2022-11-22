@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	. "github.com/dimaglushkov/solutions/ads/list"
+	. "github.com/dimaglushkov/solutions/ADS/list"
 )
 
 // source: https://leetcode.com/problems/merge-nodes-in-between-zeros/
