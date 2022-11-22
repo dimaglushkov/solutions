@@ -41,6 +41,19 @@ func (r *TreeNode) getNode(data []int, i int) int {
 	return i
 }
 
+func (r *TreeNode) FindNode(x int) *TreeNode {
+	if r == nil || r.Val == x {
+		return r
+	}
+	if t := r.Right.FindNode(x); t != nil {
+		return t
+	}
+	if t := r.Left.FindNode(x); t != nil {
+		return t
+	}
+	return nil
+}
+
 func (r *TreeNode) Height(h int) (maxH int) {
 	if r == nil {
 		return h

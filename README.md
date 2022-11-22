@@ -32,12 +32,14 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Codeforces Round #826 (Div. 3)](https://codeforces.com/contest/1741) | 3102 / 17198 | [solutions](/contests/cf-round-826) | 11 oct 2022 |
 | [Codeforces Round #828 (Div. 3)](https://codeforces.com/contest/1744) | 2398 / 14451 | [solutions](/contests/cf-round-828) | 16 oct 2022 |
 | [Codeforces Round #832 (Div. 2)](https://codeforces.com/contest/1747) | 3708 / 13803 | [solutions](/contests/cf-round-832) | 4 nov 2022 |
+| [Leetcode Weekly Contest 320](https://leetcode.com/contest/weekly-contest-320/) | 4955 / 15183 | [solutions](/contests/lc-weekly-320) | 20 nov 2022 |
+| [Codeforces Round #835 (Div. 4)](https://codeforces.com/contests/1760) | 702 / 8751 | [solutions](/contests/cf-round-835) | 22 nov 2022 |
 
 
 
 ## leetcode
 
-Problems solved in total: 238
+Problems solved in total: 242
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -283,6 +285,10 @@ Problems solved in total: 238
 | [236. Lowest common ancestor of a binary tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [golang](/leetcode/lowest-common-ancestor-of-a-binary-tree/lowest-common-ancestor-of-a-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
 | [721. Accounts merge](https://leetcode.com/problems/accounts-merge/) | [golang](/leetcode/accounts-merge/accounts-merge.go) | Medium | Array, String, Depth-First Search, Breadth-First Search, Union Find |
 | [223. Rectangle area](https://leetcode.com/problems/rectangle-area/) | [golang](/leetcode/rectangle-area/rectangle-area.go) | Medium | Math, Geometry |
+| [416. Partition equal subset sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [golang](/leetcode/partition-equal-subset-sum/partition-equal-subset-sum.go) | Medium | Array, Dynamic Programming |
+| [263. Ugly number](https://leetcode.com/problems/ugly-number/) | [golang](/leetcode/ugly-number/ugly-number.go) | Easy | Math |
+| [2395. Find subarrays with equal sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [golang](/leetcode/find-subarrays-with-equal-sum/find-subarrays-with-equal-sum.go) | Easy | Array, Hash Table |
+| [224. Basic calculator](https://leetcode.com/problems/basic-calculator/) | [golang](/leetcode/basic-calculator/basic-calculator.go) | Hard | Math, String, Stack, Recursion |
 
 
 ## codeforces
@@ -349,9 +355,9 @@ Problems solved in total: 57
 | [1741E. Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | [golang](/codeforces/1741E/1741E.go) | 1600 | dp |
 | [1749A. Cowardly Rooks](https://codeforces.com/contest/1749/problem/A) | [golang](/codeforces/1749A/1749A.go) | 800 | greedy, implementation |
 | [1749B. Death's Blessing](https://codeforces.com/contest/1749/problem/B) | [golang](/codeforces/1749B/1749B.go) | 900 | greedy |
-| [1747A. Two Groups](https://codeforces.com/contest/1747/problem/A) | [golang](/codeforces/1747A/1747A.go) |  | constructive algorithms |
-| [1747B. BAN BAN](https://codeforces.com/contest/1747/problem/B) | [golang](/codeforces/1747B/1747B.go) |  | constructive algorithms |
-| [1747C. Swap Game](https://codeforces.com/contest/1747/problem/C) | [golang](/codeforces/1747C/1747C.go) |  | games |
+| [1747A. Two Groups](https://codeforces.com/contest/1747/problem/A) | [golang](/codeforces/1747A/1747A.go) | 800 | constructive algorithms |
+| [1747B. BAN BAN](https://codeforces.com/contest/1747/problem/B) | [golang](/codeforces/1747B/1747B.go) | 900 | constructive algorithms |
+| [1747C. Swap Game](https://codeforces.com/contest/1747/problem/C) | [golang](/codeforces/1747C/1747C.go) | 1200 | games |
 
 
 ## acm.timus
