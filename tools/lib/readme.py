@@ -1,7 +1,9 @@
 import os
 
+from . import shared
+
 order = ['tools', 'contests', 'leetcode', 'codeforces', 'acm.timus']
-template_path = os.path.join(os.path.dirname(__file__), '..', 'templates', '.README.gen.md')
+template_path = os.path.join(shared.get_templates_dir(), '.README.gen.md')
 
 def generate(sol_dir: str):
     text = ''
@@ -27,4 +29,3 @@ def generate(sol_dir: str):
 
     with open(os.path.join(sol_dir, 'README.md'), 'w') as file:
         file.write(text)
-

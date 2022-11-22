@@ -1,6 +1,4 @@
-import json
 import os
-import shutil
 
 import pandas as pd
 import requests
@@ -10,10 +8,8 @@ from . import shared
 CHARTS = ['by_difficulty', 'by_tags']
 URL_TEMPLATE = 'https://codeforces.com/contest/{}/problem/{}'
 META_FILE = '.meta.csv'
-TEMPLATES_DIR = os.path.join(os.path.dirname(__file__), "..", "templates")
-
-with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
-    LANG_SPECS = json.load(json_file)
+TEMPLATES_DIR = shared.get_templates_dir()
+LANG_SPECS = shared.get_lang_specs()
 
 
 def _generate_codeforces_readme(data: dict, sol_dir: str):
@@ -25,10 +21,11 @@ def _generate_codeforces_readme(data: dict, sol_dir: str):
         solutions_links = ', '.join(
             [f'[{lang}](/codeforces/{k}/{k}.{LANG_SPECS[lang]["ext"]})' for lang in v['lang']])
 
-        problems_table += f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
-                f'| {solutions_links} ' \
-                f'| {str(v["difficulty"]).replace(".0", "").replace("nan", "")} ' \
-                f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
+        problems_table += \
+            f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
+            f'| {solutions_links} ' \
+            f'| {str(v["difficulty"]).replace(".0", "").replace("nan", "")} ' \
+            f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
 
     stats_str = shared.generate_svg_stats(data, sol_dir, CHARTS)
     readme = header + stats_str + problems_table
@@ -208,18 +205,3 @@ def delete(problems: list, lang: str, sol_dir: str):
                        converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
     _clear_codeforces_meta_file(data, sol_dir)
     _generate_codeforces_readme(data, sol_dir)
-
-def contest(num: int, lang: str, sol_dir: str):
-    sol_dir = os.path.join(sol_dir, "new")
-    if os.path.isdir(sol_dir):
-        return
-
-    os.mkdir(sol_dir)
-    let = 'A'
-    for i in range(int(num)):
-        name = chr(ord(let) + i)
-        os.mkdir(os.path.join(sol_dir, name))
-        shutil.copyfile(
-            os.path.join(TEMPLATES_DIR, f"codeforces.{LANG_SPECS[lang]['ext']}"),
-            os.path.join(sol_dir, name, f"{name}.{LANG_SPECS[lang]['ext']}")
-        )

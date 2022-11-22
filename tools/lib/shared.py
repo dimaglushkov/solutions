@@ -1,6 +1,16 @@
+import json
 import os
 
 from matplotlib import pyplot as plt
+
+
+def get_lang_specs():
+    with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
+        x = json.load(json_file)
+    return x
+
+def get_templates_dir() -> str:
+    return os.path.join(os.path.dirname(__file__), "..", "templates")
 
 
 def generate_chart(path: str, data: dict):

@@ -1,4 +1,3 @@
-import json
 import os
 
 import leetcode
@@ -8,8 +7,7 @@ from . import shared
 
 CHARTS = ['by_difficulty', 'by_tags']
 META_FILE = ".meta.csv"
-with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
-    LANG_SPECS = json.load(json_file)
+LANG_SPECS = shared.get_lang_specs()
 
 
 def _get_title_slugs(problems: list, lang: str, d: str) -> dict:
