@@ -8,7 +8,7 @@ DEFAULT_HANDLE = "dimaglushkov"
 allowed_calls = {
     "codeforces": {"pull", "delete"},
     "leetcode":   {"pull", "delete"},
-    "contests":   {"pre", "post", "stats"},
+    "contests":   {"pre", "post"},
     "readme":     {"generate"},
 }
 
@@ -84,6 +84,8 @@ def main():
         t.pre(args.val, args.lang, sol_dir)
     elif action == "post":
         t.post(args.val, args.handle, sol_dir)
+    elif action == "stats":
+        t.stats(sol_dir)
     else:
         print("Unknown action")
 

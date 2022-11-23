@@ -71,7 +71,7 @@ Problems solved in total: 67
 | [1760D. Challenging Valleys](https://codeforces.com/contest/1760/problem/D) | [golang](/codeforces/1760D/1760D.go) | 1000 | implementation, two pointers |
 | [1760E. Binary Inversions](https://codeforces.com/contest/1760/problem/E) | [golang](/codeforces/1760E/1760E.go) | 1100 | data structures, greedy, math |
 | [1760F. Quests](https://codeforces.com/contest/1760/problem/F) | [golang](/codeforces/1760F/1760F.go) | 1500 | binary search, greedy, sortings |
-| [1676A. Lucky?](https://codeforces.com/contest/1676/problem/A) | [golang](/codeforces/1676A/1676A.go), [golang](/codeforces/1676A/1676A.go), [golang](/codeforces/1676A/1676A.go) | 800 | implementation |
+| [1676A. Lucky?](https://codeforces.com/contest/1676/problem/A) | [golang](/codeforces/1676A/1676A.go) | 800 | implementation |
 | [1676B. Equal Candies](https://codeforces.com/contest/1676/problem/B) | [golang](/codeforces/1676B/1676B.go) | 800 | greedy, math, sortings |
 | [1676C. Most Similar Words](https://codeforces.com/contest/1676/problem/C) | [golang](/codeforces/1676C/1676C.go) | 800 | brute force, greedy, implementation, implementation, math, strings |
 | [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |

@@ -229,7 +229,7 @@ rotting-oranges,Medium,994,['golang'],"['Array', 'Breadth-First Search', 'Matrix
 online-stock-span,Medium,901,['golang'],"['Stack', 'Design', 'Monotonic Stack', 'Data Stream']"
 remove-all-adjacent-duplicates-in-string,Easy,1047,['golang'],"['String', 'Stack']"
 remove-duplicates-from-sorted-array,Easy,26,['golang'],"['Array', 'Two Pointers']"
-reverse-words-in-a-string,Medium,151,"['golang', 'golang']","['Two Pointers', 'String']"
+reverse-words-in-a-string,Medium,151,['golang'],"['Two Pointers', 'String']"
 most-stones-removed-with-same-row-or-column,Medium,947,['golang'],"['Depth-First Search', 'Union Find', 'Graph']"
 count-complete-tree-nodes,Medium,222,['golang'],"['Binary Search', 'Tree', 'Depth-First Search', 'Binary Tree']"
 merge-intervals,Medium,56,['golang'],"['Array', 'Sorting']"

@@ -1,8 +1,9 @@
+import datetime
 import json
 import os
 
-from matplotlib import pyplot as plt
-
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 def get_lang_specs():
     with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
@@ -12,8 +13,22 @@ def get_lang_specs():
 def get_templates_dir() -> str:
     return os.path.join(os.path.dirname(__file__), "..", "templates")
 
+def generate_date_based_plot(path: str, xs: list, ys: list, xlabel: str, ylabel: str):
+    f = plt.figure()
+    f.set_figwidth(9)
+    f.set_figheight(5)
 
-def generate_chart(path: str, data: dict):
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m-%d-%Y'))
+    plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=15))
+    plt.plot(xs, ys)
+    plt.scatter(xs, ys)
+    plt.gcf().autofmt_xdate()
+    plt.xlabel = xlabel
+    plt.ylabel = ylabel
+    plt.savefig(path)
+
+
+def generate_pie_chart(path: str, data: dict):
     fields = list()
     values = list()
     for k, v in data.items():
@@ -73,7 +88,7 @@ def generate_svg_stats(data: dict, sol_dir: str, charts: list) -> str:
         headers.append(f'Solutions {c.replace("_", " ")}')
         seps.append("-")
         links.append(f"![{c}](https://github.com/dimaglushkov/solutions/blob/master/{target_dir}/.{c}.svg)")
-        generate_chart(os.path.join(sol_dir, f'.{c}.svg'), stats[c])
+        generate_pie_chart(os.path.join(sol_dir, f'.{c}.svg'), stats[c])
 
     return f'''
 

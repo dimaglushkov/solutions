@@ -147,6 +147,24 @@ def _post_leetcode():
     pass
 
 
+def stats(sol_dir: str):
+    dates = list()
+    top = list()
+    with open(os.path.join(sol_dir, "README.md"), "r") as readme_file:
+        lines = readme_file.readlines()
+        for i in lines:
+            fields = i.split('|')
+            if len(fields) < 4 or '?' in fields[2] or '/' not in fields[2]:
+                continue
+            res = fields[2].split(' / ')
+            me, total = int(res[0]), int(res[1])
+
+            top.append(round(me/total*100, 2))
+            dates.append(datetime.datetime.strptime(fields[4].title().strip(), DATE_FORMAT.replace("-", "")))
+
+    shared.generate_date_based_plot(os.path.join(sol_dir, ".stats.svg"), dates, top, "Top, %", "Date")
+
+
 def pre(vals: list, lang: str, sol_dir: str):
     if len(vals) < 1:
         return
