@@ -1,6 +1,6 @@
 ## codeforces
 
-Problems solved in total: 57
+Problems solved in total: 67
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -62,6 +62,16 @@ Problems solved in total: 57
 | [1741E. Sending a Sequence Over the Network](https://codeforces.com/contest/1741/problem/E) | [golang](/codeforces/1741E/1741E.go) | 1600 | dp |
 | [1749A. Cowardly Rooks](https://codeforces.com/contest/1749/problem/A) | [golang](/codeforces/1749A/1749A.go) | 800 | greedy, implementation |
 | [1749B. Death's Blessing](https://codeforces.com/contest/1749/problem/B) | [golang](/codeforces/1749B/1749B.go) | 900 | greedy |
-| [1747A. Two Groups](https://codeforces.com/contest/1747/problem/A) | [golang](/codeforces/1747A/1747A.go) |  | constructive algorithms |
-| [1747B. BAN BAN](https://codeforces.com/contest/1747/problem/B) | [golang](/codeforces/1747B/1747B.go) |  | constructive algorithms |
-| [1747C. Swap Game](https://codeforces.com/contest/1747/problem/C) | [golang](/codeforces/1747C/1747C.go) |  | games |
+| [1747A. Two Groups](https://codeforces.com/contest/1747/problem/A) | [golang](/codeforces/1747A/1747A.go) | 800 | constructive algorithms |
+| [1747B. BAN BAN](https://codeforces.com/contest/1747/problem/B) | [golang](/codeforces/1747B/1747B.go) | 900 | constructive algorithms |
+| [1747C. Swap Game](https://codeforces.com/contest/1747/problem/C) | [golang](/codeforces/1747C/1747C.go) | 1200 | games |
+| [1760A. Medium Number](https://codeforces.com/contest/1760/problem/A) | [golang](/codeforces/1760A/1760A.go) | 800 | implementation, sortings |
+| [1760B. Atilla's Favorite Problem](https://codeforces.com/contest/1760/problem/B) | [golang](/codeforces/1760B/1760B.go) | 800 | greedy, implementation, strings |
+| [1760C. Advantage](https://codeforces.com/contest/1760/problem/C) | [golang](/codeforces/1760C/1760C.go) | 800 | data structures, implementation, sortings |
+| [1760D. Challenging Valleys](https://codeforces.com/contest/1760/problem/D) | [golang](/codeforces/1760D/1760D.go) | 1000 | implementation, two pointers |
+| [1760E. Binary Inversions](https://codeforces.com/contest/1760/problem/E) | [golang](/codeforces/1760E/1760E.go) | 1100 | data structures, greedy, math |
+| [1760F. Quests](https://codeforces.com/contest/1760/problem/F) | [golang](/codeforces/1760F/1760F.go) | 1500 | binary search, greedy, sortings |
+| [1676A. Lucky?](https://codeforces.com/contest/1676/problem/A) | [golang](/codeforces/1676A/1676A.go), [golang](/codeforces/1676A/1676A.go), [golang](/codeforces/1676A/1676A.go) | 800 | implementation |
+| [1676B. Equal Candies](https://codeforces.com/contest/1676/problem/B) | [golang](/codeforces/1676B/1676B.go) | 800 | greedy, math, sortings |
+| [1676C. Most Similar Words](https://codeforces.com/contest/1676/problem/C) | [golang](/codeforces/1676C/1676C.go) | 800 | brute force, greedy, implementation, implementation, math, strings |
+| [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |

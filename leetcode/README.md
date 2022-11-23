@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 243
+Problems solved in total: 245
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -251,3 +251,5 @@ Problems solved in total: 243
 | [2395. Find subarrays with equal sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | [golang](/leetcode/find-subarrays-with-equal-sum/find-subarrays-with-equal-sum.go) | Easy | Array, Hash Table |
 | [224. Basic calculator](https://leetcode.com/problems/basic-calculator/) | [golang](/leetcode/basic-calculator/basic-calculator.go) | Hard | Math, String, Stack, Recursion |
 | [279. Perfect squares](https://leetcode.com/problems/perfect-squares/) | [golang](/leetcode/perfect-squares/perfect-squares.go) | Medium | Math, Dynamic Programming, Breadth-First Search |
+| [2475. Number of unequal triplets in array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | [golang](/leetcode/number-of-unequal-triplets-in-array/number-of-unequal-triplets-in-array.go) | Easy | Array, Hash Table |
+| [2476. Closest nodes queries in a binary search tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | [golang](/leetcode/closest-nodes-queries-in-a-binary-search-tree/closest-nodes-queries-in-a-binary-search-tree.go) | Medium | Array, Binary Search, Tree, Depth-First Search, Binary Tree |
