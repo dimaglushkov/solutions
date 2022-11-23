@@ -21,7 +21,7 @@ This repo comes with simple yet useful tools to simplify solutions management. T
 3. Get some simple stats on how solved problems are distributed 
 
 Below are few examples of what these tools can do:
-```bash
+```
 # cf - codeforces, lc - leetcode
 sol cf/lc p <URLs> - for every given problem url create solution template,
                      pull meta data, update list of solved problems. For leetcode
@@ -32,7 +32,7 @@ sol cf/lc d <URL>  - for every given problem url delete solution and
                             
 sol readme g .     - generate this README.md file
 
-sol con pre  <lc/cf contest URL> - generate template for contest solutions, update list of 
+sol con pre  <cf/lc contest URL> - generate template for contest solutions, update list of 
                                    contests one participated at
                                    
 sol con post <cf contest URL>    - for every successfull solution from a given contest
