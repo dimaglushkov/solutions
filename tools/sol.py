@@ -4,10 +4,11 @@ import argparse
 from functools import reduce
 
 DEFAULT_DIR = f"{os.path.dirname(__file__)}/.."
+DEFAULT_HANDLE = "dimaglushkov"
 allowed_calls = {
     "codeforces": {"pull", "delete"},
     "leetcode":   {"pull", "delete"},
-    "contests":   {"pre", "post"},
+    "contests":   {"pre", "post", "stats"},
     "readme":     {"generate"},
 }
 
@@ -37,6 +38,7 @@ def main():
     parser.add_argument("action", action="store", type=str, choices=all_actions)
     parser.add_argument('--lang', dest='lang', action='store', default='golang', help='Solution language')
     parser.add_argument('--dir', dest='dir', action='store', default=DEFAULT_DIR, help='Solutions directory')
+    parser.add_argument('--handle', dest='handle', action='store', default=DEFAULT_HANDLE, help='Codeforces handle')
     parser.add_argument('val', default='', type=str, nargs='+', help='Values for a chosen call')
 
     args = parser.parse_args()
@@ -80,6 +82,8 @@ def main():
         t.generate(sol_dir)
     elif action == "pre":
         t.pre(args.val, args.lang, sol_dir)
+    elif action == "post":
+        t.post(args.val, args.handle, sol_dir)
     else:
         print("Unknown action")
 

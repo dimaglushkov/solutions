@@ -125,7 +125,7 @@ def _create_code_template(data: dict, lang: str, sol_dir: str) -> None:
         code_file.write(code)
 
 
-def _update_meta_file(problem_data: dict, lang: str, sol_dir: str) -> None:
+def update_meta_file(problem_data: dict, lang: str, sol_dir: str) -> None:
     meta_file = os.path.join(sol_dir, META_FILE)
     if not os.path.exists(meta_file):
         with open(meta_file, 'w') as f:
@@ -148,6 +148,13 @@ def _update_meta_file(problem_data: dict, lang: str, sol_dir: str) -> None:
 
     df = pd.DataFrame.from_dict(data).transpose()
     df.to_csv(meta_file, index_label='id', index=True, float_format='%.0f')
+
+
+def update_codeforces_readme(sol_dir: str):
+    data = pd.read_csv(os.path.join(sol_dir, META_FILE), index_col='id',
+                       converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
+    _clear_codeforces_meta_file(data, sol_dir)
+    _generate_codeforces_readme(data, sol_dir)
 
 
 def pull(problems: list, lang: str, sol_dir: str):
@@ -176,12 +183,9 @@ def pull(problems: list, lang: str, sol_dir: str):
         for problem_id in ids:
             data = _get_problem_data(problem_id)
             _create_code_template(data, lang, sol_dir)
-            _update_meta_file(data, lang, sol_dir)
+            update_meta_file(data, lang, sol_dir)
 
-    data = pd.read_csv(os.path.join(sol_dir, META_FILE), index_col='id',
-                       converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
-    _clear_codeforces_meta_file(data, sol_dir)
-    _generate_codeforces_readme(data, sol_dir)
+    update_codeforces_readme(sol_dir)
 
 
 def delete(problems: list, lang: str, sol_dir: str):
@@ -201,7 +205,4 @@ def delete(problems: list, lang: str, sol_dir: str):
         print("Nothing to do")
         return
 
-    data = pd.read_csv(os.path.join(sol_dir, META_FILE), index_col='id',
-                       converters={'lang': pd.eval, 'tags': pd.eval}).to_dict('index')
-    _clear_codeforces_meta_file(data, sol_dir)
-    _generate_codeforces_readme(data, sol_dir)
+    update_codeforces_readme(sol_dir)
