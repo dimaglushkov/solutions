@@ -39,8 +39,15 @@ def _get_problems_id(problems: list) -> list:
         if not problem.startswith('http'):
             print(f"Please, provide link to the problem: {problem}")
             continue
-        contest_id = problem.split('/')[-3]
-        index = problem.split('/')[-1]
+        # handling both formats
+        # 1: https://codeforces.com/problemset/problem/1690/D
+        # 2: https://codeforces.com/contest/1690/problem/D
+        if "problemset" in problem:
+            contest_id = problem.split('/')[-2]
+            index = problem.split('/')[-1]
+        else:
+            contest_id = problem.split('/')[-3]
+            index = problem.split('/')[-1]
         ids += [[int(contest_id), index]]
 
     return ids
