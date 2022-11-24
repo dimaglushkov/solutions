@@ -66,3 +66,5 @@ id,name,contest,problem,difficulty,tags,lang
 1676B,Equal Candies,1676,B,800.0,"['greedy', 'math', 'sortings']",['golang']
 1676C,Most Similar Words,1676,C,800.0,"['brute force', 'greedy', 'implementation', 'implementation', 'math', 'strings']",['golang']
 1676D,X-Sum,1676,D,1000.0,"['brute force', 'greedy', 'implementation']",['golang']
+1760G,SlavicG's Favorite Problem,1760,G,1700.0,"['bitmasks', 'dfs and similar', 'graphs']",['golang']
+1690D,Black and White Stripe,1690,D,1000.0,"['implementation', 'two pointers']",['golang']

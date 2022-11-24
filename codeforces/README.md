@@ -1,6 +1,6 @@
 ## codeforces
 
-Problems solved in total: 67
+Problems solved in total: 69
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -75,3 +75,5 @@ Problems solved in total: 67
 | [1676B. Equal Candies](https://codeforces.com/contest/1676/problem/B) | [golang](/codeforces/1676B/1676B.go) | 800 | greedy, math, sortings |
 | [1676C. Most Similar Words](https://codeforces.com/contest/1676/problem/C) | [golang](/codeforces/1676C/1676C.go) | 800 | brute force, greedy, implementation, implementation, math, strings |
 | [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |
+| [1760G. SlavicG's Favorite Problem](https://codeforces.com/contest/1760/problem/G) | [golang](/codeforces/1760G/1760G.go) | 1700 | bitmasks, dfs and similar, graphs |
+| [1690D. Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [golang](/codeforces/1690D/1690D.go) | 1000 | implementation, two pointers |
