@@ -61,7 +61,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 246
+Problems solved in total: 247
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -315,6 +315,7 @@ Problems solved in total: 246
 | [2475. Number of unequal triplets in array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/) | [golang](/leetcode/number-of-unequal-triplets-in-array/number-of-unequal-triplets-in-array.go) | Easy | Array, Hash Table |
 | [2476. Closest nodes queries in a binary search tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | [golang](/leetcode/closest-nodes-queries-in-a-binary-search-tree/closest-nodes-queries-in-a-binary-search-tree.go) | Medium | Array, Binary Search, Tree, Depth-First Search, Binary Tree |
 | [79. Word search](https://leetcode.com/problems/word-search/) | [golang](/leetcode/word-search/word-search.go) | Medium | Array, Backtracking, Matrix |
+| [907. Sum of subarray minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | [golang](/leetcode/sum-of-subarray-minimums/sum-of-subarray-minimums.go) | Medium | Array, Dynamic Programming, Stack, Monotonic Stack |
 
 
 ## codeforces

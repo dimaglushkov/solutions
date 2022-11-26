@@ -245,3 +245,4 @@ perfect-squares,Medium,279,['golang'],"['Math', 'Dynamic Programming', 'Breadth-
 number-of-unequal-triplets-in-array,Easy,2475,['golang'],"['Array', 'Hash Table']"
 closest-nodes-queries-in-a-binary-search-tree,Medium,2476,['golang'],"['Array', 'Binary Search', 'Tree', 'Depth-First Search', 'Binary Tree']"
 word-search,Medium,79,['golang'],"['Array', 'Backtracking', 'Matrix']"
+sum-of-subarray-minimums,Medium,907,['golang'],"['Array', 'Dynamic Programming', 'Stack', 'Monotonic Stack']"
