@@ -246,3 +246,6 @@ number-of-unequal-triplets-in-array,Easy,2475,['golang'],"['Array', 'Hash Table'
 closest-nodes-queries-in-a-binary-search-tree,Medium,2476,['golang'],"['Array', 'Binary Search', 'Tree', 'Depth-First Search', 'Binary Tree']"
 word-search,Medium,79,['golang'],"['Array', 'Backtracking', 'Matrix']"
 sum-of-subarray-minimums,Medium,907,['golang'],"['Array', 'Dynamic Programming', 'Stack', 'Monotonic Stack']"
+find-the-pivot-integer,Easy,2485,['golang'],[]
+append-characters-to-string-to-make-subsequence,Medium,2486,['golang'],[]
+remove-nodes-from-linked-list,Medium,2487,['golang'],[]
