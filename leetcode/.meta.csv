@@ -249,3 +249,5 @@ sum-of-subarray-minimums,Medium,907,['golang'],"['Array', 'Dynamic Programming',
 find-the-pivot-integer,Easy,2485,['golang'],[]
 append-characters-to-string-to-make-subsequence,Medium,2486,['golang'],[]
 remove-nodes-from-linked-list,Medium,2487,['golang'],[]
+find-players-with-zero-or-one-losses,Medium,2225,['golang'],"['Array', 'Hash Table', 'Sorting', 'Counting']"
+erect-the-fence,Hard,587,['golang'],"['Array', 'Math', 'Geometry']"

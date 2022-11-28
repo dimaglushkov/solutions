@@ -41,12 +41,12 @@ func main() {
 		want *ListNode
 	}{
 		{
-			head: {5, 2, 13, 3, 8},
-			want: {13, 8},
+			head: NewList([]int{5, 2, 13, 3, 8}),
+			want: NewList([]int{13, 8}),
 		},
 		{
-			head: {1, 1, 1, 1},
-			want: {1, 1, 1, 1},
+			head: NewList([]int{1, 1, 1, 1}),
+			want: NewList([]int{1, 1, 1, 1}),
 		},
 	}
 

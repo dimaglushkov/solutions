@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 250
+Problems solved in total: 252
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -258,3 +258,5 @@ Problems solved in total: 250
 | [2485. Find the pivot integer](https://leetcode.com/problems/find-the-pivot-integer/) | [golang](/leetcode/find-the-pivot-integer/find-the-pivot-integer.go) | Easy |  |
 | [2486. Append characters to string to make subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | [golang](/leetcode/append-characters-to-string-to-make-subsequence/append-characters-to-string-to-make-subsequence.go) | Medium |  |
 | [2487. Remove nodes from linked list](https://leetcode.com/problems/remove-nodes-from-linked-list/) | [golang](/leetcode/remove-nodes-from-linked-list/remove-nodes-from-linked-list.go) | Medium |  |
+| [2225. Find players with zero or one losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | [golang](/leetcode/find-players-with-zero-or-one-losses/find-players-with-zero-or-one-losses.go) | Medium | Array, Hash Table, Sorting, Counting |
+| [587. Erect the fence](https://leetcode.com/problems/erect-the-fence/) | [golang](/leetcode/erect-the-fence/erect-the-fence.go) | Hard | Array, Math, Geometry |

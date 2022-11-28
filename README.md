@@ -57,12 +57,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Codeforces Round #832 (Div. 2)](https://codeforces.com/contest/1747) | 3708 / 13803 | [solutions](/contests/cf-round-832) | 4 nov 2022 |
 | [Leetcode Weekly Contest 320](https://leetcode.com/contest/weekly-contest-320/) | 4955 / 15183 | [solutions](/contests/lc-weekly-320) | 20 nov 2022 |
 | [Codeforces Round #835 (Div. 4)](https://codeforces.com/contests/1760) | 702 / 19245 | [solutions](/contests/cf-round-835) | 22 nov 2022 |
-| [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | ? / ? | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
+| [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
 
 
 ## leetcode
 
-Problems solved in total: 250
+Problems solved in total: 252
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -320,6 +320,8 @@ Problems solved in total: 250
 | [2485. Find the pivot integer](https://leetcode.com/problems/find-the-pivot-integer/) | [golang](/leetcode/find-the-pivot-integer/find-the-pivot-integer.go) | Easy |  |
 | [2486. Append characters to string to make subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) | [golang](/leetcode/append-characters-to-string-to-make-subsequence/append-characters-to-string-to-make-subsequence.go) | Medium |  |
 | [2487. Remove nodes from linked list](https://leetcode.com/problems/remove-nodes-from-linked-list/) | [golang](/leetcode/remove-nodes-from-linked-list/remove-nodes-from-linked-list.go) | Medium |  |
+| [2225. Find players with zero or one losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | [golang](/leetcode/find-players-with-zero-or-one-losses/find-players-with-zero-or-one-losses.go) | Medium | Array, Hash Table, Sorting, Counting |
+| [587. Erect the fence](https://leetcode.com/problems/erect-the-fence/) | [golang](/leetcode/erect-the-fence/erect-the-fence.go) | Hard | Array, Math, Geometry |
 
 
 ## codeforces
