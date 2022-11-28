@@ -128,10 +128,9 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
 
     for i in range(int(LC_NUM_OF_PROBLEMS)):
         ix = str(i+1)
-        os.mkdir(os.path.join(contest_sol_dir, ix))
         shutil.copyfile(
             os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]['ext']}"),
-            os.path.join(contest_sol_dir, ix, f"{ix}.{LANG_SPECS[lang]['ext']}")
+            os.path.join(contest_sol_dir, f"{ix}.{LANG_SPECS[lang]['ext']}")
         )
 
     with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:
