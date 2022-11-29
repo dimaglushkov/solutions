@@ -62,7 +62,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 252
+Problems solved in total: 253
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -322,6 +322,7 @@ Problems solved in total: 252
 | [2487. Remove nodes from linked list](https://leetcode.com/problems/remove-nodes-from-linked-list/) | [golang](/leetcode/remove-nodes-from-linked-list/remove-nodes-from-linked-list.go) | Medium |  |
 | [2225. Find players with zero or one losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | [golang](/leetcode/find-players-with-zero-or-one-losses/find-players-with-zero-or-one-losses.go) | Medium | Array, Hash Table, Sorting, Counting |
 | [587. Erect the fence](https://leetcode.com/problems/erect-the-fence/) | [golang](/leetcode/erect-the-fence/erect-the-fence.go) | Hard | Array, Math, Geometry |
+| [380. Insert delete getrandom o1](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [golang](/leetcode/insert-delete-getrandom-o1/insert-delete-getrandom-o1.go) | Medium | Array, Hash Table, Math, Design, Randomized |
 
 
 ## codeforces

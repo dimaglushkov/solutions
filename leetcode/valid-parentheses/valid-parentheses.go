@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/dimaglushkov/solutions/ADS/stack"
 )
 
 // source: https://leetcode.com/problems/valid-parentheses/
 
 func isValid(s string) bool {
-	stack := stack.NewStack[int32]()
+	st := stack.NewGenStack[int32]()
 	pairs := map[rune]rune{
 		'{': '}',
 		'(': ')',
@@ -16,12 +17,12 @@ func isValid(s string) bool {
 	}
 	for _, c := range s {
 		if c == '[' || c == '{' || c == '(' {
-			stack.Push(c)
-		} else if sc, ok := stack.Pop(); ok || pairs[sc] != c {
+			st.Push(c)
+		} else if sc, ok := st.Pop(); ok || pairs[sc] != c {
 			return false
 		}
 	}
-	return stack.Len() == 0
+	return st.Len() == 0
 }
 
 func main() {
