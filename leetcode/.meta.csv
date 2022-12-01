@@ -253,3 +253,4 @@ find-players-with-zero-or-one-losses,Medium,2225,['golang'],"['Array', 'Hash Tab
 erect-the-fence,Hard,587,['golang'],"['Array', 'Math', 'Geometry']"
 insert-delete-getrandom-o1,Medium,380,['golang'],"['Array', 'Hash Table', 'Math', 'Design', 'Randomized']"
 unique-number-of-occurrences,Easy,1207,['golang'],"['Array', 'Hash Table']"
+determine-if-string-halves-are-alike,Easy,1704,['golang'],"['String', 'Counting']"
