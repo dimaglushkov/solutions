@@ -62,7 +62,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 255
+Problems solved in total: 256
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -325,6 +325,7 @@ Problems solved in total: 255
 | [380. Insert delete getrandom o1](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [golang](/leetcode/insert-delete-getrandom-o1/insert-delete-getrandom-o1.go) | Medium | Array, Hash Table, Math, Design, Randomized |
 | [1207. Unique number of occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | [golang](/leetcode/unique-number-of-occurrences/unique-number-of-occurrences.go) | Easy | Array, Hash Table |
 | [1704. Determine if string halves are alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | [golang](/leetcode/determine-if-string-halves-are-alike/determine-if-string-halves-are-alike.go) | Easy | String, Counting |
+| [1657. Determine if two strings are close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [golang](/leetcode/determine-if-two-strings-are-close/determine-if-two-strings-are-close.go) | Medium | Hash Table, String, Sorting |
 
 
 ## codeforces
