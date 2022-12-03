@@ -4,12 +4,11 @@ import shutil
 
 import requests
 
-from . import shared, codeforces
+from . import shared, codeforces, leetcode
 
 TEMPLATES_DIR = shared.get_templates_dir()
 LANG_SPECS = shared.get_lang_specs()
 CF_NUM_OF_PROBLEMS = 8
-LC_NUM_OF_PROBLEMS = 4
 DATE_FORMAT = "%-d %b %Y"
 
 
@@ -71,7 +70,6 @@ def _pre_codeforces(url: str, lang: str, sol_dir: str):
             f"| [{name}]({contests_url}) | ? / ? | [solutions](/contests/{short_name}) | {date_str} |\n"
         )
 
-
 def _post_codeforces(url: str, handle: str, sol_dir: str):
     cf_sol_path = os.path.abspath(os.path.join(sol_dir, "..", "codeforces"))
     if not os.path.isdir(cf_sol_path):
@@ -113,6 +111,17 @@ def _post_codeforces(url: str, handle: str, sol_dir: str):
     codeforces.update_codeforces_readme(cf_sol_path)
 
 
+def _lc_get_contest_meta(contest_url: str) -> (bool, list):
+    response = requests.get(contest_url.replace("/contest/", "/contest/api/info/"))
+    if response.status_code != 200:
+        raise ValueError("Not OK response for url: " + contest_url)
+    data = response.json()
+
+    if data["contest"]["start_time"] > data["current_timestamp"]:
+        return False, None
+
+    return True, [q["title_slug"] for q in data["questions"]]
+
 def _pre_leetcode(url: str, lang: str, sol_dir: str):
     if url.endswith("/"):
         url = url.rstrip("/")
@@ -120,18 +129,24 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
     con_type = tag.split('-')[0]
     con_idx = tag.split('-')[-1]
     short_name = f"lc-{con_type}-{con_idx}"
-
     contest_sol_dir = os.path.join(sol_dir, short_name)
     if os.path.isdir(contest_sol_dir):
-        raise ValueError(f"Directory {contest_sol_dir} already exists")
+        print(f"Solutions directory {contest_sol_dir} already exists")
+        return
     os.mkdir(contest_sol_dir)
 
-    for i in range(int(LC_NUM_OF_PROBLEMS)):
-        ix = str(i+1)
-        shutil.copyfile(
-            os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]['ext']}"),
-            os.path.join(contest_sol_dir, f"{ix}.{LANG_SPECS[lang]['ext']}")
-        )
+    started, question_slugs = _lc_get_contest_meta(url)
+    if not started:
+        print("Contest has not started yet")
+        return
+
+    for i, slug in enumerate(question_slugs):
+        slug_data = leetcode.get_slug_data(slug)['data']['question']
+        problem_sol_dir = os.path.join(contest_sol_dir, str(i+1))
+        os.mkdir(problem_sol_dir)
+        file = os.path.join(problem_sol_dir, f"{i+1}.{LANG_SPECS[lang]['ext']}")
+        leetcode.create_code_template(slug, file, lang, slug_data)
+        print(f"{i+1}: file://{os.path.abspath(file)}")
 
     with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:
         name = f"Leetcode {con_type.capitalize()} Contest {con_idx}"
@@ -143,7 +158,6 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
 
 def _post_leetcode():
     raise RuntimeError("Not implemented")
-    pass
 
 
 def stats(sol_dir: str):

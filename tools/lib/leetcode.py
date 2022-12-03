@@ -36,7 +36,7 @@ def _get_title_slugs(problems: list, lang: str, d: str) -> dict:
     return slugs
 
 
-def _get_slug_data(name: str) -> dict:
+def get_slug_data(name: str) -> dict:
     configuration = leetcode.Configuration()
     configuration.api_key["Referer"] = "https://leetcode.com"
     configuration.debug = False
@@ -190,7 +190,7 @@ func main() {
     return tester
 
 
-def _create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
+def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
     source_link = f'https://leetcode.com/problems/{slug}/'
     code_snippet = ''
 
@@ -311,8 +311,9 @@ def pull(problems: list, lang: str, sol_dir: str):
             return
 
         for slug, file in slugs.items():
-            slug_data = _get_slug_data(slug)['data']['question']
-            _create_code_template(slug, file, lang, slug_data)
+            slug_data = get_slug_data(slug)['data']['question']
+            create_code_template(slug, file, lang, slug_data)
+            print(f"File generated for {slug}: file://{os.path.abspath(file)}")
             _update_meta_file(slug, lang, slug_data, sol_dir)
 
     data = pd.read_csv(
