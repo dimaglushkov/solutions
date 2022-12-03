@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 256
+Problems solved in total: 257
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -264,3 +264,4 @@ Problems solved in total: 256
 | [1207. Unique number of occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | [golang](/leetcode/unique-number-of-occurrences/unique-number-of-occurrences.go) | Easy | Array, Hash Table |
 | [1704. Determine if string halves are alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | [golang](/leetcode/determine-if-string-halves-are-alike/determine-if-string-halves-are-alike.go) | Easy | String, Counting |
 | [1657. Determine if two strings are close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [golang](/leetcode/determine-if-two-strings-are-close/determine-if-two-strings-are-close.go) | Medium | Hash Table, String, Sorting |
+| [451. Sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [golang](/leetcode/sort-characters-by-frequency/sort-characters-by-frequency.go) | Medium | Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting |

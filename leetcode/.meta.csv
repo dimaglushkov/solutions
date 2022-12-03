@@ -255,3 +255,4 @@ insert-delete-getrandom-o1,Medium,380,['golang'],"['Array', 'Hash Table', 'Math'
 unique-number-of-occurrences,Easy,1207,['golang'],"['Array', 'Hash Table']"
 determine-if-string-halves-are-alike,Easy,1704,['golang'],"['String', 'Counting']"
 determine-if-two-strings-are-close,Medium,1657,['golang'],"['Hash Table', 'String', 'Sorting']"
+sort-characters-by-frequency,Medium,451,['golang'],"['Hash Table', 'String', 'Sorting', 'Heap (Priority Queue)', 'Bucket Sort', 'Counting']"
