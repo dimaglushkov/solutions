@@ -15,3 +15,4 @@
 | [Leetcode Weekly Contest 320](https://leetcode.com/contest/weekly-contest-320/) | 4955 / 15183 | [solutions](/contests/lc-weekly-320) | 20 nov 2022 |
 | [Codeforces Round #835 (Div. 4)](https://codeforces.com/contests/1760) | 702 / 19245 | [solutions](/contests/cf-round-835) | 22 nov 2022 |
 | [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
+| [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 547 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |

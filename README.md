@@ -58,11 +58,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 320](https://leetcode.com/contest/weekly-contest-320/) | 4955 / 15183 | [solutions](/contests/lc-weekly-320) | 20 nov 2022 |
 | [Codeforces Round #835 (Div. 4)](https://codeforces.com/contests/1760) | 702 / 19245 | [solutions](/contests/cf-round-835) | 22 nov 2022 |
 | [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
+| [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 547 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
 
 
 ## leetcode
 
-Problems solved in total: 257
+Problems solved in total: 258
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -327,6 +328,7 @@ Problems solved in total: 257
 | [1704. Determine if string halves are alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | [golang](/leetcode/determine-if-string-halves-are-alike/determine-if-string-halves-are-alike.go) | Easy | String, Counting |
 | [1657. Determine if two strings are close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [golang](/leetcode/determine-if-two-strings-are-close/determine-if-two-strings-are-close.go) | Medium | Hash Table, String, Sorting |
 | [451. Sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [golang](/leetcode/sort-characters-by-frequency/sort-characters-by-frequency.go) | Medium | Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting |
+| [1752. Check if array is sorted and rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | [python](/leetcode/check-if-array-is-sorted-and-rotated/check-if-array-is-sorted-and-rotated.py) | Easy | Array |
 
 
 ## codeforces
