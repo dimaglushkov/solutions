@@ -42,6 +42,12 @@ sol con post <cf contest URL>    - for every successfull solution from a given c
 In order to get more information consider checking [tools](https://github.com/dimaglushkov/solutions/tree/master/tools).
 
 ## contests
+
+|Top % places by days|
+|-|
+|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.stats.svg)|
+
+
 | Name | Rank | Solutions | Date |
 |-|-|-|-|
 | [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4828 / 19491 | [solutions](/contests/lc-weekly-290) | 24 apr 2022 |
