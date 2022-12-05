@@ -63,7 +63,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 258
+Problems solved in total: 278
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -328,7 +328,27 @@ Problems solved in total: 258
 | [1704. Determine if string halves are alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | [golang](/leetcode/determine-if-string-halves-are-alike/determine-if-string-halves-are-alike.go) | Easy | String, Counting |
 | [1657. Determine if two strings are close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [golang](/leetcode/determine-if-two-strings-are-close/determine-if-two-strings-are-close.go) | Medium | Hash Table, String, Sorting |
 | [451. Sort characters by frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [golang](/leetcode/sort-characters-by-frequency/sort-characters-by-frequency.go) | Medium | Hash Table, String, Sorting, Heap (Priority Queue), Bucket Sort, Counting |
-| [1752. Check if array is sorted and rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) | [python](/leetcode/check-if-array-is-sorted-and-rotated/check-if-array-is-sorted-and-rotated.py) | Easy | Array |
+| [1752. Check if array is sorted and rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |  | Easy | Array |
+| [35. Search insert position](https://leetcode.com/problems/search-insert-position/) | [golang](/leetcode/search-insert-position/search-insert-position.go) | Easy | Array, Binary Search |
+| [58. Length of last word](https://leetcode.com/problems/length-of-last-word/) | [golang](/leetcode/length-of-last-word/length-of-last-word.go) | Easy | String |
+| [66. Plus one](https://leetcode.com/problems/plus-one/) | [golang](/leetcode/plus-one/plus-one.go) | Easy | Array, Math |
+| [83. Remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [golang](/leetcode/remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.go) | Easy | Linked List |
+| [94. Binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [golang](/leetcode/binary-tree-inorder-traversal/binary-tree-inorder-traversal.go) | Easy | Stack, Tree, Depth-First Search, Binary Tree |
+| [100. Same tree](https://leetcode.com/problems/same-tree/) | [golang](/leetcode/same-tree/same-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [101. Symmetric tree](https://leetcode.com/problems/symmetric-tree/) | [golang](/leetcode/symmetric-tree/symmetric-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [111. Minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [golang](/leetcode/minimum-depth-of-binary-tree/minimum-depth-of-binary-tree.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [119. Pascals triangle ii](https://leetcode.com/problems/pascals-triangle-ii/) | [golang](/leetcode/pascals-triangle-ii/pascals-triangle-ii.go) | Easy | Array, Dynamic Programming |
+| [136. Single number](https://leetcode.com/problems/single-number/) | [golang](/leetcode/single-number/single-number.go) | Easy | Array, Bit Manipulation |
+| [144. Binary tree preorder traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [golang](/leetcode/binary-tree-preorder-traversal/binary-tree-preorder-traversal.go) | Easy | Stack, Tree, Depth-First Search, Binary Tree |
+| [145. Binary tree postorder traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [golang](/leetcode/binary-tree-postorder-traversal/binary-tree-postorder-traversal.go) | Easy | Stack, Tree, Depth-First Search, Binary Tree |
+| [168. Excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title/) | [golang](/leetcode/excel-sheet-column-title/excel-sheet-column-title.go) | Easy | Math, String |
+| [171. Excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number/) | [golang](/leetcode/excel-sheet-column-number/excel-sheet-column-number.go) | Easy | Math, String |
+| [190. Reverse bits](https://leetcode.com/problems/reverse-bits/) | [golang](/leetcode/reverse-bits/reverse-bits.go) | Easy | Divide and Conquer, Bit Manipulation |
+| [202. Happy number](https://leetcode.com/problems/happy-number/) | [golang](/leetcode/happy-number/happy-number.go) | Easy | Hash Table, Math, Two Pointers |
+| [203. Remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements/) | [golang](/leetcode/remove-linked-list-elements/remove-linked-list-elements.go) | Easy | Linked List, Recursion |
+| [205. Isomorphic strings](https://leetcode.com/problems/isomorphic-strings/) | [golang](/leetcode/isomorphic-strings/isomorphic-strings.go) | Easy | Hash Table, String |
+| [228. Summary ranges](https://leetcode.com/problems/summary-ranges/) | [golang](/leetcode/summary-ranges/summary-ranges.go) | Easy | Array |
+| [258. Add digits](https://leetcode.com/problems/add-digits/) | [golang](/leetcode/add-digits/add-digits.go) | Easy | Math, Simulation, Number Theory |
 
 
 ## codeforces
