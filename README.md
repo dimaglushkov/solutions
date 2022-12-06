@@ -69,7 +69,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 278
+Problems solved in total: 279
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -355,6 +355,7 @@ Problems solved in total: 278
 | [205. Isomorphic strings](https://leetcode.com/problems/isomorphic-strings/) | [golang](/leetcode/isomorphic-strings/isomorphic-strings.go) | Easy | Hash Table, String |
 | [228. Summary ranges](https://leetcode.com/problems/summary-ranges/) | [golang](/leetcode/summary-ranges/summary-ranges.go) | Easy | Array |
 | [258. Add digits](https://leetcode.com/problems/add-digits/) | [golang](/leetcode/add-digits/add-digits.go) | Easy | Math, Simulation, Number Theory |
+| [328. Odd even linked list](https://leetcode.com/problems/odd-even-linked-list/) | [golang](/leetcode/odd-even-linked-list/odd-even-linked-list.go) | Medium | Linked List |
 
 
 ## codeforces

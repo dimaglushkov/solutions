@@ -246,9 +246,9 @@ number-of-unequal-triplets-in-array,Easy,2475,['golang'],"['Array', 'Hash Table'
 closest-nodes-queries-in-a-binary-search-tree,Medium,2476,['golang'],"['Array', 'Binary Search', 'Tree', 'Depth-First Search', 'Binary Tree']"
 word-search,Medium,79,['golang'],"['Array', 'Backtracking', 'Matrix']"
 sum-of-subarray-minimums,Medium,907,['golang'],"['Array', 'Dynamic Programming', 'Stack', 'Monotonic Stack']"
-find-the-pivot-integer,Easy,2485,['golang'],[]
-append-characters-to-string-to-make-subsequence,Medium,2486,['golang'],[]
-remove-nodes-from-linked-list,Medium,2487,['golang'],[]
+find-the-pivot-integer,Easy,2485,['golang'],['Math', 'Prefix Sum']
+append-characters-to-string-to-make-subsequence,Medium,2486,['golang'],['Two Pointers', 'String', 'Greedy']
+remove-nodes-from-linked-list,Medium,2487,['golang'],['Linked List', 'Stack', 'Recursion', 'Monotonic Stack']
 find-players-with-zero-or-one-losses,Medium,2225,['golang'],"['Array', 'Hash Table', 'Sorting', 'Counting']"
 erect-the-fence,Hard,587,['golang'],"['Array', 'Math', 'Geometry']"
 insert-delete-getrandom-o1,Medium,380,['golang'],"['Array', 'Hash Table', 'Math', 'Design', 'Randomized']"
@@ -256,7 +256,7 @@ unique-number-of-occurrences,Easy,1207,['golang'],"['Array', 'Hash Table']"
 determine-if-string-halves-are-alike,Easy,1704,['golang'],"['String', 'Counting']"
 determine-if-two-strings-are-close,Medium,1657,['golang'],"['Hash Table', 'String', 'Sorting']"
 sort-characters-by-frequency,Medium,451,['golang'],"['Hash Table', 'String', 'Sorting', 'Heap (Priority Queue)', 'Bucket Sort', 'Counting']"
-check-if-array-is-sorted-and-rotated,Easy,1752,[],['Array']
+check-if-array-is-sorted-and-rotated,Easy,1752,['golang'],['Array']
 search-insert-position,Easy,35,['golang'],"['Array', 'Binary Search']"
 length-of-last-word,Easy,58,['golang'],['String']
 plus-one,Easy,66,['golang'],"['Array', 'Math']"
@@ -277,3 +277,4 @@ remove-linked-list-elements,Easy,203,['golang'],"['Linked List', 'Recursion']"
 isomorphic-strings,Easy,205,['golang'],"['Hash Table', 'String']"
 summary-ranges,Easy,228,['golang'],['Array']
 add-digits,Easy,258,['golang'],"['Math', 'Simulation', 'Number Theory']"
+odd-even-linked-list,Medium,328,['golang'],['Linked List']
