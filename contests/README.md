@@ -7,7 +7,6 @@
 
 | Name | Rank | Solutions | Date |
 |-|-|-|-|
-
 | [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4827 / 19491 | [solutions](/contests/lc-weekly-290) | 24 apr 2022 |
 | [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) | 6802 / 15519 | [solutions](/contests/lc-biweekly-77) | 30 apr 2022 |
 | [Leetcode Weekly Contest 291](https://leetcode.com/contest/weekly-contest-291/) | 6157 / 19223 | [solutions](/contests/lc-weekly-291) | 1 may 2022 |
