@@ -69,7 +69,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 279
+Problems solved in total: 284
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -356,6 +356,11 @@ Problems solved in total: 279
 | [228. Summary ranges](https://leetcode.com/problems/summary-ranges/) | [golang](/leetcode/summary-ranges/summary-ranges.go) | Easy | Array |
 | [258. Add digits](https://leetcode.com/problems/add-digits/) | [golang](/leetcode/add-digits/add-digits.go) | Easy | Math, Simulation, Number Theory |
 | [328. Odd even linked list](https://leetcode.com/problems/odd-even-linked-list/) | [golang](/leetcode/odd-even-linked-list/odd-even-linked-list.go) | Medium | Linked List |
+| [938. Range sum of bst](https://leetcode.com/problems/range-sum-of-bst/) | [golang](/leetcode/range-sum-of-bst/range-sum-of-bst.go) | Easy | Tree, Depth-First Search, Binary Search Tree, Binary Tree |
+| [1689. Partitioning into minimum number of deci binary numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [golang](/leetcode/partitioning-into-minimum-number-of-deci-binary-numbers/partitioning-into-minimum-number-of-deci-binary-numbers.go) | Medium | String, Greedy |
+| [1828. Queries on number of points inside a circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [golang](/leetcode/queries-on-number-of-points-inside-a-circle/queries-on-number-of-points-inside-a-circle.go) | Medium | Array, Math, Geometry |
+| [807. Max increase to keep city skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [golang](/leetcode/max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.go) | Medium | Array, Greedy, Matrix |
+| [40. Combination sum ii](https://leetcode.com/problems/combination-sum-ii/) | [golang](/leetcode/combination-sum-ii/combination-sum-ii.go) | Medium | Array, Backtracking |
 
 
 ## codeforces

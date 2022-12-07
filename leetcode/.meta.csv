@@ -278,3 +278,8 @@ isomorphic-strings,Easy,205,['golang'],"['Hash Table', 'String']"
 summary-ranges,Easy,228,['golang'],['Array']
 add-digits,Easy,258,['golang'],"['Math', 'Simulation', 'Number Theory']"
 odd-even-linked-list,Medium,328,['golang'],['Linked List']
+range-sum-of-bst,Easy,938,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
+partitioning-into-minimum-number-of-deci-binary-numbers,Medium,1689,['golang'],"['String', 'Greedy']"
+queries-on-number-of-points-inside-a-circle,Medium,1828,['golang'],"['Array', 'Math', 'Geometry']"
+max-increase-to-keep-city-skyline,Medium,807,['golang'],"['Array', 'Greedy', 'Matrix']"
+combination-sum-ii,Medium,40,['golang'],"['Array', 'Backtracking']"
