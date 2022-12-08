@@ -10,7 +10,7 @@ codeforces: [@dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 [1. tools](#tools) <br>
 [2. contests](#contests) <br>
 [3. leetcode](#leetcode) <br>
-[4. adventofcode/2022](#adventofcode/2022) <br>
+[4. adventofcode/2022](#adventofcode2022) <br>
 [5. codeforces](#codeforces) <br>
 [6. acm.timus](#acmtimus) <br>
 
@@ -372,9 +372,11 @@ Problems solved in total: 288
 
 | Day | Solution | 
 |-|-|
-| [Day 1](https://adventofcode.com/2022/day/1) | [solutions](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day01/) | 
-| [Day 2](https://adventofcode.com/2022/day/2) | [solutions](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day02/) | 
-| [Day 3](https://adventofcode.com/2022/day/3) | [solutions](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day03/) |
+| [Day 1](https://adventofcode.com/2022/day/1) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day01/) | 
+| [Day 2](https://adventofcode.com/2022/day/2) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day02/) | 
+| [Day 3](https://adventofcode.com/2022/day/3) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day03/) |
+| [Day 4](https://adventofcode.com/2022/day/4) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day04/) |
+
 
 ## codeforces
 
