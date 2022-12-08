@@ -9,6 +9,7 @@ func max(x, y int) int {
 	return y
 }
 
+// during the contest it was AC, but week later turned out it's WA 🤡
 func magnificentSets(n int, edges [][]int) int {
 	type edge struct {
 		id, level int
