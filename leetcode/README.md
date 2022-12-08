@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 284
+Problems solved in total: 288
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -292,3 +292,7 @@ Problems solved in total: 284
 | [1828. Queries on number of points inside a circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [golang](/leetcode/queries-on-number-of-points-inside-a-circle/queries-on-number-of-points-inside-a-circle.go) | Medium | Array, Math, Geometry |
 | [807. Max increase to keep city skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [golang](/leetcode/max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.go) | Medium | Array, Greedy, Matrix |
 | [40. Combination sum ii](https://leetcode.com/problems/combination-sum-ii/) | [golang](/leetcode/combination-sum-ii/combination-sum-ii.go) | Medium | Array, Backtracking |
+| [2490. Circular sentence](https://leetcode.com/problems/circular-sentence/) | [golang](/leetcode/circular-sentence/circular-sentence.go) | Easy |  |
+| [2491. Divide players into teams of equal skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [golang](/leetcode/divide-players-into-teams-of-equal-skill/divide-players-into-teams-of-equal-skill.go) | Medium |  |
+| [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
+| [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |

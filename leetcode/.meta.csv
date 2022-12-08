@@ -283,3 +283,7 @@ partitioning-into-minimum-number-of-deci-binary-numbers,Medium,1689,['golang'],"
 queries-on-number-of-points-inside-a-circle,Medium,1828,['golang'],"['Array', 'Math', 'Geometry']"
 max-increase-to-keep-city-skyline,Medium,807,['golang'],"['Array', 'Greedy', 'Matrix']"
 combination-sum-ii,Medium,40,['golang'],"['Array', 'Backtracking']"
+circular-sentence,Easy,2490,['golang'],[]
+divide-players-into-teams-of-equal-skill,Medium,2491,['golang'],[]
+minimum-score-of-a-path-between-two-cities,Medium,2492,['golang'],[]
+leaf-similar-trees,Easy,872,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"

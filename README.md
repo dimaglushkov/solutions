@@ -10,8 +10,9 @@ codeforces: [@dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 [1. tools](#tools) <br>
 [2. contests](#contests) <br>
 [3. leetcode](#leetcode) <br>
-[4. codeforces](#codeforces) <br>
-[5. acm.timus](#acmtimus) <br>
+[4. adventofcode/2022](#adventofcode/2022) <br>
+[5. codeforces](#codeforces) <br>
+[6. acm.timus](#acmtimus) <br>
 
 
 ## tools 
@@ -64,12 +65,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 320](https://leetcode.com/contest/weekly-contest-320/) | 7599 / 20861 | [solutions](/contests/lc-weekly-320) | 20 nov 2022 |
 | [Codeforces Round #835 (Div. 4)](https://codeforces.com/contests/1760) | 702 / 19245 | [solutions](/contests/cf-round-835) | 22 nov 2022 |
 | [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
-| [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 547 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
+| [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 2403 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
 
 
 ## leetcode
 
-Problems solved in total: 284
+Problems solved in total: 288
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -361,7 +362,17 @@ Problems solved in total: 284
 | [1828. Queries on number of points inside a circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [golang](/leetcode/queries-on-number-of-points-inside-a-circle/queries-on-number-of-points-inside-a-circle.go) | Medium | Array, Math, Geometry |
 | [807. Max increase to keep city skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [golang](/leetcode/max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.go) | Medium | Array, Greedy, Matrix |
 | [40. Combination sum ii](https://leetcode.com/problems/combination-sum-ii/) | [golang](/leetcode/combination-sum-ii/combination-sum-ii.go) | Medium | Array, Backtracking |
+| [2490. Circular sentence](https://leetcode.com/problems/circular-sentence/) | [golang](/leetcode/circular-sentence/circular-sentence.go) | Easy |  |
+| [2491. Divide players into teams of equal skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [golang](/leetcode/divide-players-into-teams-of-equal-skill/divide-players-into-teams-of-equal-skill.go) | Medium |  |
+| [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
+| [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |
 
+
+## advent of code 2022
+
+| Day | Solution | 
+|-|-|
+| [Day 1](https://adventofcode.com/2022/day/1) | https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day01/| 
 
 ## codeforces
 
