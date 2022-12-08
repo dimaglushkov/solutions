@@ -8,7 +8,7 @@ DEFAULT_HANDLE = "dimaglushkov"
 allowed_calls = {
     "codeforces": {"pull", "delete"},
     "leetcode":   {"pull", "delete"},
-    "contests":   {"pre", "post"},
+    "contests":   {"pre", "post", "stats"},
     "readme":     {"generate"},
 }
 

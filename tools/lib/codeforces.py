@@ -206,6 +206,8 @@ def delete(problems: list, lang: str, sol_dir: str):
             continue
 
         os.remove(solution_path)
+        if len(os.listdir(os.path.join(sol_dir, problem_id))) == 0:
+            os.rmdir(os.path.join(sol_dir, problem_id))
         os.rmdir(os.path.join(sol_dir, problem_id))
 
     if cnt == 0:

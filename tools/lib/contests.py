@@ -122,6 +122,12 @@ def _lc_get_contest_meta(contest_url: str) -> (bool, list):
 
     return True, [q["title_slug"] for q in data["questions"]]
 
+# graphql api doesn't provide problem info while contest is still
+# in progress, thus using another method of getting example testcases
+def _lc_get_contest_problem_data(url: str) -> dict:
+    raise Exception("Not implemented yet")
+
+
 def _pre_leetcode(url: str, lang: str, sol_dir: str):
     if url.endswith("/"):
         url = url.rstrip("/")
@@ -133,19 +139,22 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
     if os.path.isdir(contest_sol_dir):
         print(f"Solutions directory {contest_sol_dir} already exists")
         return
-    os.mkdir(contest_sol_dir)
-
     started, question_slugs = _lc_get_contest_meta(url)
     if not started:
         print("Contest has not started yet")
         return
 
+    os.mkdir(contest_sol_dir)
     for i, slug in enumerate(question_slugs):
-        slug_data = leetcode.get_slug_data(slug)['data']['question']
         problem_sol_dir = os.path.join(contest_sol_dir, str(i+1))
-        os.mkdir(problem_sol_dir)
         file = os.path.join(problem_sol_dir, f"{i+1}.{LANG_SPECS[lang]['ext']}")
-        leetcode.create_code_template(slug, file, lang, slug_data)
+        os.mkdir(problem_sol_dir)
+
+        slug_data = leetcode.get_slug_data(slug)['data']['question']
+        if slug_data is not None:
+            leetcode.create_code_template(slug, file, lang, slug_data)
+        else:
+            shutil.copyfile(os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]}"), file)
         print(f"{i+1}: file://{os.path.abspath(file)}")
 
     with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:

@@ -331,7 +331,8 @@ def delete(problems: list, lang: str, sol_dir: str):
             problem = problem[:-1].split('/')[-1]
 
         os.remove(os.path.join(sol_dir, problem, f'{problem}.{LANG_SPECS[lang]["ext"]}'))
-        os.rmdir(os.path.join(sol_dir, problem))
+        if len(os.listdir(os.path.join(sol_dir, problem))) == 0:
+            os.rmdir(os.path.join(sol_dir, problem))
 
     data = pd.read_csv(
         os.path.join(sol_dir, META_FILE), index_col='slug', converters={'lang': pd.eval, 'tags': pd.eval}
