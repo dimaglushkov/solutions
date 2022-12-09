@@ -70,7 +70,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 288
+Problems solved in total: 289
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -366,6 +366,7 @@ Problems solved in total: 288
 | [2491. Divide players into teams of equal skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [golang](/leetcode/divide-players-into-teams-of-equal-skill/divide-players-into-teams-of-equal-skill.go) | Medium |  |
 | [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
 | [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |
+| [1026. Maximum difference between node and ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [golang](/leetcode/maximum-difference-between-node-and-ancestor/maximum-difference-between-node-and-ancestor.go) | Medium | Tree, Depth-First Search, Binary Tree |
 
 
 ## adventofcode/2022
@@ -376,6 +377,10 @@ Problems solved in total: 288
 | [Day 2](https://adventofcode.com/2022/day/2) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day02/) | 
 | [Day 3](https://adventofcode.com/2022/day/3) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day03/) |
 | [Day 4](https://adventofcode.com/2022/day/4) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day04/) |
+| [Day 5](https://adventofcode.com/2022/day/5) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day05/) |
+| [Day 6](https://adventofcode.com/2022/day/6) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day06/) |
+| [Day 7](https://adventofcode.com/2022/day/7) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day07/) |
+
 
 
 ## codeforces

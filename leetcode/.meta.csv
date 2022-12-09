@@ -287,3 +287,4 @@ circular-sentence,Easy,2490,['golang'],[]
 divide-players-into-teams-of-equal-skill,Medium,2491,['golang'],[]
 minimum-score-of-a-path-between-two-cities,Medium,2492,['golang'],[]
 leaf-similar-trees,Easy,872,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
+maximum-difference-between-node-and-ancestor,Medium,1026,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"

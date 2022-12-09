@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 288
+Problems solved in total: 289
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -296,3 +296,4 @@ Problems solved in total: 288
 | [2491. Divide players into teams of equal skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [golang](/leetcode/divide-players-into-teams-of-equal-skill/divide-players-into-teams-of-equal-skill.go) | Medium |  |
 | [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
 | [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |
+| [1026. Maximum difference between node and ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [golang](/leetcode/maximum-difference-between-node-and-ancestor/maximum-difference-between-node-and-ancestor.go) | Medium | Tree, Depth-First Search, Binary Tree |
