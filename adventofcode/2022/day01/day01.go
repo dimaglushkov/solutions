@@ -1,4 +1,4 @@
-package day01
+package main
 
 import (
 	"github.com/dimaglushkov/solutions/adventofcode/2022/util"
@@ -56,4 +56,9 @@ func DayOne2() {
 		return cnt[i] > cnt[j]
 	})
 	print(sum(cnt[:3]...))
+}
+
+func main() {
+	DayOne1()
+	DayOne2()
 }

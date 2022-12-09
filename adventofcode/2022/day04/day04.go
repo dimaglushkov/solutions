@@ -1,4 +1,4 @@
-package day04
+package main
 
 import (
 	"github.com/dimaglushkov/solutions/adventofcode/2022/util"
@@ -39,4 +39,9 @@ func DayFour2() {
 	}
 
 	println(res)
+}
+
+func main() {
+	DayFour1()
+	DayFour2()
 }

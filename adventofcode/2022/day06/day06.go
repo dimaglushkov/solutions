@@ -1,4 +1,4 @@
-package day06
+package main
 
 import "github.com/dimaglushkov/solutions/adventofcode/2022/util"
 
@@ -32,4 +32,9 @@ func DaySix2() {
 			return
 		}
 	}
+}
+
+func main() {
+	DaySix1()
+	DaySix2()
 }
