@@ -1,7 +1,5 @@
 import os
 
-SOLUTIONS_DIR = "/Repos/solutions/adventofcode/2022"
-
 
 class TreeNode:
     def __init__(self, name="", files_size=0, total_size=0, parent=None, ):
@@ -17,8 +15,7 @@ def read_input(filename: str) -> list:
         return f.readlines()
 
 
-def day_seven_1():
-    text = read_input("day07_1.input")
+def build_filesystem_tree(text: [str]) -> TreeNode:
     cmds = list()
 
     # getting list of commands
@@ -61,6 +58,12 @@ def day_seven_1():
                 else:
                     files_size += int(o.split(" ")[0])
             cn.files_size = files_size
+
+    return fstree
+
+
+def day_seven_1():
+    fstree = build_filesystem_tree(read_input("day07_1.input"))
 
     # iterating over the tree to calculate the total size of every directory
     def calculate_total_size(node: TreeNode) -> int:
@@ -84,53 +87,10 @@ def day_seven_1():
 
 
 def day_seven_2():
-    text = read_input("day07_1.input")
-    cmds = list()
-
-    # getting list of commands
-    i = 1
-    while i < len(text):
-        l = text[i].replace("\n", "")
-        if "cd" in l:
-            cmds.append(["cd", l.split(" ")[-1]])
-        elif "ls" in l:
-            output = list()
-            j = i + 1
-            while j < len(text) and "$" not in text[j]:
-                output.append(text[j].replace("\n", ""))
-                j += 1
-            cmds.append(["ls", output])
-            i = j - 1
-        else:
-            raise ValueError(l)
-        i += 1
-
-    # building filesystem tree
-    fstree = TreeNode(name="/")
-    cn = fstree
-    for cmd in cmds:
-        if cmd[0] == "cd":
-            target = cmd[1]
-            if target == "..":
-                cn = cn.parent
-            else:
-                if target not in cn.children:
-                    cn.children[target] = TreeNode(name=target, parent=cn)
-                cn = cn.children[target]
-        else:
-            output = cmd[1]
-            files_size = 0
-            for o in output:
-                if "dir" in o:
-                    dir_name = o.replace("dir ", "")
-                    cn.children[dir_name] = TreeNode(name=dir_name, parent=cn)
-                else:
-                    files_size += int(o.split(" ")[0])
-            cn.files_size = files_size
-
-    # iterating over the tree to calculate the total size of every directory
+    fstree = build_filesystem_tree(read_input("day07_1.input"))
     sizes = list()
 
+    # iterating over the tree to calculate the total size of every directory
     def calculate_total_size(node: TreeNode) -> int:
         node.total_size = node.files_size
         for ch in node.children.values():
@@ -149,7 +109,7 @@ def day_seven_2():
 
 
 def main():
-    # day_seven_1()
+    day_seven_1()
     day_seven_2()
 
 
