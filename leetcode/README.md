@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 289
+Problems solved in total: 293
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -297,3 +297,7 @@ Problems solved in total: 289
 | [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
 | [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |
 | [1026. Maximum difference between node and ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [golang](/leetcode/maximum-difference-between-node-and-ancestor/maximum-difference-between-node-and-ancestor.go) | Medium | Tree, Depth-First Search, Binary Tree |
+| [1339. Maximum product of splitted binary tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [golang](/leetcode/maximum-product-of-splitted-binary-tree/maximum-product-of-splitted-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
+| [2496. Maximum value of a string in an array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | [golang](/leetcode/maximum-value-of-a-string-in-an-array/maximum-value-of-a-string-in-an-array.go) | Easy |  |
+| [2497. Maximum star sum of a graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | [golang](/leetcode/maximum-star-sum-of-a-graph/maximum-star-sum-of-a-graph.go) | Medium |  |
+| [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |

@@ -288,3 +288,7 @@ divide-players-into-teams-of-equal-skill,Medium,2491,['golang'],[]
 minimum-score-of-a-path-between-two-cities,Medium,2492,['golang'],[]
 leaf-similar-trees,Easy,872,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 maximum-difference-between-node-and-ancestor,Medium,1026,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
+maximum-product-of-splitted-binary-tree,Medium,1339,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
+maximum-value-of-a-string-in-an-array,Easy,2496,['golang'],[]
+maximum-star-sum-of-a-graph,Medium,2497,['golang'],[]
+frog-jump-ii,Medium,2498,['golang'],[]
