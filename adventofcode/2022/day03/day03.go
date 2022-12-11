@@ -14,7 +14,7 @@ func prior(x byte) int {
 
 func DayThree1() {
 	res := 0
-	for _, l := range util.ReadInput("day03_1.input") {
+	for _, l := range util.ReadInput("day03.input") {
 		n := len(l)
 		m1, m2 := make(map[byte]bool), make(map[byte]bool)
 		for i := 0; i < n/2; i++ {
@@ -41,7 +41,7 @@ func DayThree2() {
 		priorCnt  = 53
 	)
 	res := 0
-	lines := util.ReadInput("day03_1.input")
+	lines := util.ReadInput("day03.input")
 	i, n := 0, len(lines)
 	for i < n {
 		var cnt [groupSize][priorCnt]int

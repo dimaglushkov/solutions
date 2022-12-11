@@ -63,7 +63,7 @@ def build_filesystem_tree(text: [str]) -> TreeNode:
 
 
 def day_seven_1():
-    fstree = build_filesystem_tree(read_input("day07_1.input"))
+    fstree = build_filesystem_tree(read_input("day07.input"))
 
     # iterating over the tree to calculate the total size of every directory
     def calculate_total_size(node: TreeNode) -> int:
@@ -87,7 +87,7 @@ def day_seven_1():
 
 
 def day_seven_2():
-    fstree = build_filesystem_tree(read_input("day07_1.input"))
+    fstree = build_filesystem_tree(read_input("day07.input"))
     sizes = list()
 
     # iterating over the tree to calculate the total size of every directory

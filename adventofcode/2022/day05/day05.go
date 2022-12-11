@@ -25,7 +25,7 @@ func (s *stack) pop() byte {
 }
 
 func DayFive1() {
-	text := util.ReadInput("day05_1.input")
+	text := util.ReadInput("day05.input")
 
 	l := 0
 	for text[l] != "" {
@@ -63,7 +63,7 @@ func DayFive1() {
 }
 
 func DayFive2() {
-	text := util.ReadInput("day05_1.input")
+	text := util.ReadInput("day05.input")
 
 	l := 0
 	for text[l] != "" {

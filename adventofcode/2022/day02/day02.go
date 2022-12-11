@@ -24,7 +24,7 @@ func DayTwo1() {
 	}
 
 	res := 0
-	for _, l := range util.ReadInput("day02_1.input") {
+	for _, l := range util.ReadInput("day02.input") {
 		rs := strings.Split(l, " ")
 		a, b := rs[0][0], translate(rs[1][0])
 
@@ -51,7 +51,7 @@ func DayTwo2() {
 	}
 
 	res := 0
-	for _, l := range util.ReadInput("day02_1.input") {
+	for _, l := range util.ReadInput("day02.input") {
 		rs := strings.Split(l, " ")
 		a, b := rs[0][0], rs[1][0]
 

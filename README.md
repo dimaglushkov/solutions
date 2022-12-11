@@ -66,11 +66,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Codeforces Round #835 (Div. 4)](https://codeforces.com/contests/1760) | 702 / 19245 | [solutions](/contests/cf-round-835) | 22 nov 2022 |
 | [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
 | [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 2403 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
+| [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3421 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
 
 
 ## leetcode
 
-Problems solved in total: 289
+Problems solved in total: 294
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -367,6 +368,11 @@ Problems solved in total: 289
 | [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
 | [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |
 | [1026. Maximum difference between node and ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [golang](/leetcode/maximum-difference-between-node-and-ancestor/maximum-difference-between-node-and-ancestor.go) | Medium | Tree, Depth-First Search, Binary Tree |
+| [1339. Maximum product of splitted binary tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [golang](/leetcode/maximum-product-of-splitted-binary-tree/maximum-product-of-splitted-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
+| [2496. Maximum value of a string in an array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | [golang](/leetcode/maximum-value-of-a-string-in-an-array/maximum-value-of-a-string-in-an-array.go) | Easy |  |
+| [2497. Maximum star sum of a graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | [golang](/leetcode/maximum-star-sum-of-a-graph/maximum-star-sum-of-a-graph.go) | Medium |  |
+| [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |
+| [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
 
 
 ## adventofcode/2022
@@ -379,7 +385,10 @@ Problems solved in total: 289
 | [Day 4](https://adventofcode.com/2022/day/4) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day04/day04.go) |
 | [Day 5](https://adventofcode.com/2022/day/5) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day05/day05.go) |
 | [Day 6](https://adventofcode.com/2022/day/6) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day06/day06.go) |
-| [Day 7](https://adventofcode.com/2022/day/7) | [python](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day07/day07.py) |
+| [Day 7](https://adventofcode.com/2022/day/7) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day07/day07.py) |
+| [Day 8](https://adventofcode.com/2022/day/8) | [python](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day08/day08.go) |
+| [Day 9](https://adventofcode.com/2022/day/9) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day09/day09.py) |
+| [Day 10](https://adventofcode.com/2022/day/10) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day10/day10.py) |
 
 
 

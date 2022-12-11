@@ -15,7 +15,7 @@ func isSignal(x string) bool {
 }
 
 func DaySix1() {
-	text := util.ReadInput("day06_1.input")[0]
+	text := util.ReadInput("day06.input")[0]
 	for i := 4; i < len(text); i++ {
 		if isSignal(text[i-4 : i]) {
 			println(i)
@@ -25,7 +25,7 @@ func DaySix1() {
 }
 
 func DaySix2() {
-	text := util.ReadInput("day06_1.input")[0]
+	text := util.ReadInput("day06.input")[0]
 	for i := 14; i < len(text); i++ {
 		if isSignal(text[i-14 : i]) {
 			println(i)

@@ -14,7 +14,13 @@ func ReadInput(fileName string) []string {
 	if err != nil {
 		log.Fatal(err)
 	}
-	dir := strings.Split(fileName, "_")[0]
+	var dir string
+	if strings.Contains(fileName, "_") {
+		dir = strings.Split(fileName, "_")[0]
+	} else {
+		dir = strings.Split(fileName, ".")[0]
+	}
+
 	file, err := os.Open(homeDir + solutionsDir + string(os.PathSeparator) + dir + string(os.PathSeparator) + fileName)
 	if err != nil {
 		log.Fatal(err)

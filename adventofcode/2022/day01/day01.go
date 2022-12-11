@@ -23,7 +23,7 @@ func atoi(x string) int {
 
 func DayOne1() {
 	cnt, res := 0, 0
-	for _, l := range util.ReadInput("day01_1.input") {
+	for _, l := range util.ReadInput("day01.input") {
 		if l == "" {
 			res = max(res, cnt)
 			cnt = 0
@@ -44,7 +44,7 @@ func sum(x ...int) int {
 func DayOne2() {
 	cnt := make([]int, 1)
 	i := 0
-	for _, l := range util.ReadInput("day01_1.input") {
+	for _, l := range util.ReadInput("day01.input") {
 		if l == "" {
 			i++
 			cnt = append(cnt, 0)
