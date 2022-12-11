@@ -36,11 +36,13 @@ def generate_pie_chart(path: str, data: dict):
         values.append(v)
 
     fig1, ax1 = plt.subplots()
-    fig1.patch.set_facecolor('gray')
-    plt.rcParams['text.color'] = 'white'
-    ax1.pie(values, labels=fields, autopct='%1.1f%%', startangle=90)
+    fig1.patch.set_facecolor('white')
+    plt.rcParams['text.color'] = 'black'
+    _, _, autotexts = ax1.pie(values, labels=fields, autopct='%1.1f%%', startangle=90)
+    for autotext in autotexts:
+        autotext.set_color('white')
     ax1.axis('equal')
-    my_circle = plt.Circle((0, 0), 0.3, color='gray')
+    my_circle = plt.Circle((0, 0), 0.3, color='white')
     p = plt.gcf()
     p.gca().add_artist(my_circle)
     plt.savefig(path)
