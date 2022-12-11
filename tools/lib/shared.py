@@ -5,21 +5,36 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
+BG_COLOR = "#0f0f23"
+FG_COLOR = "#cccccc"
+
+
 def get_lang_specs():
     with open(os.path.join(os.path.dirname(__file__), "lang_specs.json")) as json_file:
         x = json.load(json_file)
     return x
 
+
 def get_templates_dir() -> str:
     return os.path.join(os.path.dirname(__file__), "..", "templates")
+
 
 def generate_date_based_plot(path: str, xs: list, ys: list, xlabel: str, ylabel: str):
     f = plt.figure()
     f.set_figwidth(9)
     f.set_figheight(5)
+    f.patch.set_facecolor(BG_COLOR)
 
-    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m-%d-%Y'))
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%d-%m-%y'))
     plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=15))
+    ax = plt.gca()
+    ax.set_facecolor(BG_COLOR)
+    for i in ["bottom", "left"]:
+        ax.spines[i].set_color(FG_COLOR)
+    for i in ["top", "right"]:
+        ax.spines[i].set_color(BG_COLOR)
+    ax.tick_params(axis='x', colors=FG_COLOR)
+    ax.tick_params(axis='y', colors=FG_COLOR)
     plt.plot(xs, ys)
     plt.scatter(xs, ys)
     plt.gcf().autofmt_xdate()
@@ -36,13 +51,13 @@ def generate_pie_chart(path: str, data: dict):
         values.append(v)
 
     fig1, ax1 = plt.subplots()
-    fig1.patch.set_facecolor('white')
-    plt.rcParams['text.color'] = 'black'
+    fig1.patch.set_facecolor(BG_COLOR)
+    plt.rcParams['text.color'] = FG_COLOR
     _, _, autotexts = ax1.pie(values, labels=fields, autopct='%1.1f%%', startangle=90)
     for autotext in autotexts:
         autotext.set_color('white')
     ax1.axis('equal')
-    my_circle = plt.Circle((0, 0), 0.3, color='white')
+    my_circle = plt.Circle((0, 0), 0.3, color=BG_COLOR)
     p = plt.gcf()
     p.gca().add_artist(my_circle)
     plt.savefig(path)

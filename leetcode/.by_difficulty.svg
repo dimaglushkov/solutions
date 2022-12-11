@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2022-12-11T17:31:25.185775</dc:date>
+    <dc:date>2022-12-11T17:53:44.314334</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -26,7 +26,7 @@ L 460.8 345.6
 L 460.8 0 
 L 0 0 
 z
-" style="fill: #ffffff"/>
+" style="fill: #0f0f23"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
@@ -75,13 +75,13 @@ C 205.187088 155.404338 201.373634 164.61083 201.373634 174.209153
 C 201.373634 183.807475 205.187088 193.013967 211.974127 199.801006 
 C 218.761165 206.588044 227.967658 210.401498 237.56598 210.401498 
 z
-" clip-path="url(#p5ffce2fdd1)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#p2d74ce79b8)" style="fill: #0f0f23; stroke: #0f0f23; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2"/>
    <g id="text_1">
     <!-- Easy -->
-    <g transform="translate(84.61291 147.438829)scale(0.1 -0.1)">
+    <g style="fill: #cccccc" transform="translate(84.61291 147.438829)scale(0.1 -0.1)">
      <defs>
       <path id="DejaVuSans-45" d="M 628 4666 
 L 3578 4666 
@@ -327,7 +327,7 @@ z
    </g>
    <g id="text_3">
     <!-- Medium -->
-    <g transform="translate(358.913352 230.685408)scale(0.1 -0.1)">
+    <g style="fill: #cccccc" transform="translate(358.913352 230.685408)scale(0.1 -0.1)">
      <defs>
       <path id="DejaVuSans-4d" d="M 628 4666 
 L 1569 4666 
@@ -544,7 +544,7 @@ z
    </g>
    <g id="text_5">
     <!-- Hard -->
-    <g transform="translate(262.933737 46.710457)scale(0.1 -0.1)">
+    <g style="fill: #cccccc" transform="translate(262.933737 46.710457)scale(0.1 -0.1)">
      <defs>
       <path id="DejaVuSans-48" d="M 628 4666 
 L 1259 4666 
@@ -629,7 +629,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p5ffce2fdd1">
+  <clipPath id="p2d74ce79b8">
    <rect x="57.6" y="41.472" width="357.12" height="266.112"/>
   </clipPath>
  </defs>
