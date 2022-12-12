@@ -12,4 +12,5 @@
 | [Day 8](https://adventofcode.com/2022/day/8) | [python](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day08/day08.go) |
 | [Day 9](https://adventofcode.com/2022/day/9) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day09/day09.py) |
 | [Day 10](https://adventofcode.com/2022/day/10) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day10/day10.py) |
+| [Day 11](https://adventofcode.com/2022/day/11) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day11/day11.py) |
 
