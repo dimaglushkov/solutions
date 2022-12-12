@@ -68,3 +68,6 @@ id,name,contest,problem,difficulty,tags,lang
 1676D,X-Sum,1676,D,1000.0,"['brute force', 'greedy', 'implementation']",['golang']
 1760G,SlavicG's Favorite Problem,1760,G,1700.0,"['bitmasks', 'dfs and similar', 'graphs']",['golang']
 1690D,Black and White Stripe,1690,D,1000.0,"['implementation', 'two pointers']",['golang']
+1766A,Extremely Round,1766,A,,"['implementation', 'math']",['golang']
+1766B,Notepad#,1766,B,,"['greedy', 'implementation']",['golang']
+1766C,Hamiltonian Wall,1766,C,,"['dfs and similar', 'dp', 'implementation']",['golang']

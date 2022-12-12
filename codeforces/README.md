@@ -1,6 +1,6 @@
 ## codeforces
 
-Problems solved in total: 69
+Problems solved in total: 72
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -77,3 +77,6 @@ Problems solved in total: 69
 | [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |
 | [1760G. SlavicG's Favorite Problem](https://codeforces.com/contest/1760/problem/G) | [golang](/codeforces/1760G/1760G.go) | 1700 | bitmasks, dfs and similar, graphs |
 | [1690D. Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [golang](/codeforces/1690D/1690D.go) | 1000 | implementation, two pointers |
+| [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) |  | implementation, math |
+| [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) |  | greedy, implementation |
+| [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) |  | dfs and similar, dp, implementation |

@@ -67,6 +67,7 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
 | [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 2403 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
 | [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3421 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
+| [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2844 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 
 
 ## leetcode
@@ -395,7 +396,7 @@ Problems solved in total: 294
 
 ## codeforces
 
-Problems solved in total: 69
+Problems solved in total: 72
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -472,6 +473,9 @@ Problems solved in total: 69
 | [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |
 | [1760G. SlavicG's Favorite Problem](https://codeforces.com/contest/1760/problem/G) | [golang](/codeforces/1760G/1760G.go) | 1700 | bitmasks, dfs and similar, graphs |
 | [1690D. Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [golang](/codeforces/1690D/1690D.go) | 1000 | implementation, two pointers |
+| [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) |  | implementation, math |
+| [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) |  | greedy, implementation |
+| [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) |  | dfs and similar, dp, implementation |
 
 
 ## acm.timus
