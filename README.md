@@ -379,6 +379,8 @@ Problems solved in total: 295
 
 ## adventofcode/2022
 
+![image](https://github.com/dimaglushkov/solutions/blob/master/adventofcode/2022/image.jpg)
+
 | Day | Solution | 
 |-|-|
 | [Day 1](https://adventofcode.com/2022/day/1) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day01/day01.go) | 
@@ -392,7 +394,8 @@ Problems solved in total: 295
 | [Day 9](https://adventofcode.com/2022/day/9) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day09/day09.py) |
 | [Day 10](https://adventofcode.com/2022/day/10) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day10/day10.py) |
 | [Day 11](https://adventofcode.com/2022/day/11) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day11/day11.py) |
-
+| [Day 12](https://adventofcode.com/2022/day/12) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day12/day12.go) |
+| [Day 13](https://adventofcode.com/2022/day/13) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day13/day13.py) |
 
 
 
