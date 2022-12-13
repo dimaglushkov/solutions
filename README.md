@@ -72,7 +72,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 294
+Problems solved in total: 295
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -374,6 +374,7 @@ Problems solved in total: 294
 | [2497. Maximum star sum of a graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | [golang](/leetcode/maximum-star-sum-of-a-graph/maximum-star-sum-of-a-graph.go) | Medium |  |
 | [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |
 | [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
+| [931. Minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [golang](/leetcode/minimum-falling-path-sum/minimum-falling-path-sum.go) | Medium | Array, Dynamic Programming, Matrix |
 
 
 ## adventofcode/2022
@@ -387,10 +388,11 @@ Problems solved in total: 294
 | [Day 5](https://adventofcode.com/2022/day/5) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day05/day05.go) |
 | [Day 6](https://adventofcode.com/2022/day/6) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day06/day06.go) |
 | [Day 7](https://adventofcode.com/2022/day/7) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day07/day07.py) |
-| [Day 8](https://adventofcode.com/2022/day/8) | [python](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day08/day08.go) |
+| [Day 8](https://adventofcode.com/2022/day/8) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day08/day08.go) |
 | [Day 9](https://adventofcode.com/2022/day/9) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day09/day09.py) |
 | [Day 10](https://adventofcode.com/2022/day/10) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day10/day10.py) |
 | [Day 11](https://adventofcode.com/2022/day/11) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day11/day11.py) |
+
 
 
 

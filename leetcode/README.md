@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 294
+Problems solved in total: 295
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -302,3 +302,4 @@ Problems solved in total: 294
 | [2497. Maximum star sum of a graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | [golang](/leetcode/maximum-star-sum-of-a-graph/maximum-star-sum-of-a-graph.go) | Medium |  |
 | [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |
 | [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
+| [931. Minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [golang](/leetcode/minimum-falling-path-sum/minimum-falling-path-sum.go) | Medium | Array, Dynamic Programming, Matrix |
