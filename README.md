@@ -67,12 +67,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 321](https://leetcode.com/contest/weekly-contest-321) | 6122 / 17826 | [solutions](/contests/lc-weekly-321) | 27 nov 2022 |
 | [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 2403 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
 | [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3421 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
-| [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2844 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
+| [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 
 
 ## leetcode
 
-Problems solved in total: 295
+Problems solved in total: 296
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -375,6 +375,7 @@ Problems solved in total: 295
 | [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |
 | [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
 | [931. Minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [golang](/leetcode/minimum-falling-path-sum/minimum-falling-path-sum.go) | Medium | Array, Dynamic Programming, Matrix |
+| [198. House robber](https://leetcode.com/problems/house-robber/) | [golang](/leetcode/house-robber/house-robber.go) | Medium | Array, Dynamic Programming |
 
 
 ## adventofcode/2022

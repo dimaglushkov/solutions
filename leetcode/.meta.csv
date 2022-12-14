@@ -294,3 +294,4 @@ maximum-star-sum-of-a-graph,Medium,2497,['golang'],[]
 frog-jump-ii,Medium,2498,['golang'],[]
 binary-tree-maximum-path-sum,Hard,124,['golang'],"['Dynamic Programming', 'Tree', 'Depth-First Search', 'Binary Tree']"
 minimum-falling-path-sum,Medium,931,['golang'],"['Array', 'Dynamic Programming', 'Matrix']"
+house-robber,Medium,198,['golang'],"['Array', 'Dynamic Programming']"

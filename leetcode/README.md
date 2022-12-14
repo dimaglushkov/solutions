@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 295
+Problems solved in total: 296
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -303,3 +303,4 @@ Problems solved in total: 295
 | [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |
 | [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
 | [931. Minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [golang](/leetcode/minimum-falling-path-sum/minimum-falling-path-sum.go) | Medium | Array, Dynamic Programming, Matrix |
+| [198. House robber](https://leetcode.com/problems/house-robber/) | [golang](/leetcode/house-robber/house-robber.go) | Medium | Array, Dynamic Programming |
