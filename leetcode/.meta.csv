@@ -295,3 +295,8 @@ frog-jump-ii,Medium,2498,['golang'],[]
 binary-tree-maximum-path-sum,Hard,124,['golang'],"['Dynamic Programming', 'Tree', 'Depth-First Search', 'Binary Tree']"
 minimum-falling-path-sum,Medium,931,['golang'],"['Array', 'Dynamic Programming', 'Matrix']"
 house-robber,Medium,198,['golang'],"['Array', 'Dynamic Programming']"
+power-of-two,Easy,231,['golang'],"['Math', 'Bit Manipulation', 'Recursion']"
+binary-tree-paths,Easy,257,['golang'],"['String', 'Backtracking', 'Tree', 'Depth-First Search', 'Binary Tree']"
+move-zeroes,Easy,283,['golang'],"['Array', 'Two Pointers']"
+word-pattern,Easy,290,['golang'],"['Hash Table', 'String']"
+longest-common-subsequence,Medium,1143,['golang'],"['String', 'Dynamic Programming']"

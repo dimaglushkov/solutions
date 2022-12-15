@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 296
+Problems solved in total: 301
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -304,3 +304,8 @@ Problems solved in total: 296
 | [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
 | [931. Minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [golang](/leetcode/minimum-falling-path-sum/minimum-falling-path-sum.go) | Medium | Array, Dynamic Programming, Matrix |
 | [198. House robber](https://leetcode.com/problems/house-robber/) | [golang](/leetcode/house-robber/house-robber.go) | Medium | Array, Dynamic Programming |
+| [231. Power of two](https://leetcode.com/problems/power-of-two/) | [golang](/leetcode/power-of-two/power-of-two.go) | Easy | Math, Bit Manipulation, Recursion |
+| [257. Binary tree paths](https://leetcode.com/problems/binary-tree-paths/) | [golang](/leetcode/binary-tree-paths/binary-tree-paths.go) | Easy | String, Backtracking, Tree, Depth-First Search, Binary Tree |
+| [283. Move zeroes](https://leetcode.com/problems/move-zeroes/) | [golang](/leetcode/move-zeroes/move-zeroes.go) | Easy | Array, Two Pointers |
+| [290. Word pattern](https://leetcode.com/problems/word-pattern/) | [golang](/leetcode/word-pattern/word-pattern.go) | Easy | Hash Table, String |
+| [1143. Longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [golang](/leetcode/longest-common-subsequence/longest-common-subsequence.go) | Medium | String, Dynamic Programming |
