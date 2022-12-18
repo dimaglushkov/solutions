@@ -68,6 +68,7 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 322](https://leetcode.com/contest/weekly-contest-322) | 2403 / 19626 | [solutions](/contests/lc-weekly-322) | 4 dec 2022 |
 | [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3107 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
 | [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
+| [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 552 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
 
 
 ## leetcode
@@ -408,7 +409,7 @@ Problems solved in total: 301
 
 ## codeforces
 
-Problems solved in total: 72
+Problems solved in total: 77
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -488,6 +489,11 @@ Problems solved in total: 72
 | [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) |  | implementation, math |
 | [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) |  | greedy, implementation |
 | [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) |  | dfs and similar, dp, implementation |
+| [1772A. A+B?](https://codeforces.com/contest/1772/problem/A) | [golang](/codeforces/1772A/1772A.go) |  |  |
+| [1772B. Matrix Rotation](https://codeforces.com/contest/1772/problem/B) | [golang](/codeforces/1772B/1772B.go) |  |  |
+| [1772C. Different Differences](https://codeforces.com/contest/1772/problem/C) | [golang](/codeforces/1772C/1772C.go) |  |  |
+| [1772D. Absolute Sorting](https://codeforces.com/contest/1772/problem/D) | [golang](/codeforces/1772D/1772D.go) |  | math |
+| [1772E. Permutation Game](https://codeforces.com/contest/1772/problem/E) | [golang](/codeforces/1772E/1772E.go) |  | games |
 
 
 ## acm.timus

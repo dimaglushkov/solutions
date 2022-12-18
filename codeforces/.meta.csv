@@ -71,3 +71,8 @@ id,name,contest,problem,difficulty,tags,lang
 1766A,Extremely Round,1766,A,,"['implementation', 'math']",['golang']
 1766B,Notepad#,1766,B,,"['greedy', 'implementation']",['golang']
 1766C,Hamiltonian Wall,1766,C,,"['dfs and similar', 'dp', 'implementation']",['golang']
+1772A,A+B?,1772,A,,[],['golang']
+1772B,Matrix Rotation,1772,B,,[],['golang']
+1772C,Different Differences,1772,C,,[],['golang']
+1772D,Absolute Sorting,1772,D,,['math'],['golang']
+1772E,Permutation Game,1772,E,,['games'],['golang']
