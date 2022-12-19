@@ -1,4 +1,5 @@
 import datetime
+import json
 import os
 import shutil
 
@@ -10,6 +11,7 @@ TEMPLATES_DIR = shared.get_templates_dir()
 LANG_SPECS = shared.get_lang_specs()
 CF_NUM_OF_PROBLEMS = 8
 DATE_FORMAT = "%-d %b %Y"
+USERNAME_ENV = "CONTEST_USERNAME"
 
 
 def _cf_get_contest_meta(url: str) -> dict:
@@ -33,6 +35,7 @@ def _cf_get_contest_meta(url: str) -> dict:
     res["ext_id"] = ext_id
     res["short_name"] = f"cf-round-{ext_id}"
     return res
+
 
 def _pre_codeforces(url: str, lang: str, sol_dir: str):
     meta = _cf_get_contest_meta(url)
@@ -69,6 +72,7 @@ def _pre_codeforces(url: str, lang: str, sol_dir: str):
         readme_file.write(
             f"| [{name}]({contests_url}) | ? / ? | [solutions](/contests/{short_name}) | {date_str} |\n"
         )
+
 
 def _post_codeforces(url: str, handle: str, sol_dir: str):
     cf_sol_path = os.path.abspath(os.path.join(sol_dir, "..", "codeforces"))
@@ -122,6 +126,7 @@ def _lc_get_contest_meta(contest_url: str) -> (bool, list):
 
     return True, [q["title_slug"] for q in data["questions"]]
 
+
 # graphql api doesn't provide problem info while contest is still
 # in progress, thus using another method of getting example testcases
 def _lc_get_contest_problem_data(url: str) -> dict:
@@ -146,8 +151,8 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
 
     os.mkdir(contest_sol_dir)
     for i, slug in enumerate(question_slugs):
-        problem_sol_dir = os.path.join(contest_sol_dir, str(i+1))
-        file = os.path.join(problem_sol_dir, f"{i+1}.{LANG_SPECS[lang]['ext']}")
+        problem_sol_dir = os.path.join(contest_sol_dir, str(i + 1))
+        file = os.path.join(problem_sol_dir, f"{i + 1}.{LANG_SPECS[lang]['ext']}")
         os.mkdir(problem_sol_dir)
 
         slug_data = leetcode.get_slug_data(slug)['data']['question']
@@ -155,7 +160,7 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
             leetcode.create_code_template(slug, file, lang, slug_data)
         else:
             shutil.copyfile(os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]}"), file)
-        print(f"{i+1}: file://{os.path.abspath(file)}")
+        print(f"{i + 1}: file://{os.path.abspath(file)}")
 
     with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:
         name = f"Leetcode {con_type.capitalize()} Contest {con_idx}"
@@ -167,6 +172,151 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
 
 def _post_leetcode():
     raise RuntimeError("Not implemented")
+
+
+def _gen_stats_json(sol_dir: str, platform: str, data: dict):
+    data["updated_at"] = datetime.datetime.now().strftime(DATE_FORMAT)
+    with open(os.path.join(sol_dir, f".{platform}_stats.json"), "w") as f:
+        f.write(json.dumps(data))
+
+
+def _gen_lc_rating_stats(sol_dir: str, username: str):
+    ses = requests.session()
+    ses.get("https://leetcode.com/")
+    ses.headers["Referer"] = "https://leetcode.com/dimaglushkov/"
+    ses.headers["Content-Type"] = "application/json"
+    if 'csrftoken' in ses.cookies:
+        ses.headers["x-csrftoken"] = ses.cookies['csrftoken']
+    else:
+        ses.headers["x-csrftoken"] = ses.cookies['csrf']
+
+    query = """
+query userContestRankingInfo($username: String!) {
+  userContestRanking(username: $username) {
+    attendedContestsCount
+    rating
+    globalRanking
+    totalParticipants
+    topPercentage
+    badge {
+      name
+    }
+  }
+  userContestRankingHistory(username: $username) {
+    attended
+    trendDirection
+    problemsSolved
+    totalProblems
+    finishTimeInSeconds
+    rating
+    ranking
+    contest {
+      title
+      startTime
+    }
+  }
+}
+    """
+
+    resp = ses.post(
+        url="https://leetcode.com/graphql/",
+        json={
+            "query": query,
+            "variables": {
+                "username": username
+            }
+        }
+    )
+    if resp.status_code != 200:
+        print("Not 200 response status code")
+        print(resp)
+        exit(1)
+
+    data = resp.json()["data"]
+    contests = [c for c in data["userContestRankingHistory"] if c["attended"]]
+    dates, ratings = list(), list()
+    for c in contests:
+        dates.append(datetime.datetime.fromtimestamp(c["contest"]["startTime"]))
+        ratings.append(int(c["rating"]))
+
+    # Generate SVG chart with rating changes
+    shared.generate_date_based_plot(os.path.join(sol_dir, ".leetcode_rating.svg"), dates, ratings)
+
+    # Generate stats JSON
+    _gen_stats_json(
+        sol_dir=sol_dir,
+        platform="leetcode",
+        data={
+            "attended": data["userContestRanking"]["attendedContestsCount"],
+            "rating": int(data["userContestRanking"]["rating"]),
+            "top": data["userContestRanking"]["topPercentage"]
+        })
+
+
+def _gen_cf_rating_stats(sol_dir: str, username: str):
+    ses = requests.session()
+    resp = ses.get(f"https://codeforces.com/api/user.rating?handle={username}")
+    if resp.status_code != 200:
+        print("Not 200 response status code")
+        print(resp)
+        exit(1)
+
+    contests = resp.json()
+    if contests["status"] != "OK":
+        print("Not OK response status")
+        exit(1)
+    contests = contests["result"]
+    dates, ratings = list(), list()
+    for c in contests:
+        # for cf using ratingUpdateTimeSeconds instead of actual contest time just because it's easier to implement
+        dates.append(datetime.datetime.fromtimestamp(c["ratingUpdateTimeSeconds"]))
+        ratings.append(int(c["newRating"]))
+
+    # Generate SVG chart with rating changes
+    shared.generate_date_based_plot(os.path.join(sol_dir, ".codeforces_rating.svg"), dates, ratings)
+
+    # Generate stats JSON
+    rating_list_resp = ses.get("https://codeforces.com/api/user.ratedList?activeOnly=true&includeRetired=false")
+    if rating_list_resp.status_code != 200:
+        print("Not 200 response status code")
+        print(rating_list_resp)
+        exit(1)
+    rating_list = rating_list_resp.json()
+    if rating_list["status"] != "OK":
+        print("Not OK response status")
+        exit(1)
+    cur_rating = ratings[-1]
+    pos, total = 1, 1
+    rating_list = [r["rating"] for r in rating_list["result"]]
+    total = len(rating_list)
+    for i, r in enumerate(rating_list):
+        if r == cur_rating:
+            pos = i
+            break
+    _gen_stats_json(
+        sol_dir=sol_dir,
+        platform="codeforces",
+        data={
+            "attended": len(ratings),
+            "rating": cur_rating,
+            "top": round(pos / total * 100, 2)
+        })
+
+
+def rating(vals: list, sol_dir: str):
+    username = os.getenv(USERNAME_ENV)
+    if username is None:
+        print(f"${USERNAME_ENV} is not set, exiting")
+        exit(1)
+
+    if vals == ".":
+        vals = ["codeforces", "leetcode"]
+
+    if "leetcode" in vals:
+        _gen_lc_rating_stats(sol_dir, username)
+
+    if "codeforces" in vals:
+        _gen_cf_rating_stats(sol_dir, username)
 
 
 def stats(sol_dir: str):
@@ -181,10 +331,10 @@ def stats(sol_dir: str):
             res = fields[2].split(' / ')
             me, total = int(res[0]), int(res[1])
 
-            top.append(round(me/total*100, 2))
+            top.append(round(me / total * 100, 2))
             dates.append(datetime.datetime.strptime(fields[4].title().strip(), DATE_FORMAT.replace("-", "")))
 
-    shared.generate_date_based_plot(os.path.join(sol_dir, ".stats.svg"), dates, top, "Top, %", "Date")
+    shared.generate_date_based_plot(os.path.join(sol_dir, ".stats.svg"), dates, top)
 
 
 def pre(vals: list, lang: str, sol_dir: str):

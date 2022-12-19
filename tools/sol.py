@@ -8,7 +8,7 @@ DEFAULT_HANDLE = "dimaglushkov"
 allowed_calls = {
     "codeforces": {"pull", "delete"},
     "leetcode":   {"pull", "delete"},
-    "contests":   {"pre", "post", "stats"},
+    "contests":   {"pre", "post", "stats", "rating"},
     "readme":     {"generate"},
 }
 
@@ -17,13 +17,15 @@ target_aliases = {
     "lc":  "leetcode",
     "c":   "contests",
     "con": "contests",
-    "rm":  "readme"
+    "rm":  "readme",
 }
 action_aliases = {
     "p": "pull",
     "d": "delete",
     "g": "generate",
+    "r": "rating",
 }
+
 
 def main():
     all_targets = list(set(list(allowed_calls.keys()) + list(reduce(lambda x, y: x + y, target_aliases.items()))))
@@ -86,6 +88,8 @@ def main():
         t.post(args.val, args.handle, sol_dir)
     elif action == "stats":
         t.stats(sol_dir)
+    elif action == "rating":
+        t.rating(args.val, sol_dir)
     else:
         print("Unknown action")
 

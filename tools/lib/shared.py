@@ -19,7 +19,7 @@ def get_templates_dir() -> str:
     return os.path.join(os.path.dirname(__file__), "..", "templates")
 
 
-def generate_date_based_plot(path: str, xs: list, ys: list, xlabel: str, ylabel: str):
+def generate_date_based_plot(path: str, xs: list, ys: list):
     f = plt.figure()
     f.set_figwidth(9)
     f.set_figheight(5)
@@ -38,8 +38,6 @@ def generate_date_based_plot(path: str, xs: list, ys: list, xlabel: str, ylabel:
     plt.plot(xs, ys)
     plt.scatter(xs, ys)
     plt.gcf().autofmt_xdate()
-    plt.xlabel = xlabel
-    plt.ylabel = ylabel
     plt.savefig(path)
 
 
