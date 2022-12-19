@@ -4,6 +4,10 @@
 |-|
 |![](https://github.com/dimaglushkov/solutions/blob/master/contests/.stats.svg)|
 
+| Leetcode Rating Changes |
+|-|
+|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.leetcode_rating.svg)|
+
 
 | Name | Rank | Solutions | Date |
 |-|-|-|-|
