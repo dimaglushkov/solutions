@@ -48,9 +48,9 @@ In order to get more information consider checking [tools](https://github.com/di
 |-|
 |![](https://github.com/dimaglushkov/solutions/blob/master/contests/.stats.svg)|
 
-| Leetcode Rating Changes |
-|-|
-|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.leetcode_rating.svg)|
+| Leetcode Rating Changes | Codeforces Rating Changes |
+|-|-|
+|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.leetcode_rating.svg)|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.codeforces_rating.svg)|
 
 
 | Name | Rank | Solutions | Date |
