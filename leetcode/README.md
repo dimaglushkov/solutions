@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 301
+Problems solved in total: 302
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -309,3 +309,4 @@ Problems solved in total: 301
 | [283. Move zeroes](https://leetcode.com/problems/move-zeroes/) | [golang](/leetcode/move-zeroes/move-zeroes.go) | Easy | Array, Two Pointers |
 | [290. Word pattern](https://leetcode.com/problems/word-pattern/) | [golang](/leetcode/word-pattern/word-pattern.go) | Easy | Hash Table, String |
 | [1143. Longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [golang](/leetcode/longest-common-subsequence/longest-common-subsequence.go) | Medium | String, Dynamic Programming |
+| [1971. Find if path exists in graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [golang](/leetcode/find-if-path-exists-in-graph/find-if-path-exists-in-graph.go) | Easy | Depth-First Search, Breadth-First Search, Union Find, Graph |

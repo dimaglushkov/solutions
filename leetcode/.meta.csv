@@ -300,3 +300,4 @@ binary-tree-paths,Easy,257,['golang'],"['String', 'Backtracking', 'Tree', 'Depth
 move-zeroes,Easy,283,['golang'],"['Array', 'Two Pointers']"
 word-pattern,Easy,290,['golang'],"['Hash Table', 'String']"
 longest-common-subsequence,Medium,1143,['golang'],"['String', 'Dynamic Programming']"
+find-if-path-exists-in-graph,Easy,1971,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
