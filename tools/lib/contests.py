@@ -11,7 +11,8 @@ TEMPLATES_DIR = shared.get_templates_dir()
 LANG_SPECS = shared.get_lang_specs()
 CF_NUM_OF_PROBLEMS = 8
 DATE_FORMAT = "%-d %b %Y"
-USERNAME_ENV = "CONTEST_USERNAME"
+USERNAME_ENV = "CONTEST_USERNAME" # using env variable to possible make it work with github actions
+DEFAULT_USERNAME = "dimaglushkov"
 
 
 def _cf_get_contest_meta(url: str) -> dict:
@@ -306,10 +307,9 @@ def _gen_cf_rating_stats(sol_dir: str, username: str):
 def rating(vals: list, sol_dir: str):
     username = os.getenv(USERNAME_ENV)
     if username is None:
-        print(f"${USERNAME_ENV} is not set, exiting")
-        exit(1)
+        username = DEFAULT_USERNAME
 
-    if vals == ".":
+    if vals == ["."]:
         vals = ["codeforces", "leetcode"]
 
     if "leetcode" in vals:
@@ -326,8 +326,9 @@ def stats(sol_dir: str):
         lines = readme_file.readlines()
         for i in lines:
             fields = i.split('|')
-            if len(fields) < 4 or '?' in fields[2] or '/' not in fields[2]:
+            if len(fields) < 5 or '?' in fields[2] or '/' not in fields[2]:
                 continue
+
             res = fields[2].split(' / ')
             me, total = int(res[0]), int(res[1])
 

@@ -5,7 +5,7 @@ import os
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
-BG_COLOR = "#0f0f23"
+BG_COLOR = "#0f0e21"
 FG_COLOR = "#cccccc"
 
 
