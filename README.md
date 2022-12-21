@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 302
+Problems solved in total: 303
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -387,6 +387,7 @@ Problems solved in total: 302
 | [290. Word pattern](https://leetcode.com/problems/word-pattern/) | [golang](/leetcode/word-pattern/word-pattern.go) | Easy | Hash Table, String |
 | [1143. Longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [golang](/leetcode/longest-common-subsequence/longest-common-subsequence.go) | Medium | String, Dynamic Programming |
 | [1971. Find if path exists in graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [golang](/leetcode/find-if-path-exists-in-graph/find-if-path-exists-in-graph.go) | Easy | Depth-First Search, Breadth-First Search, Union Find, Graph |
+| [841. Keys and rooms](https://leetcode.com/problems/keys-and-rooms/) | [golang](/leetcode/keys-and-rooms/keys-and-rooms.go) | Medium | Depth-First Search, Breadth-First Search, Graph |
 
 
 ## adventofcode/2022
@@ -409,6 +410,8 @@ Problems solved in total: 302
 | [Day 12](https://adventofcode.com/2022/day/12) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day12/day12.go) |
 | [Day 13](https://adventofcode.com/2022/day/13) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day13/day13.py) |
 | [Day 14](https://adventofcode.com/2022/day/14) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day14/day14.go) |
+| [Day 15](https://adventofcode.com/2022/day/15) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day15/day15.py) |
+
 
 
 

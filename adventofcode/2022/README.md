@@ -18,4 +18,6 @@
 | [Day 12](https://adventofcode.com/2022/day/12) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day12/day12.go) |
 | [Day 13](https://adventofcode.com/2022/day/13) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day13/day13.py) |
 | [Day 14](https://adventofcode.com/2022/day/14) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day14/day14.go) |
+| [Day 15](https://adventofcode.com/2022/day/15) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day15/day15.py) |
+
 
