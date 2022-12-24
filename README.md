@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 303
+Problems solved in total: 305
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -388,6 +388,8 @@ Problems solved in total: 303
 | [1143. Longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [golang](/leetcode/longest-common-subsequence/longest-common-subsequence.go) | Medium | String, Dynamic Programming |
 | [1971. Find if path exists in graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [golang](/leetcode/find-if-path-exists-in-graph/find-if-path-exists-in-graph.go) | Easy | Depth-First Search, Breadth-First Search, Union Find, Graph |
 | [841. Keys and rooms](https://leetcode.com/problems/keys-and-rooms/) | [golang](/leetcode/keys-and-rooms/keys-and-rooms.go) | Medium | Depth-First Search, Breadth-First Search, Graph |
+| [309. Best time to buy and sell stock with cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [golang](/leetcode/best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.go) | Medium | Array, Dynamic Programming |
+| [790. Domino and tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | [golang](/leetcode/domino-and-tromino-tiling/domino-and-tromino-tiling.go) | Medium | Dynamic Programming |
 
 
 ## adventofcode/2022

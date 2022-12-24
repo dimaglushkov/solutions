@@ -301,3 +301,6 @@ move-zeroes,Easy,283,['golang'],"['Array', 'Two Pointers']"
 word-pattern,Easy,290,['golang'],"['Hash Table', 'String']"
 longest-common-subsequence,Medium,1143,['golang'],"['String', 'Dynamic Programming']"
 find-if-path-exists-in-graph,Easy,1971,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
+keys-and-rooms,Medium,841,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Graph']"
+best-time-to-buy-and-sell-stock-with-cooldown,Medium,309,['golang'],"['Array', 'Dynamic Programming']"
+domino-and-tromino-tiling,Medium,790,['golang'],['Dynamic Programming']
