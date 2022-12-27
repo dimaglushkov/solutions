@@ -304,3 +304,6 @@ find-if-path-exists-in-graph,Easy,1971,['golang'],"['Depth-First Search', 'Bread
 keys-and-rooms,Medium,841,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Graph']"
 best-time-to-buy-and-sell-stock-with-cooldown,Medium,309,['golang'],"['Array', 'Dynamic Programming']"
 domino-and-tromino-tiling,Medium,790,['golang'],['Dynamic Programming']
+jump-game,Medium,55,['golang'],"['Array', 'Dynamic Programming', 'Greedy']"
+longest-subsequence-with-limited-sum,Easy,2389,['golang'],"['Array', 'Binary Search', 'Greedy', 'Sorting', 'Prefix Sum']"
+maximum-bags-with-full-capacity-of-rocks,Medium,2279,['golang'],"['Array', 'Greedy', 'Sorting']"

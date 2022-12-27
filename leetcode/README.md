@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 305
+Problems solved in total: 308
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -313,3 +313,6 @@ Problems solved in total: 305
 | [841. Keys and rooms](https://leetcode.com/problems/keys-and-rooms/) | [golang](/leetcode/keys-and-rooms/keys-and-rooms.go) | Medium | Depth-First Search, Breadth-First Search, Graph |
 | [309. Best time to buy and sell stock with cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [golang](/leetcode/best-time-to-buy-and-sell-stock-with-cooldown/best-time-to-buy-and-sell-stock-with-cooldown.go) | Medium | Array, Dynamic Programming |
 | [790. Domino and tromino tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | [golang](/leetcode/domino-and-tromino-tiling/domino-and-tromino-tiling.go) | Medium | Dynamic Programming |
+| [55. Jump game](https://leetcode.com/problems/jump-game/) | [golang](/leetcode/jump-game/jump-game.go) | Medium | Array, Dynamic Programming, Greedy |
+| [2389. Longest subsequence with limited sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [golang](/leetcode/longest-subsequence-with-limited-sum/longest-subsequence-with-limited-sum.go) | Easy | Array, Binary Search, Greedy, Sorting, Prefix Sum |
+| [2279. Maximum bags with full capacity of rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | [golang](/leetcode/maximum-bags-with-full-capacity-of-rocks/maximum-bags-with-full-capacity-of-rocks.go) | Medium | Array, Greedy, Sorting |
