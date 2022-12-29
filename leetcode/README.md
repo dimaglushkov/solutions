@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 308
+Problems solved in total: 309
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -316,3 +316,4 @@ Problems solved in total: 308
 | [55. Jump game](https://leetcode.com/problems/jump-game/) | [golang](/leetcode/jump-game/jump-game.go) | Medium | Array, Dynamic Programming, Greedy |
 | [2389. Longest subsequence with limited sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/) | [golang](/leetcode/longest-subsequence-with-limited-sum/longest-subsequence-with-limited-sum.go) | Easy | Array, Binary Search, Greedy, Sorting, Prefix Sum |
 | [2279. Maximum bags with full capacity of rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | [golang](/leetcode/maximum-bags-with-full-capacity-of-rocks/maximum-bags-with-full-capacity-of-rocks.go) | Medium | Array, Greedy, Sorting |
+| [1962. Remove stones to minimize the total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | [golang](/leetcode/remove-stones-to-minimize-the-total/remove-stones-to-minimize-the-total.go) | Medium | Array, Heap (Priority Queue) |
