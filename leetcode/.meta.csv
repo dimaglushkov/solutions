@@ -308,3 +308,4 @@ jump-game,Medium,55,['golang'],"['Array', 'Dynamic Programming', 'Greedy']"
 longest-subsequence-with-limited-sum,Easy,2389,['golang'],"['Array', 'Binary Search', 'Greedy', 'Sorting', 'Prefix Sum']"
 maximum-bags-with-full-capacity-of-rocks,Medium,2279,['golang'],"['Array', 'Greedy', 'Sorting']"
 remove-stones-to-minimize-the-total,Medium,1962,['golang'],"['Array', 'Heap (Priority Queue)']"
+detect-capital,Easy,520,['golang'],['String']
