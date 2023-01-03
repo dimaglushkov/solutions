@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 310
+Problems solved in total: 311
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -395,6 +395,7 @@ Problems solved in total: 310
 | [2279. Maximum bags with full capacity of rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | [golang](/leetcode/maximum-bags-with-full-capacity-of-rocks/maximum-bags-with-full-capacity-of-rocks.go) | Medium | Array, Greedy, Sorting |
 | [1962. Remove stones to minimize the total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | [golang](/leetcode/remove-stones-to-minimize-the-total/remove-stones-to-minimize-the-total.go) | Medium | Array, Heap (Priority Queue) |
 | [520. Detect capital](https://leetcode.com/problems/detect-capital/) | [golang](/leetcode/detect-capital/detect-capital.go) | Easy | String |
+| [944. Delete columns to make sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [golang](/leetcode/delete-columns-to-make-sorted/delete-columns-to-make-sorted.go) | Easy | Array, String |
 
 
 ## adventofcode/2022
