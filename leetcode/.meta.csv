@@ -310,3 +310,4 @@ maximum-bags-with-full-capacity-of-rocks,Medium,2279,['golang'],"['Array', 'Gree
 remove-stones-to-minimize-the-total,Medium,1962,['golang'],"['Array', 'Heap (Priority Queue)']"
 detect-capital,Easy,520,['golang'],['String']
 delete-columns-to-make-sorted,Easy,944,['golang'],"['Array', 'String']"
+minimum-rounds-to-complete-all-tasks,Medium,2244,['golang'],"['Array', 'Hash Table', 'Greedy', 'Counting']"

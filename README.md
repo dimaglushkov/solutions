@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 311
+Problems solved in total: 312
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -396,6 +396,7 @@ Problems solved in total: 311
 | [1962. Remove stones to minimize the total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/) | [golang](/leetcode/remove-stones-to-minimize-the-total/remove-stones-to-minimize-the-total.go) | Medium | Array, Heap (Priority Queue) |
 | [520. Detect capital](https://leetcode.com/problems/detect-capital/) | [golang](/leetcode/detect-capital/detect-capital.go) | Easy | String |
 | [944. Delete columns to make sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [golang](/leetcode/delete-columns-to-make-sorted/delete-columns-to-make-sorted.go) | Easy | Array, String |
+| [2244. Minimum rounds to complete all tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/) | [golang](/leetcode/minimum-rounds-to-complete-all-tasks/minimum-rounds-to-complete-all-tasks.go) | Medium | Array, Hash Table, Greedy, Counting |
 
 
 ## adventofcode/2022
