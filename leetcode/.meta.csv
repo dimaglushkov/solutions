@@ -311,3 +311,4 @@ remove-stones-to-minimize-the-total,Medium,1962,['golang'],"['Array', 'Heap (Pri
 detect-capital,Easy,520,['golang'],['String']
 delete-columns-to-make-sorted,Easy,944,['golang'],"['Array', 'String']"
 minimum-rounds-to-complete-all-tasks,Medium,2244,['golang'],"['Array', 'Hash Table', 'Greedy', 'Counting']"
+minimum-number-of-arrows-to-burst-balloons,Medium,452,['golang'],"['Array', 'Greedy', 'Sorting']"

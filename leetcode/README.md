@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 312
+Problems solved in total: 313
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -320,3 +320,4 @@ Problems solved in total: 312
 | [520. Detect capital](https://leetcode.com/problems/detect-capital/) | [golang](/leetcode/detect-capital/detect-capital.go) | Easy | String |
 | [944. Delete columns to make sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [golang](/leetcode/delete-columns-to-make-sorted/delete-columns-to-make-sorted.go) | Easy | Array, String |
 | [2244. Minimum rounds to complete all tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/) | [golang](/leetcode/minimum-rounds-to-complete-all-tasks/minimum-rounds-to-complete-all-tasks.go) | Medium | Array, Hash Table, Greedy, Counting |
+| [452. Minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [golang](/leetcode/minimum-number-of-arrows-to-burst-balloons/minimum-number-of-arrows-to-burst-balloons.go) | Medium | Array, Greedy, Sorting |
