@@ -78,7 +78,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 314
+Problems solved in total: 315
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -400,6 +400,7 @@ Problems solved in total: 314
 | [2244. Minimum rounds to complete all tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/) | [golang](/leetcode/minimum-rounds-to-complete-all-tasks/minimum-rounds-to-complete-all-tasks.go) | Medium | Array, Hash Table, Greedy, Counting |
 | [452. Minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [golang](/leetcode/minimum-number-of-arrows-to-burst-balloons/minimum-number-of-arrows-to-burst-balloons.go) | Medium | Array, Greedy, Sorting |
 | [1833. Maximum ice cream bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | [golang](/leetcode/maximum-ice-cream-bars/maximum-ice-cream-bars.go) | Medium | Array, Greedy, Sorting |
+| [134. Gas station](https://leetcode.com/problems/gas-station/) | [golang](/leetcode/gas-station/gas-station.go) | Medium | Array, Greedy |
 
 
 ## adventofcode/2022
