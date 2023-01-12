@@ -314,3 +314,4 @@ minimum-rounds-to-complete-all-tasks,Medium,2244,['golang'],"['Array', 'Hash Tab
 minimum-number-of-arrows-to-burst-balloons,Medium,452,['golang'],"['Array', 'Greedy', 'Sorting']"
 maximum-ice-cream-bars,Medium,1833,['golang'],"['Array', 'Greedy', 'Sorting']"
 gas-station,Medium,134,['golang'],"['Array', 'Greedy']"
+number-of-nodes-in-the-sub-tree-with-the-same-label,Medium,1519,['golang'],"['Hash Table', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Counting']"

@@ -78,7 +78,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 315
+Problems solved in total: 316
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -401,6 +401,7 @@ Problems solved in total: 315
 | [452. Minimum number of arrows to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [golang](/leetcode/minimum-number-of-arrows-to-burst-balloons/minimum-number-of-arrows-to-burst-balloons.go) | Medium | Array, Greedy, Sorting |
 | [1833. Maximum ice cream bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | [golang](/leetcode/maximum-ice-cream-bars/maximum-ice-cream-bars.go) | Medium | Array, Greedy, Sorting |
 | [134. Gas station](https://leetcode.com/problems/gas-station/) | [golang](/leetcode/gas-station/gas-station.go) | Medium | Array, Greedy |
+| [1519. Number of nodes in the sub tree with the same label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) | [golang](/leetcode/number-of-nodes-in-the-sub-tree-with-the-same-label/number-of-nodes-in-the-sub-tree-with-the-same-label.go) | Medium | Hash Table, Tree, Depth-First Search, Breadth-First Search, Counting |
 
 
 ## adventofcode/2022
