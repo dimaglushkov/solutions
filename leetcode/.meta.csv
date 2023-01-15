@@ -315,3 +315,4 @@ minimum-number-of-arrows-to-burst-balloons,Medium,452,['golang'],"['Array', 'Gre
 maximum-ice-cream-bars,Medium,1833,['golang'],"['Array', 'Greedy', 'Sorting']"
 gas-station,Medium,134,['golang'],"['Array', 'Greedy']"
 number-of-nodes-in-the-sub-tree-with-the-same-label,Medium,1519,['golang'],"['Hash Table', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Counting']"
+lexicographically-smallest-equivalent-string,Medium,1061,['golang'],"['String', 'Union Find']"

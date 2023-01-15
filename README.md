@@ -78,7 +78,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 316
+Problems solved in total: 317
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -402,6 +402,7 @@ Problems solved in total: 316
 | [1833. Maximum ice cream bars](https://leetcode.com/problems/maximum-ice-cream-bars/) | [golang](/leetcode/maximum-ice-cream-bars/maximum-ice-cream-bars.go) | Medium | Array, Greedy, Sorting |
 | [134. Gas station](https://leetcode.com/problems/gas-station/) | [golang](/leetcode/gas-station/gas-station.go) | Medium | Array, Greedy |
 | [1519. Number of nodes in the sub tree with the same label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) | [golang](/leetcode/number-of-nodes-in-the-sub-tree-with-the-same-label/number-of-nodes-in-the-sub-tree-with-the-same-label.go) | Medium | Hash Table, Tree, Depth-First Search, Breadth-First Search, Counting |
+| [1061. Lexicographically smallest equivalent string](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | [golang](/leetcode/lexicographically-smallest-equivalent-string/lexicographically-smallest-equivalent-string.go) | Medium | String, Union Find |
 
 
 ## adventofcode/2022

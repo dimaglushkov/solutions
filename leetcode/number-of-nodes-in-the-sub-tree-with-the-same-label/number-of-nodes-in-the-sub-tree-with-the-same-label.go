@@ -12,7 +12,6 @@ func countSubTrees(n int, edges [][]int, labels string) []int {
 	tree := make([][]int, n)
 	res := make([]int, n)
 
-	// build tree
 	for _, e := range edges {
 		if tree[e[0]] == nil {
 			tree[e[0]] = make([]int, 0)
