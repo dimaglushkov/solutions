@@ -73,7 +73,6 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3107 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
 | [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 | [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 722 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
-| [Codeforces Round #842 (Div. 2)](https://codeforces.com/contests/1768) | ? / ? | [solutions](/contests/cf-round-842) | 5 jan 2023 |
 
 
 ## leetcode
@@ -370,15 +369,15 @@ Problems solved in total: 320
 | [1828. Queries on number of points inside a circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/) | [golang](/leetcode/queries-on-number-of-points-inside-a-circle/queries-on-number-of-points-inside-a-circle.go) | Medium | Array, Math, Geometry |
 | [807. Max increase to keep city skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [golang](/leetcode/max-increase-to-keep-city-skyline/max-increase-to-keep-city-skyline.go) | Medium | Array, Greedy, Matrix |
 | [40. Combination sum ii](https://leetcode.com/problems/combination-sum-ii/) | [golang](/leetcode/combination-sum-ii/combination-sum-ii.go) | Medium | Array, Backtracking |
-| [2490. Circular sentence](https://leetcode.com/problems/circular-sentence/) | [golang](/leetcode/circular-sentence/circular-sentence.go) | Easy |  |
-| [2491. Divide players into teams of equal skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [golang](/leetcode/divide-players-into-teams-of-equal-skill/divide-players-into-teams-of-equal-skill.go) | Medium |  |
-| [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium |  |
+| [2490. Circular sentence](https://leetcode.com/problems/circular-sentence/) | [golang](/leetcode/circular-sentence/circular-sentence.go) | Easy | String |
+| [2491. Divide players into teams of equal skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [golang](/leetcode/divide-players-into-teams-of-equal-skill/divide-players-into-teams-of-equal-skill.go) | Medium | Array, Hash Table, Two Pointers, Sorting |
+| [2492. Minimum score of a path between two cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/) | [golang](/leetcode/minimum-score-of-a-path-between-two-cities/minimum-score-of-a-path-between-two-cities.go) | Medium | Depth-First Search, Binary Search Tree, Union Find, Graph |
 | [872. Leaf similar trees](https://leetcode.com/problems/leaf-similar-trees/) | [golang](/leetcode/leaf-similar-trees/leaf-similar-trees.go) | Easy | Tree, Depth-First Search, Binary Tree |
 | [1026. Maximum difference between node and ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | [golang](/leetcode/maximum-difference-between-node-and-ancestor/maximum-difference-between-node-and-ancestor.go) | Medium | Tree, Depth-First Search, Binary Tree |
 | [1339. Maximum product of splitted binary tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) | [golang](/leetcode/maximum-product-of-splitted-binary-tree/maximum-product-of-splitted-binary-tree.go) | Medium | Tree, Depth-First Search, Binary Tree |
-| [2496. Maximum value of a string in an array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | [golang](/leetcode/maximum-value-of-a-string-in-an-array/maximum-value-of-a-string-in-an-array.go) | Easy |  |
-| [2497. Maximum star sum of a graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | [golang](/leetcode/maximum-star-sum-of-a-graph/maximum-star-sum-of-a-graph.go) | Medium |  |
-| [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium |  |
+| [2496. Maximum value of a string in an array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | [golang](/leetcode/maximum-value-of-a-string-in-an-array/maximum-value-of-a-string-in-an-array.go) | Easy | Array, String |
+| [2497. Maximum star sum of a graph](https://leetcode.com/problems/maximum-star-sum-of-a-graph/) | [golang](/leetcode/maximum-star-sum-of-a-graph/maximum-star-sum-of-a-graph.go) | Medium | Array, Greedy, Graph, Sorting, Heap (Priority Queue) |
+| [2498. Frog jump ii](https://leetcode.com/problems/frog-jump-ii/) | [golang](/leetcode/frog-jump-ii/frog-jump-ii.go) | Medium | Array, Binary Search, Greedy |
 | [124. Binary tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [golang](/leetcode/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go) | Hard | Dynamic Programming, Tree, Depth-First Search, Binary Tree |
 | [931. Minimum falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [golang](/leetcode/minimum-falling-path-sum/minimum-falling-path-sum.go) | Medium | Array, Dynamic Programming, Matrix |
 | [198. House robber](https://leetcode.com/problems/house-robber/) | [golang](/leetcode/house-robber/house-robber.go) | Medium | Array, Dynamic Programming |
@@ -512,14 +511,14 @@ Problems solved in total: 82
 | [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |
 | [1760G. SlavicG's Favorite Problem](https://codeforces.com/contest/1760/problem/G) | [golang](/codeforces/1760G/1760G.go) | 1700 | bitmasks, dfs and similar, graphs |
 | [1690D. Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [golang](/codeforces/1690D/1690D.go) | 1000 | implementation, two pointers |
-| [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) |  | implementation, math |
-| [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) |  | greedy, implementation |
-| [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) |  | dfs and similar, dp, implementation |
-| [1772A. A+B?](https://codeforces.com/contest/1772/problem/A) | [golang](/codeforces/1772A/1772A.go) |  |  |
-| [1772B. Matrix Rotation](https://codeforces.com/contest/1772/problem/B) | [golang](/codeforces/1772B/1772B.go) |  |  |
-| [1772C. Different Differences](https://codeforces.com/contest/1772/problem/C) | [golang](/codeforces/1772C/1772C.go) |  |  |
-| [1772D. Absolute Sorting](https://codeforces.com/contest/1772/problem/D) | [golang](/codeforces/1772D/1772D.go) |  | math |
-| [1772E. Permutation Game](https://codeforces.com/contest/1772/problem/E) | [golang](/codeforces/1772E/1772E.go) |  | games |
+| [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) | 800 | implementation, math |
+| [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) | 1000 | greedy, implementation |
+| [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) | 1300 | dfs and similar, dp, implementation |
+| [1772A. A+B?](https://codeforces.com/contest/1772/problem/A) | [golang](/codeforces/1772A/1772A.go) | 800 | implementation |
+| [1772B. Matrix Rotation](https://codeforces.com/contest/1772/problem/B) | [golang](/codeforces/1772B/1772B.go) | 800 | brute force, implementation |
+| [1772C. Different Differences](https://codeforces.com/contest/1772/problem/C) | [golang](/codeforces/1772C/1772C.go) | 1000 | constructive algorithms, greedy, math |
+| [1772D. Absolute Sorting](https://codeforces.com/contest/1772/problem/D) | [golang](/codeforces/1772D/1772D.go) | 1400 | math |
+| [1772E. Permutation Game](https://codeforces.com/contest/1772/problem/E) | [golang](/codeforces/1772E/1772E.go) | 1700 | games |
 | [1791A. Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | [golang](/codeforces/1791A/1791A.go) |  | implementation, strings |
 | [1791B. Following Directions](https://codeforces.com/contest/1791/problem/B) | [golang](/codeforces/1791B/1791B.go) |  | geometry, implementation |
 | [1791C. Prepend and Append](https://codeforces.com/contest/1791/problem/C) | [golang](/codeforces/1791C/1791C.go) |  | implementation, two pointers |
@@ -531,15 +530,15 @@ Problems solved in total: 82
 | Problem | Solution | Difficulty | Tags | University course module |
 |-|-|-|-|-|
 | [1005. Stone Pile](https://acm.timus.ru/problem.aspx?num=1005) | [c++](/acm.timus/1005.cpp) | 84 | problem for beginners | 1 |
-| [1155. Troubleduons](https://acm.timus.ru/problem.aspx?num=1155) | [c++](/acm.timus/1155.cpp) | 305 |  | 1 |
-| [1296. Hyperjump](https://acm.timus.ru/problem.aspx?num=1296) | [c++](/acm.timus/1296.cpp) | 80 |  | 1 |
-| [1401. Gamers](https://acm.timus.ru/problem.aspx?num=1401) | [c++](/acm.timus/1401.cpp) | 321 |  | 1 |
-| [2025. Line Fighting](https://acm.timus.ru/problem.aspx?num=2025) | [c++](/acm.timus/2025.cpp) | 77 |  | 1 |
+| [1155. Troubleduons](https://acm.timus.ru/problem.aspx?num=1155) | [c++](/acm.timus/1155.cpp) | 305 | none | 1 |
+| [1296. Hyperjump](https://acm.timus.ru/problem.aspx?num=1296) | [c++](/acm.timus/1296.cpp) | 80 | none | 1 |
+| [1401. Gamers](https://acm.timus.ru/problem.aspx?num=1401) | [c++](/acm.timus/1401.cpp) | 321 | none | 1 |
+| [2025. Line Fighting](https://acm.timus.ru/problem.aspx?num=2025) | [c++](/acm.timus/2025.cpp) | 77 | none | 1 |
 | [1207. Median on the Plane](https://acm.timus.ru/problem.aspx?num=1207) | [c++](/acm.timus/1207.cpp) | 177 | geometry | 2 |
-| [1322. Spy](https://acm.timus.ru/problem.aspx?num=1322) | [c++](/acm.timus/1322.cpp) | 324 |  | 2 |
+| [1322. Spy](https://acm.timus.ru/problem.aspx?num=1322) | [c++](/acm.timus/1322.cpp) | 324 | none | 2 |
 | [1444. Elephpotamus](https://acm.timus.ru/problem.aspx?num=1444) | [c++](/acm.timus/1444.cpp) | 639 | geometry | 2 |
-| [1604. Country of Fools](https://acm.timus.ru/problem.aspx?num=1604) | [c++](/acm.timus/1604.cpp) | 220 |  | 2 |
-| [1726. Visits](https://acm.timus.ru/problem.aspx?num=1726) | [c++](/acm.timus/1726.cpp) | 197 |  | 2 |
+| [1604. Country of Fools](https://acm.timus.ru/problem.aspx?num=1604) | [c++](/acm.timus/1604.cpp) | 220 | none | 2 |
+| [1726. Visits](https://acm.timus.ru/problem.aspx?num=1726) | [c++](/acm.timus/1726.cpp) | 197 | none | 2 |
 | [1067. Disk Tree](https://acm.timus.ru/problem.aspx?num=1067) | [c++](/acm.timus/1067.cpp) | 486 | data structures | 3 |
 | [1494. Monobilliards](https://acm.timus.ru/problem.aspx?num=1494) | [c++](/acm.timus/1494.cpp) | 131 | data structures | 3 |
 | [1521. War Games 2](https://acm.timus.ru/problem.aspx?num=1521) | [c++](/acm.timus/1521.cpp) | 192 | data structures | 3 |

@@ -283,15 +283,15 @@ partitioning-into-minimum-number-of-deci-binary-numbers,Medium,1689,['golang'],"
 queries-on-number-of-points-inside-a-circle,Medium,1828,['golang'],"['Array', 'Math', 'Geometry']"
 max-increase-to-keep-city-skyline,Medium,807,['golang'],"['Array', 'Greedy', 'Matrix']"
 combination-sum-ii,Medium,40,['golang'],"['Array', 'Backtracking']"
-circular-sentence,Easy,2490,['golang'],[]
-divide-players-into-teams-of-equal-skill,Medium,2491,['golang'],[]
-minimum-score-of-a-path-between-two-cities,Medium,2492,['golang'],[]
+circular-sentence,Easy,2490,['golang'],['String']
+divide-players-into-teams-of-equal-skill,Medium,2491,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting']"
+minimum-score-of-a-path-between-two-cities,Medium,2492,['golang'],"['Depth-First Search', 'Binary Search Tree', 'Union Find', 'Graph']"
 leaf-similar-trees,Easy,872,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 maximum-difference-between-node-and-ancestor,Medium,1026,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 maximum-product-of-splitted-binary-tree,Medium,1339,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
-maximum-value-of-a-string-in-an-array,Easy,2496,['golang'],[]
-maximum-star-sum-of-a-graph,Medium,2497,['golang'],[]
-frog-jump-ii,Medium,2498,['golang'],[]
+maximum-value-of-a-string-in-an-array,Easy,2496,['golang'],"['Array', 'String']"
+maximum-star-sum-of-a-graph,Medium,2497,['golang'],"['Array', 'Greedy', 'Graph', 'Sorting', 'Heap (Priority Queue)']"
+frog-jump-ii,Medium,2498,['golang'],"['Array', 'Binary Search', 'Greedy']"
 binary-tree-maximum-path-sum,Hard,124,['golang'],"['Dynamic Programming', 'Tree', 'Depth-First Search', 'Binary Tree']"
 minimum-falling-path-sum,Medium,931,['golang'],"['Array', 'Dynamic Programming', 'Matrix']"
 house-robber,Medium,198,['golang'],"['Array', 'Dynamic Programming']"

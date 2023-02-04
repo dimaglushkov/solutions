@@ -77,14 +77,14 @@ Problems solved in total: 82
 | [1676D. X-Sum](https://codeforces.com/contest/1676/problem/D) | [golang](/codeforces/1676D/1676D.go) | 1000 | brute force, greedy, implementation |
 | [1760G. SlavicG's Favorite Problem](https://codeforces.com/contest/1760/problem/G) | [golang](/codeforces/1760G/1760G.go) | 1700 | bitmasks, dfs and similar, graphs |
 | [1690D. Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [golang](/codeforces/1690D/1690D.go) | 1000 | implementation, two pointers |
-| [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) |  | implementation, math |
-| [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) |  | greedy, implementation |
-| [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) |  | dfs and similar, dp, implementation |
-| [1772A. A+B?](https://codeforces.com/contest/1772/problem/A) | [golang](/codeforces/1772A/1772A.go) |  |  |
-| [1772B. Matrix Rotation](https://codeforces.com/contest/1772/problem/B) | [golang](/codeforces/1772B/1772B.go) |  |  |
-| [1772C. Different Differences](https://codeforces.com/contest/1772/problem/C) | [golang](/codeforces/1772C/1772C.go) |  |  |
-| [1772D. Absolute Sorting](https://codeforces.com/contest/1772/problem/D) | [golang](/codeforces/1772D/1772D.go) |  | math |
-| [1772E. Permutation Game](https://codeforces.com/contest/1772/problem/E) | [golang](/codeforces/1772E/1772E.go) |  | games |
+| [1766A. Extremely Round](https://codeforces.com/contest/1766/problem/A) | [golang](/codeforces/1766A/1766A.go) | 800 | implementation, math |
+| [1766B. Notepad#](https://codeforces.com/contest/1766/problem/B) | [golang](/codeforces/1766B/1766B.go) | 1000 | greedy, implementation |
+| [1766C. Hamiltonian Wall](https://codeforces.com/contest/1766/problem/C) | [golang](/codeforces/1766C/1766C.go) | 1300 | dfs and similar, dp, implementation |
+| [1772A. A+B?](https://codeforces.com/contest/1772/problem/A) | [golang](/codeforces/1772A/1772A.go) | 800 | implementation |
+| [1772B. Matrix Rotation](https://codeforces.com/contest/1772/problem/B) | [golang](/codeforces/1772B/1772B.go) | 800 | brute force, implementation |
+| [1772C. Different Differences](https://codeforces.com/contest/1772/problem/C) | [golang](/codeforces/1772C/1772C.go) | 1000 | constructive algorithms, greedy, math |
+| [1772D. Absolute Sorting](https://codeforces.com/contest/1772/problem/D) | [golang](/codeforces/1772D/1772D.go) | 1400 | math |
+| [1772E. Permutation Game](https://codeforces.com/contest/1772/problem/E) | [golang](/codeforces/1772E/1772E.go) | 1700 | games |
 | [1791A. Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | [golang](/codeforces/1791A/1791A.go) |  | implementation, strings |
 | [1791B. Following Directions](https://codeforces.com/contest/1791/problem/B) | [golang](/codeforces/1791B/1791B.go) |  | geometry, implementation |
 | [1791C. Prepend and Append](https://codeforces.com/contest/1791/problem/C) | [golang](/codeforces/1791C/1791C.go) |  | implementation, two pointers |
