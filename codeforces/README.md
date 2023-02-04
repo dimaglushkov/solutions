@@ -1,6 +1,6 @@
 ## codeforces
 
-Problems solved in total: 77
+Problems solved in total: 82
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -85,3 +85,8 @@ Problems solved in total: 77
 | [1772C. Different Differences](https://codeforces.com/contest/1772/problem/C) | [golang](/codeforces/1772C/1772C.go) |  |  |
 | [1772D. Absolute Sorting](https://codeforces.com/contest/1772/problem/D) | [golang](/codeforces/1772D/1772D.go) |  | math |
 | [1772E. Permutation Game](https://codeforces.com/contest/1772/problem/E) | [golang](/codeforces/1772E/1772E.go) |  | games |
+| [1791A. Codeforces Checking](https://codeforces.com/contest/1791/problem/A) | [golang](/codeforces/1791A/1791A.go) |  | implementation, strings |
+| [1791B. Following Directions](https://codeforces.com/contest/1791/problem/B) | [golang](/codeforces/1791B/1791B.go) |  | geometry, implementation |
+| [1791C. Prepend and Append](https://codeforces.com/contest/1791/problem/C) | [golang](/codeforces/1791C/1791C.go) |  | implementation, two pointers |
+| [1791D. Distinct Split](https://codeforces.com/contest/1791/problem/D) | [golang](/codeforces/1791D/1791D.go) |  | brute force, greedy, strings |
+| [1791E. Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | [golang](/codeforces/1791E/1791E.go) |  | greedy, sortings |

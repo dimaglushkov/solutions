@@ -76,3 +76,8 @@ id,name,contest,problem,difficulty,tags,lang
 1772C,Different Differences,1772,C,,[],['golang']
 1772D,Absolute Sorting,1772,D,,['math'],['golang']
 1772E,Permutation Game,1772,E,,['games'],['golang']
+1791A,Codeforces Checking,1791,A,,"['implementation', 'strings']",['golang']
+1791B,Following Directions,1791,B,,"['geometry', 'implementation']",['golang']
+1791C,Prepend and Append,1791,C,,"['implementation', 'two pointers']",['golang']
+1791D,Distinct Split,1791,D,,"['brute force', 'greedy', 'strings']",['golang']
+1791E,Negatives and Positives,1791,E,,"['greedy', 'sortings']",['golang']
