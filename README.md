@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 320
+Problems solved in total: 321
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -405,6 +405,7 @@ Problems solved in total: 320
 | [1071. Greatest common divisor of strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | [golang](/leetcode/greatest-common-divisor-of-strings/greatest-common-divisor-of-strings.go) | Easy | Math, String |
 | [953. Verifying an alien dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [golang](/leetcode/verifying-an-alien-dictionary/verifying-an-alien-dictionary.go) | Easy | Array, Hash Table, String |
 | [567. Permutation in string](https://leetcode.com/problems/permutation-in-string/) | [golang](/leetcode/permutation-in-string/permutation-in-string.go) | Medium | Hash Table, Two Pointers, String, Sliding Window |
+| [438. Find all anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [golang](/leetcode/find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.go) | Medium | Hash Table, String, Sliding Window |
 
 
 ## adventofcode/2022
