@@ -5,6 +5,16 @@ import "fmt"
 // source: https://leetcode.com/problems/shuffle-the-array/
 
 func shuffle(nums []int, n int) []int {
+	res := make([]int, 0, n)
+	for i := 0; i < n; i++ {
+		res = append(res, nums[i])
+		res = append(res, nums[i+n])
+	}
+	return res
+}
+
+// unnecessary complicated old version of the same solution
+func shuffle_(nums []int, n int) []int {
 	res := make([]int, n*2)
 	i, j := 0, n
 	for k := 0; k < n*2; k += 2 {
