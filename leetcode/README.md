@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 323
+Problems solved in total: 326
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -331,3 +331,6 @@ Problems solved in total: 323
 | [438. Find all anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [golang](/leetcode/find-all-anagrams-in-a-string/find-all-anagrams-in-a-string.go) | Medium | Hash Table, String, Sliding Window |
 | [904. Fruit into baskets](https://leetcode.com/problems/fruit-into-baskets/) | [golang](/leetcode/fruit-into-baskets/fruit-into-baskets.go) | Medium | Array, Hash Table, Sliding Window |
 | [45. Jump game ii](https://leetcode.com/problems/jump-game-ii/) | [golang](/leetcode/jump-game-ii/jump-game-ii.go) | Medium | Array, Dynamic Programming, Greedy |
+| [54. Spiral matrix](https://leetcode.com/problems/spiral-matrix/) | [golang](/leetcode/spiral-matrix/spiral-matrix.go) | Medium | Array, Matrix, Simulation |
+| [78. Subsets](https://leetcode.com/problems/subsets/) | [golang](/leetcode/subsets/subsets.go) | Medium | Array, Backtracking, Bit Manipulation |
+| [199. Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [golang](/leetcode/binary-tree-right-side-view/binary-tree-right-side-view.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |

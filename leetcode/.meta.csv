@@ -322,3 +322,6 @@ permutation-in-string,Medium,567,['golang'],"['Hash Table', 'Two Pointers', 'Str
 find-all-anagrams-in-a-string,Medium,438,['golang'],"['Hash Table', 'String', 'Sliding Window']"
 fruit-into-baskets,Medium,904,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
 jump-game-ii,Medium,45,['golang'],"['Array', 'Dynamic Programming', 'Greedy']"
+spiral-matrix,Medium,54,['golang'],"['Array', 'Matrix', 'Simulation']"
+subsets,Medium,78,['golang'],"['Array', 'Backtracking', 'Bit Manipulation']"
+binary-tree-right-side-view,Medium,199,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
