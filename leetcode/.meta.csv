@@ -321,3 +321,4 @@ verifying-an-alien-dictionary,Easy,953,['golang'],"['Array', 'Hash Table', 'Stri
 permutation-in-string,Medium,567,['golang'],"['Hash Table', 'Two Pointers', 'String', 'Sliding Window']"
 find-all-anagrams-in-a-string,Medium,438,['golang'],"['Hash Table', 'String', 'Sliding Window']"
 fruit-into-baskets,Medium,904,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
+jump-game-ii,Medium,45,['golang'],"['Array', 'Dynamic Programming', 'Greedy']"
