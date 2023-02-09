@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 326
+Problems solved in total: 327
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -411,6 +411,7 @@ Problems solved in total: 326
 | [54. Spiral matrix](https://leetcode.com/problems/spiral-matrix/) | [golang](/leetcode/spiral-matrix/spiral-matrix.go) | Medium | Array, Matrix, Simulation |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [golang](/leetcode/subsets/subsets.go) | Medium | Array, Backtracking, Bit Manipulation |
 | [199. Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [golang](/leetcode/binary-tree-right-side-view/binary-tree-right-side-view.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [2306. Naming a company](https://leetcode.com/problems/naming-a-company/) | [golang](/leetcode/naming-a-company/naming-a-company.go) | Hard | Array, Hash Table, String, Bit Manipulation, Enumeration |
 
 
 ## adventofcode/2022
