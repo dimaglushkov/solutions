@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 327
+Problems solved in total: 328
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -335,3 +335,4 @@ Problems solved in total: 327
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [golang](/leetcode/subsets/subsets.go) | Medium | Array, Backtracking, Bit Manipulation |
 | [199. Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [golang](/leetcode/binary-tree-right-side-view/binary-tree-right-side-view.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [2306. Naming a company](https://leetcode.com/problems/naming-a-company/) | [golang](/leetcode/naming-a-company/naming-a-company.go) | Hard | Array, Hash Table, String, Bit Manipulation, Enumeration |
+| [1162. As far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [golang](/leetcode/as-far-from-land-as-possible/as-far-from-land-as-possible.go) | Medium | Array, Dynamic Programming, Breadth-First Search, Matrix |
