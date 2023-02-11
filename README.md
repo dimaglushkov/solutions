@@ -77,7 +77,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 328
+Problems solved in total: 329
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -413,6 +413,7 @@ Problems solved in total: 328
 | [199. Binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/) | [golang](/leetcode/binary-tree-right-side-view/binary-tree-right-side-view.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
 | [2306. Naming a company](https://leetcode.com/problems/naming-a-company/) | [golang](/leetcode/naming-a-company/naming-a-company.go) | Hard | Array, Hash Table, String, Bit Manipulation, Enumeration |
 | [1162. As far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [golang](/leetcode/as-far-from-land-as-possible/as-far-from-land-as-possible.go) | Medium | Array, Dynamic Programming, Breadth-First Search, Matrix |
+| [1129. Shortest path with alternating colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) | [golang](/leetcode/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.go) | Medium | Breadth-First Search, Graph |
 
 
 ## adventofcode/2022
