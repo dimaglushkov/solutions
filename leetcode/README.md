@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 329
+Problems solved in total: 333
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -337,3 +337,7 @@ Problems solved in total: 329
 | [2306. Naming a company](https://leetcode.com/problems/naming-a-company/) | [golang](/leetcode/naming-a-company/naming-a-company.go) | Hard | Array, Hash Table, String, Bit Manipulation, Enumeration |
 | [1162. As far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [golang](/leetcode/as-far-from-land-as-possible/as-far-from-land-as-possible.go) | Medium | Array, Dynamic Programming, Breadth-First Search, Matrix |
 | [1129. Shortest path with alternating colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) | [golang](/leetcode/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.go) | Medium | Breadth-First Search, Graph |
+| [2565. Subsequence with the minimum score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) | [golang](/leetcode/subsequence-with-the-minimum-score/subsequence-with-the-minimum-score.go) | Hard |  |
+| [2562. Find the array concatenation value](https://leetcode.com/problems/find-the-array-concatenation-value/) | [golang](/leetcode/find-the-array-concatenation-value/find-the-array-concatenation-value.go) | Easy |  |
+| [2563. Count the number of fair pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | [golang](/leetcode/count-the-number-of-fair-pairs/count-the-number-of-fair-pairs.go) | Medium |  |
+| [2564. Substring xor queries](https://leetcode.com/problems/substring-xor-queries/) | [golang](/leetcode/substring-xor-queries/substring-xor-queries.go) | Medium |  |

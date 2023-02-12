@@ -73,11 +73,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3107 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
 | [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 | [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 722 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
+| [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | ? / ? | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 329
+Problems solved in total: 333
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -414,6 +415,10 @@ Problems solved in total: 329
 | [2306. Naming a company](https://leetcode.com/problems/naming-a-company/) | [golang](/leetcode/naming-a-company/naming-a-company.go) | Hard | Array, Hash Table, String, Bit Manipulation, Enumeration |
 | [1162. As far from land as possible](https://leetcode.com/problems/as-far-from-land-as-possible/) | [golang](/leetcode/as-far-from-land-as-possible/as-far-from-land-as-possible.go) | Medium | Array, Dynamic Programming, Breadth-First Search, Matrix |
 | [1129. Shortest path with alternating colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) | [golang](/leetcode/shortest-path-with-alternating-colors/shortest-path-with-alternating-colors.go) | Medium | Breadth-First Search, Graph |
+| [2565. Subsequence with the minimum score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) | [golang](/leetcode/subsequence-with-the-minimum-score/subsequence-with-the-minimum-score.go) | Hard |  |
+| [2562. Find the array concatenation value](https://leetcode.com/problems/find-the-array-concatenation-value/) | [golang](/leetcode/find-the-array-concatenation-value/find-the-array-concatenation-value.go) | Easy |  |
+| [2563. Count the number of fair pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | [golang](/leetcode/count-the-number-of-fair-pairs/count-the-number-of-fair-pairs.go) | Medium |  |
+| [2564. Substring xor queries](https://leetcode.com/problems/substring-xor-queries/) | [golang](/leetcode/substring-xor-queries/substring-xor-queries.go) | Medium |  |
 
 
 ## adventofcode/2022
