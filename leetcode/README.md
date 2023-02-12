@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 333
+Problems solved in total: 334
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -341,3 +341,4 @@ Problems solved in total: 333
 | [2562. Find the array concatenation value](https://leetcode.com/problems/find-the-array-concatenation-value/) | [golang](/leetcode/find-the-array-concatenation-value/find-the-array-concatenation-value.go) | Easy |  |
 | [2563. Count the number of fair pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | [golang](/leetcode/count-the-number-of-fair-pairs/count-the-number-of-fair-pairs.go) | Medium |  |
 | [2564. Substring xor queries](https://leetcode.com/problems/substring-xor-queries/) | [golang](/leetcode/substring-xor-queries/substring-xor-queries.go) | Medium |  |
+| [2477. Minimum fuel cost to report to the capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) | [golang](/leetcode/minimum-fuel-cost-to-report-to-the-capital/minimum-fuel-cost-to-report-to-the-capital.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Graph |

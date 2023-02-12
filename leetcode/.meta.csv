@@ -332,3 +332,4 @@ subsequence-with-the-minimum-score,Hard,2565,['golang'],[]
 find-the-array-concatenation-value,Easy,2562,['golang'],[]
 count-the-number-of-fair-pairs,Medium,2563,['golang'],[]
 substring-xor-queries,Medium,2564,['golang'],[]
+minimum-fuel-cost-to-report-to-the-capital,Medium,2477,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Graph']"
