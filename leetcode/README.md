@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 334
+Problems solved in total: 335
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -342,3 +342,4 @@ Problems solved in total: 334
 | [2563. Count the number of fair pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/) | [golang](/leetcode/count-the-number-of-fair-pairs/count-the-number-of-fair-pairs.go) | Medium |  |
 | [2564. Substring xor queries](https://leetcode.com/problems/substring-xor-queries/) | [golang](/leetcode/substring-xor-queries/substring-xor-queries.go) | Medium |  |
 | [2477. Minimum fuel cost to report to the capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) | [golang](/leetcode/minimum-fuel-cost-to-report-to-the-capital/minimum-fuel-cost-to-report-to-the-capital.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Graph |
+| [1523. Count odd numbers in an interval range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [golang](/leetcode/count-odd-numbers-in-an-interval-range/count-odd-numbers-in-an-interval-range.go) | Easy | Math |

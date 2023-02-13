@@ -12,14 +12,7 @@ func minimumFuelCost(roads [][]int, seats int) int64 {
 	var ans int64
 	graph := make([][]int, n)
 	for _, r := range roads {
-		if graph[r[0]] == nil {
-			graph[r[0]] = make([]int, 0)
-		}
 		graph[r[0]] = append(graph[r[0]], r[1])
-
-		if graph[r[1]] == nil {
-			graph[r[1]] = make([]int, 0)
-		}
 		graph[r[1]] = append(graph[r[1]], r[0])
 	}
 
