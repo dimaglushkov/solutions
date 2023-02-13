@@ -78,7 +78,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 335
+Problems solved in total: 347
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -421,6 +421,18 @@ Problems solved in total: 335
 | [2564. Substring xor queries](https://leetcode.com/problems/substring-xor-queries/) | [golang](/leetcode/substring-xor-queries/substring-xor-queries.go) | Medium |  |
 | [2477. Minimum fuel cost to report to the capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/) | [golang](/leetcode/minimum-fuel-cost-to-report-to-the-capital/minimum-fuel-cost-to-report-to-the-capital.go) | Medium | Tree, Depth-First Search, Breadth-First Search, Graph |
 | [1523. Count odd numbers in an interval range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | [golang](/leetcode/count-odd-numbers-in-an-interval-range/count-odd-numbers-in-an-interval-range.go) | Easy | Math |
+| [349. Intersection of two arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [golang](/leetcode/intersection-of-two-arrays/intersection-of-two-arrays.go) | Easy | Array, Hash Table, Two Pointers, Binary Search, Sorting |
+| [350. Intersection of two arrays ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [golang](/leetcode/intersection-of-two-arrays-ii/intersection-of-two-arrays-ii.go) | Easy | Array, Hash Table, Two Pointers, Binary Search, Sorting |
+| [367. Valid perfect square](https://leetcode.com/problems/valid-perfect-square/) | [golang](/leetcode/valid-perfect-square/valid-perfect-square.go) | Easy | Math, Binary Search |
+| [389. Find the difference](https://leetcode.com/problems/find-the-difference/) | [golang](/leetcode/find-the-difference/find-the-difference.go) | Easy | Hash Table, String, Bit Manipulation, Sorting |
+| [404. Sum of left leaves](https://leetcode.com/problems/sum-of-left-leaves/) | [golang](/leetcode/sum-of-left-leaves/sum-of-left-leaves.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Tree |
+| [405. Convert a number to hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | [golang](/leetcode/convert-a-number-to-hexadecimal/convert-a-number-to-hexadecimal.go) | Easy | Math, Bit Manipulation |
+| [412. Fizz buzz](https://leetcode.com/problems/fizz-buzz/) | [golang](/leetcode/fizz-buzz/fizz-buzz.go) | Easy | Math, String, Simulation |
+| [414. Third maximum number](https://leetcode.com/problems/third-maximum-number/) | [golang](/leetcode/third-maximum-number/third-maximum-number.go) | Easy | Array, Sorting |
+| [415. Add strings](https://leetcode.com/problems/add-strings/) | [golang](/leetcode/add-strings/add-strings.go) | Easy | Math, String, Simulation |
+| [434. Number of segments in a string](https://leetcode.com/problems/number-of-segments-in-a-string/) | [golang](/leetcode/number-of-segments-in-a-string/number-of-segments-in-a-string.go) | Easy | String |
+| [441. Arranging coins](https://leetcode.com/problems/arranging-coins/) | [golang](/leetcode/arranging-coins/arranging-coins.go) | Easy | Math, Binary Search |
+| [448. Find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [golang](/leetcode/find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.go) | Easy | Array, Hash Table |
 
 
 ## adventofcode/2022

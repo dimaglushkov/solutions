@@ -334,3 +334,15 @@ count-the-number-of-fair-pairs,Medium,2563,['golang'],[]
 substring-xor-queries,Medium,2564,['golang'],[]
 minimum-fuel-cost-to-report-to-the-capital,Medium,2477,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Graph']"
 count-odd-numbers-in-an-interval-range,Easy,1523,['golang'],['Math']
+intersection-of-two-arrays,Easy,349,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Binary Search', 'Sorting']"
+intersection-of-two-arrays-ii,Easy,350,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Binary Search', 'Sorting']"
+valid-perfect-square,Easy,367,['golang'],"['Math', 'Binary Search']"
+find-the-difference,Easy,389,['golang'],"['Hash Table', 'String', 'Bit Manipulation', 'Sorting']"
+sum-of-left-leaves,Easy,404,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+convert-a-number-to-hexadecimal,Easy,405,['golang'],"['Math', 'Bit Manipulation']"
+fizz-buzz,Easy,412,['golang'],"['Math', 'String', 'Simulation']"
+third-maximum-number,Easy,414,['golang'],"['Array', 'Sorting']"
+add-strings,Easy,415,['golang'],"['Math', 'String', 'Simulation']"
+number-of-segments-in-a-string,Easy,434,['golang'],['String']
+arranging-coins,Easy,441,['golang'],"['Math', 'Binary Search']"
+find-all-numbers-disappeared-in-an-array,Easy,448,['golang'],"['Array', 'Hash Table']"
