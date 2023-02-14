@@ -12,29 +12,31 @@ func addStrings(num1 string, num2 string) string {
 		max, min = min, max
 	}
 	nMin, nMax := len(min), len(max)
-
-	ans := ""
-	var overflow byte = '0'
+	iAns := nMax
+	ans := make([]byte, iAns+1)
+	overflow := false
 	for i := 0; i < len(max); i++ {
 		c := max[nMax-1-i]
 		if nMin-1-i >= 0 {
 			c += min[nMin-1-i] - '0'
 		}
-		if overflow > '0' {
-			c += overflow - '0'
+		if overflow {
+			c++
 		}
 		if c > '9' {
-			overflow, c = '1', c-10
+			overflow, c = true, c-10
 		} else {
-			overflow = '0'
+			overflow = false
 		}
-		ans = string(c) + ans
+		ans[iAns] = c
+		iAns--
 	}
-	if overflow != '0' {
-		ans = string(overflow) + ans
+	if overflow {
+		ans[iAns] = '1'
+		iAns--
 	}
 
-	return ans
+	return string(ans[iAns+1:])
 }
 
 func main() {
