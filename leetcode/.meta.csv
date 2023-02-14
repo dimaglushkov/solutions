@@ -346,3 +346,4 @@ add-strings,Easy,415,['golang'],"['Math', 'String', 'Simulation']"
 number-of-segments-in-a-string,Easy,434,['golang'],['String']
 arranging-coins,Easy,441,['golang'],"['Math', 'Binary Search']"
 find-all-numbers-disappeared-in-an-array,Easy,448,['golang'],"['Array', 'Hash Table']"
+text-justification,Hard,68,['golang'],"['Array', 'String', 'Simulation']"

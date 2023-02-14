@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 347
+Problems solved in total: 348
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -355,3 +355,4 @@ Problems solved in total: 347
 | [434. Number of segments in a string](https://leetcode.com/problems/number-of-segments-in-a-string/) | [golang](/leetcode/number-of-segments-in-a-string/number-of-segments-in-a-string.go) | Easy | String |
 | [441. Arranging coins](https://leetcode.com/problems/arranging-coins/) | [golang](/leetcode/arranging-coins/arranging-coins.go) | Easy | Math, Binary Search |
 | [448. Find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [golang](/leetcode/find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.go) | Easy | Array, Hash Table |
+| [68. Text justification](https://leetcode.com/problems/text-justification/) | [golang](/leetcode/text-justification/text-justification.go) | Hard | Array, String, Simulation |
