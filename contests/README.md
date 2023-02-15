@@ -14,8 +14,8 @@
 | [Leetcode Weekly Contest 290](https://leetcode.com/contest/weekly-contest-290/) | 4827 / 19491 | [solutions](/contests/lc-weekly-290) | 24 apr 2022 |
 | [Leetcode Biweekly Contest 77](https://leetcode.com/contest/biweekly-contest-77) | 6802 / 15519 | [solutions](/contests/lc-biweekly-77) | 30 apr 2022 |
 | [Leetcode Weekly Contest 291](https://leetcode.com/contest/weekly-contest-291/) | 6157 / 19223 | [solutions](/contests/lc-weekly-291) | 1 may 2022 |
-| [Codeforces Round #790 (Div. 4)](https://codeforces.com/contests/1676) | 7449 / 17743 | [solutions](/contests/cf-round-790) | 10 may 2022 | 
-| [Codeforces Round #799 (Div. 4)](https://codeforces.com/contests/1692) | 3515 / 20701 | [solutions](/contests/cf-round-799) | 14 jun 2022 | 
+| [Codeforces Round #790 (Div. 4)](https://codeforces.com/contests/1676) | 7449 / 17743 | [solutions](/contests/cf-round-790) | 10 may 2022 |
+| [Codeforces Round #799 (Div. 4)](https://codeforces.com/contests/1692) | 3515 / 20701 | [solutions](/contests/cf-round-799) | 14 jun 2022 |
 | [Codeforces Round #811 (Div. 3)](https://codeforces.com/contests/1714) | 3021 / 15748 | [solutions](/contests/cf-round-811) | 1 aug 2022 |
 | [Leetcode Biweekly Contest 85](https://leetcode.com/contest/biweekly-contest-85) | 2962 / 23603 | [solutions](/contests/lc-biweekly-85) | 20 aug 2022 |
 | [Codeforces Round #820 (Div. 3)](https://codeforces.com/contest/1729) | 4833 / 18417 | [solutions](/contests/cf-round-820) | 13 sep 2022 |
@@ -29,4 +29,4 @@
 | [Leetcode Biweekly Contest 93](https://leetcode.com/contest/biweekly-contest-93) | 3107 / 17080 | [solutions](/contests/lc-biweekly-93) | 10 dec 2022 |
 | [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 | [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 722 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
-| [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | ? / ? | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
+| [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | 1633 / 24102 | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
