@@ -78,7 +78,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 348
+Problems solved in total: 349
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -434,6 +434,7 @@ Problems solved in total: 348
 | [441. Arranging coins](https://leetcode.com/problems/arranging-coins/) | [golang](/leetcode/arranging-coins/arranging-coins.go) | Easy | Math, Binary Search |
 | [448. Find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [golang](/leetcode/find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.go) | Easy | Array, Hash Table |
 | [68. Text justification](https://leetcode.com/problems/text-justification/) | [golang](/leetcode/text-justification/text-justification.go) | Hard | Array, String, Simulation |
+| [989. Add to array form of integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [golang](/leetcode/add-to-array-form-of-integer/add-to-array-form-of-integer.go) | Easy | Array, Math |
 
 
 ## adventofcode/2022
