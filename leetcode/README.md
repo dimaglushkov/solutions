@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 349
+Problems solved in total: 350
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -357,3 +357,4 @@ Problems solved in total: 349
 | [448. Find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [golang](/leetcode/find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.go) | Easy | Array, Hash Table |
 | [68. Text justification](https://leetcode.com/problems/text-justification/) | [golang](/leetcode/text-justification/text-justification.go) | Hard | Array, String, Simulation |
 | [989. Add to array form of integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [golang](/leetcode/add-to-array-form-of-integer/add-to-array-form-of-integer.go) | Easy | Array, Math |
+| [783. Minimum distance between bst nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [golang](/leetcode/minimum-distance-between-bst-nodes/minimum-distance-between-bst-nodes.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |
