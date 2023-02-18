@@ -74,11 +74,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 | [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 722 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
 | [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | 1633 / 24102 | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
+| [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | ? / ? | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 350
+Problems solved in total: 353
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -436,6 +437,9 @@ Problems solved in total: 350
 | [68. Text justification](https://leetcode.com/problems/text-justification/) | [golang](/leetcode/text-justification/text-justification.go) | Hard | Array, String, Simulation |
 | [989. Add to array form of integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [golang](/leetcode/add-to-array-form-of-integer/add-to-array-form-of-integer.go) | Easy | Array, Math |
 | [783. Minimum distance between bst nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [golang](/leetcode/minimum-distance-between-bst-nodes/minimum-distance-between-bst-nodes.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |
+| [2566. Maximum difference by remapping a digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | [golang](/leetcode/maximum-difference-by-remapping-a-digit/maximum-difference-by-remapping-a-digit.go) | Easy |  |
+| [2567. Minimum score by changing two elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/) | [golang](/leetcode/minimum-score-by-changing-two-elements/minimum-score-by-changing-two-elements.go) | Medium |  |
+| [2568. Minimum impossible or](https://leetcode.com/problems/minimum-impossible-or/) | [golang](/leetcode/minimum-impossible-or/minimum-impossible-or.go) | Medium |  |
 
 
 ## adventofcode/2022

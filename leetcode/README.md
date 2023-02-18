@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 350
+Problems solved in total: 353
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -358,3 +358,6 @@ Problems solved in total: 350
 | [68. Text justification](https://leetcode.com/problems/text-justification/) | [golang](/leetcode/text-justification/text-justification.go) | Hard | Array, String, Simulation |
 | [989. Add to array form of integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | [golang](/leetcode/add-to-array-form-of-integer/add-to-array-form-of-integer.go) | Easy | Array, Math |
 | [783. Minimum distance between bst nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [golang](/leetcode/minimum-distance-between-bst-nodes/minimum-distance-between-bst-nodes.go) | Easy | Tree, Depth-First Search, Breadth-First Search, Binary Search Tree, Binary Tree |
+| [2566. Maximum difference by remapping a digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | [golang](/leetcode/maximum-difference-by-remapping-a-digit/maximum-difference-by-remapping-a-digit.go) | Easy |  |
+| [2567. Minimum score by changing two elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/) | [golang](/leetcode/minimum-score-by-changing-two-elements/minimum-score-by-changing-two-elements.go) | Medium |  |
+| [2568. Minimum impossible or](https://leetcode.com/problems/minimum-impossible-or/) | [golang](/leetcode/minimum-impossible-or/minimum-impossible-or.go) | Medium |  |

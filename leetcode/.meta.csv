@@ -349,3 +349,6 @@ find-all-numbers-disappeared-in-an-array,Easy,448,['golang'],"['Array', 'Hash Ta
 text-justification,Hard,68,['golang'],"['Array', 'String', 'Simulation']"
 add-to-array-form-of-integer,Easy,989,['golang'],"['Array', 'Math']"
 minimum-distance-between-bst-nodes,Easy,783,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Search Tree', 'Binary Tree']"
+maximum-difference-by-remapping-a-digit,Easy,2566,['golang'],[]
+minimum-score-by-changing-two-elements,Medium,2567,['golang'],[]
+minimum-impossible-or,Medium,2568,['golang'],[]
