@@ -354,3 +354,4 @@ minimum-score-by-changing-two-elements,Medium,2567,['golang'],[]
 minimum-impossible-or,Medium,2568,['golang'],[]
 merge-two-2d-arrays-by-summing-values,Easy,2570,['golang'],[]
 minimum-operations-to-reduce-an-integer-to-0,Medium,2571,['golang'],[]
+binary-tree-zigzag-level-order-traversal,Medium,103,['golang'],"['Tree', 'Breadth-First Search', 'Binary Tree']"
