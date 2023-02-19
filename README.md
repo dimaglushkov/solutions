@@ -75,11 +75,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 722 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
 | [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | 1633 / 24102 | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
 | [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | ? / ? | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
+| [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | ? / ? | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 353
+Problems solved in total: 355
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -440,6 +441,8 @@ Problems solved in total: 353
 | [2566. Maximum difference by remapping a digit](https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/) | [golang](/leetcode/maximum-difference-by-remapping-a-digit/maximum-difference-by-remapping-a-digit.go) | Easy |  |
 | [2567. Minimum score by changing two elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/) | [golang](/leetcode/minimum-score-by-changing-two-elements/minimum-score-by-changing-two-elements.go) | Medium |  |
 | [2568. Minimum impossible or](https://leetcode.com/problems/minimum-impossible-or/) | [golang](/leetcode/minimum-impossible-or/minimum-impossible-or.go) | Medium |  |
+| [2570. Merge two 2d arrays by summing values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | [golang](/leetcode/merge-two-2d-arrays-by-summing-values/merge-two-2d-arrays-by-summing-values.go) | Easy |  |
+| [2571. Minimum operations to reduce an integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | [golang](/leetcode/minimum-operations-to-reduce-an-integer-to-0/minimum-operations-to-reduce-an-integer-to-0.go) | Medium |  |
 
 
 ## adventofcode/2022

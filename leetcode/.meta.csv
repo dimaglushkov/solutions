@@ -352,3 +352,5 @@ minimum-distance-between-bst-nodes,Easy,783,['golang'],"['Tree', 'Depth-First Se
 maximum-difference-by-remapping-a-digit,Easy,2566,['golang'],[]
 minimum-score-by-changing-two-elements,Medium,2567,['golang'],[]
 minimum-impossible-or,Medium,2568,['golang'],[]
+merge-two-2d-arrays-by-summing-values,Easy,2570,['golang'],[]
+minimum-operations-to-reduce-an-integer-to-0,Medium,2571,['golang'],[]
