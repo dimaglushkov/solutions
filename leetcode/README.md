@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 356
+Problems solved in total: 357
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -364,3 +364,4 @@ Problems solved in total: 356
 | [2570. Merge two 2d arrays by summing values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | [golang](/leetcode/merge-two-2d-arrays-by-summing-values/merge-two-2d-arrays-by-summing-values.go) | Easy |  |
 | [2571. Minimum operations to reduce an integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | [golang](/leetcode/minimum-operations-to-reduce-an-integer-to-0/minimum-operations-to-reduce-an-integer-to-0.go) | Medium |  |
 | [103. Binary tree zigzag level order traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [golang](/leetcode/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.go) | Medium | Tree, Breadth-First Search, Binary Tree |
+| [540. Single element in a sorted array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [golang](/leetcode/single-element-in-a-sorted-array/single-element-in-a-sorted-array.go) | Medium | Array, Binary Search |
