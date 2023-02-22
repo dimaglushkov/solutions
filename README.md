@@ -80,7 +80,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 357
+Problems solved in total: 358
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -445,6 +445,7 @@ Problems solved in total: 357
 | [2571. Minimum operations to reduce an integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | [golang](/leetcode/minimum-operations-to-reduce-an-integer-to-0/minimum-operations-to-reduce-an-integer-to-0.go) | Medium |  |
 | [103. Binary tree zigzag level order traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [golang](/leetcode/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.go) | Medium | Tree, Breadth-First Search, Binary Tree |
 | [540. Single element in a sorted array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [golang](/leetcode/single-element-in-a-sorted-array/single-element-in-a-sorted-array.go) | Medium | Array, Binary Search |
+| [1011. Capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [golang](/leetcode/capacity-to-ship-packages-within-d-days/capacity-to-ship-packages-within-d-days.go) | Medium | Array, Binary Search |
 
 
 ## adventofcode/2022
