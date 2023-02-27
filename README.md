@@ -80,7 +80,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 358
+Problems solved in total: 363
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -446,6 +446,11 @@ Problems solved in total: 358
 | [103. Binary tree zigzag level order traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [golang](/leetcode/binary-tree-zigzag-level-order-traversal/binary-tree-zigzag-level-order-traversal.go) | Medium | Tree, Breadth-First Search, Binary Tree |
 | [540. Single element in a sorted array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [golang](/leetcode/single-element-in-a-sorted-array/single-element-in-a-sorted-array.go) | Medium | Array, Binary Search |
 | [1011. Capacity to ship packages within d days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [golang](/leetcode/capacity-to-ship-packages-within-d-days/capacity-to-ship-packages-within-d-days.go) | Medium | Array, Binary Search |
+| [502. Ipo](https://leetcode.com/problems/ipo/) | [golang](/leetcode/ipo/ipo.go) | Hard | Array, Greedy, Sorting, Heap (Priority Queue) |
+| [1675. Minimize deviation in array](https://leetcode.com/problems/minimize-deviation-in-array/) | [golang](/leetcode/minimize-deviation-in-array/minimize-deviation-in-array.go) | Hard | Array, Greedy, Heap (Priority Queue), Ordered Set |
+| [2574. Left and right sum differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [golang](/leetcode/left-and-right-sum-differences/left-and-right-sum-differences.go) | Easy |  |
+| [72. Edit distance](https://leetcode.com/problems/edit-distance/) | [golang](/leetcode/edit-distance/edit-distance.go) | Hard | String, Dynamic Programming |
+| [427. Construct quad tree](https://leetcode.com/problems/construct-quad-tree/) | [golang](/leetcode/construct-quad-tree/construct-quad-tree.go) | Medium | Array, Divide and Conquer, Tree, Matrix |
 
 
 ## adventofcode/2022
