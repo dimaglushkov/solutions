@@ -362,3 +362,7 @@ minimize-deviation-in-array,Hard,1675,['golang'],"['Array', 'Greedy', 'Heap (Pri
 left-and-right-sum-differences,Easy,2574,['golang'],[]
 edit-distance,Hard,72,['golang'],"['String', 'Dynamic Programming']"
 construct-quad-tree,Medium,427,['golang'],"['Array', 'Divide and Conquer', 'Tree', 'Matrix']"
+take-gifts-from-the-richest-pile,Easy,2558,['golang'],"['Array', 'Heap (Priority Queue)', 'Simulation']"
+separate-the-digits-in-an-array,Easy,2553,['golang'],"['Array', 'Simulation']"
+count-distinct-numbers-on-board,Easy,2549,['golang'],"['Array', 'Hash Table', 'Math', 'Simulation']"
+alternating-digit-sum,Easy,2544,['golang'],['Math']

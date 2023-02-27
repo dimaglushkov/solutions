@@ -80,7 +80,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 363
+Problems solved in total: 367
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -451,6 +451,10 @@ Problems solved in total: 363
 | [2574. Left and right sum differences](https://leetcode.com/problems/left-and-right-sum-differences/) | [golang](/leetcode/left-and-right-sum-differences/left-and-right-sum-differences.go) | Easy |  |
 | [72. Edit distance](https://leetcode.com/problems/edit-distance/) | [golang](/leetcode/edit-distance/edit-distance.go) | Hard | String, Dynamic Programming |
 | [427. Construct quad tree](https://leetcode.com/problems/construct-quad-tree/) | [golang](/leetcode/construct-quad-tree/construct-quad-tree.go) | Medium | Array, Divide and Conquer, Tree, Matrix |
+| [2558. Take gifts from the richest pile](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | [golang](/leetcode/take-gifts-from-the-richest-pile/take-gifts-from-the-richest-pile.go) | Easy | Array, Heap (Priority Queue), Simulation |
+| [2553. Separate the digits in an array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | [golang](/leetcode/separate-the-digits-in-an-array/separate-the-digits-in-an-array.go) | Easy | Array, Simulation |
+| [2549. Count distinct numbers on board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | [golang](/leetcode/count-distinct-numbers-on-board/count-distinct-numbers-on-board.go) | Easy | Array, Hash Table, Math, Simulation |
+| [2544. Alternating digit sum](https://leetcode.com/problems/alternating-digit-sum/) | [golang](/leetcode/alternating-digit-sum/alternating-digit-sum.go) | Easy | Math |
 
 
 ## adventofcode/2022
