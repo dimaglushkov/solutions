@@ -80,7 +80,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 367
+Problems solved in total: 368
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -455,6 +455,7 @@ Problems solved in total: 367
 | [2553. Separate the digits in an array](https://leetcode.com/problems/separate-the-digits-in-an-array/) | [golang](/leetcode/separate-the-digits-in-an-array/separate-the-digits-in-an-array.go) | Easy | Array, Simulation |
 | [2549. Count distinct numbers on board](https://leetcode.com/problems/count-distinct-numbers-on-board/) | [golang](/leetcode/count-distinct-numbers-on-board/count-distinct-numbers-on-board.go) | Easy | Array, Hash Table, Math, Simulation |
 | [2544. Alternating digit sum](https://leetcode.com/problems/alternating-digit-sum/) | [golang](/leetcode/alternating-digit-sum/alternating-digit-sum.go) | Easy | Math |
+| [652. Find duplicate subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [golang](/leetcode/find-duplicate-subtrees/find-duplicate-subtrees.go) | Medium | Hash Table, Tree, Depth-First Search, Binary Tree |
 
 
 ## adventofcode/2022

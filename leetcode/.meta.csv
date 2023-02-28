@@ -366,3 +366,4 @@ take-gifts-from-the-richest-pile,Easy,2558,['golang'],"['Array', 'Heap (Priority
 separate-the-digits-in-an-array,Easy,2553,['golang'],"['Array', 'Simulation']"
 count-distinct-numbers-on-board,Easy,2549,['golang'],"['Array', 'Hash Table', 'Math', 'Simulation']"
 alternating-digit-sum,Easy,2544,['golang'],['Math']
+find-duplicate-subtrees,Medium,652,['golang'],"['Hash Table', 'Tree', 'Depth-First Search', 'Binary Tree']"
