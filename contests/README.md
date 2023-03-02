@@ -1,12 +1,22 @@
 ## contests
 
-|Top % places by days|
-|-|
-|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.stats.svg)|
+[//]: # (|Top % places by days|)
+[//]: # (|-|)
+[//]: # (|![]&#40;https://github.com/dimaglushkov/solutions/blob/master/contests/.stats.svg&#41;|)
 
-| Leetcode Rating Changes | Codeforces Rating Changes |
-|-|-|
-|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.leetcode_rating.svg)|![](https://github.com/dimaglushkov/solutions/blob/master/contests/.codeforces_rating.svg)|
+[//]: # (| Leetcode Rating Changes | Codeforces Rating Changes |)
+[//]: # (|-|-|)
+[//]: # (|![]&#40;https://github.com/dimaglushkov/solutions/blob/master/contests/.leetcode_rating.svg&#41;|![]&#40;https://github.com/dimaglushkov/solutions/blob/master/contests/.codeforces_rating.svg&#41;|)
+
+
+| Leetcode Rating History |
+|-|
+|[![](https://github.com/dimaglushkov/solutions/blob/master/contests/.leetcode_rating.svg)](https://leetcode.com/dimaglushkov/)|
+
+| Codeforces Rating History |
+|-|
+|[![](https://github.com/dimaglushkov/solutions/blob/master/contests/.codeforces_rating.svg)](https://codeforces.com/profile/dimaglushkov)|
+
 
 
 | Name | Rank | Solutions | Date |
