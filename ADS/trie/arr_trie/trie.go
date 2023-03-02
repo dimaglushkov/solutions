@@ -1,4 +1,4 @@
-package trie_arr
+package arr_trie
 
 type Trie struct {
 	Children [26]*Trie

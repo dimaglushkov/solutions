@@ -1,4 +1,4 @@
-package trie_map
+package map_trie
 
 type Trie struct {
 	Children map[rune]*Trie

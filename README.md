@@ -80,7 +80,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 369
+Problems solved in total: 370
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -457,6 +457,7 @@ Problems solved in total: 369
 | [2544. Alternating digit sum](https://leetcode.com/problems/alternating-digit-sum/) | [golang](/leetcode/alternating-digit-sum/alternating-digit-sum.go) | Easy | Math |
 | [652. Find duplicate subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [golang](/leetcode/find-duplicate-subtrees/find-duplicate-subtrees.go) | Medium | Hash Table, Tree, Depth-First Search, Binary Tree |
 | [718. Maximum length of repeated subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [golang](/leetcode/maximum-length-of-repeated-subarray/maximum-length-of-repeated-subarray.go) | Medium | Array, Binary Search, Dynamic Programming, Sliding Window, Rolling Hash, Hash Function |
+| [443. String compression](https://leetcode.com/problems/string-compression/) | [golang](/leetcode/string-compression/string-compression.go) | Medium | Two Pointers, String |
 
 
 ## adventofcode/2022

@@ -11,13 +11,6 @@ func pow(x, y int) int {
 	return int(math.Pow(float64(x), float64(y)))
 }
 
-func abs(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
-}
-
 // RabinKarp implements rolling hash algorithm to search
 // for a string in a given text
 func RabinKarp(text, pattern string) []int {
