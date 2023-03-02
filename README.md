@@ -76,6 +76,7 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | 1633 / 24102 | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
 | [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | ? / ? | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
 | [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | ? / ? | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
+| [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | ? / ? | [solutions](/contests/cf-round-855) | 2 mar 2023 |
 
 
 ## leetcode
@@ -487,7 +488,7 @@ Problems solved in total: 370
 
 ## codeforces
 
-Problems solved in total: 82
+Problems solved in total: 89
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -577,6 +578,13 @@ Problems solved in total: 82
 | [1791C. Prepend and Append](https://codeforces.com/contest/1791/problem/C) | [golang](/codeforces/1791C/1791C.go) | 800 | implementation, two pointers |
 | [1791D. Distinct Split](https://codeforces.com/contest/1791/problem/D) | [golang](/codeforces/1791D/1791D.go) | 1000 | brute force, greedy, strings |
 | [1791E. Negatives and Positives](https://codeforces.com/contest/1791/problem/E) | [golang](/codeforces/1791E/1791E.go) | 1100 | greedy, sortings |
+| [1800A. Is It a Cat?](https://codeforces.com/contest/1800/problem/A) | [golang](/codeforces/1800A/1800A.go) |  | strings |
+| [1800B. Count the Number of Pairs](https://codeforces.com/contest/1800/problem/B) | [golang](/codeforces/1800B/1800B.go) |  | greedy, strings |
+| [1800C1. Powering the Hero (easy version)](https://codeforces.com/contest/1800/problem/C1) | [golang](/codeforces/1800C1/1800C1.go) |  | data structures, greedy |
+| [1800C2. Powering the Hero (hard version)](https://codeforces.com/contest/1800/problem/C2) | [golang](/codeforces/1800C2/1800C2.go) |  | data structures, greedy |
+| [1800D. Remove Two Letters](https://codeforces.com/contest/1800/problem/D) | [golang](/codeforces/1800D/1800D.go) |  | data structures, hashing, strings |
+| [1800E1. Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [golang](/codeforces/1800E1/1800E1.go) |  | brute force, constructive algorithms |
+| [1800E2. Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [golang](/codeforces/1800E2/1800E2.go) |  | brute force, constructive algorithms |
 
 
 ## acm.timus
