@@ -160,7 +160,7 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
         if slug_data is not None:
             leetcode.create_code_template(slug, file, lang, slug_data)
         else:
-            shutil.copyfile(os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]}"), file)
+            shutil.copyfile(os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]['ext']}"), file)
         print(f"{i + 1}: file://{os.path.abspath(file)}")
 
     with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:

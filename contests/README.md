@@ -30,6 +30,6 @@
 | [Educational Codeforces Round 139 (Rated for Div. 2)](https://codeforces.com/contests/1766) | 2805 / 13189 | [solutions](/contests/edu-cf-round-139) | 12 dec 2022 |
 | [Codeforces Round #839 (Div. 3)](https://codeforces.com/contests/1772) | 722 / 8714 | [solutions](/contests/cf-round-839) | 18 dec 2022 |
 | [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | 1633 / 24102 | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
-| [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | ? / ? | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
-| [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | ? / ? | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
-| [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | ? / ? | [solutions](/contests/cf-round-855) | 2 mar 2023 |
+| [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | 3761 / 22683 | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
+| [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | 6411 / 21701 | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
+| [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | 1006 / 10200 | [solutions](/contests/cf-round-855) | 2 mar 2023 |

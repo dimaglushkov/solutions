@@ -258,17 +258,22 @@ def _clear_leetcode_meta_file(data: dict, sol_dir: str):
 
 def _generate_leetcode_readme(data: dict, sol_dir: str):
     header = '## leetcode'
-    problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
+#     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
+    problems_table = '|Problem|Solution|Difficulty|\n|-|-|-|\n'
 
     # Getting simple stats and generating rows for the table
     for problem, meta in data.items():
         solutions_links = ', '.join(
             [f'[{lang}](/leetcode/{problem}/{problem}.{LANG_SPECS[lang]["ext"]})' for lang in meta['lang']])
+#         problems_table += \
+#             f'| [{meta["id"]}. {problem.replace("-", " ").capitalize()}](https://leetcode.com/problems/{problem}/) ' \
+#             f'| {solutions_links} ' \
+#             f'| {meta["difficulty"]} ' \
+#             f'| {", ".join(meta["tags"])} |\n'
         problems_table += \
             f'| [{meta["id"]}. {problem.replace("-", " ").capitalize()}](https://leetcode.com/problems/{problem}/) ' \
             f'| {solutions_links} ' \
-            f'| {meta["difficulty"]} ' \
-            f'| {", ".join(meta["tags"])} |\n'
+            f'| {meta["difficulty"]} |\n'
     stats_str = shared.generate_svg_stats(data, sol_dir, CHARTS)
     readme = header + stats_str + problems_table
     with open(os.path.join(sol_dir, 'README.md'), 'w') as readme_file:
