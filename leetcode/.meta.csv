@@ -369,3 +369,5 @@ alternating-digit-sum,Easy,2544,['golang'],['Math']
 find-duplicate-subtrees,Medium,652,['golang'],"['Hash Table', 'Tree', 'Depth-First Search', 'Binary Tree']"
 maximum-length-of-repeated-subarray,Medium,718,['golang'],"['Array', 'Binary Search', 'Dynamic Programming', 'Sliding Window', 'Rolling Hash', 'Hash Function']"
 string-compression,Medium,443,['golang'],"['Two Pointers', 'String']"
+maximum-number-of-integers-to-choose-from-a-range-i,Medium,2554,['golang'],"['Array', 'Hash Table', 'Binary Search', 'Greedy', 'Sorting']"
+maximize-win-from-two-segments,Medium,2555,['golang'],"['Array', 'Binary Search', 'Sliding Window']"

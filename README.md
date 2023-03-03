@@ -91,7 +91,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 370
+Problems solved in total: 372
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -469,6 +469,8 @@ Problems solved in total: 370
 | [652. Find duplicate subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | Medium | [golang](/leetcode/find-duplicate-subtrees/find-duplicate-subtrees.go)  |
 | [718. Maximum length of repeated subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | Medium | [golang](/leetcode/maximum-length-of-repeated-subarray/maximum-length-of-repeated-subarray.go)  |
 | [443. String compression](https://leetcode.com/problems/string-compression/) | Medium | [golang](/leetcode/string-compression/string-compression.go)  |
+| [2554. Maximum number of integers to choose from a range i](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | Medium | [golang](/leetcode/maximum-number-of-integers-to-choose-from-a-range-i/maximum-number-of-integers-to-choose-from-a-range-i.go)  |
+| [2555. Maximize win from two segments](https://leetcode.com/problems/maximize-win-from-two-segments/) | Medium | [golang](/leetcode/maximize-win-from-two-segments/maximize-win-from-two-segments.go)  |
 
 
 ## adventofcode/2022
