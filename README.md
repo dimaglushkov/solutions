@@ -87,11 +87,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | 3761 / 22683 | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
 | [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | 6411 / 21701 | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
 | [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | 833 / 10200 | [solutions](/contests/cf-round-855) | 2 mar 2023 |
+| [Leetcode Biweekly Contest 99](https://leetcode.com/contest/biweekly-contest-99) | ? / ? | [solutions](/contests/lc-biweekly-99) | 4 mar 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 373
+Problems solved in total: 376
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -472,6 +473,9 @@ Problems solved in total: 373
 | [2554. Maximum number of integers to choose from a range i](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | Medium | [golang](/leetcode/maximum-number-of-integers-to-choose-from-a-range-i/maximum-number-of-integers-to-choose-from-a-range-i.go)  |
 | [2555. Maximize win from two segments](https://leetcode.com/problems/maximize-win-from-two-segments/) | Medium | [golang](/leetcode/maximize-win-from-two-segments/maximize-win-from-two-segments.go)  |
 | [2444. Count subarrays with fixed bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [golang](/leetcode/count-subarrays-with-fixed-bounds/count-subarrays-with-fixed-bounds.go)  |
+| [2578. Split with minimum sum](https://leetcode.com/problems/split-with-minimum-sum/) | Easy | [golang](/leetcode/split-with-minimum-sum/split-with-minimum-sum.go)  |
+| [2579. Count total number of colored cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | Medium | [golang](/leetcode/count-total-number-of-colored-cells/count-total-number-of-colored-cells.go)  |
+| [2580. Count ways to group overlapping ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/) | Medium | [golang](/leetcode/count-ways-to-group-overlapping-ranges/count-ways-to-group-overlapping-ranges.go)  |
 
 
 ## adventofcode/2022

@@ -372,3 +372,6 @@ string-compression,Medium,443,['golang'],"['Two Pointers', 'String']"
 maximum-number-of-integers-to-choose-from-a-range-i,Medium,2554,['golang'],"['Array', 'Hash Table', 'Binary Search', 'Greedy', 'Sorting']"
 maximize-win-from-two-segments,Medium,2555,['golang'],"['Array', 'Binary Search', 'Sliding Window']"
 count-subarrays-with-fixed-bounds,Hard,2444,['golang'],"['Array', 'Queue', 'Sliding Window', 'Monotonic Queue']"
+split-with-minimum-sum,Easy,2578,['golang'],[]
+count-total-number-of-colored-cells,Medium,2579,['golang'],[]
+count-ways-to-group-overlapping-ranges,Medium,2580,['golang'],[]

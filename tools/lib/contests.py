@@ -11,7 +11,7 @@ TEMPLATES_DIR = shared.get_templates_dir()
 LANG_SPECS = shared.get_lang_specs()
 CF_NUM_OF_PROBLEMS = 8
 DATE_FORMAT = "%-d %b %Y"
-USERNAME_ENV = "CONTEST_USERNAME" # using env variable to possible make it work with github actions
+USERNAME_ENV = "CONTEST_USERNAME"  # using env variable to possible make it work with github actions
 DEFAULT_USERNAME = "dimaglushkov"
 
 
@@ -171,8 +171,19 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
         )
 
 
-def _post_leetcode():
+def _post_leetcode(url, sol_dir):
     raise RuntimeError("Not implemented")
+    #
+    # ok, questions = _lc_get_contest_meta(contest_url=url)
+    # if not ok:
+    #     print("Not OK response for contest meta")
+    #     return
+
+
+    # for q in questions:
+    #     x = leetcode.get_slug_data(q)
+    #     pass
+
 
 
 def _gen_stats_json(sol_dir: str, platform: str, data: dict):
@@ -355,4 +366,4 @@ def post(vals: list, handle: str, sol_dir: str):
     if "codeforces" in url:
         _post_codeforces(url, handle, sol_dir)
     elif "leetcode" in url:
-        _post_leetcode()
+        _post_leetcode(url, sol_dir)
