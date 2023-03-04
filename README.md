@@ -88,6 +88,7 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | 6411 / 21701 | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
 | [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | 833 / 10200 | [solutions](/contests/cf-round-855) | 2 mar 2023 |
 | [Leetcode Biweekly Contest 99](https://leetcode.com/contest/biweekly-contest-99) | ? / ? | [solutions](/contests/lc-biweekly-99) | 4 mar 2023 |
+| [Codeforces Round 856 (Div. 2)](https://codeforces.com/contests/1794) | ? / ? | [solutions](/contests/cf-round-856) | 4 mar 2023 |
 
 
 ## leetcode
@@ -505,7 +506,7 @@ Problems solved in total: 376
 
 ## codeforces
 
-Problems solved in total: 89
+Problems solved in total: 92
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -602,6 +603,9 @@ Problems solved in total: 89
 | [1800D. Remove Two Letters](https://codeforces.com/contest/1800/problem/D) | [golang](/codeforces/1800D/1800D.go) |  | data structures, hashing, strings |
 | [1800E1. Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [golang](/codeforces/1800E1/1800E1.go) |  | brute force, constructive algorithms |
 | [1800E2. Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [golang](/codeforces/1800E2/1800E2.go) |  | brute force, constructive algorithms |
+| [1794A. Prefix and Suffix Array](https://codeforces.com/contest/1794/problem/A) | [golang](/codeforces/1794A/1794A.go) |  |  |
+| [1794B. Not Dividing](https://codeforces.com/contest/1794/problem/B) | [golang](/codeforces/1794B/1794B.go) |  |  |
+| [1794C. Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [golang](/codeforces/1794C/1794C.go) |  |  |
 
 
 ## acm.timus

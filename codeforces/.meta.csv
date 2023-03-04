@@ -88,3 +88,6 @@ id,name,contest,problem,difficulty,tags,lang
 1800D,Remove Two Letters,1800,D,,"['data structures', 'hashing', 'strings']",['golang']
 1800E1,Unforgivable Curse (easy version),1800,E1,,"['brute force', 'constructive algorithms']",['golang']
 1800E2,Unforgivable Curse (hard version),1800,E2,,"['brute force', 'constructive algorithms']",['golang']
+1794A,Prefix and Suffix Array,1794,A,,[],"['golang', 'golang']"
+1794B,Not Dividing,1794,B,,[],['golang']
+1794C,Scoring Subsequences,1794,C,,[],['golang']
