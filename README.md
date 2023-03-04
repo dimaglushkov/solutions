@@ -86,12 +86,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Weekly Contest 332](https://leetcode.com/contest/weekly-contest-332) | 1633 / 24102 | [solutions](/contests/lc-weekly-332) | 12 feb 2023 |
 | [Leetcode Biweekly Contest 98](https://leetcode.com/contest/biweekly-contest-98) | 3761 / 22683 | [solutions](/contests/lc-biweekly-98) | 18 feb 2023 |
 | [Leetcode Weekly Contest 333](https://leetcode.com/contest/weekly-contest-333) | 6411 / 21701 | [solutions](/contests/lc-weekly-333) | 19 feb 2023 |
-| [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | 994 / 10200 | [solutions](/contests/cf-round-855) | 2 mar 2023 |
+| [Codeforces Round #855 (Div. 3)](https://codeforces.com/contests/1800) | 833 / 10200 | [solutions](/contests/cf-round-855) | 2 mar 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 372
+Problems solved in total: 373
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -471,6 +471,7 @@ Problems solved in total: 372
 | [443. String compression](https://leetcode.com/problems/string-compression/) | Medium | [golang](/leetcode/string-compression/string-compression.go)  |
 | [2554. Maximum number of integers to choose from a range i](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | Medium | [golang](/leetcode/maximum-number-of-integers-to-choose-from-a-range-i/maximum-number-of-integers-to-choose-from-a-range-i.go)  |
 | [2555. Maximize win from two segments](https://leetcode.com/problems/maximize-win-from-two-segments/) | Medium | [golang](/leetcode/maximize-win-from-two-segments/maximize-win-from-two-segments.go)  |
+| [2444. Count subarrays with fixed bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [golang](/leetcode/count-subarrays-with-fixed-bounds/count-subarrays-with-fixed-bounds.go)  |
 
 
 ## adventofcode/2022

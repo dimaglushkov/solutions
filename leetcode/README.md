@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 372
+Problems solved in total: 373
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -380,3 +380,4 @@ Problems solved in total: 372
 | [443. String compression](https://leetcode.com/problems/string-compression/) | Medium | [golang](/leetcode/string-compression/string-compression.go)  |
 | [2554. Maximum number of integers to choose from a range i](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | Medium | [golang](/leetcode/maximum-number-of-integers-to-choose-from-a-range-i/maximum-number-of-integers-to-choose-from-a-range-i.go)  |
 | [2555. Maximize win from two segments](https://leetcode.com/problems/maximize-win-from-two-segments/) | Medium | [golang](/leetcode/maximize-win-from-two-segments/maximize-win-from-two-segments.go)  |
+| [2444. Count subarrays with fixed bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) | Hard | [golang](/leetcode/count-subarrays-with-fixed-bounds/count-subarrays-with-fixed-bounds.go)  |
