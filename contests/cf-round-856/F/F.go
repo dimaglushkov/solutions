@@ -106,5 +106,6 @@ func main() {
 
 // source: https://codeforces.com/contest/1794/problem/F
 func solve() {
-
+    x := _readInt()
+    _ = x
 }

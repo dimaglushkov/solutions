@@ -30,7 +30,11 @@ def _cf_get_contest_meta(url: str) -> dict:
     if name == "":
         raise ValueError(f"Couldn't find contest with id {idx}")
 
-    ext_id = name.split("#")[1].split(" ")[0]
+    ext_id = ""
+    if "#" in name:
+        ext_id = name.split("#")[1].split(" ")[0]
+    else:
+        ext_id = name.split("Round ")[1].split(" ")[0]
 
     res["name"] = name
     res["ext_id"] = ext_id

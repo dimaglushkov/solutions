@@ -9,20 +9,6 @@ import (
 
 var in, out = bufio.NewReader(os.Stdin), bufio.NewWriter(os.Stdout)
 
-// source: _
-func solve() {
-
-}
-
-func main() {
-	defer out.Flush()
-	var t int
-	for fmt.Fscanln(in, &t); t > 0; t-- {
-		solve()
-	}
-}
-
-// ====
 func _readInt() int {
 	var x int
 	fmt.Fscan(in, &x)
@@ -48,6 +34,18 @@ func _readArr(x ...int) (int, []int) {
 }
 func _print(x ...any) {
 	fmt.Fprintln(out, x...)
+}
+func _printArr(x []any) {
+	for _, v := range x {
+		fmt.Fprint(out, v, " ")
+	}
+	fmt.Fprintln(out)
+}
+func _yes() {
+	fmt.Println("YES")
+}
+func _no() {
+	fmt.Println("NO")
 }
 func _max(x ...int) int {
 	mi := 0
@@ -107,4 +105,17 @@ func _makeMatrix(n, m int) [][]int {
 		x[i] = make([]int, m)
 	}
 	return x
+}
+
+func main() {
+	defer out.Flush()
+	var t int
+	for fmt.Fscanln(in, &t); t > 0; t-- {
+		solve()
+	}
+}
+
+// source: _
+func solve() {
+
 }
