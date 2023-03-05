@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 376
+Problems solved in total: 377
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -384,3 +384,4 @@ Problems solved in total: 376
 | [2578. Split with minimum sum](https://leetcode.com/problems/split-with-minimum-sum/) | Easy | [golang](/leetcode/split-with-minimum-sum/split-with-minimum-sum.go)  |
 | [2579. Count total number of colored cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | Medium | [golang](/leetcode/count-total-number-of-colored-cells/count-total-number-of-colored-cells.go)  |
 | [2580. Count ways to group overlapping ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/) | Medium | [golang](/leetcode/count-ways-to-group-overlapping-ranges/count-ways-to-group-overlapping-ranges.go)  |
+| [1345. Jump game iv](https://leetcode.com/problems/jump-game-iv/) | Hard | [golang](/leetcode/jump-game-iv/jump-game-iv.go)  |
