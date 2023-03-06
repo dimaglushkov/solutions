@@ -376,3 +376,4 @@ split-with-minimum-sum,Easy,2578,['golang'],[]
 count-total-number-of-colored-cells,Medium,2579,['golang'],[]
 count-ways-to-group-overlapping-ranges,Medium,2580,['golang'],[]
 jump-game-iv,Hard,1345,['golang'],"['Array', 'Hash Table', 'Breadth-First Search']"
+kth-missing-positive-number,Easy,1539,['golang'],"['Array', 'Binary Search']"

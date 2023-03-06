@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 377
+Problems solved in total: 378
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -385,3 +385,4 @@ Problems solved in total: 377
 | [2579. Count total number of colored cells](https://leetcode.com/problems/count-total-number-of-colored-cells/) | Medium | [golang](/leetcode/count-total-number-of-colored-cells/count-total-number-of-colored-cells.go)  |
 | [2580. Count ways to group overlapping ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/) | Medium | [golang](/leetcode/count-ways-to-group-overlapping-ranges/count-ways-to-group-overlapping-ranges.go)  |
 | [1345. Jump game iv](https://leetcode.com/problems/jump-game-iv/) | Hard | [golang](/leetcode/jump-game-iv/jump-game-iv.go)  |
+| [1539. Kth missing positive number](https://leetcode.com/problems/kth-missing-positive-number/) | Easy | [golang](/leetcode/kth-missing-positive-number/kth-missing-positive-number.go)  |
