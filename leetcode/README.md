@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 381
+Problems solved in total: 383
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -389,3 +389,5 @@ Problems solved in total: 381
 | [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [golang](/leetcode/koko-eating-bananas/koko-eating-bananas.go)  |
 | [2187. Minimum time to complete trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) | Medium | [golang](/leetcode/minimum-time-to-complete-trips/minimum-time-to-complete-trips.go)  |
 | [724. Find pivot index](https://leetcode.com/problems/find-pivot-index/) | Easy | [golang](/leetcode/find-pivot-index/find-pivot-index.go)  |
+| [74. Search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [golang](/leetcode/search-a-2d-matrix/search-a-2d-matrix.go)  |
+| [240. Search a 2d matrix ii](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [golang](/leetcode/search-a-2d-matrix-ii/search-a-2d-matrix-ii.go)  |
