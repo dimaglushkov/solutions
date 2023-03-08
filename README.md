@@ -93,7 +93,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 378
+Problems solved in total: 380
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -479,6 +479,8 @@ Problems solved in total: 378
 | [2580. Count ways to group overlapping ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/) | Medium | [golang](/leetcode/count-ways-to-group-overlapping-ranges/count-ways-to-group-overlapping-ranges.go)  |
 | [1345. Jump game iv](https://leetcode.com/problems/jump-game-iv/) | Hard | [golang](/leetcode/jump-game-iv/jump-game-iv.go)  |
 | [1539. Kth missing positive number](https://leetcode.com/problems/kth-missing-positive-number/) | Easy | [golang](/leetcode/kth-missing-positive-number/kth-missing-positive-number.go)  |
+| [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [golang](/leetcode/koko-eating-bananas/koko-eating-bananas.go)  |
+| [2187. Minimum time to complete trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) | Medium | [golang](/leetcode/minimum-time-to-complete-trips/minimum-time-to-complete-trips.go)  |
 
 
 ## adventofcode/2022
