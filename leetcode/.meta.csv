@@ -379,3 +379,4 @@ jump-game-iv,Hard,1345,['golang'],"['Array', 'Hash Table', 'Breadth-First Search
 kth-missing-positive-number,Easy,1539,['golang'],"['Array', 'Binary Search']"
 koko-eating-bananas,Medium,875,['golang'],"['Array', 'Binary Search']"
 minimum-time-to-complete-trips,Medium,2187,['golang'],"['Array', 'Binary Search']"
+find-pivot-index,Easy,724,['golang'],"['Array', 'Prefix Sum']"

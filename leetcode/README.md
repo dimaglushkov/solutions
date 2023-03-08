@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 380
+Problems solved in total: 381
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -388,3 +388,4 @@ Problems solved in total: 380
 | [1539. Kth missing positive number](https://leetcode.com/problems/kth-missing-positive-number/) | Easy | [golang](/leetcode/kth-missing-positive-number/kth-missing-positive-number.go)  |
 | [875. Koko eating bananas](https://leetcode.com/problems/koko-eating-bananas/) | Medium | [golang](/leetcode/koko-eating-bananas/koko-eating-bananas.go)  |
 | [2187. Minimum time to complete trips](https://leetcode.com/problems/minimum-time-to-complete-trips/) | Medium | [golang](/leetcode/minimum-time-to-complete-trips/minimum-time-to-complete-trips.go)  |
+| [724. Find pivot index](https://leetcode.com/problems/find-pivot-index/) | Easy | [golang](/leetcode/find-pivot-index/find-pivot-index.go)  |
