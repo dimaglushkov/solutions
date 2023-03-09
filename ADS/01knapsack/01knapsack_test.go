@@ -8,7 +8,7 @@ import (
 	knapsack "github.com/dimaglushkov/solutions/ADS/01knapsack"
 )
 
-func TestKnapsack(t *testing.T) {
+func TestSelectSum(t *testing.T) {
 	testcases := []struct {
 		arr  []int
 		sum  int
@@ -42,7 +42,28 @@ func TestKnapsack(t *testing.T) {
 	}
 
 	for i, tc := range testcases {
-		res := knapsack.Knapsack(tc.arr, tc.sum)
+		res := knapsack.SelectSum(tc.arr, tc.sum)
+		require.Equal(t, tc.want, res, "Test #%d", i+1)
+	}
+}
+
+func TestKnapsack(t *testing.T) {
+	testcases := []struct {
+		c    int
+		w    []int
+		v    []int
+		want int
+	}{
+		{
+			c:    50,
+			w:    []int{10, 20, 30},
+			v:    []int{60, 100, 120},
+			want: 220,
+		},
+	}
+
+	for i, tc := range testcases {
+		res := knapsack.Knapsack(tc.c, tc.w, tc.v)
 		require.Equal(t, tc.want, res, "Test #%d", i+1)
 	}
 }
