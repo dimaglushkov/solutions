@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 383
+Problems solved in total: 384
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -391,3 +391,4 @@ Problems solved in total: 383
 | [724. Find pivot index](https://leetcode.com/problems/find-pivot-index/) | Easy | [golang](/leetcode/find-pivot-index/find-pivot-index.go)  |
 | [74. Search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [golang](/leetcode/search-a-2d-matrix/search-a-2d-matrix.go)  |
 | [240. Search a 2d matrix ii](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [golang](/leetcode/search-a-2d-matrix-ii/search-a-2d-matrix-ii.go)  |
+| [142. Linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [golang](/leetcode/linked-list-cycle-ii/linked-list-cycle-ii.go)  |
