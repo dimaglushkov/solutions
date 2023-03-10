@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 384
+Problems solved in total: 385
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -392,3 +392,4 @@ Problems solved in total: 384
 | [74. Search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/) | Medium | [golang](/leetcode/search-a-2d-matrix/search-a-2d-matrix.go)  |
 | [240. Search a 2d matrix ii](https://leetcode.com/problems/search-a-2d-matrix-ii/) | Medium | [golang](/leetcode/search-a-2d-matrix-ii/search-a-2d-matrix-ii.go)  |
 | [142. Linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [golang](/leetcode/linked-list-cycle-ii/linked-list-cycle-ii.go)  |
+| [382. Linked list random node](https://leetcode.com/problems/linked-list-random-node/) | Medium | [golang](/leetcode/linked-list-random-node/linked-list-random-node.go)  |
