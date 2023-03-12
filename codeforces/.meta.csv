@@ -91,3 +91,5 @@ id,name,contest,problem,difficulty,tags,lang
 1794A,Prefix and Suffix Array,1794,A,,[],"['golang', 'golang']"
 1794B,Not Dividing,1794,B,,[],['golang']
 1794C,Scoring Subsequences,1794,C,,[],['golang']
+1804A,Lame King,1804,A,,"['greedy', 'math']","['golang', 'golang', 'golang']"
+1804B,Vaccination,1804,B,,"['greedy', 'implementation']",['golang']
