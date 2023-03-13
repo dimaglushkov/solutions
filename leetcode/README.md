@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 386
+Problems solved in total: 388
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -394,3 +394,5 @@ Problems solved in total: 386
 | [142. Linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [golang](/leetcode/linked-list-cycle-ii/linked-list-cycle-ii.go)  |
 | [382. Linked list random node](https://leetcode.com/problems/linked-list-random-node/) | Medium | [golang](/leetcode/linked-list-random-node/linked-list-random-node.go)  |
 | [109. Convert sorted list to binary search tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Medium | [golang](/leetcode/convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.go)  |
+| [1122. Relative sort array](https://leetcode.com/problems/relative-sort-array/) | Easy | [golang](/leetcode/relative-sort-array/relative-sort-array.go)  |
+| [589. N ary tree preorder traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Easy | [golang](/leetcode/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.go)  |
