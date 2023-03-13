@@ -387,3 +387,5 @@ linked-list-random-node,Medium,382,['golang'],"['Linked List', 'Math', 'Reservoi
 convert-sorted-list-to-binary-search-tree,Medium,109,['golang'],"['Linked List', 'Divide and Conquer', 'Tree', 'Binary Search Tree', 'Binary Tree']"
 relative-sort-array,Easy,1122,['golang'],"['Array', 'Hash Table', 'Sorting', 'Counting Sort']"
 n-ary-tree-preorder-traversal,Easy,589,['golang'],"['Stack', 'Tree', 'Depth-First Search']"
+lexicographical-numbers,Medium,386,['golang'],"['Depth-First Search', 'Trie']"
+height-checker,Easy,1051,['golang'],"['Array', 'Sorting', 'Counting Sort']"

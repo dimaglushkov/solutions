@@ -93,7 +93,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 388
+Problems solved in total: 390
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -489,6 +489,8 @@ Problems solved in total: 388
 | [109. Convert sorted list to binary search tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Medium | [golang](/leetcode/convert-sorted-list-to-binary-search-tree/convert-sorted-list-to-binary-search-tree.go)  |
 | [1122. Relative sort array](https://leetcode.com/problems/relative-sort-array/) | Easy | [golang](/leetcode/relative-sort-array/relative-sort-array.go)  |
 | [589. N ary tree preorder traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | Easy | [golang](/leetcode/n-ary-tree-preorder-traversal/n-ary-tree-preorder-traversal.go)  |
+| [386. Lexicographical numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [golang](/leetcode/lexicographical-numbers/lexicographical-numbers.go)  |
+| [1051. Height checker](https://leetcode.com/problems/height-checker/) | Easy | [golang](/leetcode/height-checker/height-checker.go)  |
 
 
 ## adventofcode/2022
