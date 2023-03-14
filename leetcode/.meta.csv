@@ -389,3 +389,4 @@ relative-sort-array,Easy,1122,['golang'],"['Array', 'Hash Table', 'Sorting', 'Co
 n-ary-tree-preorder-traversal,Easy,589,['golang'],"['Stack', 'Tree', 'Depth-First Search']"
 lexicographical-numbers,Medium,386,['golang'],"['Depth-First Search', 'Trie']"
 height-checker,Easy,1051,['golang'],"['Array', 'Sorting', 'Counting Sort']"
+sum-root-to-leaf-numbers,Medium,129,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
