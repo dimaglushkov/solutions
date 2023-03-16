@@ -93,7 +93,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 391
+Problems solved in total: 395
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -492,6 +492,10 @@ Problems solved in total: 391
 | [386. Lexicographical numbers](https://leetcode.com/problems/lexicographical-numbers/) | Medium | [golang](/leetcode/lexicographical-numbers/lexicographical-numbers.go)  |
 | [1051. Height checker](https://leetcode.com/problems/height-checker/) | Easy | [golang](/leetcode/height-checker/height-checker.go)  |
 | [129. Sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [golang](/leetcode/sum-root-to-leaf-numbers/sum-root-to-leaf-numbers.go)  |
+| [958. Check completeness of a binary tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | Medium | [golang](/leetcode/check-completeness-of-a-binary-tree/check-completeness-of-a-binary-tree.go)  |
+| [49. Group anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [golang](/leetcode/group-anagrams/group-anagrams.go)  |
+| [50. Powx n](https://leetcode.com/problems/powx-n/) | Medium | [golang](/leetcode/powx-n/powx-n.go)  |
+| [106. Construct binary tree from inorder and postorder traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [golang](/leetcode/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.go)  |
 
 
 ## adventofcode/2022

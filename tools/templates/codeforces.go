@@ -35,7 +35,13 @@ func _readArr(x ...int) (int, []int) {
 func _print(x ...any) {
 	fmt.Fprintln(out, x...)
 }
-func _printArr(x []any) {
+func _printIntArr(x []int) {
+	for _, v := range x {
+		fmt.Fprint(out, v, " ")
+	}
+	fmt.Fprintln(out)
+}
+func _printStrArr(x []string) {
 	for _, v := range x {
 		fmt.Fprint(out, v, " ")
 	}
@@ -108,11 +114,11 @@ func _makeMatrix(n, m int) [][]int {
 }
 
 func main() {
-	defer out.Flush()
 	var t int
 	for fmt.Fscanln(in, &t); t > 0; t-- {
 		solve()
 	}
+	out.Flush()
 }
 
 // source: _

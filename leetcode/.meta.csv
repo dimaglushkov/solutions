@@ -390,3 +390,7 @@ n-ary-tree-preorder-traversal,Easy,589,['golang'],"['Stack', 'Tree', 'Depth-Firs
 lexicographical-numbers,Medium,386,['golang'],"['Depth-First Search', 'Trie']"
 height-checker,Easy,1051,['golang'],"['Array', 'Sorting', 'Counting Sort']"
 sum-root-to-leaf-numbers,Medium,129,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
+check-completeness-of-a-binary-tree,Medium,958,['golang'],"['Tree', 'Breadth-First Search', 'Binary Tree']"
+group-anagrams,Medium,49,['golang'],"['Array', 'Hash Table', 'String', 'Sorting']"
+powx-n,Medium,50,['golang'],"['Math', 'Recursion']"
+construct-binary-tree-from-inorder-and-postorder-traversal,Medium,106,['golang'],"['Array', 'Hash Table', 'Divide and Conquer', 'Tree', 'Binary Tree']"
