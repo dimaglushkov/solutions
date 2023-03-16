@@ -394,3 +394,8 @@ check-completeness-of-a-binary-tree,Medium,958,['golang'],"['Tree', 'Breadth-Fir
 group-anagrams,Medium,49,['golang'],"['Array', 'Hash Table', 'String', 'Sorting']"
 powx-n,Medium,50,['golang'],"['Math', 'Recursion']"
 construct-binary-tree-from-inorder-and-postorder-traversal,Medium,106,['golang'],"['Array', 'Hash Table', 'Divide and Conquer', 'Tree', 'Binary Tree']"
+set-matrix-zeroes,Medium,73,['golang'],"['Array', 'Hash Table', 'Matrix']"
+construct-binary-tree-from-preorder-and-inorder-traversal,Medium,105,['golang'],"['Array', 'Hash Table', 'Divide and Conquer', 'Tree', 'Binary Tree']"
+populating-next-right-pointers-in-each-node,Medium,116,['golang'],"['Linked List', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+best-time-to-buy-and-sell-stock-ii,Medium,122,['golang'],"['Array', 'Dynamic Programming', 'Greedy']"
+surrounded-regions,Medium,130,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"

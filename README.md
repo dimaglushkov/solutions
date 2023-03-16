@@ -93,7 +93,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 395
+Problems solved in total: 400
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -496,6 +496,11 @@ Problems solved in total: 395
 | [49. Group anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [golang](/leetcode/group-anagrams/group-anagrams.go)  |
 | [50. Powx n](https://leetcode.com/problems/powx-n/) | Medium | [golang](/leetcode/powx-n/powx-n.go)  |
 | [106. Construct binary tree from inorder and postorder traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [golang](/leetcode/construct-binary-tree-from-inorder-and-postorder-traversal/construct-binary-tree-from-inorder-and-postorder-traversal.go)  |
+| [73. Set matrix zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [golang](/leetcode/set-matrix-zeroes/set-matrix-zeroes.go)  |
+| [105. Construct binary tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [golang](/leetcode/construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.go)  |
+| [116. Populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Medium | [golang](/leetcode/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.go)  |
+| [122. Best time to buy and sell stock ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [golang](/leetcode/best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.go)  |
+| [130. Surrounded regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [golang](/leetcode/surrounded-regions/surrounded-regions.go)  |
 
 
 ## adventofcode/2022
