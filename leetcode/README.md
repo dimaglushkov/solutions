@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 402
+Problems solved in total: 405
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -410,3 +410,6 @@ Problems solved in total: 402
 | [130. Surrounded regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [golang](/leetcode/surrounded-regions/surrounded-regions.go)  |
 | [1472. Design browser history](https://leetcode.com/problems/design-browser-history/) | Medium | [golang](/leetcode/design-browser-history/design-browser-history.go)  |
 | [746. Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [golang](/leetcode/min-cost-climbing-stairs/min-cost-climbing-stairs.go)  |
+| [2591. Distribute money to maximum children](https://leetcode.com/problems/distribute-money-to-maximum-children/) | Easy | [golang](/leetcode/distribute-money-to-maximum-children/distribute-money-to-maximum-children.go)  |
+| [2592. Maximize greatness of an array](https://leetcode.com/problems/maximize-greatness-of-an-array/) | Medium | [golang](/leetcode/maximize-greatness-of-an-array/maximize-greatness-of-an-array.go)  |
+| [2594. Minimum time to repair cars](https://leetcode.com/problems/minimum-time-to-repair-cars/) | Medium | [golang](/leetcode/minimum-time-to-repair-cars/minimum-time-to-repair-cars.go)  |
