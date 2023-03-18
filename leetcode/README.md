@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 400
+Problems solved in total: 402
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -408,3 +408,5 @@ Problems solved in total: 400
 | [116. Populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Medium | [golang](/leetcode/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.go)  |
 | [122. Best time to buy and sell stock ii](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [golang](/leetcode/best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.go)  |
 | [130. Surrounded regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [golang](/leetcode/surrounded-regions/surrounded-regions.go)  |
+| [1472. Design browser history](https://leetcode.com/problems/design-browser-history/) | Medium | [golang](/leetcode/design-browser-history/design-browser-history.go)  |
+| [746. Min cost climbing stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [golang](/leetcode/min-cost-climbing-stairs/min-cost-climbing-stairs.go)  |

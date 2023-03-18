@@ -399,3 +399,5 @@ construct-binary-tree-from-preorder-and-inorder-traversal,Medium,105,['golang'],
 populating-next-right-pointers-in-each-node,Medium,116,['golang'],"['Linked List', 'Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 best-time-to-buy-and-sell-stock-ii,Medium,122,['golang'],"['Array', 'Dynamic Programming', 'Greedy']"
 surrounded-regions,Medium,130,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"
+design-browser-history,Medium,1472,['golang'],"['Array', 'Linked List', 'Stack', 'Design', 'Doubly-Linked List', 'Data Stream']"
+min-cost-climbing-stairs,Easy,746,['golang'],"['Array', 'Dynamic Programming']"
