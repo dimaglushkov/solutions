@@ -406,3 +406,7 @@ maximize-greatness-of-an-array,Medium,2592,['golang'],[]
 minimum-time-to-repair-cars,Medium,2594,['golang'],[]
 can-place-flowers,Easy,605,['golang'],"['Array', 'Greedy']"
 number-of-zero-filled-subarrays,Medium,2348,['python'],"['Array', 'Math']"
+nim-game,Easy,292,['golang'],"['Math', 'Brainteaser', 'Game Theory']"
+range-sum-query-immutable,Easy,303,['golang'],"['Array', 'Design', 'Prefix Sum']"
+hamming-distance,Easy,461,['golang'],['Bit Manipulation']
+assign-cookies,Easy,455,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"

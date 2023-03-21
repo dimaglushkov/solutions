@@ -94,7 +94,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 407
+Problems solved in total: 411
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -509,6 +509,10 @@ Problems solved in total: 407
 | [2594. Minimum time to repair cars](https://leetcode.com/problems/minimum-time-to-repair-cars/) | Medium | [golang](/leetcode/minimum-time-to-repair-cars/minimum-time-to-repair-cars.go)  |
 | [605. Can place flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [golang](/leetcode/can-place-flowers/can-place-flowers.go)  |
 | [2348. Number of zero filled subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | [python](/leetcode/number-of-zero-filled-subarrays/number-of-zero-filled-subarrays.py)  |
+| [292. Nim game](https://leetcode.com/problems/nim-game/) | Easy | [golang](/leetcode/nim-game/nim-game.go)  |
+| [303. Range sum query immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | [golang](/leetcode/range-sum-query-immutable/range-sum-query-immutable.go)  |
+| [461. Hamming distance](https://leetcode.com/problems/hamming-distance/) | Easy | [golang](/leetcode/hamming-distance/hamming-distance.go)  |
+| [455. Assign cookies](https://leetcode.com/problems/assign-cookies/) | Easy | [golang](/leetcode/assign-cookies/assign-cookies.go)  |
 
 
 ## adventofcode/2022
