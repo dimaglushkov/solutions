@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 405
+Problems solved in total: 407
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -413,3 +413,5 @@ Problems solved in total: 405
 | [2591. Distribute money to maximum children](https://leetcode.com/problems/distribute-money-to-maximum-children/) | Easy | [golang](/leetcode/distribute-money-to-maximum-children/distribute-money-to-maximum-children.go)  |
 | [2592. Maximize greatness of an array](https://leetcode.com/problems/maximize-greatness-of-an-array/) | Medium | [golang](/leetcode/maximize-greatness-of-an-array/maximize-greatness-of-an-array.go)  |
 | [2594. Minimum time to repair cars](https://leetcode.com/problems/minimum-time-to-repair-cars/) | Medium | [golang](/leetcode/minimum-time-to-repair-cars/minimum-time-to-repair-cars.go)  |
+| [605. Can place flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | [golang](/leetcode/can-place-flowers/can-place-flowers.go)  |
+| [2348. Number of zero filled subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | Medium | [python](/leetcode/number-of-zero-filled-subarrays/number-of-zero-filled-subarrays.py)  |

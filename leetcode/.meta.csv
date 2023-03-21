@@ -404,3 +404,5 @@ min-cost-climbing-stairs,Easy,746,['golang'],"['Array', 'Dynamic Programming']"
 distribute-money-to-maximum-children,Easy,2591,['golang'],[]
 maximize-greatness-of-an-array,Medium,2592,['golang'],[]
 minimum-time-to-repair-cars,Medium,2594,['golang'],[]
+can-place-flowers,Easy,605,['golang'],"['Array', 'Greedy']"
+number-of-zero-filled-subarrays,Medium,2348,['python'],"['Array', 'Math']"
