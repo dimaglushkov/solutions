@@ -410,3 +410,5 @@ nim-game,Easy,292,['golang'],"['Math', 'Brainteaser', 'Game Theory']"
 range-sum-query-immutable,Easy,303,['golang'],"['Array', 'Design', 'Prefix Sum']"
 hamming-distance,Easy,461,['golang'],['Bit Manipulation']
 assign-cookies,Easy,455,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"
+number-of-operations-to-make-network-connected,Medium,1319,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
+reorder-routes-to-make-all-paths-lead-to-the-city-zero,Medium,1466,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Graph']"

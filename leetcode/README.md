@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 411
+Problems solved in total: 413
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -419,3 +419,5 @@ Problems solved in total: 411
 | [303. Range sum query immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Easy | [golang](/leetcode/range-sum-query-immutable/range-sum-query-immutable.go)  |
 | [461. Hamming distance](https://leetcode.com/problems/hamming-distance/) | Easy | [golang](/leetcode/hamming-distance/hamming-distance.go)  |
 | [455. Assign cookies](https://leetcode.com/problems/assign-cookies/) | Easy | [golang](/leetcode/assign-cookies/assign-cookies.go)  |
+| [1319. Number of operations to make network connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | Medium | [golang](/leetcode/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)  |
+| [1466. Reorder routes to make all paths lead to the city zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | [golang](/leetcode/reorder-routes-to-make-all-paths-lead-to-the-city-zero/reorder-routes-to-make-all-paths-lead-to-the-city-zero.go)  |
