@@ -645,10 +645,10 @@ Problems solved in total: 97
 | [1800D. Remove Two Letters](https://codeforces.com/contest/1800/problem/D) | [golang](/codeforces/1800D/1800D.go) |  | data structures, hashing, strings |
 | [1800E1. Unforgivable Curse (easy version)](https://codeforces.com/contest/1800/problem/E1) | [golang](/codeforces/1800E1/1800E1.go) |  | brute force, constructive algorithms |
 | [1800E2. Unforgivable Curse (hard version)](https://codeforces.com/contest/1800/problem/E2) | [golang](/codeforces/1800E2/1800E2.go) |  | brute force, constructive algorithms |
-| [1794A. Prefix and Suffix Array](https://codeforces.com/contest/1794/problem/A) | [golang](/codeforces/1794A/1794A.go), [golang](/codeforces/1794A/1794A.go) |  |  |
+| [1794A. Prefix and Suffix Array](https://codeforces.com/contest/1794/problem/A) | [golang](/codeforces/1794A/1794A.go) |  |  |
 | [1794B. Not Dividing](https://codeforces.com/contest/1794/problem/B) | [golang](/codeforces/1794B/1794B.go) |  |  |
 | [1794C. Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [golang](/codeforces/1794C/1794C.go) |  |  |
-| [1804A. Lame King](https://codeforces.com/contest/1804/problem/A) | [golang](/codeforces/1804A/1804A.go), [golang](/codeforces/1804A/1804A.go), [golang](/codeforces/1804A/1804A.go) |  | greedy, math |
+| [1804A. Lame King](https://codeforces.com/contest/1804/problem/A) | [golang](/codeforces/1804A/1804A.go) |  | greedy, math |
 | [1804B. Vaccination](https://codeforces.com/contest/1804/problem/B) | [golang](/codeforces/1804B/1804B.go) |  | greedy, implementation |
 | [1798A. Showstopper](https://codeforces.com/contest/1798/problem/A) | [golang](/codeforces/1798A/1798A.go) |  | greedy, implementation, sortings |
 | [1798B. Three Sevens](https://codeforces.com/contest/1798/problem/B) | [golang](/codeforces/1798B/1798B.go) |  | implementation |
