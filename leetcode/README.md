@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 413
+Problems solved in total: 415
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -421,3 +421,5 @@ Problems solved in total: 413
 | [455. Assign cookies](https://leetcode.com/problems/assign-cookies/) | Easy | [golang](/leetcode/assign-cookies/assign-cookies.go)  |
 | [1319. Number of operations to make network connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | Medium | [golang](/leetcode/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)  |
 | [1466. Reorder routes to make all paths lead to the city zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | [golang](/leetcode/reorder-routes-to-make-all-paths-lead-to-the-city-zero/reorder-routes-to-make-all-paths-lead-to-the-city-zero.go)  |
+| [2316. Count unreachable pairs of nodes in an undirected graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | Medium | [golang](/leetcode/count-unreachable-pairs-of-nodes-in-an-undirected-graph/count-unreachable-pairs-of-nodes-in-an-undirected-graph.go)  |
+| [2360. Longest cycle in a graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | Hard | [golang](/leetcode/longest-cycle-in-a-graph/longest-cycle-in-a-graph.go)  |

@@ -90,11 +90,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Leetcode Biweekly Contest 99](https://leetcode.com/contest/biweekly-contest-99) | 4577 / 21264 | [solutions](/contests/lc-biweekly-99) | 4 mar 2023 |
 | [Codeforces Round 856 (Div. 2)](https://codeforces.com/contests/1794) | 2389 / 8430 | [solutions](/contests/cf-round-856) | 4 mar 2023 |
 | [Leetcode Biweekly Contest 100](https://leetcode.com/contest/biweekly-contest-100) | 2856 / 22847 | [solutions](/contests/lc-biweekly-100) | 18 mar 2023 |
+| [Codeforces Round 860 (Div. 2)](https://codeforces.com/contests/1798) | 1103 / 8764 | [solutions](/contests/cf-round-860) | 26 mar 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 413
+Problems solved in total: 415
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -515,6 +516,8 @@ Problems solved in total: 413
 | [455. Assign cookies](https://leetcode.com/problems/assign-cookies/) | Easy | [golang](/leetcode/assign-cookies/assign-cookies.go)  |
 | [1319. Number of operations to make network connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | Medium | [golang](/leetcode/number-of-operations-to-make-network-connected/number-of-operations-to-make-network-connected.go)  |
 | [1466. Reorder routes to make all paths lead to the city zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium | [golang](/leetcode/reorder-routes-to-make-all-paths-lead-to-the-city-zero/reorder-routes-to-make-all-paths-lead-to-the-city-zero.go)  |
+| [2316. Count unreachable pairs of nodes in an undirected graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | Medium | [golang](/leetcode/count-unreachable-pairs-of-nodes-in-an-undirected-graph/count-unreachable-pairs-of-nodes-in-an-undirected-graph.go)  |
+| [2360. Longest cycle in a graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | Hard | [golang](/leetcode/longest-cycle-in-a-graph/longest-cycle-in-a-graph.go)  |
 
 
 ## adventofcode/2022
@@ -544,7 +547,7 @@ Problems solved in total: 413
 
 ## codeforces
 
-Problems solved in total: 94
+Problems solved in total: 97
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -646,6 +649,9 @@ Problems solved in total: 94
 | [1794C. Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [golang](/codeforces/1794C/1794C.go) |  |  |
 | [1804A. Lame King](https://codeforces.com/contest/1804/problem/A) | [golang](/codeforces/1804A/1804A.go), [golang](/codeforces/1804A/1804A.go), [golang](/codeforces/1804A/1804A.go) |  | greedy, math |
 | [1804B. Vaccination](https://codeforces.com/contest/1804/problem/B) | [golang](/codeforces/1804B/1804B.go) |  | greedy, implementation |
+| [1798A. Showstopper](https://codeforces.com/contest/1798/problem/A) | [golang](/codeforces/1798A/1798A.go) |  | greedy, implementation, sortings |
+| [1798B. Three Sevens](https://codeforces.com/contest/1798/problem/B) | [golang](/codeforces/1798B/1798B.go) |  | implementation |
+| [1798D. Shocking Arrangement](https://codeforces.com/contest/1798/problem/D) | [golang](/codeforces/1798D/1798D.go) |  | constructive algorithms, greedy, math |
 
 
 ## acm.timus

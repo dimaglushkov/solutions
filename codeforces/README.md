@@ -1,6 +1,6 @@
 ## codeforces
 
-Problems solved in total: 94
+Problems solved in total: 97
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -102,3 +102,6 @@ Problems solved in total: 94
 | [1794C. Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | [golang](/codeforces/1794C/1794C.go) |  |  |
 | [1804A. Lame King](https://codeforces.com/contest/1804/problem/A) | [golang](/codeforces/1804A/1804A.go), [golang](/codeforces/1804A/1804A.go), [golang](/codeforces/1804A/1804A.go) |  | greedy, math |
 | [1804B. Vaccination](https://codeforces.com/contest/1804/problem/B) | [golang](/codeforces/1804B/1804B.go) |  | greedy, implementation |
+| [1798A. Showstopper](https://codeforces.com/contest/1798/problem/A) | [golang](/codeforces/1798A/1798A.go) |  | greedy, implementation, sortings |
+| [1798B. Three Sevens](https://codeforces.com/contest/1798/problem/B) | [golang](/codeforces/1798B/1798B.go) |  | implementation |
+| [1798D. Shocking Arrangement](https://codeforces.com/contest/1798/problem/D) | [golang](/codeforces/1798D/1798D.go) |  | constructive algorithms, greedy, math |

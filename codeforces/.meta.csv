@@ -93,3 +93,6 @@ id,name,contest,problem,difficulty,tags,lang
 1794C,Scoring Subsequences,1794,C,,[],['golang']
 1804A,Lame King,1804,A,,"['greedy', 'math']","['golang', 'golang', 'golang']"
 1804B,Vaccination,1804,B,,"['greedy', 'implementation']",['golang']
+1798A,Showstopper,1798,A,,"['greedy', 'implementation', 'sortings']",['golang']
+1798B,Three Sevens,1798,B,,['implementation'],['golang']
+1798D,Shocking Arrangement,1798,D,,"['constructive algorithms', 'greedy', 'math']",['golang']

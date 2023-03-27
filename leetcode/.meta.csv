@@ -412,3 +412,5 @@ hamming-distance,Easy,461,['golang'],['Bit Manipulation']
 assign-cookies,Easy,455,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"
 number-of-operations-to-make-network-connected,Medium,1319,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
 reorder-routes-to-make-all-paths-lead-to-the-city-zero,Medium,1466,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Graph']"
+count-unreachable-pairs-of-nodes-in-an-undirected-graph,Medium,2316,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
+longest-cycle-in-a-graph,Hard,2360,['golang'],"['Depth-First Search', 'Graph', 'Topological Sort']"
