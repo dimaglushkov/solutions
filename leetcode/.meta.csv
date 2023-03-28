@@ -415,3 +415,4 @@ reorder-routes-to-make-all-paths-lead-to-the-city-zero,Medium,1466,['golang'],"[
 count-unreachable-pairs-of-nodes-in-an-undirected-graph,Medium,2316,['golang'],"['Depth-First Search', 'Breadth-First Search', 'Union Find', 'Graph']"
 longest-cycle-in-a-graph,Hard,2360,['golang'],"['Depth-First Search', 'Graph', 'Topological Sort']"
 minimum-path-sum,Medium,64,['golang'],"['Array', 'Dynamic Programming', 'Matrix']"
+minimum-cost-for-tickets,Medium,983,['golang'],"['Array', 'Dynamic Programming']"

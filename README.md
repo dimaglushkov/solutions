@@ -95,7 +95,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 416
+Problems solved in total: 417
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -519,6 +519,7 @@ Problems solved in total: 416
 | [2316. Count unreachable pairs of nodes in an undirected graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | Medium | [golang](/leetcode/count-unreachable-pairs-of-nodes-in-an-undirected-graph/count-unreachable-pairs-of-nodes-in-an-undirected-graph.go)  |
 | [2360. Longest cycle in a graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | Hard | [golang](/leetcode/longest-cycle-in-a-graph/longest-cycle-in-a-graph.go)  |
 | [64. Minimum path sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [golang](/leetcode/minimum-path-sum/minimum-path-sum.go)  |
+| [983. Minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [golang](/leetcode/minimum-cost-for-tickets/minimum-cost-for-tickets.go)  |
 
 
 ## adventofcode/2022
