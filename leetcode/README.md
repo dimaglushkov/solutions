@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 417
+Problems solved in total: 418
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -425,3 +425,4 @@ Problems solved in total: 417
 | [2360. Longest cycle in a graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | Hard | [golang](/leetcode/longest-cycle-in-a-graph/longest-cycle-in-a-graph.go)  |
 | [64. Minimum path sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [golang](/leetcode/minimum-path-sum/minimum-path-sum.go)  |
 | [983. Minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [golang](/leetcode/minimum-cost-for-tickets/minimum-cost-for-tickets.go)  |
+| [1402. Reducing dishes](https://leetcode.com/problems/reducing-dishes/) | Hard | [golang](/leetcode/reducing-dishes/reducing-dishes.go)  |
