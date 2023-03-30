@@ -95,7 +95,7 @@ In order to get more information consider checking [tools](https://github.com/di
 
 ## leetcode
 
-Problems solved in total: 418
+Problems solved in total: 419
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -521,6 +521,7 @@ Problems solved in total: 418
 | [64. Minimum path sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [golang](/leetcode/minimum-path-sum/minimum-path-sum.go)  |
 | [983. Minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [golang](/leetcode/minimum-cost-for-tickets/minimum-cost-for-tickets.go)  |
 | [1402. Reducing dishes](https://leetcode.com/problems/reducing-dishes/) | Hard | [golang](/leetcode/reducing-dishes/reducing-dishes.go)  |
+| [87. Scramble string](https://leetcode.com/problems/scramble-string/) | Hard | [golang](/leetcode/scramble-string/scramble-string.go)  |
 
 
 ## adventofcode/2022
