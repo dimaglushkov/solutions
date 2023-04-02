@@ -47,3 +47,4 @@
 | [Codeforces Round 856 (Div. 2)](https://codeforces.com/contests/1794) | 2389 / 8430 | [solutions](/contests/cf-round-856) | 4 mar 2023 |
 | [Leetcode Biweekly Contest 100](https://leetcode.com/contest/biweekly-contest-100) | 2856 / 22847 | [solutions](/contests/lc-biweekly-100) | 18 mar 2023 |
 | [Codeforces Round 860 (Div. 2)](https://codeforces.com/contests/1798) | 1103 / 8764 | [solutions](/contests/cf-round-860) | 26 mar 2023 |
+| [Leetcode Biweekly Contest 101](https://leetcode.com/contest/biweekly-contest-101) | ? / ? | [solutions](/contests/lc-biweekly-101) | 1 apr 2023 |

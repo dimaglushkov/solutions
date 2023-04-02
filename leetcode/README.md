@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 419
+Problems solved in total: 421
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -427,3 +427,5 @@ Problems solved in total: 419
 | [983. Minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [golang](/leetcode/minimum-cost-for-tickets/minimum-cost-for-tickets.go)  |
 | [1402. Reducing dishes](https://leetcode.com/problems/reducing-dishes/) | Hard | [golang](/leetcode/reducing-dishes/reducing-dishes.go)  |
 | [87. Scramble string](https://leetcode.com/problems/scramble-string/) | Hard | [golang](/leetcode/scramble-string/scramble-string.go)  |
+| [2605. Form smallest number from two digit arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy | [golang](/leetcode/form-smallest-number-from-two-digit-arrays/form-smallest-number-from-two-digit-arrays.go)  |
+| [2606. Find the substring with maximum cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/) | Medium | [golang](/leetcode/find-the-substring-with-maximum-cost/find-the-substring-with-maximum-cost.go)  |

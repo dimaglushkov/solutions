@@ -91,11 +91,12 @@ In order to get more information consider checking [tools](https://github.com/di
 | [Codeforces Round 856 (Div. 2)](https://codeforces.com/contests/1794) | 2389 / 8430 | [solutions](/contests/cf-round-856) | 4 mar 2023 |
 | [Leetcode Biweekly Contest 100](https://leetcode.com/contest/biweekly-contest-100) | 2856 / 22847 | [solutions](/contests/lc-biweekly-100) | 18 mar 2023 |
 | [Codeforces Round 860 (Div. 2)](https://codeforces.com/contests/1798) | 1103 / 8764 | [solutions](/contests/cf-round-860) | 26 mar 2023 |
+| [Leetcode Biweekly Contest 101](https://leetcode.com/contest/biweekly-contest-101) | ? / ? | [solutions](/contests/lc-biweekly-101) | 1 apr 2023 |
 
 
 ## leetcode
 
-Problems solved in total: 419
+Problems solved in total: 421
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -522,6 +523,8 @@ Problems solved in total: 419
 | [983. Minimum cost for tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | [golang](/leetcode/minimum-cost-for-tickets/minimum-cost-for-tickets.go)  |
 | [1402. Reducing dishes](https://leetcode.com/problems/reducing-dishes/) | Hard | [golang](/leetcode/reducing-dishes/reducing-dishes.go)  |
 | [87. Scramble string](https://leetcode.com/problems/scramble-string/) | Hard | [golang](/leetcode/scramble-string/scramble-string.go)  |
+| [2605. Form smallest number from two digit arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy | [golang](/leetcode/form-smallest-number-from-two-digit-arrays/form-smallest-number-from-two-digit-arrays.go)  |
+| [2606. Find the substring with maximum cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/) | Medium | [golang](/leetcode/find-the-substring-with-maximum-cost/find-the-substring-with-maximum-cost.go)  |
 
 
 ## adventofcode/2022

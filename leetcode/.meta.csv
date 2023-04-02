@@ -418,3 +418,5 @@ minimum-path-sum,Medium,64,['golang'],"['Array', 'Dynamic Programming', 'Matrix'
 minimum-cost-for-tickets,Medium,983,['golang'],"['Array', 'Dynamic Programming']"
 reducing-dishes,Hard,1402,['golang'],"['Array', 'Dynamic Programming', 'Greedy', 'Sorting']"
 scramble-string,Hard,87,['golang'],"['String', 'Dynamic Programming']"
+form-smallest-number-from-two-digit-arrays,Easy,2605,['golang'],[]
+find-the-substring-with-maximum-cost,Medium,2606,['golang'],[]
