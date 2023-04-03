@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 421
+Problems solved in total: 423
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -429,3 +429,5 @@ Problems solved in total: 421
 | [87. Scramble string](https://leetcode.com/problems/scramble-string/) | Hard | [golang](/leetcode/scramble-string/scramble-string.go)  |
 | [2605. Form smallest number from two digit arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | Easy | [golang](/leetcode/form-smallest-number-from-two-digit-arrays/form-smallest-number-from-two-digit-arrays.go)  |
 | [2606. Find the substring with maximum cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/) | Medium | [golang](/leetcode/find-the-substring-with-maximum-cost/find-the-substring-with-maximum-cost.go)  |
+| [2300. Successful pairs of spells and potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | Medium | [golang](/leetcode/successful-pairs-of-spells-and-potions/successful-pairs-of-spells-and-potions.go)  |
+| [881. Boats to save people](https://leetcode.com/problems/boats-to-save-people/) | Medium | [golang](/leetcode/boats-to-save-people/boats-to-save-people.go)  |

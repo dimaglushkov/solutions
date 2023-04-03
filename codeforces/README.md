@@ -1,6 +1,6 @@
 ## codeforces
 
-Problems solved in total: 97
+Problems solved in total: 99
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -102,6 +102,8 @@ Problems solved in total: 97
 | [1794C. Scoring Subsequences](https://codeforces.com/contest/1794/problem/C) | 1300 | [golang](/codeforces/1794C/1794C.go) |
 | [1804A. Lame King](https://codeforces.com/contest/1804/problem/A) | 800 | [golang](/codeforces/1804A/1804A.go) |
 | [1804B. Vaccination](https://codeforces.com/contest/1804/problem/B) | 1000 | [golang](/codeforces/1804B/1804B.go) |
-| [1798A. Showstopper](https://codeforces.com/contest/1798/problem/A) |  | [golang](/codeforces/1798A/1798A.go) |
-| [1798B. Three Sevens](https://codeforces.com/contest/1798/problem/B) |  | [golang](/codeforces/1798B/1798B.go) |
-| [1798D. Shocking Arrangement](https://codeforces.com/contest/1798/problem/D) |  | [golang](/codeforces/1798D/1798D.go) |
+| [1798A. Showstopper](https://codeforces.com/contest/1798/problem/A) | 800 | [golang](/codeforces/1798A/1798A.go) |
+| [1798B. Three Sevens](https://codeforces.com/contest/1798/problem/B) | 1000 | [golang](/codeforces/1798B/1798B.go) |
+| [1798D. Shocking Arrangement](https://codeforces.com/contest/1798/problem/D) | 1600 | [golang](/codeforces/1798D/1798D.go) |
+| [1812A. Are You a Robot?](https://codeforces.com/contest/1812/problem/A) |  | [golang](/codeforces/1812A/1812A.go) |
+| [1812B. Was it Rated?](https://codeforces.com/contest/1812/problem/B) |  | [golang](/codeforces/1812B/1812B.go) |
