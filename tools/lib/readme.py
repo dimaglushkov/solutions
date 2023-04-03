@@ -6,6 +6,11 @@ order = ['tools', 'contests', 'leetcode', 'adventofcode/2022', 'codeforces', 'ac
 template_path = os.path.join(shared.get_templates_dir(), '.README.gen.md')
 
 
+def run(values, lang, sol_dir, handle, action):
+    if action == 'generate':
+        generate(sol_dir)
+
+
 def generate(sol_dir: str):
     text = ''
 

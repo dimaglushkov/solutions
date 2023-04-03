@@ -12,10 +12,17 @@ TEMPLATES_DIR = shared.get_templates_dir()
 LANG_SPECS = shared.get_lang_specs()
 
 
+def run(values, lang, sol_dir, handle, action):
+    if action == 'pull':
+        pull(values, lang, sol_dir)
+    elif action == 'delete':
+        delete(values, lang, sol_dir)
+
+
 def _generate_codeforces_readme(data: dict, sol_dir: str):
     header = '## codeforces'
-    problems_table = '''| Problem | Solution | Difficulty | Tags |
-|-|-|-|-|
+    problems_table = '''| Problem | Difficulty| Solution |
+|-|-|-|
 '''
     for k, v in data.items():
         solutions_links = ', '.join(
@@ -23,26 +30,26 @@ def _generate_codeforces_readme(data: dict, sol_dir: str):
 
         problems_table += \
             f'| [{k}. {v["name"]}](https://codeforces.com/contest/{v["contest"]}/problem/{v["problem"]}) ' \
-            f'| {solutions_links} ' \
             f'| {str(v["difficulty"]).replace(".0", "").replace("nan", "")} ' \
-            f'| {", ".join([tag for tag in v["tags"] if str(v["difficulty"]) not in tag])} |\n'
+            f'| {solutions_links} |\n'
 
     stats_str = shared.generate_svg_stats(data, sol_dir, CHARTS)
-    readme = header + stats_str + problems_table
-    with open(os.path.join(sol_dir, 'README.md'), 'w') as readme_file:
-        readme_file.write(readme)
+    readme_content = header + stats_str + problems_table
+    readme_file_path = os.path.join(sol_dir, 'README.md')
+    with open(readme_file_path, 'w') as readme_file:
+        readme_file.write(readme_content)
 
 
 def _get_problems_id(problems: list) -> list:
     ids = list(list())
     for problem in problems:
         if not problem.startswith('http'):
-            print(f"Please, provide link to the problem: {problem}")
+            print(f'Please, provide link to the problem: {problem}')
             continue
         # handling both formats
         # 1: https://codeforces.com/problemset/problem/1690/D
         # 2: https://codeforces.com/contest/1690/problem/D
-        if "problemset" in problem:
+        if 'problemset' in problem:
             contest_id = problem.split('/')[-2]
             index = problem.split('/')[-1]
         else:
@@ -54,16 +61,16 @@ def _get_problems_id(problems: list) -> list:
 
 
 def _get_problem_data(problem_id: list) -> dict:
-    all_problems_data = requests.get("https://codeforces.com/api/problemset.problems?locale=en").json()
-    if all_problems_data["status"] != "OK":
-        print("Not Ok response")
+    all_problems_data = requests.get('https://codeforces.com/api/problemset.problems?locale=en').json()
+    if all_problems_data['status'] != 'OK':
+        print('Not Ok response')
         exit(1)
 
-    all_problems_data = all_problems_data["result"]["problems"]
+    all_problems_data = all_problems_data['result']['problems']
 
     def search(contest_id, _problem_id):
         i = 0
-        while not (all_problems_data[i]["contestId"] == contest_id and all_problems_data[i]["index"] == _problem_id):
+        while not (all_problems_data[i]['contestId'] == contest_id and all_problems_data[i]['index'] == _problem_id):
             i += 1
         return i
 
@@ -114,22 +121,23 @@ def _create_code_template(data: dict, lang: str, sol_dir: str) -> None:
     problem_id = f"{data['contestId']}{data['index']}"
     if not os.path.exists(os.path.join(sol_dir, problem_id)):
         os.mkdir(os.path.join(sol_dir, problem_id))
-    file = os.path.join(sol_dir, problem_id, f"{problem_id}.{LANG_SPECS[lang]['ext']}")
+    code_file_path = os.path.join(sol_dir, problem_id, f"{problem_id}.{LANG_SPECS[lang]['ext']}")
 
-    source_link = URL_TEMPLATE.format(data["contestId"], data["index"])
+    source_link = URL_TEMPLATE.format(data['contestId'], data['index'])
     with open(os.path.join(TEMPLATES_DIR, f"codeforces.{LANG_SPECS[lang]['ext']}")) as f:
         template = f.readlines()
     i = 0
     while i < len(template):
-        if "source: _" in template[i]:
+        if 'source: _' in template[i]:
             break
         else:
             i += 1
-    template[i] = template[i].replace("_", source_link)
-    code = "".join(template)
+    template[i] = template[i].replace('_', source_link)
+    code = ''.join(template)
 
-    with open(file, 'w') as code_file:
+    with open(code_file_path, 'w') as code_file:
         code_file.write(code)
+    print(f'generated file://{code_file_path}')
 
 
 def update_meta_file(problem_data: dict, lang: str, sol_dir: str) -> None:
@@ -146,7 +154,7 @@ def update_meta_file(problem_data: dict, lang: str, sol_dir: str) -> None:
             'name': problem_data['name'],
             'contest': problem_data['contestId'],
             'problem': problem_data['index'],
-            'difficulty': str(problem_data['rating']) if "rating" in problem_data else "",
+            'difficulty': str(problem_data['rating']) if "rating" in problem_data else '',
             'tags': problem_data['tags'] if "tags" in problem_data else [],
             'lang': [lang]
         }
@@ -166,15 +174,11 @@ def update_codeforces_readme(sol_dir: str):
 
 def pull(problems: list, lang: str, sol_dir: str):
     if lang not in LANG_SPECS:
-        print(f"Language {lang} is not supported yet\n"
-              "In order to add it you need to add its extension to tools/lib/cf-problem-puller.py, "
-              "look for LANG_SPECIFICS "
-              "& create corresponding template file in tools/templates.")
+        print(f"Language {lang} is not supported yet")
         return
 
-    if problems != ['.'] and problems != []:
+    if len(problems) > 0:
         ids = _get_problems_id(problems)
-
         # skip existing solutions
         temp = list()
         for i in ids:
@@ -182,7 +186,6 @@ def pull(problems: list, lang: str, sol_dir: str):
             if not os.path.exists(os.path.join(sol_dir, problem_id, f"{problem_id}.{LANG_SPECS[lang]['ext']}")):
                 temp += [i]
         ids = temp
-
         if len(ids) == 0:
             print("Nothing to do")
             return
@@ -208,7 +211,6 @@ def delete(problems: list, lang: str, sol_dir: str):
         os.remove(solution_path)
         if len(os.listdir(os.path.join(sol_dir, problem_id))) == 0:
             os.rmdir(os.path.join(sol_dir, problem_id))
-        os.rmdir(os.path.join(sol_dir, problem_id))
 
     if cnt == 0:
         print("Nothing to do")

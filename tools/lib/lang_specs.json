@@ -1,14 +1,15 @@
 {
-    "golang": {
-        "ext": "go",
-        "com": "//"
-    },
-    "python": {
-        "ext": "py",
-        "com": "#"
-    },
-    "bash": {
-        "ext": "sh",
-        "com": "#"
-    }
+  "golang": {
+    "prefix": "package main\n\n",
+    "ext": "go",
+    "com": "//"
+  },
+  "python": {
+    "ext": "py",
+    "com": "#"
+  },
+  "bash": {
+    "ext": "sh",
+    "com": "#"
+  }
 }

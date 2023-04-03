@@ -9,112 +9,126 @@ from . import shared, codeforces, leetcode
 
 TEMPLATES_DIR = shared.get_templates_dir()
 LANG_SPECS = shared.get_lang_specs()
-CF_NUM_OF_PROBLEMS = 8
-DATE_FORMAT = "%-d %b %Y"
-USERNAME_ENV = "CONTEST_USERNAME"  # using env variable to possible make it work with github actions
-DEFAULT_USERNAME = "dimaglushkov"
+CF_PROBLEM_LIST = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+LC_PROBLEM_LIST = [1, 2, 3, 4]
+DATE_FORMAT = '%-d %b %Y'
+DEFAULT_USERNAME = 'dimaglushkov'
+
+
+def run(values, lang, sol_dir, handle, action):
+    if action == 'pre':
+        pre(values, lang, sol_dir)
+    elif action == 'post':
+        post(values, handle, sol_dir)
+    elif action == 'pull':
+        pull(values, lang, sol_dir)
+    elif action == 'stats':
+        stats(handle, sol_dir)
 
 
 def _cf_get_contest_meta(url: str) -> dict:
     res = dict()
-    contests = requests.get("https://codeforces.com/api/contest.list").json()["result"]
-    if url.endswith("/"):
-        url = url.rstrip("/")
+    contests = requests.get('https://codeforces.com/api/contest.list').json()['result']
+    if url.endswith('/'):
+        url = url.rstrip('/')
 
-    idx = int(url.split("/")[-1])
-    name = ""
+    idx = int(url.split('/')[-1])
+    name = ''
     for i in contests:
-        if i["id"] == idx:
-            name = i["name"]
+        if i['id'] == idx:
+            name = i['name']
             break
-    if name == "":
-        raise ValueError(f"Couldn't find contest with id {idx}")
+    if name == '':
+        raise ValueError(f'Couldn\'t find contest with id {idx}')
 
-    ext_id = ""
-    if "#" in name:
-        ext_id = name.split("#")[1].split(" ")[0]
+    ext_id = ''
+    if '#' in name:
+        ext_id = name.split('#')[1].split(' ')[0]
     else:
-        ext_id = name.split("Round ")[1].split(" ")[0]
+        ext_id = name.split('Round ')[1].split(' ')[0]
 
-    res["name"] = name
-    res["ext_id"] = ext_id
-    res["short_name"] = f"cf-round-{ext_id}"
+    res['name'] = name
+    res['ext_id'] = ext_id
+    res['short_name'] = f'cf-round-{ext_id}'
     return res
+
+
+def _pull_codeforces(url: str, lang: str, sol_dir: str):
+    raise ValueError("Not implemented")
 
 
 def _pre_codeforces(url: str, lang: str, sol_dir: str):
     meta = _cf_get_contest_meta(url)
-    name = meta["name"]
-    short_name = meta["short_name"]
+    name = meta['name']
+    short_name = meta['short_name']
 
     contest_sol_dir = os.path.join(sol_dir, short_name)
     if os.path.isdir(contest_sol_dir):
-        raise ValueError(f"Directory {contest_sol_dir} already exists")
+        raise ValueError(f'Directory {contest_sol_dir} already exists')
 
     # Generating solution templates
     os.mkdir(contest_sol_dir)
-    let = 'A'
-    with open(os.path.join(TEMPLATES_DIR, f"codeforces.{LANG_SPECS[lang]['ext']}"), "r") as templ_file:
+    with open(os.path.join(TEMPLATES_DIR, f"codeforces.{LANG_SPECS[lang]['ext']}"), 'r') as templ_file:
         templ_data = templ_file.read()
 
-        for i in range(int(CF_NUM_OF_PROBLEMS)):
-            ix = chr(ord(let) + i)
-            os.mkdir(os.path.join(contest_sol_dir, ix))
-            with open(os.path.join(contest_sol_dir, ix, f"{ix}.{LANG_SPECS[lang]['ext']}"), "w") as sol_file:
-                sol_file.write(
+        for i in CF_PROBLEM_LIST:
+            os.mkdir(os.path.join(contest_sol_dir, i))
+            code_file_path = os.path.join(contest_sol_dir, i, f"{i}.{LANG_SPECS[lang]['ext']}")
+            with open(code_file_path, "w") as file:
+                file.write(
                     templ_data.replace(
-                        "source: _", f"source: {url.replace('contests', 'contest')}/problem/{ix}"
+                        'source: _', f"source: {url.replace('contests', 'contest')}/problem/{i}"
                     )
                 )
+            print(f'{i}: file://{code_file_path}')
 
     # Updating README
-    with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:
+    with open(os.path.join(sol_dir, 'README.md'), 'a') as readme_file:
         date_str = datetime.datetime.now().strftime(DATE_FORMAT).lower()
         contests_url = url
-        if "contests" not in contests_url:
-            contests_url = contests_url.replace("contest", "contests")
-
+        if 'contests' not in contests_url:
+            contests_url = contests_url.replace('contest', 'contests')
         readme_file.write(
-            f"| [{name}]({contests_url}) | ? / ? | [solutions](/contests/{short_name}) | {date_str} |\n"
+            f'| [{name}]({contests_url}) | ? / ? | [solutions](/contests/{short_name}) | {date_str} |\n'
         )
 
 
 def _post_codeforces(url: str, handle: str, sol_dir: str):
-    cf_sol_path = os.path.abspath(os.path.join(sol_dir, "..", "codeforces"))
+    cf_sol_path = os.path.abspath(os.path.join(sol_dir, '..', 'codeforces'))
     if not os.path.isdir(cf_sol_path):
-        print(f"{cf_sol_path} doesn't exist")
+        print(f'{cf_sol_path} doesnt exist')
         return
 
     meta = _cf_get_contest_meta(url)
 
-    if url.endswith("/"):
-        url = url.rstrip("/")
-    idx = int(url.split("/")[-1])
+    if url.endswith('/'):
+        url = url.rstrip('/')
+    idx = int(url.split('/')[-1])
 
-    data = requests.get(f"https://codeforces.com/api/contest.status?contestId={idx}&handle={handle}").json()
-    if data["status"] != "OK":
-        print("Not OK response")
+    data = requests.get(f'https://codeforces.com/api/contest.status?contestId={idx}&handle={handle}').json()
+    if data['status'] != 'OK':
+        print('Not OK response')
         return
 
     solved_problems = dict()
-    for i in data["result"]:
-        if i["verdict"] == "OK":
-            pid = i["problem"]["index"]
+    for i in data['result']:
+        if i['verdict'] == 'OK':
+            pid = i['problem']['index']
 
-            solved_problems[pid] = i["problem"]
-            lang = i["programmingLanguage"]
+            solved_problems[pid] = i['problem']
+            lang = i['programmingLanguage']
 
-            if lang.lower() == "go":
-                lang = "golang"
-            solved_problems[pid]["lang"] = lang
+            if lang.lower() == 'go':
+                lang = 'golang'
+            solved_problems[pid]['lang'] = lang
 
     sp_list = sorted([v for v in solved_problems.values()], key=lambda x: x['index'])
     for p in sp_list:
-        codeforces.update_meta_file(p, p["lang"], cf_sol_path)
-        full_id = f'{p["contestId"]}{p["index"]}'
+        codeforces.update_meta_file(p, p['lang'], cf_sol_path)
+        full_id = f"{p['contestId']}{p['index']}"
         os.mkdir(os.path.join(cf_sol_path, full_id))
         shutil.copyfile(
-            os.path.join(sol_dir, meta['short_name'], p["index"], f"{p['index']}.{LANG_SPECS[p['lang']]['ext']}"),
+            os.path.join(sol_dir, meta['short_name'], p['index'], f"{p['index']}.{LANG_SPECS[p['lang']]['ext']}"),
             os.path.join(cf_sol_path, full_id, f"{full_id}.{LANG_SPECS[p['lang']]['ext']}")
         )
     codeforces.update_codeforces_readme(cf_sol_path)
@@ -132,13 +146,7 @@ def _lc_get_contest_meta(contest_url: str) -> (bool, list):
     return True, [q["title_slug"] for q in data["questions"]]
 
 
-# graphql api doesn't provide problem info while contest is still
-# in progress, thus using another method of getting example testcases
-def _lc_get_contest_problem_data(url: str) -> dict:
-    raise Exception("Not implemented yet")
-
-
-def _pre_leetcode(url: str, lang: str, sol_dir: str):
+def _pull_leetcode(url: str, lang: str, sol_dir: str):
     if url.endswith("/"):
         url = url.rstrip("/")
     tag = url.split("/")[-1]
@@ -164,7 +172,8 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
         if slug_data is not None:
             leetcode.create_code_template(slug, file, lang, slug_data)
         else:
-            shutil.copyfile(os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]['ext']}"), file)
+            print("Cannot pull problem meta data")
+            exit(1)
         print(f"{i + 1}: file://{os.path.abspath(file)}")
 
     with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:
@@ -175,19 +184,46 @@ def _pre_leetcode(url: str, lang: str, sol_dir: str):
         )
 
 
+def _pre_leetcode(url: str, lang: str, sol_dir: str):
+    if url.endswith("/"):
+        url = url.rstrip("/")
+    tag = url.split("/")[-1]
+    con_type = tag.split('-')[0]
+    con_idx = tag.split('-')[-1]
+    short_name = f"lc-{con_type}-{con_idx}"
+    contest_sol_dir = os.path.join(sol_dir, short_name)
+    if os.path.isdir(contest_sol_dir):
+        print(f"Solutions directory {contest_sol_dir} already exists")
+        return
+    _, question_slugs = _lc_get_contest_meta(url)
+
+    os.mkdir(contest_sol_dir)
+    for i in LC_PROBLEM_LIST:
+        problem_sol_dir = os.path.join(contest_sol_dir, str(i + 1))
+        os.mkdir(problem_sol_dir)
+
+        file = os.path.join(problem_sol_dir, f"{i}.{LANG_SPECS[lang]['ext']}")
+        shutil.copyfile(os.path.join(TEMPLATES_DIR, f"leetcode.{LANG_SPECS[lang]['ext']}"), file)
+        print(f'{i}: file://{os.path.abspath(file)}')
+
+    with open(os.path.join(sol_dir, "README.md"), "a") as readme_file:
+        name = f"Leetcode {con_type.capitalize()} Contest {con_idx}"
+        date_str = datetime.datetime.now().strftime(DATE_FORMAT).lower()
+        readme_file.write(
+            f"| [{name}]({url}) | ? / ? | [solutions](/contests/{short_name}) | {date_str} |\n"
+        )
+
+
 def _post_leetcode(url, sol_dir):
-    raise RuntimeError("Not implemented")
-    #
-    # ok, questions = _lc_get_contest_meta(contest_url=url)
-    # if not ok:
-    #     print("Not OK response for contest meta")
-    #     return
+    ok, questions = _lc_get_contest_meta(contest_url=url)
+    if not ok:
+        print("Not OK response for contest meta")
+        return
 
+    solved = [False, False, False, False]
 
-    # for q in questions:
-    #     x = leetcode.get_slug_data(q)
-    #     pass
-
+    for i, q in enumerate(questions):
+        x = leetcode.get_slug_data(q)
 
 
 def _gen_stats_json(sol_dir: str, platform: str, data: dict):
@@ -319,22 +355,10 @@ def _gen_cf_rating_stats(sol_dir: str, username: str):
         })
 
 
-def rating(vals: list, sol_dir: str):
-    username = os.getenv(USERNAME_ENV)
-    if username is None:
-        username = DEFAULT_USERNAME
+def stats(handle: str, sol_dir: str):
+    _gen_lc_rating_stats(sol_dir, handle)
+    _gen_cf_rating_stats(sol_dir, handle)
 
-    if vals == ["."]:
-        vals = ["codeforces", "leetcode"]
-
-    if "leetcode" in vals:
-        _gen_lc_rating_stats(sol_dir, username)
-
-    if "codeforces" in vals:
-        _gen_cf_rating_stats(sol_dir, username)
-
-
-def stats(sol_dir: str):
     dates = list()
     top = list()
     with open(os.path.join(sol_dir, "README.md"), "r") as readme_file:
@@ -353,6 +377,19 @@ def stats(sol_dir: str):
     shared.generate_date_based_plot(os.path.join(sol_dir, ".stats.svg"), dates, top)
 
 
+# pull tries to pull problem-related data and build templates based on it
+# however, it usually doesn't work for the ongoing contests
+def pull(vals: list, lang: str, sol_dir: str):
+    if len(vals) < 1:
+        return
+    url = vals[0]
+    if "codeforces" in url:
+        _pull_codeforces(url, lang, sol_dir)
+    elif "leetcode" in url:
+        _pull_leetcode(url, lang, sol_dir)
+
+
+# pre generates solutions from based on the template content and update contests list
 def pre(vals: list, lang: str, sol_dir: str):
     if len(vals) < 1:
         return

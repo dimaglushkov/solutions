@@ -6,8 +6,15 @@ import pandas as pd
 from . import shared
 
 CHARTS = ['by_difficulty', 'by_tags']
-META_FILE = ".meta.csv"
+META_FILE = '.meta.csv'
 LANG_SPECS = shared.get_lang_specs()
+
+
+def run(values, lang, sol_dir, handle, action):
+    if action == 'pull':
+        pull(values, lang, sol_dir)
+    elif action == 'delete':
+        delete(values, lang, sol_dir)
 
 
 def _get_title_slugs(problems: list, lang: str, d: str) -> dict:
@@ -38,11 +45,11 @@ def _get_title_slugs(problems: list, lang: str, d: str) -> dict:
 
 def get_slug_data(name: str) -> dict:
     configuration = leetcode.Configuration()
-    configuration.api_key["Referer"] = "https://leetcode.com"
+    configuration.api_key['Referer'] = 'https://leetcode.com'
     configuration.debug = False
     api_instance = leetcode.DefaultApi(leetcode.ApiClient(configuration))
     graphql_request = leetcode.GraphqlQuery(
-        query="""
+        query='''
                 query getQuestionDetail($titleSlug: String!) {
                   question(titleSlug: $titleSlug) {
                     questionId
@@ -84,9 +91,9 @@ def get_slug_data(name: str) -> dict:
                     __typename
                   }
                 }
-            """,
+            ''',
         variables=leetcode.GraphqlQueryGetQuestionDetailVariables(title_slug=name),
-        operation_name="getQuestionDetail",
+        operation_name='getQuestionDetail',
     )
     return api_instance.graphql_post(body=graphql_request).to_dict()
 
@@ -97,8 +104,8 @@ def _get_test_cases(data: dict) -> list:
         '<strong>': '',
         '</strong>': '',
         '&quot;': '"',
-        "Input: ": '',
-        "Output: ": '',
+        'Input: ': '',
+        'Output: ': '',
         '<pre>': ''
     }
     desc = data['content']
@@ -107,7 +114,7 @@ def _get_test_cases(data: dict) -> list:
     outputs = [d for d in rows if 'Output:' in d]
 
     if len(inputs_sets) != len(outputs):
-        print(f"Warning: different number of input and output examples for task")
+        print(f'Warning: different number of input and output examples for task')
         return tests
 
     for ttk, ttv in translation_table.items():
@@ -125,7 +132,8 @@ def _get_test_cases(data: dict) -> list:
     return tests
 
 
-def _generate_golang_test_code(tests: list, code: str) -> str:
+def _generate_golang_test_code(tests: list, code_snippet: str) -> str:
+    header = 'package main\n\nimport (\n\t"fmt"\n)\n'
     tester = """\n
 func main() {
     testCases := []struct {
@@ -137,10 +145,10 @@ func main() {
 %__runner__%
 }
 """
-    if '/**' in code:
-        code = code.split('*/\n')[-1]
+    if '/**' in code_snippet:
+        code_snippet = code_snippet.split('*/\n')[-1]
 
-    func_decl = code.split('\n')[0]
+    func_decl = code_snippet.split('\n')[0]
     func_name = func_decl.replace('func ', '').split('(')[0]
     func_params = {p.split(' ')[0]: ''.join(p.split(' ')[1:]) for p in
                    func_decl.split('(')[1].split(')')[0].split(', ')}
@@ -180,36 +188,33 @@ func main() {
     } else {
         fmt.Printf("===\\nFAIL: %d tests failed\\n", l - successes)
     }
-""".replace("%__func_call__%", func_call)
+""".replace('%__func_call__%', func_call)
 
     tester = tester \
-        .replace("%__inputs__%", "\n".join(inputs)) \
-        .replace("%__output__%", output) \
-        .replace("%__testcases__%", "".join(testcases)) \
-        .replace("%__runner__%", runner)
-    return tester
+        .replace('%__inputs__%', '\n'.join(inputs)) \
+        .replace('%__output__%', output) \
+        .replace('%__testcases__%', ''.join(testcases)) \
+        .replace('%__runner__%', runner)
+    return header + code_snippet + tester
 
 
 def create_code_template(slug: str, file: str, lang: str, data: dict) -> None:
     source_link = f'https://leetcode.com/problems/{slug}/'
     code_snippet = ''
 
+    snippet_lang = lang if lang != 'python' else 'python3'
     for snippet in data['code_snippets']:
-        if snippet['lang_slug'] == lang:
+        if snippet['lang_slug'] == snippet_lang:
             code_snippet = snippet['code']
             break
 
-    code = 'package main\n\nimport (\n\t"fmt"\n)\n'
-    if 'prefix' in LANG_SPECS[lang].keys():
-        code = LANG_SPECS[lang]['prefix']
-
-    code += f'{LANG_SPECS[lang]["com"]} source: {source_link}\n\n'
+    code = LANG_SPECS[lang]['prefix'] if 'prefix' in LANG_SPECS[lang] else ''
+    code += f'{LANG_SPECS[lang]["com"]} source: {source_link}\n'
     code += code_snippet
 
-    # experimental feature, tested only with golang
     if lang == 'golang':
         try:
-            code += _generate_golang_test_code(_get_test_cases(data), code_snippet)
+            code = _generate_golang_test_code(_get_test_cases(data), code_snippet)
         except Exception as e:
             print("Was not able to generate test code: " + slug)
 
@@ -258,18 +263,18 @@ def _clear_leetcode_meta_file(data: dict, sol_dir: str):
 
 def _generate_leetcode_readme(data: dict, sol_dir: str):
     header = '## leetcode'
-#     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
+    #     problems_table = '|Problem|Solution|Difficulty|Tags|\n|-|-|-|-|\n'
     problems_table = '|Problem|Difficulty|Solution|\n|-|-|-|\n'
 
     # Getting simple stats and generating rows for the table
     for problem, meta in data.items():
         solutions_links = ', '.join(
             [f'[{lang}](/leetcode/{problem}/{problem}.{LANG_SPECS[lang]["ext"]})' for lang in meta['lang']])
-#         problems_table += \
-#             f'| [{meta["id"]}. {problem.replace("-", " ").capitalize()}](https://leetcode.com/problems/{problem}/) ' \
-#             f'| {solutions_links} ' \
-#             f'| {meta["difficulty"]} ' \
-#             f'| {", ".join(meta["tags"])} |\n'
+        #         problems_table += \
+        #             f'| [{meta["id"]}. {problem.replace("-", " ").capitalize()}](https://leetcode.com/problems/{problem}/) ' \
+        #             f'| {solutions_links} ' \
+        #             f'| {meta["difficulty"]} ' \
+        #             f'| {", ".join(meta["tags"])} |\n'
         problems_table += \
             f'| [{meta["id"]}. {problem.replace("-", " ").capitalize()}](https://leetcode.com/problems/{problem}/) ' \
             f'| {meta["difficulty"]} ' \
@@ -318,7 +323,7 @@ def pull(problems: list, lang: str, sol_dir: str):
         for slug, file in slugs.items():
             slug_data = get_slug_data(slug)['data']['question']
             create_code_template(slug, file, lang, slug_data)
-            print(f"File generated for {slug}: file://{os.path.abspath(file)}")
+            print(f'File generated for {slug}: file://{os.path.abspath(file)}')
             _update_meta_file(slug, lang, slug_data, sol_dir)
 
     data = pd.read_csv(
