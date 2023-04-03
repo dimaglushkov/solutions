@@ -133,7 +133,7 @@ def _get_test_cases(data: dict) -> list:
 
 
 def _generate_golang_test_code(tests: list, code_snippet: str) -> str:
-    header = 'package main\n\nimport (\n\t"fmt"\n)\n'
+    header = 'package main\n\nimport (\n\t"fmt"\n)\n\n'
     tester = """\n
 func main() {
     testCases := []struct {
