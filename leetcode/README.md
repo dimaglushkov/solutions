@@ -8,7 +8,7 @@ Problems solved in total: 423
 
 |Problem|Difficulty|Solution|
 |-|-|-|
-| [1. Two sum](https://leetcode.com/problems/two-sum/) | Easy | [golang](/leetcode/two-sum/two-sum.go)  |
+| [1. Two sum](https://leetcode.com/problems/two-sum/) | Easy | [golang](/leetcode/two-sum/two-sum.go), [python](/leetcode/two-sum/two-sum.py)  |
 | [9. Palindrome number](https://leetcode.com/problems/palindrome-number/) | Easy | [golang](/leetcode/palindrome-number/palindrome-number.go)  |
 | [2. Add two numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [golang](/leetcode/add-two-numbers/add-two-numbers.go)  |
 | [3. Longest substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [golang](/leetcode/longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.go)  |
