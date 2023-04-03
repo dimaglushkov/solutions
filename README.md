@@ -15,32 +15,16 @@ codeforces: [@dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 [6. acm.timus](#acmtimus) <br>
 
 
-## tools 
-This repo comes with simple yet useful tools to simplify solutions management. This set of utilities allows one to:
-1. Automatically pull problems from leetcode and codeforces and then generate solution templates.
-2. Automatically update list of one's solutions
-3. Get some simple stats on how solved problems are distributed 
+## tools
 
-Below are few examples of what these tools can do:
-```
-# cf - codeforces, lc - leetcode
-sol cf/lc p <URLs> - for every given problem url create solution template,
-                     pull meta data, update list of solved problems. For leetcode
-                     golang solutions create auto tests based on the problem examples.
-                              
-sol cf/lc d <URL>  - for every given problem url delete solution and 
-                     remove correspoding entriy from the list of solved problems
-                            
-sol readme g .     - generate this README.md file
+This repository provides a collection of simple and effective tools to simplify solutions management.
+These utilities enable you to:
 
-sol con pre  <cf/lc contest URL> - generate template for contest solutions, update list of 
-                                   contests one participated at
-                                   
-sol con post <cf contest URL>    - for every successfull solution from a given contest
-                                   create a solution for corresponding problem from this contest
-```
+- Automatically fetch problems from LeetCode and Codeforces, and generate solution templates.
+- Automatically update your list of completed solutions.
+- Obtain basic statistics on the distribution of your solved problems.
 
-In order to get more information consider checking [tools](https://github.com/dimaglushkov/solutions/tree/master/tools).
+For more information, check [tools](https://github.com/dimaglushkov/solutions/tree/master/tools).
 
 ## contests
 
