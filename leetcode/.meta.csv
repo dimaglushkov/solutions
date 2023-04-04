@@ -423,3 +423,4 @@ find-the-substring-with-maximum-cost,Medium,2606,['golang'],[]
 successful-pairs-of-spells-and-potions,Medium,2300,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Sorting']"
 boats-to-save-people,Medium,881,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"
 jewels-and-stones,Easy,771,"['python', 'golang']","['Hash Table', 'String']"
+optimal-partition-of-string,Medium,2405,['python'],"['Hash Table', 'String', 'Greedy']"
