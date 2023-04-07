@@ -424,3 +424,4 @@ successful-pairs-of-spells-and-potions,Medium,2300,['golang'],"['Array', 'Two Po
 boats-to-save-people,Medium,881,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"
 jewels-and-stones,Easy,771,"['python', 'golang']","['Hash Table', 'String']"
 optimal-partition-of-string,Medium,2405,['python'],"['Hash Table', 'String', 'Greedy']"
+number-of-enclaves,Medium,1020,['python'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"

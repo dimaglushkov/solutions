@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 425
+Problems solved in total: 426
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -513,6 +513,7 @@ Problems solved in total: 425
 | [881. Boats to save people](https://leetcode.com/problems/boats-to-save-people/) | Medium | [golang](/leetcode/boats-to-save-people/boats-to-save-people.go)  |
 | [771. Jewels and stones](https://leetcode.com/problems/jewels-and-stones/) | Easy | [python](/leetcode/jewels-and-stones/jewels-and-stones.py), [golang](/leetcode/jewels-and-stones/jewels-and-stones.go)  |
 | [2405. Optimal partition of string](https://leetcode.com/problems/optimal-partition-of-string/) | Medium | [python](/leetcode/optimal-partition-of-string/optimal-partition-of-string.py)  |
+| [1020. Number of enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [python](/leetcode/number-of-enclaves/number-of-enclaves.py)  |
 
 
 ## adventofcode/2022
