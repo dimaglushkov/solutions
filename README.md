@@ -111,7 +111,7 @@ Problems solved in total: 427
 | [15. 3sum](https://leetcode.com/problems/3sum/) | Medium | [golang](/leetcode/3sum/3sum.go)  |
 | [392. Is subsequence](https://leetcode.com/problems/is-subsequence/) | Easy | [golang](/leetcode/is-subsequence/is-subsequence.go)  |
 | [20. Valid parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [golang](/leetcode/valid-parentheses/valid-parentheses.go), [python](/leetcode/valid-parentheses/valid-parentheses.py)  |
-| [71. Simplify path](https://leetcode.com/problems/simplify-path/) | Medium | [golang](/leetcode/simplify-path/simplify-path.go)  |
+| [71. Simplify path](https://leetcode.com/problems/simplify-path/) | Medium | [golang](/leetcode/simplify-path/simplify-path.go), [python](/leetcode/simplify-path/simplify-path.py)  |
 | [413. Arithmetic slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | [golang](/leetcode/arithmetic-slices/arithmetic-slices.go)  |
 | [21. Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [golang](/leetcode/merge-two-sorted-lists/merge-two-sorted-lists.go)  |
 | [141. Linked list cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [golang](/leetcode/linked-list-cycle/linked-list-cycle.go)  |
