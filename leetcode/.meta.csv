@@ -36,7 +36,7 @@ concatenation-of-array,Easy,1929,['golang'],['Array']
 swapping-nodes-in-a-linked-list,Medium,1721,['golang'],"['Linked List', 'Two Pointers']"
 container-with-most-water,Medium,11,['golang'],"['Array', 'Two Pointers', 'Greedy']"
 3sum-with-multiplicity,Medium,923,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting', 'Counting']"
-last-stone-weight,Easy,1046,['golang'],"['Array', 'Heap (Priority Queue)']"
+last-stone-weight,Easy,1046,"['golang', 'python']","['Array', 'Heap (Priority Queue)']"
 lru-cache,Medium,146,['golang'],"['Hash Table', 'Linked List', 'Design', 'Doubly-Linked List']"
 kth-largest-element-in-a-stream,Easy,703,['golang'],"['Tree', 'Design', 'Binary Search Tree', 'Heap (Priority Queue)', 'Binary Tree', 'Data Stream']"
 lfu-cache,Hard,460,['golang'],"['Hash Table', 'Linked List', 'Design', 'Doubly-Linked List']"

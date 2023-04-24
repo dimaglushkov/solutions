@@ -125,7 +125,7 @@ Problems solved in total: 427
 | [1721. Swapping nodes in a linked list](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | Medium | [golang](/leetcode/swapping-nodes-in-a-linked-list/swapping-nodes-in-a-linked-list.go)  |
 | [11. Container with most water](https://leetcode.com/problems/container-with-most-water/) | Medium | [golang](/leetcode/container-with-most-water/container-with-most-water.go)  |
 | [923. 3sum with multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/) | Medium | [golang](/leetcode/3sum-with-multiplicity/3sum-with-multiplicity.go)  |
-| [1046. Last stone weight](https://leetcode.com/problems/last-stone-weight/) | Easy | [golang](/leetcode/last-stone-weight/last-stone-weight.go)  |
+| [1046. Last stone weight](https://leetcode.com/problems/last-stone-weight/) | Easy | [golang](/leetcode/last-stone-weight/last-stone-weight.go), [python](/leetcode/last-stone-weight/last-stone-weight.py)  |
 | [146. Lru cache](https://leetcode.com/problems/lru-cache/) | Medium | [golang](/leetcode/lru-cache/lru-cache.go)  |
 | [703. Kth largest element in a stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | [golang](/leetcode/kth-largest-element-in-a-stream/kth-largest-element-in-a-stream.go)  |
 | [460. Lfu cache](https://leetcode.com/problems/lfu-cache/) | Hard | [golang](/leetcode/lfu-cache/lfu-cache.go)  |
