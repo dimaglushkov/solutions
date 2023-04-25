@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 427
+Problems solved in total: 428
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -435,3 +435,4 @@ Problems solved in total: 427
 | [2405. Optimal partition of string](https://leetcode.com/problems/optimal-partition-of-string/) | Medium | [python](/leetcode/optimal-partition-of-string/optimal-partition-of-string.py)  |
 | [1020. Number of enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [python](/leetcode/number-of-enclaves/number-of-enclaves.py)  |
 | [2390. Removing stars from a string](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [python](/leetcode/removing-stars-from-a-string/removing-stars-from-a-string.py)  |
+| [2336. Smallest number in infinite set](https://leetcode.com/problems/smallest-number-in-infinite-set/) | Medium | [python](/leetcode/smallest-number-in-infinite-set/smallest-number-in-infinite-set.py)  |
