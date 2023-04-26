@@ -276,7 +276,7 @@ happy-number,Easy,202,['golang'],"['Hash Table', 'Math', 'Two Pointers']"
 remove-linked-list-elements,Easy,203,['golang'],"['Linked List', 'Recursion']"
 isomorphic-strings,Easy,205,['golang'],"['Hash Table', 'String']"
 summary-ranges,Easy,228,['golang'],['Array']
-add-digits,Easy,258,['golang'],"['Math', 'Simulation', 'Number Theory']"
+add-digits,Easy,258,"['golang', 'python']","['Math', 'Simulation', 'Number Theory']"
 odd-even-linked-list,Medium,328,['golang'],['Linked List']
 range-sum-of-bst,Easy,938,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 partitioning-into-minimum-number-of-deci-binary-numbers,Medium,1689,['golang'],"['String', 'Greedy']"

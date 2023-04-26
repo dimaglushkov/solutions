@@ -285,7 +285,7 @@ Problems solved in total: 428
 | [203. Remove linked list elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | [golang](/leetcode/remove-linked-list-elements/remove-linked-list-elements.go)  |
 | [205. Isomorphic strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | [golang](/leetcode/isomorphic-strings/isomorphic-strings.go)  |
 | [228. Summary ranges](https://leetcode.com/problems/summary-ranges/) | Easy | [golang](/leetcode/summary-ranges/summary-ranges.go)  |
-| [258. Add digits](https://leetcode.com/problems/add-digits/) | Easy | [golang](/leetcode/add-digits/add-digits.go)  |
+| [258. Add digits](https://leetcode.com/problems/add-digits/) | Easy | [golang](/leetcode/add-digits/add-digits.go), [python](/leetcode/add-digits/add-digits.py)  |
 | [328. Odd even linked list](https://leetcode.com/problems/odd-even-linked-list/) | Medium | [golang](/leetcode/odd-even-linked-list/odd-even-linked-list.go)  |
 | [938. Range sum of bst](https://leetcode.com/problems/range-sum-of-bst/) | Easy | [golang](/leetcode/range-sum-of-bst/range-sum-of-bst.go)  |
 | [1689. Partitioning into minimum number of deci binary numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | Medium | [golang](/leetcode/partitioning-into-minimum-number-of-deci-binary-numbers/partitioning-into-minimum-number-of-deci-binary-numbers.go)  |
