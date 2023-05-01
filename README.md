@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 428
+Problems solved in total: 430
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -516,6 +516,8 @@ Problems solved in total: 428
 | [1020. Number of enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | [python](/leetcode/number-of-enclaves/number-of-enclaves.py)  |
 | [2390. Removing stars from a string](https://leetcode.com/problems/removing-stars-from-a-string/) | Medium | [python](/leetcode/removing-stars-from-a-string/removing-stars-from-a-string.py)  |
 | [2336. Smallest number in infinite set](https://leetcode.com/problems/smallest-number-in-infinite-set/) | Medium | [python](/leetcode/smallest-number-in-infinite-set/smallest-number-in-infinite-set.py)  |
+| [319. Bulb switcher](https://leetcode.com/problems/bulb-switcher/) | Medium | [python](/leetcode/bulb-switcher/bulb-switcher.py)  |
+| [1491. Average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [golang](/leetcode/average-salary-excluding-the-minimum-and-maximum-salary/average-salary-excluding-the-minimum-and-maximum-salary.go)  |
 
 
 ## adventofcode/2022

@@ -427,3 +427,5 @@ optimal-partition-of-string,Medium,2405,['python'],"['Hash Table', 'String', 'Gr
 number-of-enclaves,Medium,1020,['python'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"
 removing-stars-from-a-string,Medium,2390,['python'],"['String', 'Stack', 'Simulation']"
 smallest-number-in-infinite-set,Medium,2336,['python'],"['Hash Table', 'Design', 'Heap (Priority Queue)']"
+bulb-switcher,Medium,319,['python'],"['Math', 'Brainteaser']"
+average-salary-excluding-the-minimum-and-maximum-salary,Easy,1491,['golang'],"['Array', 'Sorting']"
