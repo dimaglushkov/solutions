@@ -429,3 +429,4 @@ removing-stars-from-a-string,Medium,2390,['python'],"['String', 'Stack', 'Simula
 smallest-number-in-infinite-set,Medium,2336,['python'],"['Hash Table', 'Design', 'Heap (Priority Queue)']"
 bulb-switcher,Medium,319,['python'],"['Math', 'Brainteaser']"
 average-salary-excluding-the-minimum-and-maximum-salary,Easy,1491,['golang'],"['Array', 'Sorting']"
+sign-of-the-product-of-an-array,Easy,1822,['golang'],"['Array', 'Math']"

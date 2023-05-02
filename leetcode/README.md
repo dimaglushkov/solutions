@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 430
+Problems solved in total: 431
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -438,3 +438,4 @@ Problems solved in total: 430
 | [2336. Smallest number in infinite set](https://leetcode.com/problems/smallest-number-in-infinite-set/) | Medium | [python](/leetcode/smallest-number-in-infinite-set/smallest-number-in-infinite-set.py)  |
 | [319. Bulb switcher](https://leetcode.com/problems/bulb-switcher/) | Medium | [python](/leetcode/bulb-switcher/bulb-switcher.py)  |
 | [1491. Average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [golang](/leetcode/average-salary-excluding-the-minimum-and-maximum-salary/average-salary-excluding-the-minimum-and-maximum-salary.go)  |
+| [1822. Sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | Easy | [golang](/leetcode/sign-of-the-product-of-an-array/sign-of-the-product-of-an-array.go)  |
