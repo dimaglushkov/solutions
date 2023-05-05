@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 432
+Problems solved in total: 433
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -440,3 +440,4 @@ Problems solved in total: 432
 | [1491. Average salary excluding the minimum and maximum salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Easy | [golang](/leetcode/average-salary-excluding-the-minimum-and-maximum-salary/average-salary-excluding-the-minimum-and-maximum-salary.go)  |
 | [1822. Sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | Easy | [golang](/leetcode/sign-of-the-product-of-an-array/sign-of-the-product-of-an-array.go)  |
 | [2215. Find the difference of two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [golang](/leetcode/find-the-difference-of-two-arrays/find-the-difference-of-two-arrays.go)  |
+| [1456. Maximum number of vowels in a substring of given length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | [python](/leetcode/maximum-number-of-vowels-in-a-substring-of-given-length/maximum-number-of-vowels-in-a-substring-of-given-length.py)  |
