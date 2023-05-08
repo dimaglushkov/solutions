@@ -432,3 +432,5 @@ average-salary-excluding-the-minimum-and-maximum-salary,Easy,1491,['golang'],"['
 sign-of-the-product-of-an-array,Easy,1822,['golang'],"['Array', 'Math']"
 find-the-difference-of-two-arrays,Easy,2215,['golang'],"['Array', 'Hash Table']"
 maximum-number-of-vowels-in-a-substring-of-given-length,Medium,1456,['python'],"['String', 'Sliding Window']"
+find-the-longest-valid-obstacle-course-at-each-position,Hard,1964,['golang'],"['Array', 'Binary Search', 'Binary Indexed Tree']"
+matrix-diagonal-sum,Easy,1572,['python'],"['Array', 'Matrix']"

@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 433
+Problems solved in total: 435
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -521,6 +521,8 @@ Problems solved in total: 433
 | [1822. Sign of the product of an array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | Easy | [golang](/leetcode/sign-of-the-product-of-an-array/sign-of-the-product-of-an-array.go)  |
 | [2215. Find the difference of two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | Easy | [golang](/leetcode/find-the-difference-of-two-arrays/find-the-difference-of-two-arrays.go)  |
 | [1456. Maximum number of vowels in a substring of given length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | [python](/leetcode/maximum-number-of-vowels-in-a-substring-of-given-length/maximum-number-of-vowels-in-a-substring-of-given-length.py)  |
+| [1964. Find the longest valid obstacle course at each position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | Hard | [golang](/leetcode/find-the-longest-valid-obstacle-course-at-each-position/find-the-longest-valid-obstacle-course-at-each-position.go)  |
+| [1572. Matrix diagonal sum](https://leetcode.com/problems/matrix-diagonal-sum/) | Easy | [python](/leetcode/matrix-diagonal-sum/matrix-diagonal-sum.py)  |
 
 
 ## adventofcode/2022
