@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 435
+Problems solved in total: 436
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -523,6 +523,7 @@ Problems solved in total: 435
 | [1456. Maximum number of vowels in a substring of given length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | [python](/leetcode/maximum-number-of-vowels-in-a-substring-of-given-length/maximum-number-of-vowels-in-a-substring-of-given-length.py)  |
 | [1964. Find the longest valid obstacle course at each position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | Hard | [golang](/leetcode/find-the-longest-valid-obstacle-course-at-each-position/find-the-longest-valid-obstacle-course-at-each-position.go)  |
 | [1572. Matrix diagonal sum](https://leetcode.com/problems/matrix-diagonal-sum/) | Easy | [python](/leetcode/matrix-diagonal-sum/matrix-diagonal-sum.py)  |
+| [2130. Maximum twin sum of a linked list](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [golang](/leetcode/maximum-twin-sum-of-a-linked-list/maximum-twin-sum-of-a-linked-list.go)  |
 
 
 ## adventofcode/2022
