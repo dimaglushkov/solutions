@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 436
+Problems solved in total: 437
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -444,3 +444,4 @@ Problems solved in total: 436
 | [1964. Find the longest valid obstacle course at each position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | Hard | [golang](/leetcode/find-the-longest-valid-obstacle-course-at-each-position/find-the-longest-valid-obstacle-course-at-each-position.go)  |
 | [1572. Matrix diagonal sum](https://leetcode.com/problems/matrix-diagonal-sum/) | Easy | [python](/leetcode/matrix-diagonal-sum/matrix-diagonal-sum.py)  |
 | [2130. Maximum twin sum of a linked list](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [golang](/leetcode/maximum-twin-sum-of-a-linked-list/maximum-twin-sum-of-a-linked-list.go)  |
+| [2542. Maximum subsequence score](https://leetcode.com/problems/maximum-subsequence-score/) | Medium | [golang](/leetcode/maximum-subsequence-score/maximum-subsequence-score.go)  |
