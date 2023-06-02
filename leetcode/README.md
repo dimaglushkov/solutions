@@ -445,4 +445,4 @@ Problems solved in total: 438
 | [1572. Matrix diagonal sum](https://leetcode.com/problems/matrix-diagonal-sum/) | Easy | [python](/leetcode/matrix-diagonal-sum/matrix-diagonal-sum.py)  |
 | [2130. Maximum twin sum of a linked list](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [golang](/leetcode/maximum-twin-sum-of-a-linked-list/maximum-twin-sum-of-a-linked-list.go)  |
 | [2542. Maximum subsequence score](https://leetcode.com/problems/maximum-subsequence-score/) | Medium | [golang](/leetcode/maximum-subsequence-score/maximum-subsequence-score.go)  |
-| [837. New 21 game](https://leetcode.com/problems/new-21-game/) | Medium | [golang](/leetcode/new-21-game/new-21-game.go)  |
+| [2101. Detonate the maximum bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/) | Medium | [golang](/leetcode/detonate-the-maximum-bombs/detonate-the-maximum-bombs.go)  |

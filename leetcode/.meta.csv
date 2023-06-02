@@ -436,4 +436,4 @@ find-the-longest-valid-obstacle-course-at-each-position,Hard,1964,['golang'],"['
 matrix-diagonal-sum,Easy,1572,['python'],"['Array', 'Matrix']"
 maximum-twin-sum-of-a-linked-list,Medium,2130,['golang'],"['Linked List', 'Two Pointers', 'Stack']"
 maximum-subsequence-score,Medium,2542,['golang'],"['Array', 'Greedy', 'Sorting', 'Heap (Priority Queue)']"
-new-21-game,Medium,837,['golang'],"['Math', 'Dynamic Programming', 'Sliding Window', 'Probability and Statistics']"
+detonate-the-maximum-bombs,Medium,2101,['golang'],"['Array', 'Math', 'Depth-First Search', 'Breadth-First Search', 'Graph', 'Geometry']"
