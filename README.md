@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 438
+Problems solved in total: 439
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -526,6 +526,7 @@ Problems solved in total: 438
 | [2130. Maximum twin sum of a linked list](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | Medium | [golang](/leetcode/maximum-twin-sum-of-a-linked-list/maximum-twin-sum-of-a-linked-list.go)  |
 | [2542. Maximum subsequence score](https://leetcode.com/problems/maximum-subsequence-score/) | Medium | [golang](/leetcode/maximum-subsequence-score/maximum-subsequence-score.go)  |
 | [2101. Detonate the maximum bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/) | Medium | [golang](/leetcode/detonate-the-maximum-bombs/detonate-the-maximum-bombs.go)  |
+| [1376. Time needed to inform all employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | Medium | [golang](/leetcode/time-needed-to-inform-all-employees/time-needed-to-inform-all-employees.go)  |
 
 
 ## adventofcode/2022
