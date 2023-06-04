@@ -187,7 +187,7 @@ Problems solved in total: 439
 | [34. Find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [golang](/leetcode/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.go)  |
 | [1202. Smallest string with swaps](https://leetcode.com/problems/smallest-string-with-swaps/) | Medium | [golang](/leetcode/smallest-string-with-swaps/smallest-string-with-swaps.go)  |
 | [128. Longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [golang](/leetcode/longest-consecutive-sequence/longest-consecutive-sequence.go)  |
-| [547. Number of provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [golang](/leetcode/number-of-provinces/number-of-provinces.go)  |
+| [547. Number of provinces](https://leetcode.com/problems/number-of-provinces/) | Medium | [golang](/leetcode/number-of-provinces/number-of-provinces.go), [python](/leetcode/number-of-provinces/number-of-provinces.py)  |
 | [200. Number of islands](https://leetcode.com/problems/number-of-islands/) | Medium | [golang](/leetcode/number-of-islands/number-of-islands.go)  |
 | [104. Maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [golang](/leetcode/maximum-depth-of-binary-tree/maximum-depth-of-binary-tree.go)  |
 | [1631. Path with minimum effort](https://leetcode.com/problems/path-with-minimum-effort/) | Medium | [golang](/leetcode/path-with-minimum-effort/path-with-minimum-effort.go)  |
