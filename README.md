@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 439
+Problems solved in total: 440
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -527,6 +527,7 @@ Problems solved in total: 439
 | [2542. Maximum subsequence score](https://leetcode.com/problems/maximum-subsequence-score/) | Medium | [golang](/leetcode/maximum-subsequence-score/maximum-subsequence-score.go)  |
 | [2101. Detonate the maximum bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/) | Medium | [golang](/leetcode/detonate-the-maximum-bombs/detonate-the-maximum-bombs.go)  |
 | [1376. Time needed to inform all employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | Medium | [golang](/leetcode/time-needed-to-inform-all-employees/time-needed-to-inform-all-employees.go)  |
+| [1232. Check if it is a straight line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | Easy | [golang](/leetcode/check-if-it-is-a-straight-line/check-if-it-is-a-straight-line.go)  |
 
 
 ## adventofcode/2022

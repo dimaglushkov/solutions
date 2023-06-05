@@ -438,3 +438,4 @@ maximum-twin-sum-of-a-linked-list,Medium,2130,['golang'],"['Linked List', 'Two P
 maximum-subsequence-score,Medium,2542,['golang'],"['Array', 'Greedy', 'Sorting', 'Heap (Priority Queue)']"
 detonate-the-maximum-bombs,Medium,2101,['golang'],"['Array', 'Math', 'Depth-First Search', 'Breadth-First Search', 'Graph', 'Geometry']"
 time-needed-to-inform-all-employees,Medium,1376,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search']"
+check-if-it-is-a-straight-line,Easy,1232,['golang'],"['Array', 'Math', 'Geometry']"
