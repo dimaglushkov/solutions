@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 440
+Problems solved in total: 441
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -448,3 +448,4 @@ Problems solved in total: 440
 | [2101. Detonate the maximum bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/) | Medium | [golang](/leetcode/detonate-the-maximum-bombs/detonate-the-maximum-bombs.go)  |
 | [1376. Time needed to inform all employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/) | Medium | [golang](/leetcode/time-needed-to-inform-all-employees/time-needed-to-inform-all-employees.go)  |
 | [1232. Check if it is a straight line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | Easy | [golang](/leetcode/check-if-it-is-a-straight-line/check-if-it-is-a-straight-line.go)  |
+| [1502. Can make arithmetic progression from sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy | [golang](/leetcode/can-make-arithmetic-progression-from-sequence/can-make-arithmetic-progression-from-sequence.go)  |

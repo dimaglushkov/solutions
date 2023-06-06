@@ -439,3 +439,4 @@ maximum-subsequence-score,Medium,2542,['golang'],"['Array', 'Greedy', 'Sorting',
 detonate-the-maximum-bombs,Medium,2101,['golang'],"['Array', 'Math', 'Depth-First Search', 'Breadth-First Search', 'Graph', 'Geometry']"
 time-needed-to-inform-all-employees,Medium,1376,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search']"
 check-if-it-is-a-straight-line,Easy,1232,['golang'],"['Array', 'Math', 'Geometry']"
+can-make-arithmetic-progression-from-sequence,Easy,1502,['golang'],"['Array', 'Sorting']"
