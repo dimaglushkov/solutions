@@ -440,3 +440,5 @@ detonate-the-maximum-bombs,Medium,2101,['golang'],"['Array', 'Math', 'Depth-Firs
 time-needed-to-inform-all-employees,Medium,1376,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search']"
 check-if-it-is-a-straight-line,Easy,1232,['golang'],"['Array', 'Math', 'Geometry']"
 can-make-arithmetic-progression-from-sequence,Easy,1502,['golang'],"['Array', 'Sorting']"
+minimum-flips-to-make-a-or-b-equal-to-c,Medium,1318,['golang'],['Bit Manipulation']
+count-negative-numbers-in-a-sorted-matrix,Easy,1351,['golang'],"['Array', 'Binary Search', 'Matrix']"
