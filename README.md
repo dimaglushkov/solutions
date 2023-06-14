@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 443
+Problems solved in total: 444
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -531,6 +531,7 @@ Problems solved in total: 443
 | [1502. Can make arithmetic progression from sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | Easy | [golang](/leetcode/can-make-arithmetic-progression-from-sequence/can-make-arithmetic-progression-from-sequence.go)  |
 | [1318. Minimum flips to make a or b equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | Medium | [golang](/leetcode/minimum-flips-to-make-a-or-b-equal-to-c/minimum-flips-to-make-a-or-b-equal-to-c.go)  |
 | [1351. Count negative numbers in a sorted matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | [golang](/leetcode/count-negative-numbers-in-a-sorted-matrix/count-negative-numbers-in-a-sorted-matrix.go)  |
+| [530. Minimum absolute difference in bst](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | Easy | [golang](/leetcode/minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.go)  |
 
 
 ## adventofcode/2022

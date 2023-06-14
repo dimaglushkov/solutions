@@ -442,3 +442,4 @@ check-if-it-is-a-straight-line,Easy,1232,['golang'],"['Array', 'Math', 'Geometry
 can-make-arithmetic-progression-from-sequence,Easy,1502,['golang'],"['Array', 'Sorting']"
 minimum-flips-to-make-a-or-b-equal-to-c,Medium,1318,['golang'],['Bit Manipulation']
 count-negative-numbers-in-a-sorted-matrix,Easy,1351,['golang'],"['Array', 'Binary Search', 'Matrix']"
+minimum-absolute-difference-in-bst,Easy,530,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Search Tree', 'Binary Tree']"
