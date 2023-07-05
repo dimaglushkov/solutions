@@ -443,3 +443,4 @@ can-make-arithmetic-progression-from-sequence,Easy,1502,['golang'],"['Array', 'S
 minimum-flips-to-make-a-or-b-equal-to-c,Medium,1318,['golang'],['Bit Manipulation']
 count-negative-numbers-in-a-sorted-matrix,Easy,1351,['golang'],"['Array', 'Binary Search', 'Matrix']"
 single-number-ii,Medium,137,['golang'],"['Array', 'Bit Manipulation']"
+longest-subarray-of-1s-after-deleting-one-element,Medium,1493,['golang'],"['Array', 'Dynamic Programming', 'Sliding Window']"
