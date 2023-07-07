@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 446
+Problems solved in total: 447
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -534,6 +534,7 @@ Problems solved in total: 446
 | [137. Single number ii](https://leetcode.com/problems/single-number-ii/) | Medium | [golang](/leetcode/single-number-ii/single-number-ii.go)  |
 | [1493. Longest subarray of 1s after deleting one element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | Medium | [golang](/leetcode/longest-subarray-of-1s-after-deleting-one-element/longest-subarray-of-1s-after-deleting-one-element.go)  |
 | [209. Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [golang](/leetcode/minimum-size-subarray-sum/minimum-size-subarray-sum.go)  |
+| [2024. Maximize the confusion of an exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | Medium | [golang](/leetcode/maximize-the-confusion-of-an-exam/maximize-the-confusion-of-an-exam.go)  |
 
 
 ## adventofcode/2022
