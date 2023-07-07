@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 445
+Problems solved in total: 446
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -533,6 +533,7 @@ Problems solved in total: 445
 | [1351. Count negative numbers in a sorted matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | [golang](/leetcode/count-negative-numbers-in-a-sorted-matrix/count-negative-numbers-in-a-sorted-matrix.go)  |
 | [137. Single number ii](https://leetcode.com/problems/single-number-ii/) | Medium | [golang](/leetcode/single-number-ii/single-number-ii.go)  |
 | [1493. Longest subarray of 1s after deleting one element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | Medium | [golang](/leetcode/longest-subarray-of-1s-after-deleting-one-element/longest-subarray-of-1s-after-deleting-one-element.go)  |
+| [209. Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [golang](/leetcode/minimum-size-subarray-sum/minimum-size-subarray-sum.go)  |
 
 
 ## adventofcode/2022
