@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 447
+Problems solved in total: 448
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -455,3 +455,4 @@ Problems solved in total: 447
 | [1493. Longest subarray of 1s after deleting one element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | Medium | [golang](/leetcode/longest-subarray-of-1s-after-deleting-one-element/longest-subarray-of-1s-after-deleting-one-element.go)  |
 | [209. Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [golang](/leetcode/minimum-size-subarray-sum/minimum-size-subarray-sum.go)  |
 | [2024. Maximize the confusion of an exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | Medium | [golang](/leetcode/maximize-the-confusion-of-an-exam/maximize-the-confusion-of-an-exam.go)  |
+| [2272. Substring with largest variance](https://leetcode.com/problems/substring-with-largest-variance/) | Hard | [golang](/leetcode/substring-with-largest-variance/substring-with-largest-variance.go)  |

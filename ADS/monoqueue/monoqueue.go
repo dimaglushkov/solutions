@@ -60,3 +60,7 @@ func (mq *MonoQueue) Pop() int {
 	mq.s--
 	return x
 }
+
+func (mq *MonoQueue) Peek() int {
+	return mq.h.val
+}
