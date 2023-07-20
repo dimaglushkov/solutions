@@ -447,3 +447,4 @@ longest-subarray-of-1s-after-deleting-one-element,Medium,1493,['golang'],"['Arra
 minimum-size-subarray-sum,Medium,209,['golang'],"['Array', 'Binary Search', 'Sliding Window', 'Prefix Sum']"
 maximize-the-confusion-of-an-exam,Medium,2024,['golang'],"['String', 'Binary Search', 'Sliding Window', 'Prefix Sum']"
 substring-with-largest-variance,Hard,2272,['golang'],"['Array', 'Dynamic Programming']"
+asteroid-collision,Medium,735,['golang'],"['Array', 'Stack', 'Simulation']"

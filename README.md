@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 448
+Problems solved in total: 449
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -536,6 +536,7 @@ Problems solved in total: 448
 | [209. Minimum size subarray sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [golang](/leetcode/minimum-size-subarray-sum/minimum-size-subarray-sum.go)  |
 | [2024. Maximize the confusion of an exam](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/) | Medium | [golang](/leetcode/maximize-the-confusion-of-an-exam/maximize-the-confusion-of-an-exam.go)  |
 | [2272. Substring with largest variance](https://leetcode.com/problems/substring-with-largest-variance/) | Hard | [golang](/leetcode/substring-with-largest-variance/substring-with-largest-variance.go)  |
+| [735. Asteroid collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [golang](/leetcode/asteroid-collision/asteroid-collision.go)  |
 
 
 ## adventofcode/2022
