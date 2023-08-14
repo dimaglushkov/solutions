@@ -449,3 +449,4 @@ maximize-the-confusion-of-an-exam,Medium,2024,['golang'],"['String', 'Binary Sea
 substring-with-largest-variance,Hard,2272,['golang'],"['Array', 'Dynamic Programming']"
 asteroid-collision,Medium,735,['golang'],"['Array', 'Stack', 'Simulation']"
 combinations,Medium,77,['golang'],['Backtracking']
+kth-largest-element-in-an-array,Medium,215,['golang'],"['Array', 'Divide and Conquer', 'Sorting', 'Heap (Priority Queue)', 'Quickselect']"
