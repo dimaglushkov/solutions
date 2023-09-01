@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 451
+Problems solved in total: 456
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -539,6 +539,11 @@ Problems solved in total: 451
 | [735. Asteroid collision](https://leetcode.com/problems/asteroid-collision/) | Medium | [golang](/leetcode/asteroid-collision/asteroid-collision.go)  |
 | [77. Combinations](https://leetcode.com/problems/combinations/) | Medium | [golang](/leetcode/combinations/combinations.go)  |
 | [215. Kth largest element in an array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | [golang](/leetcode/kth-largest-element-in-an-array/kth-largest-element-in-an-array.go)  |
+| [2833. Furthest point from origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | [golang](/leetcode/furthest-point-from-origin/furthest-point-from-origin.go)  |
+| [2828. Check if a string is an acronym of words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | Easy | [golang](/leetcode/check-if-a-string-is-an-acronym-of-words/check-if-a-string-is-an-acronym-of-words.go)  |
+| [2824. Count pairs whose sum is less than target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy | [golang](/leetcode/count-pairs-whose-sum-is-less-than-target/count-pairs-whose-sum-is-less-than-target.go)  |
+| [2815. Max pair sum in an array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | Easy | [golang](/leetcode/max-pair-sum-in-an-array/max-pair-sum-in-an-array.go)  |
+| [2810. Faulty keyboard](https://leetcode.com/problems/faulty-keyboard/) | Easy | [golang](/leetcode/faulty-keyboard/faulty-keyboard.go)  |
 
 
 ## adventofcode/2022

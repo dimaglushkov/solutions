@@ -450,3 +450,8 @@ substring-with-largest-variance,Hard,2272,['golang'],"['Array', 'Dynamic Program
 asteroid-collision,Medium,735,['golang'],"['Array', 'Stack', 'Simulation']"
 combinations,Medium,77,['golang'],['Backtracking']
 kth-largest-element-in-an-array,Medium,215,['golang'],"['Array', 'Divide and Conquer', 'Sorting', 'Heap (Priority Queue)', 'Quickselect']"
+furthest-point-from-origin,Easy,2833,['golang'],"['Array', 'Counting']"
+check-if-a-string-is-an-acronym-of-words,Easy,2828,['golang'],"['Array', 'String']"
+count-pairs-whose-sum-is-less-than-target,Easy,2824,['golang'],"['Array', 'Two Pointers', 'Sorting']"
+max-pair-sum-in-an-array,Easy,2815,['golang'],"['Array', 'Hash Table']"
+faulty-keyboard,Easy,2810,['golang'],"['String', 'Simulation']"
