@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 456
+Problems solved in total: 457
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -544,6 +544,7 @@ Problems solved in total: 456
 | [2824. Count pairs whose sum is less than target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | Easy | [golang](/leetcode/count-pairs-whose-sum-is-less-than-target/count-pairs-whose-sum-is-less-than-target.go)  |
 | [2815. Max pair sum in an array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | Easy | [golang](/leetcode/max-pair-sum-in-an-array/max-pair-sum-in-an-array.go)  |
 | [2810. Faulty keyboard](https://leetcode.com/problems/faulty-keyboard/) | Easy | [golang](/leetcode/faulty-keyboard/faulty-keyboard.go)  |
+| [2707. Extra characters in a string](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | [golang](/leetcode/extra-characters-in-a-string/extra-characters-in-a-string.go)  |
 
 
 ## adventofcode/2022

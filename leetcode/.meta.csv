@@ -455,3 +455,4 @@ check-if-a-string-is-an-acronym-of-words,Easy,2828,['golang'],"['Array', 'String
 count-pairs-whose-sum-is-less-than-target,Easy,2824,['golang'],"['Array', 'Two Pointers', 'Sorting']"
 max-pair-sum-in-an-array,Easy,2815,['golang'],"['Array', 'Hash Table']"
 faulty-keyboard,Easy,2810,['golang'],"['String', 'Simulation']"
+extra-characters-in-a-string,Medium,2707,['golang'],"['Array', 'Hash Table', 'String', 'Dynamic Programming', 'Trie']"
