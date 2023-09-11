@@ -80,7 +80,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 459
+Problems solved in total: 460
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -547,6 +547,7 @@ Problems solved in total: 459
 | [2707. Extra characters in a string](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | [golang](/leetcode/extra-characters-in-a-string/extra-characters-in-a-string.go)  |
 | [2839. Check if strings can be made equal with operations i](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | Easy | [golang](/leetcode/check-if-strings-can-be-made-equal-with-operations-i/check-if-strings-can-be-made-equal-with-operations-i.go)  |
 | [92. Reverse linked list ii](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | [golang](/leetcode/reverse-linked-list-ii/reverse-linked-list-ii.go)  |
+| [1282. Group the people given the group size they belong to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | Medium | [golang](/leetcode/group-the-people-given-the-group-size-they-belong-to/group-the-people-given-the-group-size-they-belong-to.go)  |
 
 
 ## adventofcode/2022

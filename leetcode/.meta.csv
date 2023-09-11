@@ -458,3 +458,4 @@ faulty-keyboard,Easy,2810,['golang'],"['String', 'Simulation']"
 extra-characters-in-a-string,Medium,2707,['golang'],"['Array', 'Hash Table', 'String', 'Dynamic Programming', 'Trie']"
 check-if-strings-can-be-made-equal-with-operations-i,Easy,2839,['golang'],[]
 reverse-linked-list-ii,Medium,92,['golang'],['Linked List']
+group-the-people-given-the-group-size-they-belong-to,Medium,1282,['golang'],"['Array', 'Hash Table']"
