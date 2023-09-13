@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 460
+Problems solved in total: 461
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -468,3 +468,4 @@ Problems solved in total: 460
 | [2839. Check if strings can be made equal with operations i](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | Easy | [golang](/leetcode/check-if-strings-can-be-made-equal-with-operations-i/check-if-strings-can-be-made-equal-with-operations-i.go)  |
 | [92. Reverse linked list ii](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | [golang](/leetcode/reverse-linked-list-ii/reverse-linked-list-ii.go)  |
 | [1282. Group the people given the group size they belong to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | Medium | [golang](/leetcode/group-the-people-given-the-group-size-they-belong-to/group-the-people-given-the-group-size-they-belong-to.go)  |
+| [135. Candy](https://leetcode.com/problems/candy/) | Hard | [golang](/leetcode/candy/candy.go)  |
