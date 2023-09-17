@@ -460,3 +460,4 @@ check-if-strings-can-be-made-equal-with-operations-i,Easy,2839,['golang'],[]
 reverse-linked-list-ii,Medium,92,['golang'],['Linked List']
 group-the-people-given-the-group-size-they-belong-to,Medium,1282,['golang'],"['Array', 'Hash Table']"
 candy,Hard,135,['golang'],"['Array', 'Greedy']"
+shortest-path-visiting-all-nodes,Hard,847,['golang'],"['Dynamic Programming', 'Bit Manipulation', 'Breadth-First Search', 'Graph', 'Bitmask']"
