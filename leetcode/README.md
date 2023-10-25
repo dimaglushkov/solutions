@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 462
+Problems solved in total: 463
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -470,3 +470,4 @@ Problems solved in total: 462
 | [1282. Group the people given the group size they belong to](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/) | Medium | [golang](/leetcode/group-the-people-given-the-group-size-they-belong-to/group-the-people-given-the-group-size-they-belong-to.go)  |
 | [135. Candy](https://leetcode.com/problems/candy/) | Hard | [golang](/leetcode/candy/candy.go)  |
 | [847. Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | Hard | [golang](/leetcode/shortest-path-visiting-all-nodes/shortest-path-visiting-all-nodes.go)  |
+| [779. K th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | Medium | [golang](/leetcode/k-th-symbol-in-grammar/k-th-symbol-in-grammar.go)  |
