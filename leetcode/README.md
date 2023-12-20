@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 463
+Problems solved in total: 464
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -471,3 +471,4 @@ Problems solved in total: 463
 | [135. Candy](https://leetcode.com/problems/candy/) | Hard | [golang](/leetcode/candy/candy.go)  |
 | [847. Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | Hard | [golang](/leetcode/shortest-path-visiting-all-nodes/shortest-path-visiting-all-nodes.go)  |
 | [779. K th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | Medium | [golang](/leetcode/k-th-symbol-in-grammar/k-th-symbol-in-grammar.go)  |
+| [2706. Buy two chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [golang](/leetcode/buy-two-chocolates/buy-two-chocolates.go)  |
