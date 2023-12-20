@@ -11,8 +11,9 @@ codeforces: [@dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 [2. contests](#contests) <br>
 [3. leetcode](#leetcode) <br>
 [4. adventofcode/2022](#adventofcode2022) <br>
-[5. codeforces](#codeforces) <br>
-[6. acm.timus](#acmtimus) <br>
+[5. adventofcode/2023](#adventofcode2023) <br>
+[6. codeforces](#codeforces) <br>
+[7. acm.timus](#acmtimus) <br>
 
 
 ## tools
@@ -577,6 +578,13 @@ Problems solved in total: 464
 | [Day 15](https://adventofcode.com/2022/day/15) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day15/day15.py) |
 
 
+
+
+## adventofcode/2023
+
+| Day                                          | Solution                                                                                          | 
+|----------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [Day 1](https://adventofcode.com/2023/day/1) | [rust](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2023/day01/src/main.rs) | 
 
 
 ## codeforces
