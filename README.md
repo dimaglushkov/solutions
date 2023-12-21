@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 464
+Problems solved in total: 465
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -553,6 +553,7 @@ Problems solved in total: 464
 | [847. Shortest path visiting all nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | Hard | [golang](/leetcode/shortest-path-visiting-all-nodes/shortest-path-visiting-all-nodes.go)  |
 | [779. K th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | Medium | [golang](/leetcode/k-th-symbol-in-grammar/k-th-symbol-in-grammar.go)  |
 | [2706. Buy two chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [golang](/leetcode/buy-two-chocolates/buy-two-chocolates.go)  |
+| [1637. Widest vertical area between two points containing no points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [golang](/leetcode/widest-vertical-area-between-two-points-containing-no-points/widest-vertical-area-between-two-points-containing-no-points.go)  |
 
 
 ## adventofcode/2022
