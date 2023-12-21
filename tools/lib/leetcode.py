@@ -20,6 +20,9 @@ def run(values, lang, sol_dir, handle, action):
 def _get_title_slugs(problems: list, lang: str, d: str) -> dict:
     slugs = dict()
     for problem in problems:
+        if problem.endswith('/description/'):
+            problem = problem.replace('description/', '')
+
         if problem.startswith('http'):
             slug = problem
             if problem.endswith('/'):
