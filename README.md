@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 465
+Problems solved in total: 466
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -554,6 +554,7 @@ Problems solved in total: 465
 | [779. K th symbol in grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | Medium | [golang](/leetcode/k-th-symbol-in-grammar/k-th-symbol-in-grammar.go)  |
 | [2706. Buy two chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [golang](/leetcode/buy-two-chocolates/buy-two-chocolates.go)  |
 | [1637. Widest vertical area between two points containing no points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [golang](/leetcode/widest-vertical-area-between-two-points-containing-no-points/widest-vertical-area-between-two-points-containing-no-points.go)  |
+| [2610. Convert an array into a 2d array with conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | Medium | [golang](/leetcode/convert-an-array-into-a-2d-array-with-conditions/convert-an-array-into-a-2d-array-with-conditions.go)  |
 
 
 ## adventofcode/2022
