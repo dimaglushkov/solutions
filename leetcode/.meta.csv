@@ -465,3 +465,5 @@ k-th-symbol-in-grammar,Medium,779,['golang'],"['Math', 'Bit Manipulation', 'Recu
 buy-two-chocolates,Easy,2706,['golang'],"['Array', 'Sorting']"
 widest-vertical-area-between-two-points-containing-no-points,Medium,1637,['golang'],"['Array', 'Sorting']"
 convert-an-array-into-a-2d-array-with-conditions,Medium,2610,['golang'],"['Array', 'Hash Table']"
+to-lower-case,Easy,709,['golang'],['String']
+1-bit-and-2-bit-characters,Easy,717,['golang'],['Array']

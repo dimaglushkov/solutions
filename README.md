@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 466
+Problems solved in total: 468
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -555,6 +555,8 @@ Problems solved in total: 466
 | [2706. Buy two chocolates](https://leetcode.com/problems/buy-two-chocolates/) | Easy | [golang](/leetcode/buy-two-chocolates/buy-two-chocolates.go)  |
 | [1637. Widest vertical area between two points containing no points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/) | Medium | [golang](/leetcode/widest-vertical-area-between-two-points-containing-no-points/widest-vertical-area-between-two-points-containing-no-points.go)  |
 | [2610. Convert an array into a 2d array with conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | Medium | [golang](/leetcode/convert-an-array-into-a-2d-array-with-conditions/convert-an-array-into-a-2d-array-with-conditions.go)  |
+| [709. To lower case](https://leetcode.com/problems/to-lower-case/) | Easy | [golang](/leetcode/to-lower-case/to-lower-case.go)  |
+| [717. 1 bit and 2 bit characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | [golang](/leetcode/1-bit-and-2-bit-characters/1-bit-and-2-bit-characters.go)  |
 
 
 ## adventofcode/2022
