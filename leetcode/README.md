@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 468
+Problems solved in total: 471
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -476,3 +476,6 @@ Problems solved in total: 468
 | [2610. Convert an array into a 2d array with conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/) | Medium | [golang](/leetcode/convert-an-array-into-a-2d-array-with-conditions/convert-an-array-into-a-2d-array-with-conditions.go)  |
 | [709. To lower case](https://leetcode.com/problems/to-lower-case/) | Easy | [golang](/leetcode/to-lower-case/to-lower-case.go)  |
 | [717. 1 bit and 2 bit characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | Easy | [golang](/leetcode/1-bit-and-2-bit-characters/1-bit-and-2-bit-characters.go)  |
+| [3019. Number of changing keys](https://leetcode.com/problems/number-of-changing-keys/) | Easy | [golang](/leetcode/number-of-changing-keys/number-of-changing-keys.go)  |
+| [3005. Count elements with maximum frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [golang](/leetcode/count-elements-with-maximum-frequency/count-elements-with-maximum-frequency.go)  |
+| [2974. Minimum number game](https://leetcode.com/problems/minimum-number-game/) | Easy | [golang](/leetcode/minimum-number-game/minimum-number-game.go)  |

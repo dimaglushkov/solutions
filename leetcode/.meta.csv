@@ -467,3 +467,6 @@ widest-vertical-area-between-two-points-containing-no-points,Medium,1637,['golan
 convert-an-array-into-a-2d-array-with-conditions,Medium,2610,['golang'],"['Array', 'Hash Table']"
 to-lower-case,Easy,709,['golang'],['String']
 1-bit-and-2-bit-characters,Easy,717,['golang'],['Array']
+number-of-changing-keys,Easy,3019,['golang'],['String']
+count-elements-with-maximum-frequency,Easy,3005,['golang'],"['Array', 'Hash Table', 'Counting']"
+minimum-number-game,Easy,2974,['golang'],"['Array', 'Sorting', 'Heap (Priority Queue)', 'Simulation']"
