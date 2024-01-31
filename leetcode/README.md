@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 471
+Problems solved in total: 474
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -479,3 +479,6 @@ Problems solved in total: 471
 | [3019. Number of changing keys](https://leetcode.com/problems/number-of-changing-keys/) | Easy | [golang](/leetcode/number-of-changing-keys/number-of-changing-keys.go)  |
 | [3005. Count elements with maximum frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency/) | Easy | [golang](/leetcode/count-elements-with-maximum-frequency/count-elements-with-maximum-frequency.go)  |
 | [2974. Minimum number game](https://leetcode.com/problems/minimum-number-game/) | Easy | [golang](/leetcode/minimum-number-game/minimum-number-game.go)  |
+| [3014. Minimum number of pushes to type word i](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | [golang](/leetcode/minimum-number-of-pushes-to-type-word-i/minimum-number-of-pushes-to-type-word-i.go)  |
+| [3010. Divide an array into subarrays with minimum cost i](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy | [golang](/leetcode/divide-an-array-into-subarrays-with-minimum-cost-i/divide-an-array-into-subarrays-with-minimum-cost-i.go)  |
+| [2970. Count the number of incremovable subarrays i](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) | Easy | [golang](/leetcode/count-the-number-of-incremovable-subarrays-i/count-the-number-of-incremovable-subarrays-i.go)  |

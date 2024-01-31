@@ -470,3 +470,6 @@ to-lower-case,Easy,709,['golang'],['String']
 number-of-changing-keys,Easy,3019,['golang'],['String']
 count-elements-with-maximum-frequency,Easy,3005,['golang'],"['Array', 'Hash Table', 'Counting']"
 minimum-number-game,Easy,2974,['golang'],"['Array', 'Sorting', 'Heap (Priority Queue)', 'Simulation']"
+minimum-number-of-pushes-to-type-word-i,Easy,3014,['golang'],"['Math', 'String', 'Greedy']"
+divide-an-array-into-subarrays-with-minimum-cost-i,Easy,3010,['golang'],"['Array', 'Sorting', 'Enumeration']"
+count-the-number-of-incremovable-subarrays-i,Easy,2970,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Enumeration']"
