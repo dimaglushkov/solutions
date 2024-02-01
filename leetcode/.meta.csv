@@ -473,3 +473,4 @@ minimum-number-game,Easy,2974,['golang'],"['Array', 'Sorting', 'Heap (Priority Q
 minimum-number-of-pushes-to-type-word-i,Easy,3014,['golang'],"['Math', 'String', 'Greedy']"
 divide-an-array-into-subarrays-with-minimum-cost-i,Easy,3010,['golang'],"['Array', 'Sorting', 'Enumeration']"
 count-the-number-of-incremovable-subarrays-i,Easy,2970,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Enumeration']"
+divide-array-into-arrays-with-max-difference,Medium,2966,['golang'],"['Array', 'Greedy', 'Sorting']"

@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 474
+Problems solved in total: 475
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -563,6 +563,7 @@ Problems solved in total: 474
 | [3014. Minimum number of pushes to type word i](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | [golang](/leetcode/minimum-number-of-pushes-to-type-word-i/minimum-number-of-pushes-to-type-word-i.go)  |
 | [3010. Divide an array into subarrays with minimum cost i](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy | [golang](/leetcode/divide-an-array-into-subarrays-with-minimum-cost-i/divide-an-array-into-subarrays-with-minimum-cost-i.go)  |
 | [2970. Count the number of incremovable subarrays i](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) | Easy | [golang](/leetcode/count-the-number-of-incremovable-subarrays-i/count-the-number-of-incremovable-subarrays-i.go)  |
+| [2966. Divide array into arrays with max difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | Medium | [golang](/leetcode/divide-array-into-arrays-with-max-difference/divide-array-into-arrays-with-max-difference.go)  |
 
 
 ## adventofcode/2022
