@@ -474,3 +474,6 @@ minimum-number-of-pushes-to-type-word-i,Easy,3014,['golang'],"['Math', 'String',
 divide-an-array-into-subarrays-with-minimum-cost-i,Easy,3010,['golang'],"['Array', 'Sorting', 'Enumeration']"
 count-the-number-of-incremovable-subarrays-i,Easy,2970,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Enumeration']"
 divide-array-into-arrays-with-max-difference,Medium,2966,['golang'],"['Array', 'Greedy', 'Sorting']"
+type-of-triangle-ii,Easy,3024,['golang'],[]
+ant-on-the-boundary,Easy,3028,['golang'],[]
+count-tested-devices-after-test-operations,Easy,2960,['golang'],"['Array', 'Simulation']"

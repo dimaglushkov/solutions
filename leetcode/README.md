@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 475
+Problems solved in total: 478
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -483,3 +483,6 @@ Problems solved in total: 475
 | [3010. Divide an array into subarrays with minimum cost i](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/) | Easy | [golang](/leetcode/divide-an-array-into-subarrays-with-minimum-cost-i/divide-an-array-into-subarrays-with-minimum-cost-i.go)  |
 | [2970. Count the number of incremovable subarrays i](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) | Easy | [golang](/leetcode/count-the-number-of-incremovable-subarrays-i/count-the-number-of-incremovable-subarrays-i.go)  |
 | [2966. Divide array into arrays with max difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | Medium | [golang](/leetcode/divide-array-into-arrays-with-max-difference/divide-array-into-arrays-with-max-difference.go)  |
+| [3024. Type of triangle ii](https://leetcode.com/problems/type-of-triangle-ii/) | Easy | [golang](/leetcode/type-of-triangle-ii/type-of-triangle-ii.go)  |
+| [3028. Ant on the boundary](https://leetcode.com/problems/ant-on-the-boundary/) | Easy | [golang](/leetcode/ant-on-the-boundary/ant-on-the-boundary.go)  |
+| [2960. Count tested devices after test operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | Easy | [golang](/leetcode/count-tested-devices-after-test-operations/count-tested-devices-after-test-operations.go)  |
