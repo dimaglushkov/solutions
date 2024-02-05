@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 478
+Problems solved in total: 481
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -567,6 +567,9 @@ Problems solved in total: 478
 | [3024. Type of triangle ii](https://leetcode.com/problems/type-of-triangle-ii/) | Easy | [golang](/leetcode/type-of-triangle-ii/type-of-triangle-ii.go)  |
 | [3028. Ant on the boundary](https://leetcode.com/problems/ant-on-the-boundary/) | Easy | [golang](/leetcode/ant-on-the-boundary/ant-on-the-boundary.go)  |
 | [2960. Count tested devices after test operations](https://leetcode.com/problems/count-tested-devices-after-test-operations/) | Easy | [golang](/leetcode/count-tested-devices-after-test-operations/count-tested-devices-after-test-operations.go)  |
+| [2997. Minimum number of operations to make array xor equal to k](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | Medium | [golang](/leetcode/minimum-number-of-operations-to-make-array-xor-equal-to-k/minimum-number-of-operations-to-make-array-xor-equal-to-k.go)  |
+| [3016. Minimum number of pushes to type word ii](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | Medium | [golang](/leetcode/minimum-number-of-pushes-to-type-word-ii/minimum-number-of-pushes-to-type-word-ii.go)  |
+| [2947. Count beautiful substrings i](https://leetcode.com/problems/count-beautiful-substrings-i/) | Medium | [golang](/leetcode/count-beautiful-substrings-i/count-beautiful-substrings-i.go)  |
 
 
 ## adventofcode/2022

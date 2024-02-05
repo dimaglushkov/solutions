@@ -477,3 +477,6 @@ divide-array-into-arrays-with-max-difference,Medium,2966,['golang'],"['Array', '
 type-of-triangle-ii,Easy,3024,['golang'],[]
 ant-on-the-boundary,Easy,3028,['golang'],[]
 count-tested-devices-after-test-operations,Easy,2960,['golang'],"['Array', 'Simulation']"
+minimum-number-of-operations-to-make-array-xor-equal-to-k,Medium,2997,['golang'],"['Array', 'Bit Manipulation']"
+minimum-number-of-pushes-to-type-word-ii,Medium,3016,['golang'],"['Hash Table', 'String', 'Greedy', 'Sorting', 'Counting']"
+count-beautiful-substrings-i,Medium,2947,['golang'],"['String', 'Enumeration', 'Prefix Sum']"
