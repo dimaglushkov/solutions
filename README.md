@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 481
+Problems solved in total: 484
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -570,6 +570,9 @@ Problems solved in total: 481
 | [2997. Minimum number of operations to make array xor equal to k](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) | Medium | [golang](/leetcode/minimum-number-of-operations-to-make-array-xor-equal-to-k/minimum-number-of-operations-to-make-array-xor-equal-to-k.go)  |
 | [3016. Minimum number of pushes to type word ii](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | Medium | [golang](/leetcode/minimum-number-of-pushes-to-type-word-ii/minimum-number-of-pushes-to-type-word-ii.go)  |
 | [2947. Count beautiful substrings i](https://leetcode.com/problems/count-beautiful-substrings-i/) | Medium | [golang](/leetcode/count-beautiful-substrings-i/count-beautiful-substrings-i.go)  |
+| [728. Self dividing numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | [golang](/leetcode/self-dividing-numbers/self-dividing-numbers.go)  |
+| [744. Find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [golang](/leetcode/find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.go)  |
+| [766. Toeplitz matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [golang](/leetcode/toeplitz-matrix/toeplitz-matrix.go)  |
 
 
 ## adventofcode/2022

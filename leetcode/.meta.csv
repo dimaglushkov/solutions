@@ -480,3 +480,6 @@ count-tested-devices-after-test-operations,Easy,2960,['golang'],"['Array', 'Simu
 minimum-number-of-operations-to-make-array-xor-equal-to-k,Medium,2997,['golang'],"['Array', 'Bit Manipulation']"
 minimum-number-of-pushes-to-type-word-ii,Medium,3016,['golang'],"['Hash Table', 'String', 'Greedy', 'Sorting', 'Counting']"
 count-beautiful-substrings-i,Medium,2947,['golang'],"['String', 'Enumeration', 'Prefix Sum']"
+self-dividing-numbers,Easy,728,['golang'],['Math']
+find-smallest-letter-greater-than-target,Easy,744,['golang'],"['Array', 'Binary Search']"
+toeplitz-matrix,Easy,766,['golang'],"['Array', 'Matrix']"
