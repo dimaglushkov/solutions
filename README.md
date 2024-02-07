@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 484
+Problems solved in total: 485
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -573,6 +573,7 @@ Problems solved in total: 484
 | [728. Self dividing numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | [golang](/leetcode/self-dividing-numbers/self-dividing-numbers.go)  |
 | [744. Find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [golang](/leetcode/find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.go)  |
 | [766. Toeplitz matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [golang](/leetcode/toeplitz-matrix/toeplitz-matrix.go)  |
+| [999. Available captures for rook](https://leetcode.com/problems/available-captures-for-rook/) | Easy | [golang](/leetcode/available-captures-for-rook/available-captures-for-rook.go)  |
 
 
 ## adventofcode/2022

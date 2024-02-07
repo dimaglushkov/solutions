@@ -483,3 +483,4 @@ count-beautiful-substrings-i,Medium,2947,['golang'],"['String', 'Enumeration', '
 self-dividing-numbers,Easy,728,['golang'],['Math']
 find-smallest-letter-greater-than-target,Easy,744,['golang'],"['Array', 'Binary Search']"
 toeplitz-matrix,Easy,766,['golang'],"['Array', 'Matrix']"
+available-captures-for-rook,Easy,999,['golang'],"['Array', 'Matrix', 'Simulation']"
