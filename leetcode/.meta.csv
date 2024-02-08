@@ -484,3 +484,6 @@ self-dividing-numbers,Easy,728,['golang'],['Math']
 find-smallest-letter-greater-than-target,Easy,744,['golang'],"['Array', 'Binary Search']"
 toeplitz-matrix,Easy,766,['golang'],"['Array', 'Matrix']"
 available-captures-for-rook,Easy,999,['golang'],"['Array', 'Matrix', 'Simulation']"
+cells-with-odd-values-in-a-matrix,Easy,1252,['golang'],"['Array', 'Math', 'Simulation']"
+minimum-cost-to-move-chips-to-the-same-position,Easy,1217,['golang'],"['Array', 'Math', 'Greedy']"
+split-a-string-in-balanced-strings,Easy,1221,['golang'],"['String', 'Greedy', 'Counting']"

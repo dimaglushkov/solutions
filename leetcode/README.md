@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 485
+Problems solved in total: 488
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -493,3 +493,6 @@ Problems solved in total: 485
 | [744. Find smallest letter greater than target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy | [golang](/leetcode/find-smallest-letter-greater-than-target/find-smallest-letter-greater-than-target.go)  |
 | [766. Toeplitz matrix](https://leetcode.com/problems/toeplitz-matrix/) | Easy | [golang](/leetcode/toeplitz-matrix/toeplitz-matrix.go)  |
 | [999. Available captures for rook](https://leetcode.com/problems/available-captures-for-rook/) | Easy | [golang](/leetcode/available-captures-for-rook/available-captures-for-rook.go)  |
+| [1252. Cells with odd values in a matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | Easy | [golang](/leetcode/cells-with-odd-values-in-a-matrix/cells-with-odd-values-in-a-matrix.go)  |
+| [1217. Minimum cost to move chips to the same position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy | [golang](/leetcode/minimum-cost-to-move-chips-to-the-same-position/minimum-cost-to-move-chips-to-the-same-position.go)  |
+| [1221. Split a string in balanced strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | Easy | [golang](/leetcode/split-a-string-in-balanced-strings/split-a-string-in-balanced-strings.go)  |
