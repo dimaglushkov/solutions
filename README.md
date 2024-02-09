@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 488
+Problems solved in total: 489
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -577,6 +577,7 @@ Problems solved in total: 488
 | [1252. Cells with odd values in a matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | Easy | [golang](/leetcode/cells-with-odd-values-in-a-matrix/cells-with-odd-values-in-a-matrix.go)  |
 | [1217. Minimum cost to move chips to the same position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy | [golang](/leetcode/minimum-cost-to-move-chips-to-the-same-position/minimum-cost-to-move-chips-to-the-same-position.go)  |
 | [1221. Split a string in balanced strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | Easy | [golang](/leetcode/split-a-string-in-balanced-strings/split-a-string-in-balanced-strings.go)  |
+| [368. Largest divisible subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [golang](/leetcode/largest-divisible-subset/largest-divisible-subset.go)  |
 
 
 ## adventofcode/2022
