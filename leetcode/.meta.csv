@@ -488,3 +488,7 @@ cells-with-odd-values-in-a-matrix,Easy,1252,['golang'],"['Array', 'Math', 'Simul
 minimum-cost-to-move-chips-to-the-same-position,Easy,1217,['golang'],"['Array', 'Math', 'Greedy']"
 split-a-string-in-balanced-strings,Easy,1221,['golang'],"['String', 'Greedy', 'Counting']"
 largest-divisible-subset,Medium,368,['golang'],"['Array', 'Math', 'Dynamic Programming', 'Sorting']"
+cherry-pickup-ii,Hard,1463,['golang'],"['Array', 'Dynamic Programming', 'Matrix']"
+replace-elements-with-greatest-element-on-right-side,Easy,1299,['golang'],['Array']
+find-numbers-with-even-number-of-digits,Easy,1295,['golang'],['Array']
+convert-binary-number-in-a-linked-list-to-integer,Easy,1290,['golang'],"['Linked List', 'Math']"

@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 489
+Problems solved in total: 493
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -578,6 +578,10 @@ Problems solved in total: 489
 | [1217. Minimum cost to move chips to the same position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) | Easy | [golang](/leetcode/minimum-cost-to-move-chips-to-the-same-position/minimum-cost-to-move-chips-to-the-same-position.go)  |
 | [1221. Split a string in balanced strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | Easy | [golang](/leetcode/split-a-string-in-balanced-strings/split-a-string-in-balanced-strings.go)  |
 | [368. Largest divisible subset](https://leetcode.com/problems/largest-divisible-subset/) | Medium | [golang](/leetcode/largest-divisible-subset/largest-divisible-subset.go)  |
+| [1463. Cherry pickup ii](https://leetcode.com/problems/cherry-pickup-ii/) | Hard | [golang](/leetcode/cherry-pickup-ii/cherry-pickup-ii.go)  |
+| [1299. Replace elements with greatest element on right side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | [golang](/leetcode/replace-elements-with-greatest-element-on-right-side/replace-elements-with-greatest-element-on-right-side.go)  |
+| [1295. Find numbers with even number of digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | [golang](/leetcode/find-numbers-with-even-number-of-digits/find-numbers-with-even-number-of-digits.go)  |
+| [1290. Convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | [golang](/leetcode/convert-binary-number-in-a-linked-list-to-integer/convert-binary-number-in-a-linked-list-to-integer.go)  |
 
 
 ## adventofcode/2022
