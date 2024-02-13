@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 493
+Problems solved in total: 495
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -582,6 +582,8 @@ Problems solved in total: 493
 | [1299. Replace elements with greatest element on right side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Easy | [golang](/leetcode/replace-elements-with-greatest-element-on-right-side/replace-elements-with-greatest-element-on-right-side.go)  |
 | [1295. Find numbers with even number of digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | [golang](/leetcode/find-numbers-with-even-number-of-digits/find-numbers-with-even-number-of-digits.go)  |
 | [1290. Convert binary number in a linked list to integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | [golang](/leetcode/convert-binary-number-in-a-linked-list-to-integer/convert-binary-number-in-a-linked-list-to-integer.go)  |
+| [2108. Find first palindromic string in the array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [golang](/leetcode/find-first-palindromic-string-in-the-array/find-first-palindromic-string-in-the-array.go)  |
+| [43. Multiply strings](https://leetcode.com/problems/multiply-strings/) | Medium | [golang](/leetcode/multiply-strings/multiply-strings.go)  |
 
 
 ## adventofcode/2022
