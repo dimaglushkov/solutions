@@ -494,3 +494,4 @@ find-numbers-with-even-number-of-digits,Easy,1295,['golang'],['Array']
 convert-binary-number-in-a-linked-list-to-integer,Easy,1290,['golang'],"['Linked List', 'Math']"
 find-first-palindromic-string-in-the-array,Easy,2108,['golang'],"['Array', 'Two Pointers', 'String']"
 multiply-strings,Medium,43,['golang'],"['Math', 'String', 'Simulation']"
+rearrange-array-elements-by-sign,Medium,2149,['golang'],"['Array', 'Two Pointers', 'Simulation']"
