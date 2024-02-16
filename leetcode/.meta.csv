@@ -496,3 +496,4 @@ find-first-palindromic-string-in-the-array,Easy,2108,['golang'],"['Array', 'Two 
 multiply-strings,Medium,43,['golang'],"['Math', 'String', 'Simulation']"
 rearrange-array-elements-by-sign,Medium,2149,['golang'],"['Array', 'Two Pointers', 'Simulation']"
 find-polygon-with-the-largest-perimeter,Medium,2971,['golang'],"['Array', 'Greedy', 'Sorting', 'Prefix Sum']"
+least-number-of-unique-integers-after-k-removals,Medium,1481,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting', 'Counting']"
