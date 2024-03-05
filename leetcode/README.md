@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 498
+Problems solved in total: 499
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -506,3 +506,4 @@ Problems solved in total: 498
 | [2149. Rearrange array elements by sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/) | Medium | [golang](/leetcode/rearrange-array-elements-by-sign/rearrange-array-elements-by-sign.go)  |
 | [2971. Find polygon with the largest perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [golang](/leetcode/find-polygon-with-the-largest-perimeter/find-polygon-with-the-largest-perimeter.go)  |
 | [1481. Least number of unique integers after k removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [golang](/leetcode/least-number-of-unique-integers-after-k-removals/least-number-of-unique-integers-after-k-removals.go)  |
+| [948. Bag of tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [golang](/leetcode/bag-of-tokens/bag-of-tokens.go)  |
