@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 499
+Problems solved in total: 500
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -588,6 +588,7 @@ Problems solved in total: 499
 | [2971. Find polygon with the largest perimeter](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/) | Medium | [golang](/leetcode/find-polygon-with-the-largest-perimeter/find-polygon-with-the-largest-perimeter.go)  |
 | [1481. Least number of unique integers after k removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [golang](/leetcode/least-number-of-unique-integers-after-k-removals/least-number-of-unique-integers-after-k-removals.go)  |
 | [948. Bag of tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [golang](/leetcode/bag-of-tokens/bag-of-tokens.go)  |
+| [1750. Minimum length of string after deleting similar ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [golang](/leetcode/minimum-length-of-string-after-deleting-similar-ends/minimum-length-of-string-after-deleting-similar-ends.go)  |
 
 
 ## adventofcode/2022

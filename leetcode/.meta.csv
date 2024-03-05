@@ -498,3 +498,4 @@ rearrange-array-elements-by-sign,Medium,2149,['golang'],"['Array', 'Two Pointers
 find-polygon-with-the-largest-perimeter,Medium,2971,['golang'],"['Array', 'Greedy', 'Sorting', 'Prefix Sum']"
 least-number-of-unique-integers-after-k-removals,Medium,1481,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting', 'Counting']"
 bag-of-tokens,Medium,948,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"
+minimum-length-of-string-after-deleting-similar-ends,Medium,1750,['golang'],"['Two Pointers', 'String']"
