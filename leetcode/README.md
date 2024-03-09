@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 500
+Problems solved in total: 501
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -508,3 +508,4 @@ Problems solved in total: 500
 | [1481. Least number of unique integers after k removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Medium | [golang](/leetcode/least-number-of-unique-integers-after-k-removals/least-number-of-unique-integers-after-k-removals.go)  |
 | [948. Bag of tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [golang](/leetcode/bag-of-tokens/bag-of-tokens.go)  |
 | [1750. Minimum length of string after deleting similar ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [golang](/leetcode/minimum-length-of-string-after-deleting-similar-ends/minimum-length-of-string-after-deleting-similar-ends.go)  |
+| [2540. Minimum common value](https://leetcode.com/problems/minimum-common-value/) | Easy | [golang](/leetcode/minimum-common-value/minimum-common-value.go)  |
