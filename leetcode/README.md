@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 501
+Problems solved in total: 503
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -509,3 +509,5 @@ Problems solved in total: 501
 | [948. Bag of tokens](https://leetcode.com/problems/bag-of-tokens/) | Medium | [golang](/leetcode/bag-of-tokens/bag-of-tokens.go)  |
 | [1750. Minimum length of string after deleting similar ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends/) | Medium | [golang](/leetcode/minimum-length-of-string-after-deleting-similar-ends/minimum-length-of-string-after-deleting-similar-ends.go)  |
 | [2540. Minimum common value](https://leetcode.com/problems/minimum-common-value/) | Easy | [golang](/leetcode/minimum-common-value/minimum-common-value.go)  |
+| [621. Task scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [golang](/leetcode/task-scheduler/task-scheduler.go)  |
+| [2958. Length of longest subarray with at most k frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | Medium | [golang](/leetcode/length-of-longest-subarray-with-at-most-k-frequency/length-of-longest-subarray-with-at-most-k-frequency.go)  |

@@ -500,3 +500,5 @@ least-number-of-unique-integers-after-k-removals,Medium,1481,['golang'],"['Array
 bag-of-tokens,Medium,948,['golang'],"['Array', 'Two Pointers', 'Greedy', 'Sorting']"
 minimum-length-of-string-after-deleting-similar-ends,Medium,1750,['golang'],"['Two Pointers', 'String']"
 minimum-common-value,Easy,2540,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Binary Search']"
+task-scheduler,Medium,621,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting', 'Heap (Priority Queue)', 'Counting']"
+length-of-longest-subarray-with-at-most-k-frequency,Medium,2958,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
