@@ -502,3 +502,5 @@ minimum-length-of-string-after-deleting-similar-ends,Medium,1750,['golang'],"['T
 minimum-common-value,Easy,2540,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Binary Search']"
 task-scheduler,Medium,621,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting', 'Heap (Priority Queue)', 'Counting']"
 length-of-longest-subarray-with-at-most-k-frequency,Medium,2958,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
+count-subarrays-where-max-element-appears-at-least-k-times,Medium,2962,['golang'],"['Array', 'Sliding Window']"
+valid-parenthesis-string,Medium,678,['golang'],"['String', 'Dynamic Programming', 'Stack', 'Greedy']"

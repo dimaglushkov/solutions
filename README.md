@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 503
+Problems solved in total: 505
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -592,6 +592,8 @@ Problems solved in total: 503
 | [2540. Minimum common value](https://leetcode.com/problems/minimum-common-value/) | Easy | [golang](/leetcode/minimum-common-value/minimum-common-value.go)  |
 | [621. Task scheduler](https://leetcode.com/problems/task-scheduler/) | Medium | [golang](/leetcode/task-scheduler/task-scheduler.go)  |
 | [2958. Length of longest subarray with at most k frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | Medium | [golang](/leetcode/length-of-longest-subarray-with-at-most-k-frequency/length-of-longest-subarray-with-at-most-k-frequency.go)  |
+| [2962. Count subarrays where max element appears at least k times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) | Medium | [golang](/leetcode/count-subarrays-where-max-element-appears-at-least-k-times/count-subarrays-where-max-element-appears-at-least-k-times.go)  |
+| [678. Valid parenthesis string](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [golang](/leetcode/valid-parenthesis-string/valid-parenthesis-string.go)  |
 
 
 ## adventofcode/2022
