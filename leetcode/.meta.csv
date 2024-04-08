@@ -504,3 +504,4 @@ task-scheduler,Medium,621,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting
 length-of-longest-subarray-with-at-most-k-frequency,Medium,2958,['golang'],"['Array', 'Hash Table', 'Sliding Window']"
 count-subarrays-where-max-element-appears-at-least-k-times,Medium,2962,['golang'],"['Array', 'Sliding Window']"
 valid-parenthesis-string,Medium,678,['golang'],"['String', 'Dynamic Programming', 'Stack', 'Greedy']"
+number-of-students-unable-to-eat-lunch,Easy,1700,['golang'],"['Array', 'Stack', 'Queue', 'Simulation']"
