@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 506
+Problems solved in total: 507
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -514,3 +514,4 @@ Problems solved in total: 506
 | [2962. Count subarrays where max element appears at least k times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) | Medium | [golang](/leetcode/count-subarrays-where-max-element-appears-at-least-k-times/count-subarrays-where-max-element-appears-at-least-k-times.go)  |
 | [678. Valid parenthesis string](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [golang](/leetcode/valid-parenthesis-string/valid-parenthesis-string.go)  |
 | [1700. Number of students unable to eat lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [golang](/leetcode/number-of-students-unable-to-eat-lunch/number-of-students-unable-to-eat-lunch.go)  |
+| [2073. Time needed to buy tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [golang](/leetcode/time-needed-to-buy-tickets/time-needed-to-buy-tickets.go)  |

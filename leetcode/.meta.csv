@@ -505,3 +505,4 @@ length-of-longest-subarray-with-at-most-k-frequency,Medium,2958,['golang'],"['Ar
 count-subarrays-where-max-element-appears-at-least-k-times,Medium,2962,['golang'],"['Array', 'Sliding Window']"
 valid-parenthesis-string,Medium,678,['golang'],"['String', 'Dynamic Programming', 'Stack', 'Greedy']"
 number-of-students-unable-to-eat-lunch,Easy,1700,['golang'],"['Array', 'Stack', 'Queue', 'Simulation']"
+time-needed-to-buy-tickets,Easy,2073,['golang'],"['Array', 'Queue', 'Simulation']"
