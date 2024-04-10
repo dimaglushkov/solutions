@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 507
+Problems solved in total: 508
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -515,3 +515,4 @@ Problems solved in total: 507
 | [678. Valid parenthesis string](https://leetcode.com/problems/valid-parenthesis-string/) | Medium | [golang](/leetcode/valid-parenthesis-string/valid-parenthesis-string.go)  |
 | [1700. Number of students unable to eat lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [golang](/leetcode/number-of-students-unable-to-eat-lunch/number-of-students-unable-to-eat-lunch.go)  |
 | [2073. Time needed to buy tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [golang](/leetcode/time-needed-to-buy-tickets/time-needed-to-buy-tickets.go)  |
+| [950. Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [golang](/leetcode/reveal-cards-in-increasing-order/reveal-cards-in-increasing-order.go)  |

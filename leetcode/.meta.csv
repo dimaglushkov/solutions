@@ -506,3 +506,4 @@ count-subarrays-where-max-element-appears-at-least-k-times,Medium,2962,['golang'
 valid-parenthesis-string,Medium,678,['golang'],"['String', 'Dynamic Programming', 'Stack', 'Greedy']"
 number-of-students-unable-to-eat-lunch,Easy,1700,['golang'],"['Array', 'Stack', 'Queue', 'Simulation']"
 time-needed-to-buy-tickets,Easy,2073,['golang'],"['Array', 'Queue', 'Simulation']"
+reveal-cards-in-increasing-order,Medium,950,['golang'],"['Array', 'Queue', 'Sorting', 'Simulation']"
