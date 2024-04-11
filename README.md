@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 508
+Problems solved in total: 509
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -597,6 +597,7 @@ Problems solved in total: 508
 | [1700. Number of students unable to eat lunch](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/) | Easy | [golang](/leetcode/number-of-students-unable-to-eat-lunch/number-of-students-unable-to-eat-lunch.go)  |
 | [2073. Time needed to buy tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [golang](/leetcode/time-needed-to-buy-tickets/time-needed-to-buy-tickets.go)  |
 | [950. Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [golang](/leetcode/reveal-cards-in-increasing-order/reveal-cards-in-increasing-order.go)  |
+| [402. Remove k digits](https://leetcode.com/problems/remove-k-digits/) | Medium | [golang](/leetcode/remove-k-digits/remove-k-digits.go)  |
 
 
 ## adventofcode/2022

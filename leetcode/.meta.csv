@@ -507,3 +507,4 @@ valid-parenthesis-string,Medium,678,['golang'],"['String', 'Dynamic Programming'
 number-of-students-unable-to-eat-lunch,Easy,1700,['golang'],"['Array', 'Stack', 'Queue', 'Simulation']"
 time-needed-to-buy-tickets,Easy,2073,['golang'],"['Array', 'Queue', 'Simulation']"
 reveal-cards-in-increasing-order,Medium,950,['golang'],"['Array', 'Queue', 'Sorting', 'Simulation']"
+remove-k-digits,Medium,402,['golang'],"['String', 'Stack', 'Greedy', 'Monotonic Stack']"
