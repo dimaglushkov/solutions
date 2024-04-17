@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 509
+Problems solved in total: 511
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -517,3 +517,5 @@ Problems solved in total: 509
 | [2073. Time needed to buy tickets](https://leetcode.com/problems/time-needed-to-buy-tickets/) | Easy | [golang](/leetcode/time-needed-to-buy-tickets/time-needed-to-buy-tickets.go)  |
 | [950. Reveal cards in increasing order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | Medium | [golang](/leetcode/reveal-cards-in-increasing-order/reveal-cards-in-increasing-order.go)  |
 | [402. Remove k digits](https://leetcode.com/problems/remove-k-digits/) | Medium | [golang](/leetcode/remove-k-digits/remove-k-digits.go)  |
+| [42. Trapping rain water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [golang](/leetcode/trapping-rain-water/trapping-rain-water.go)  |
+| [988. Smallest string starting from leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Medium | [golang](/leetcode/smallest-string-starting-from-leaf/smallest-string-starting-from-leaf.go)  |
