@@ -510,3 +510,5 @@ reveal-cards-in-increasing-order,Medium,950,['golang'],"['Array', 'Queue', 'Sort
 remove-k-digits,Medium,402,['golang'],"['String', 'Stack', 'Greedy', 'Monotonic Stack']"
 trapping-rain-water,Hard,42,['golang'],"['Array', 'Two Pointers', 'Dynamic Programming', 'Stack', 'Monotonic Stack']"
 smallest-string-starting-from-leaf,Medium,988,['golang'],"['String', 'Tree', 'Depth-First Search', 'Binary Tree']"
+reverse-prefix-of-word,Easy,2000,['golang'],"['Two Pointers', 'String']"
+largest-positive-integer-that-exists-with-its-negative,Easy,2441,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting']"
