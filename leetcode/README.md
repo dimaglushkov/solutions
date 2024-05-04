@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 513
+Problems solved in total: 515
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -521,3 +521,5 @@ Problems solved in total: 513
 | [988. Smallest string starting from leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | Medium | [golang](/leetcode/smallest-string-starting-from-leaf/smallest-string-starting-from-leaf.go)  |
 | [2000. Reverse prefix of word](https://leetcode.com/problems/reverse-prefix-of-word/) | Easy | [golang](/leetcode/reverse-prefix-of-word/reverse-prefix-of-word.go)  |
 | [2441. Largest positive integer that exists with its negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/) | Easy | [golang](/leetcode/largest-positive-integer-that-exists-with-its-negative/largest-positive-integer-that-exists-with-its-negative.go)  |
+| [165. Compare version numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [golang](/leetcode/compare-version-numbers/compare-version-numbers.go)  |
+| [2807. Insert greatest common divisors in linked list](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | Medium | [golang](/leetcode/insert-greatest-common-divisors-in-linked-list/insert-greatest-common-divisors-in-linked-list.go), [golang](/leetcode/insert-greatest-common-divisors-in-linked-list/insert-greatest-common-divisors-in-linked-list.go)  |

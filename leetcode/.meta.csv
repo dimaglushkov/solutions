@@ -512,3 +512,5 @@ trapping-rain-water,Hard,42,['golang'],"['Array', 'Two Pointers', 'Dynamic Progr
 smallest-string-starting-from-leaf,Medium,988,['golang'],"['String', 'Tree', 'Depth-First Search', 'Binary Tree']"
 reverse-prefix-of-word,Easy,2000,['golang'],"['Two Pointers', 'String']"
 largest-positive-integer-that-exists-with-its-negative,Easy,2441,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting']"
+compare-version-numbers,Medium,165,['golang'],"['Two Pointers', 'String']"
+insert-greatest-common-divisors-in-linked-list,Medium,2807,"['golang', 'golang']","['Linked List', 'Math', 'Number Theory']"
