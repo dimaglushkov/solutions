@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 518
+Problems solved in total: 519
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -526,3 +526,4 @@ Problems solved in total: 518
 | [2265. Count nodes equal to average of subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | Medium | [golang](/leetcode/count-nodes-equal-to-average-of-subtree/count-nodes-equal-to-average-of-subtree.go)  |
 | [1038. Binary search tree to greater sum tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium | [golang](/leetcode/binary-search-tree-to-greater-sum-tree/binary-search-tree-to-greater-sum-tree.go)  |
 | [2816. Double a number represented as a linked list](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [golang](/leetcode/double-a-number-represented-as-a-linked-list/double-a-number-represented-as-a-linked-list.go)  |
+| [506. Relative ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [golang](/leetcode/relative-ranks/relative-ranks.go)  |
