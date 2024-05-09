@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 519
+Problems solved in total: 520
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -608,6 +608,7 @@ Problems solved in total: 519
 | [1038. Binary search tree to greater sum tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | Medium | [golang](/leetcode/binary-search-tree-to-greater-sum-tree/binary-search-tree-to-greater-sum-tree.go)  |
 | [2816. Double a number represented as a linked list](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [golang](/leetcode/double-a-number-represented-as-a-linked-list/double-a-number-represented-as-a-linked-list.go)  |
 | [506. Relative ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [golang](/leetcode/relative-ranks/relative-ranks.go)  |
+| [3075. Maximize happiness of selected children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [golang](/leetcode/maximize-happiness-of-selected-children/maximize-happiness-of-selected-children.go)  |
 
 
 ## adventofcode/2022
