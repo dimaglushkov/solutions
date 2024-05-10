@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 520
+Problems solved in total: 521
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -528,3 +528,4 @@ Problems solved in total: 520
 | [2816. Double a number represented as a linked list](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | Medium | [golang](/leetcode/double-a-number-represented-as-a-linked-list/double-a-number-represented-as-a-linked-list.go)  |
 | [506. Relative ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [golang](/leetcode/relative-ranks/relative-ranks.go)  |
 | [3075. Maximize happiness of selected children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [golang](/leetcode/maximize-happiness-of-selected-children/maximize-happiness-of-selected-children.go)  |
+| [786. K th smallest prime fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [golang](/leetcode/k-th-smallest-prime-fraction/k-th-smallest-prime-fraction.go)  |

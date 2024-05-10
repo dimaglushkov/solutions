@@ -519,3 +519,4 @@ binary-search-tree-to-greater-sum-tree,Medium,1038,['golang'],"['Tree', 'Depth-F
 double-a-number-represented-as-a-linked-list,Medium,2816,['golang'],"['Linked List', 'Math', 'Stack']"
 relative-ranks,Easy,506,['golang'],"['Array', 'Sorting', 'Heap (Priority Queue)']"
 maximize-happiness-of-selected-children,Medium,3075,['golang'],"['Array', 'Greedy', 'Sorting']"
+k-th-smallest-prime-fraction,Medium,786,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Sorting', 'Heap (Priority Queue)']"
