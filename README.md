@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 521
+Problems solved in total: 523
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -610,6 +610,8 @@ Problems solved in total: 521
 | [506. Relative ranks](https://leetcode.com/problems/relative-ranks/) | Easy | [golang](/leetcode/relative-ranks/relative-ranks.go)  |
 | [3075. Maximize happiness of selected children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) | Medium | [golang](/leetcode/maximize-happiness-of-selected-children/maximize-happiness-of-selected-children.go)  |
 | [786. K th smallest prime fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [golang](/leetcode/k-th-smallest-prime-fraction/k-th-smallest-prime-fraction.go)  |
+| [857. Minimum cost to hire k workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [golang](/leetcode/minimum-cost-to-hire-k-workers/minimum-cost-to-hire-k-workers.go)  |
+| [2373. Largest local values in a matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [golang](/leetcode/largest-local-values-in-a-matrix/largest-local-values-in-a-matrix.go)  |
 
 
 ## adventofcode/2022

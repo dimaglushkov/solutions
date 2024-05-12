@@ -520,3 +520,5 @@ double-a-number-represented-as-a-linked-list,Medium,2816,['golang'],"['Linked Li
 relative-ranks,Easy,506,['golang'],"['Array', 'Sorting', 'Heap (Priority Queue)']"
 maximize-happiness-of-selected-children,Medium,3075,['golang'],"['Array', 'Greedy', 'Sorting']"
 k-th-smallest-prime-fraction,Medium,786,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Sorting', 'Heap (Priority Queue)']"
+minimum-cost-to-hire-k-workers,Hard,857,['golang'],"['Array', 'Greedy', 'Sorting', 'Heap (Priority Queue)']"
+largest-local-values-in-a-matrix,Easy,2373,['golang'],"['Array', 'Matrix']"
