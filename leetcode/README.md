@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 523
+Problems solved in total: 524
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -531,3 +531,4 @@ Problems solved in total: 523
 | [786. K th smallest prime fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | Medium | [golang](/leetcode/k-th-smallest-prime-fraction/k-th-smallest-prime-fraction.go)  |
 | [857. Minimum cost to hire k workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | Hard | [golang](/leetcode/minimum-cost-to-hire-k-workers/minimum-cost-to-hire-k-workers.go)  |
 | [2373. Largest local values in a matrix](https://leetcode.com/problems/largest-local-values-in-a-matrix/) | Easy | [golang](/leetcode/largest-local-values-in-a-matrix/largest-local-values-in-a-matrix.go)  |
+| [861. Score after flipping matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium | [golang](/leetcode/score-after-flipping-matrix/score-after-flipping-matrix.go)  |

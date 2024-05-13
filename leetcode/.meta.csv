@@ -522,3 +522,4 @@ maximize-happiness-of-selected-children,Medium,3075,['golang'],"['Array', 'Greed
 k-th-smallest-prime-fraction,Medium,786,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Sorting', 'Heap (Priority Queue)']"
 minimum-cost-to-hire-k-workers,Hard,857,['golang'],"['Array', 'Greedy', 'Sorting', 'Heap (Priority Queue)']"
 largest-local-values-in-a-matrix,Easy,2373,['golang'],"['Array', 'Matrix']"
+score-after-flipping-matrix,Medium,861,['golang'],"['Array', 'Greedy', 'Bit Manipulation', 'Matrix']"
