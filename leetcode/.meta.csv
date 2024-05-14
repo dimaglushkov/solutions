@@ -523,3 +523,4 @@ k-th-smallest-prime-fraction,Medium,786,['golang'],"['Array', 'Two Pointers', 'B
 minimum-cost-to-hire-k-workers,Hard,857,['golang'],"['Array', 'Greedy', 'Sorting', 'Heap (Priority Queue)']"
 largest-local-values-in-a-matrix,Easy,2373,['golang'],"['Array', 'Matrix']"
 score-after-flipping-matrix,Medium,861,['golang'],"['Array', 'Greedy', 'Bit Manipulation', 'Matrix']"
+path-with-maximum-gold,Medium,1219,['golang'],"['Array', 'Backtracking', 'Matrix']"
