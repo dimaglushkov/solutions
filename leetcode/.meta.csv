@@ -513,7 +513,7 @@ smallest-string-starting-from-leaf,Medium,988,['golang'],"['String', 'Tree', 'De
 reverse-prefix-of-word,Easy,2000,['golang'],"['Two Pointers', 'String']"
 largest-positive-integer-that-exists-with-its-negative,Easy,2441,['golang'],"['Array', 'Hash Table', 'Two Pointers', 'Sorting']"
 compare-version-numbers,Medium,165,['golang'],"['Two Pointers', 'String']"
-insert-greatest-common-divisors-in-linked-list,Medium,2807,"['golang', 'golang']","['Linked List', 'Math', 'Number Theory']"
+insert-greatest-common-divisors-in-linked-list,Medium,2807,['golang'],"['Linked List', 'Math', 'Number Theory']"
 count-nodes-equal-to-average-of-subtree,Medium,2265,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 binary-search-tree-to-greater-sum-tree,Medium,1038,['golang'],"['Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 double-a-number-represented-as-a-linked-list,Medium,2816,['golang'],"['Linked List', 'Math', 'Stack']"
@@ -524,3 +524,4 @@ minimum-cost-to-hire-k-workers,Hard,857,['golang'],"['Array', 'Greedy', 'Sorting
 largest-local-values-in-a-matrix,Easy,2373,['golang'],"['Array', 'Matrix']"
 score-after-flipping-matrix,Medium,861,['golang'],"['Array', 'Greedy', 'Bit Manipulation', 'Matrix']"
 path-with-maximum-gold,Medium,1219,['golang'],"['Array', 'Backtracking', 'Matrix']"
+neither-minimum-nor-maximum,Easy,2733,['golang'],"['Array', 'Sorting']"
