@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 526
+Problems solved in total: 527
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -534,3 +534,4 @@ Problems solved in total: 526
 | [861. Score after flipping matrix](https://leetcode.com/problems/score-after-flipping-matrix/) | Medium | [golang](/leetcode/score-after-flipping-matrix/score-after-flipping-matrix.go)  |
 | [1219. Path with maximum gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [golang](/leetcode/path-with-maximum-gold/path-with-maximum-gold.go)  |
 | [2733. Neither minimum nor maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | Easy | [golang](/leetcode/neither-minimum-nor-maximum/neither-minimum-nor-maximum.go)  |
+| [2331. Evaluate boolean binary tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [golang](/leetcode/evaluate-boolean-binary-tree/evaluate-boolean-binary-tree.go)  |
