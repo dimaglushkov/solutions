@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 527
+Problems solved in total: 528
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -616,6 +616,7 @@ Problems solved in total: 527
 | [1219. Path with maximum gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | [golang](/leetcode/path-with-maximum-gold/path-with-maximum-gold.go)  |
 | [2733. Neither minimum nor maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | Easy | [golang](/leetcode/neither-minimum-nor-maximum/neither-minimum-nor-maximum.go)  |
 | [2331. Evaluate boolean binary tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [golang](/leetcode/evaluate-boolean-binary-tree/evaluate-boolean-binary-tree.go)  |
+| [1325. Delete leaves with a given value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Medium | [golang](/leetcode/delete-leaves-with-a-given-value/delete-leaves-with-a-given-value.go)  |
 
 
 ## adventofcode/2022

@@ -526,3 +526,4 @@ score-after-flipping-matrix,Medium,861,['golang'],"['Array', 'Greedy', 'Bit Mani
 path-with-maximum-gold,Medium,1219,['golang'],"['Array', 'Backtracking', 'Matrix']"
 neither-minimum-nor-maximum,Easy,2733,['golang'],"['Array', 'Sorting']"
 evaluate-boolean-binary-tree,Easy,2331,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
+delete-leaves-with-a-given-value,Medium,1325,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
