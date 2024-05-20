@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 528
+Problems solved in total: 530
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -536,3 +536,5 @@ Problems solved in total: 528
 | [2733. Neither minimum nor maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | Easy | [golang](/leetcode/neither-minimum-nor-maximum/neither-minimum-nor-maximum.go)  |
 | [2331. Evaluate boolean binary tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | Easy | [golang](/leetcode/evaluate-boolean-binary-tree/evaluate-boolean-binary-tree.go)  |
 | [1325. Delete leaves with a given value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | Medium | [golang](/leetcode/delete-leaves-with-a-given-value/delete-leaves-with-a-given-value.go)  |
+| [3068. Find the maximum sum of node values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [golang](/leetcode/find-the-maximum-sum-of-node-values/find-the-maximum-sum-of-node-values.go)  |
+| [1863. Sum of all subset xor totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [golang](/leetcode/sum-of-all-subset-xor-totals/sum-of-all-subset-xor-totals.go)  |
