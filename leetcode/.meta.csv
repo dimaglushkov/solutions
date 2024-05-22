@@ -529,3 +529,4 @@ evaluate-boolean-binary-tree,Easy,2331,['golang'],"['Tree', 'Depth-First Search'
 delete-leaves-with-a-given-value,Medium,1325,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 find-the-maximum-sum-of-node-values,Hard,3068,['golang'],"['Array', 'Dynamic Programming', 'Greedy', 'Bit Manipulation', 'Tree', 'Sorting']"
 sum-of-all-subset-xor-totals,Easy,1863,['golang'],"['Array', 'Math', 'Backtracking', 'Bit Manipulation', 'Combinatorics', 'Enumeration']"
+palindrome-partitioning,Medium,131,['golang'],"['String', 'Dynamic Programming', 'Backtracking']"
