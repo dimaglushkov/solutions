@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 531
+Problems solved in total: 532
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -620,6 +620,7 @@ Problems solved in total: 531
 | [3068. Find the maximum sum of node values](https://leetcode.com/problems/find-the-maximum-sum-of-node-values/) | Hard | [golang](/leetcode/find-the-maximum-sum-of-node-values/find-the-maximum-sum-of-node-values.go)  |
 | [1863. Sum of all subset xor totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [golang](/leetcode/sum-of-all-subset-xor-totals/sum-of-all-subset-xor-totals.go)  |
 | [131. Palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [golang](/leetcode/palindrome-partitioning/palindrome-partitioning.go)  |
+| [2597. The number of beautiful subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [golang](/leetcode/the-number-of-beautiful-subsets/the-number-of-beautiful-subsets.go)  |
 
 
 ## adventofcode/2022
