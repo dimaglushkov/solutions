@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 532
+Problems solved in total: 533
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -540,3 +540,4 @@ Problems solved in total: 532
 | [1863. Sum of all subset xor totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | Easy | [golang](/leetcode/sum-of-all-subset-xor-totals/sum-of-all-subset-xor-totals.go)  |
 | [131. Palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [golang](/leetcode/palindrome-partitioning/palindrome-partitioning.go)  |
 | [2597. The number of beautiful subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [golang](/leetcode/the-number-of-beautiful-subsets/the-number-of-beautiful-subsets.go)  |
+| [1255. Maximum score words formed by letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [golang](/leetcode/maximum-score-words-formed-by-letters/maximum-score-words-formed-by-letters.go)  |
