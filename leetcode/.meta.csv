@@ -532,3 +532,4 @@ sum-of-all-subset-xor-totals,Easy,1863,['golang'],"['Array', 'Math', 'Backtracki
 palindrome-partitioning,Medium,131,['golang'],"['String', 'Dynamic Programming', 'Backtracking']"
 the-number-of-beautiful-subsets,Medium,2597,['golang'],"['Array', 'Dynamic Programming', 'Backtracking', 'Sorting']"
 maximum-score-words-formed-by-letters,Hard,1255,['golang'],"['Array', 'String', 'Dynamic Programming', 'Backtracking', 'Bit Manipulation', 'Bitmask']"
+special-array-with-x-elements-greater-than-or-equal-x,Easy,1608,['golang'],"['Array', 'Binary Search', 'Sorting']"
