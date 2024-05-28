@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 534
+Problems solved in total: 535
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -623,6 +623,7 @@ Problems solved in total: 534
 | [2597. The number of beautiful subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | [golang](/leetcode/the-number-of-beautiful-subsets/the-number-of-beautiful-subsets.go)  |
 | [1255. Maximum score words formed by letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | Hard | [golang](/leetcode/maximum-score-words-formed-by-letters/maximum-score-words-formed-by-letters.go)  |
 | [1608. Special array with x elements greater than or equal x](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [golang](/leetcode/special-array-with-x-elements-greater-than-or-equal-x/special-array-with-x-elements-greater-than-or-equal-x.go)  |
+| [1208. Get equal substrings within budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | [golang](/leetcode/get-equal-substrings-within-budget/get-equal-substrings-within-budget.go)  |
 
 
 ## adventofcode/2022
