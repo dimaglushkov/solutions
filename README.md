@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 536
+Problems solved in total: 537
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -625,6 +625,7 @@ Problems solved in total: 536
 | [1608. Special array with x elements greater than or equal x](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy | [golang](/leetcode/special-array-with-x-elements-greater-than-or-equal-x/special-array-with-x-elements-greater-than-or-equal-x.go)  |
 | [1208. Get equal substrings within budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | Medium | [golang](/leetcode/get-equal-substrings-within-budget/get-equal-substrings-within-budget.go)  |
 | [1404. Number of steps to reduce a number in binary representation to one](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [golang](/leetcode/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/number-of-steps-to-reduce-a-number-in-binary-representation-to-one.go)  |
+| [1442. Count triplets that can form two arrays of equal xor](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium | [golang](/leetcode/count-triplets-that-can-form-two-arrays-of-equal-xor/count-triplets-that-can-form-two-arrays-of-equal-xor.go)  |
 
 
 ## adventofcode/2022

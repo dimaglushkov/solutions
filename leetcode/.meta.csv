@@ -535,3 +535,4 @@ maximum-score-words-formed-by-letters,Hard,1255,['golang'],"['Array', 'String', 
 special-array-with-x-elements-greater-than-or-equal-x,Easy,1608,['golang'],"['Array', 'Binary Search', 'Sorting']"
 get-equal-substrings-within-budget,Medium,1208,['golang'],"['String', 'Binary Search', 'Sliding Window', 'Prefix Sum']"
 number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Medium,1404,['golang'],"['String', 'Bit Manipulation']"
+count-triplets-that-can-form-two-arrays-of-equal-xor,Medium,1442,['golang'],"['Array', 'Hash Table', 'Math', 'Bit Manipulation', 'Prefix Sum']"
