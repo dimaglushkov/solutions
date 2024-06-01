@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 538
+Problems solved in total: 539
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -627,6 +627,7 @@ Problems solved in total: 538
 | [1404. Number of steps to reduce a number in binary representation to one](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | Medium | [golang](/leetcode/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/number-of-steps-to-reduce-a-number-in-binary-representation-to-one.go)  |
 | [1442. Count triplets that can form two arrays of equal xor](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium | [golang](/leetcode/count-triplets-that-can-form-two-arrays-of-equal-xor/count-triplets-that-can-form-two-arrays-of-equal-xor.go)  |
 | [260. Single number iii](https://leetcode.com/problems/single-number-iii/) | Medium | [golang](/leetcode/single-number-iii/single-number-iii.go)  |
+| [3110. Score of a string](https://leetcode.com/problems/score-of-a-string/) | Easy | [golang](/leetcode/score-of-a-string/score-of-a-string.go)  |
 
 
 ## adventofcode/2022

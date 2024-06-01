@@ -537,3 +537,4 @@ get-equal-substrings-within-budget,Medium,1208,['golang'],"['String', 'Binary Se
 number-of-steps-to-reduce-a-number-in-binary-representation-to-one,Medium,1404,['golang'],"['String', 'Bit Manipulation']"
 count-triplets-that-can-form-two-arrays-of-equal-xor,Medium,1442,['golang'],"['Array', 'Hash Table', 'Math', 'Bit Manipulation', 'Prefix Sum']"
 single-number-iii,Medium,260,['golang'],"['Array', 'Bit Manipulation']"
+score-of-a-string,Easy,3110,['golang'],['String']
