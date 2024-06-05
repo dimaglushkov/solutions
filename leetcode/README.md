@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 539
+Problems solved in total: 540
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -547,3 +547,4 @@ Problems solved in total: 539
 | [1442. Count triplets that can form two arrays of equal xor](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | Medium | [golang](/leetcode/count-triplets-that-can-form-two-arrays-of-equal-xor/count-triplets-that-can-form-two-arrays-of-equal-xor.go)  |
 | [260. Single number iii](https://leetcode.com/problems/single-number-iii/) | Medium | [golang](/leetcode/single-number-iii/single-number-iii.go)  |
 | [3110. Score of a string](https://leetcode.com/problems/score-of-a-string/) | Easy | [golang](/leetcode/score-of-a-string/score-of-a-string.go)  |
+| [1002. Find common characters](https://leetcode.com/problems/find-common-characters/) | Easy | [golang](/leetcode/find-common-characters/find-common-characters.go)  |
