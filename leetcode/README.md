@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 540
+Problems solved in total: 542
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -548,3 +548,5 @@ Problems solved in total: 540
 | [260. Single number iii](https://leetcode.com/problems/single-number-iii/) | Medium | [golang](/leetcode/single-number-iii/single-number-iii.go)  |
 | [3110. Score of a string](https://leetcode.com/problems/score-of-a-string/) | Easy | [golang](/leetcode/score-of-a-string/score-of-a-string.go)  |
 | [1002. Find common characters](https://leetcode.com/problems/find-common-characters/) | Easy | [golang](/leetcode/find-common-characters/find-common-characters.go)  |
+| [846. Hand of straights](https://leetcode.com/problems/hand-of-straights/) | Medium | [golang](/leetcode/hand-of-straights/hand-of-straights.go)  |
+| [1296. Divide array in sets of k consecutive numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | Medium | [golang](/leetcode/divide-array-in-sets-of-k-consecutive-numbers/divide-array-in-sets-of-k-consecutive-numbers.go)  |
