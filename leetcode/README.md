@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 542
+Problems solved in total: 543
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -550,3 +550,4 @@ Problems solved in total: 542
 | [1002. Find common characters](https://leetcode.com/problems/find-common-characters/) | Easy | [golang](/leetcode/find-common-characters/find-common-characters.go)  |
 | [846. Hand of straights](https://leetcode.com/problems/hand-of-straights/) | Medium | [golang](/leetcode/hand-of-straights/hand-of-straights.go)  |
 | [1296. Divide array in sets of k consecutive numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | Medium | [golang](/leetcode/divide-array-in-sets-of-k-consecutive-numbers/divide-array-in-sets-of-k-consecutive-numbers.go)  |
+| [648. Replace words](https://leetcode.com/problems/replace-words/) | Medium | [golang](/leetcode/replace-words/replace-words.go)  |

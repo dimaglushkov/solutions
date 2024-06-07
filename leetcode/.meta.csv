@@ -541,3 +541,4 @@ score-of-a-string,Easy,3110,['golang'],['String']
 find-common-characters,Easy,1002,['golang'],"['Array', 'Hash Table', 'String']"
 hand-of-straights,Medium,846,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting']"
 divide-array-in-sets-of-k-consecutive-numbers,Medium,1296,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting']"
+replace-words,Medium,648,['golang'],"['Array', 'Hash Table', 'String', 'Trie']"
