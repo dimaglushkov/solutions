@@ -543,3 +543,4 @@ hand-of-straights,Medium,846,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sort
 divide-array-in-sets-of-k-consecutive-numbers,Medium,1296,['golang'],"['Array', 'Hash Table', 'Greedy', 'Sorting']"
 replace-words,Medium,648,['golang'],"['Array', 'Hash Table', 'String', 'Trie']"
 patching-array,Hard,330,['golang'],"['Array', 'Greedy']"
+sum-of-square-numbers,Medium,633,['golang'],"['Math', 'Two Pointers', 'Binary Search']"
