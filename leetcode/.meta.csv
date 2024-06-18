@@ -544,3 +544,4 @@ divide-array-in-sets-of-k-consecutive-numbers,Medium,1296,['golang'],"['Array', 
 replace-words,Medium,648,['golang'],"['Array', 'Hash Table', 'String', 'Trie']"
 patching-array,Hard,330,['golang'],"['Array', 'Greedy']"
 sum-of-square-numbers,Medium,633,['golang'],"['Math', 'Two Pointers', 'Binary Search']"
+most-profit-assigning-work,Medium,826,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Greedy', 'Sorting']"

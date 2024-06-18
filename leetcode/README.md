@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 545
+Problems solved in total: 546
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -553,3 +553,4 @@ Problems solved in total: 545
 | [648. Replace words](https://leetcode.com/problems/replace-words/) | Medium | [golang](/leetcode/replace-words/replace-words.go)  |
 | [330. Patching array](https://leetcode.com/problems/patching-array/) | Hard | [golang](/leetcode/patching-array/patching-array.go)  |
 | [633. Sum of square numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [golang](/leetcode/sum-of-square-numbers/sum-of-square-numbers.go)  |
+| [826. Most profit assigning work](https://leetcode.com/problems/most-profit-assigning-work/) | Medium | [golang](/leetcode/most-profit-assigning-work/most-profit-assigning-work.go)  |
