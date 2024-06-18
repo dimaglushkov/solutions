@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 546
+Problems solved in total: 547
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -554,3 +554,4 @@ Problems solved in total: 546
 | [330. Patching array](https://leetcode.com/problems/patching-array/) | Hard | [golang](/leetcode/patching-array/patching-array.go)  |
 | [633. Sum of square numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [golang](/leetcode/sum-of-square-numbers/sum-of-square-numbers.go)  |
 | [826. Most profit assigning work](https://leetcode.com/problems/most-profit-assigning-work/) | Medium | [golang](/leetcode/most-profit-assigning-work/most-profit-assigning-work.go)  |
+| [2037. Minimum number of moves to seat everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | Easy | [golang](/leetcode/minimum-number-of-moves-to-seat-everyone/minimum-number-of-moves-to-seat-everyone.go)  |
