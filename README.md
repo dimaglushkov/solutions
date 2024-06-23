@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 547
+Problems solved in total: 550
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -636,6 +636,9 @@ Problems solved in total: 547
 | [633. Sum of square numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | [golang](/leetcode/sum-of-square-numbers/sum-of-square-numbers.go)  |
 | [826. Most profit assigning work](https://leetcode.com/problems/most-profit-assigning-work/) | Medium | [golang](/leetcode/most-profit-assigning-work/most-profit-assigning-work.go)  |
 | [2037. Minimum number of moves to seat everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/) | Easy | [golang](/leetcode/minimum-number-of-moves-to-seat-everyone/minimum-number-of-moves-to-seat-everyone.go)  |
+| [1482. Minimum number of days to make m bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [golang](/leetcode/minimum-number-of-days-to-make-m-bouquets/minimum-number-of-days-to-make-m-bouquets.go)  |
+| [1052. Grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner/) | Medium | [golang](/leetcode/grumpy-bookstore-owner/grumpy-bookstore-owner.go)  |
+| [1438. Longest continuous subarray with absolute diff less than or equal to limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium | [golang](/leetcode/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.go)  |
 
 
 ## adventofcode/2022
