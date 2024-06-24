@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 550
+Problems solved in total: 551
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -558,3 +558,4 @@ Problems solved in total: 550
 | [1482. Minimum number of days to make m bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [golang](/leetcode/minimum-number-of-days-to-make-m-bouquets/minimum-number-of-days-to-make-m-bouquets.go)  |
 | [1052. Grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner/) | Medium | [golang](/leetcode/grumpy-bookstore-owner/grumpy-bookstore-owner.go)  |
 | [1438. Longest continuous subarray with absolute diff less than or equal to limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium | [golang](/leetcode/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.go)  |
+| [995. Minimum number of k consecutive bit flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [golang](/leetcode/minimum-number-of-k-consecutive-bit-flips/minimum-number-of-k-consecutive-bit-flips.go)  |
