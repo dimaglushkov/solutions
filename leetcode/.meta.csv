@@ -550,3 +550,4 @@ minimum-number-of-days-to-make-m-bouquets,Medium,1482,['golang'],"['Array', 'Bin
 grumpy-bookstore-owner,Medium,1052,['golang'],"['Array', 'Sliding Window']"
 longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Medium,1438,['golang'],"['Array', 'Queue', 'Sliding Window', 'Heap (Priority Queue)', 'Ordered Set', 'Monotonic Queue']"
 minimum-number-of-k-consecutive-bit-flips,Hard,995,['golang'],"['Array', 'Bit Manipulation', 'Queue', 'Sliding Window', 'Prefix Sum']"
+balance-a-binary-search-tree,Medium,1382,['golang'],"['Divide and Conquer', 'Greedy', 'Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"

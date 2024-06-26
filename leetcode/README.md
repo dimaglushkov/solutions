@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 551
+Problems solved in total: 552
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -559,3 +559,4 @@ Problems solved in total: 551
 | [1052. Grumpy bookstore owner](https://leetcode.com/problems/grumpy-bookstore-owner/) | Medium | [golang](/leetcode/grumpy-bookstore-owner/grumpy-bookstore-owner.go)  |
 | [1438. Longest continuous subarray with absolute diff less than or equal to limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium | [golang](/leetcode/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.go)  |
 | [995. Minimum number of k consecutive bit flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [golang](/leetcode/minimum-number-of-k-consecutive-bit-flips/minimum-number-of-k-consecutive-bit-flips.go)  |
+| [1382. Balance a binary search tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [golang](/leetcode/balance-a-binary-search-tree/balance-a-binary-search-tree.go)  |
