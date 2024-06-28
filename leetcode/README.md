@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 552
+Problems solved in total: 553
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -560,3 +560,4 @@ Problems solved in total: 552
 | [1438. Longest continuous subarray with absolute diff less than or equal to limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Medium | [golang](/leetcode/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.go)  |
 | [995. Minimum number of k consecutive bit flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) | Hard | [golang](/leetcode/minimum-number-of-k-consecutive-bit-flips/minimum-number-of-k-consecutive-bit-flips.go)  |
 | [1382. Balance a binary search tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [golang](/leetcode/balance-a-binary-search-tree/balance-a-binary-search-tree.go)  |
+| [2285. Maximum total importance of roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [golang](/leetcode/maximum-total-importance-of-roads/maximum-total-importance-of-roads.go)  |
