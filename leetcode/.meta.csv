@@ -552,3 +552,4 @@ longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit,Mediu
 minimum-number-of-k-consecutive-bit-flips,Hard,995,['golang'],"['Array', 'Bit Manipulation', 'Queue', 'Sliding Window', 'Prefix Sum']"
 balance-a-binary-search-tree,Medium,1382,['golang'],"['Divide and Conquer', 'Greedy', 'Tree', 'Depth-First Search', 'Binary Search Tree', 'Binary Tree']"
 maximum-total-importance-of-roads,Medium,2285,['golang'],"['Greedy', 'Graph', 'Sorting', 'Heap (Priority Queue)']"
+three-consecutive-odds,Easy,1550,['golang'],['Array']
