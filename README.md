@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 554
+Problems solved in total: 555
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -643,6 +643,7 @@ Problems solved in total: 554
 | [1382. Balance a binary search tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | Medium | [golang](/leetcode/balance-a-binary-search-tree/balance-a-binary-search-tree.go)  |
 | [2285. Maximum total importance of roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [golang](/leetcode/maximum-total-importance-of-roads/maximum-total-importance-of-roads.go)  |
 | [1550. Three consecutive odds](https://leetcode.com/problems/three-consecutive-odds/) | Easy | [golang](/leetcode/three-consecutive-odds/three-consecutive-odds.go)  |
+| [1509. Minimum difference between largest and smallest value in three moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | Medium | [golang](/leetcode/minimum-difference-between-largest-and-smallest-value-in-three-moves/minimum-difference-between-largest-and-smallest-value-in-three-moves.go)  |
 
 
 ## adventofcode/2022
