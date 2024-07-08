@@ -554,3 +554,7 @@ balance-a-binary-search-tree,Medium,1382,['golang'],"['Divide and Conquer', 'Gre
 maximum-total-importance-of-roads,Medium,2285,['golang'],"['Greedy', 'Graph', 'Sorting', 'Heap (Priority Queue)']"
 three-consecutive-odds,Easy,1550,['golang'],['Array']
 minimum-difference-between-largest-and-smallest-value-in-three-moves,Medium,1509,['golang'],"['Array', 'Greedy', 'Sorting']"
+find-the-minimum-and-maximum-number-of-nodes-between-critical-points,Medium,2058,['golang'],['Linked List']
+pass-the-pillow,Easy,2582,['golang'],"['Math', 'Simulation']"
+water-bottles,Easy,1518,['golang'],"['Math', 'Simulation']"
+find-the-winner-of-the-circular-game,Medium,1823,['golang'],"['Array', 'Math', 'Recursion', 'Queue', 'Simulation']"

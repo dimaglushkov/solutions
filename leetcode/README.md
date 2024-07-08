@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 555
+Problems solved in total: 559
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -563,3 +563,7 @@ Problems solved in total: 555
 | [2285. Maximum total importance of roads](https://leetcode.com/problems/maximum-total-importance-of-roads/) | Medium | [golang](/leetcode/maximum-total-importance-of-roads/maximum-total-importance-of-roads.go)  |
 | [1550. Three consecutive odds](https://leetcode.com/problems/three-consecutive-odds/) | Easy | [golang](/leetcode/three-consecutive-odds/three-consecutive-odds.go)  |
 | [1509. Minimum difference between largest and smallest value in three moves](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) | Medium | [golang](/leetcode/minimum-difference-between-largest-and-smallest-value-in-three-moves/minimum-difference-between-largest-and-smallest-value-in-three-moves.go)  |
+| [2058. Find the minimum and maximum number of nodes between critical points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | Medium | [golang](/leetcode/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/find-the-minimum-and-maximum-number-of-nodes-between-critical-points.go)  |
+| [2582. Pass the pillow](https://leetcode.com/problems/pass-the-pillow/) | Easy | [golang](/leetcode/pass-the-pillow/pass-the-pillow.go)  |
+| [1518. Water bottles](https://leetcode.com/problems/water-bottles/) | Easy | [golang](/leetcode/water-bottles/water-bottles.go)  |
+| [1823. Find the winner of the circular game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [golang](/leetcode/find-the-winner-of-the-circular-game/find-the-winner-of-the-circular-game.go)  |
