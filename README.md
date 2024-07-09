@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 559
+Problems solved in total: 560
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -648,6 +648,7 @@ Problems solved in total: 559
 | [2582. Pass the pillow](https://leetcode.com/problems/pass-the-pillow/) | Easy | [golang](/leetcode/pass-the-pillow/pass-the-pillow.go)  |
 | [1518. Water bottles](https://leetcode.com/problems/water-bottles/) | Easy | [golang](/leetcode/water-bottles/water-bottles.go)  |
 | [1823. Find the winner of the circular game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [golang](/leetcode/find-the-winner-of-the-circular-game/find-the-winner-of-the-circular-game.go)  |
+| [1701. Average waiting time](https://leetcode.com/problems/average-waiting-time/) | Medium | [golang](/leetcode/average-waiting-time/average-waiting-time.go)  |
 
 
 ## adventofcode/2022

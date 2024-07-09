@@ -558,3 +558,4 @@ find-the-minimum-and-maximum-number-of-nodes-between-critical-points,Medium,2058
 pass-the-pillow,Easy,2582,['golang'],"['Math', 'Simulation']"
 water-bottles,Easy,1518,['golang'],"['Math', 'Simulation']"
 find-the-winner-of-the-circular-game,Medium,1823,['golang'],"['Array', 'Math', 'Recursion', 'Queue', 'Simulation']"
+average-waiting-time,Medium,1701,['golang'],"['Array', 'Simulation']"
