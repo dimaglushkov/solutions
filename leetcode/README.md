@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 560
+Problems solved in total: 561
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -568,3 +568,4 @@ Problems solved in total: 560
 | [1518. Water bottles](https://leetcode.com/problems/water-bottles/) | Easy | [golang](/leetcode/water-bottles/water-bottles.go)  |
 | [1823. Find the winner of the circular game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [golang](/leetcode/find-the-winner-of-the-circular-game/find-the-winner-of-the-circular-game.go)  |
 | [1701. Average waiting time](https://leetcode.com/problems/average-waiting-time/) | Medium | [golang](/leetcode/average-waiting-time/average-waiting-time.go)  |
+| [1598. Crawler log folder](https://leetcode.com/problems/crawler-log-folder/) | Easy | [golang](/leetcode/crawler-log-folder/crawler-log-folder.go)  |
