@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 561
+Problems solved in total: 562
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -569,3 +569,4 @@ Problems solved in total: 561
 | [1823. Find the winner of the circular game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/) | Medium | [golang](/leetcode/find-the-winner-of-the-circular-game/find-the-winner-of-the-circular-game.go)  |
 | [1701. Average waiting time](https://leetcode.com/problems/average-waiting-time/) | Medium | [golang](/leetcode/average-waiting-time/average-waiting-time.go)  |
 | [1598. Crawler log folder](https://leetcode.com/problems/crawler-log-folder/) | Easy | [golang](/leetcode/crawler-log-folder/crawler-log-folder.go)  |
+| [1190. Reverse substrings between each pair of parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [golang](/leetcode/reverse-substrings-between-each-pair-of-parentheses/reverse-substrings-between-each-pair-of-parentheses.go)  |
