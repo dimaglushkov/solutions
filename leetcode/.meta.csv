@@ -561,3 +561,4 @@ find-the-winner-of-the-circular-game,Medium,1823,['golang'],"['Array', 'Math', '
 average-waiting-time,Medium,1701,['golang'],"['Array', 'Simulation']"
 crawler-log-folder,Easy,1598,['golang'],"['Array', 'String', 'Stack']"
 reverse-substrings-between-each-pair-of-parentheses,Medium,1190,['golang'],"['String', 'Stack']"
+delete-nodes-and-return-forest,Medium,1110,['golang'],"['Array', 'Hash Table', 'Tree', 'Depth-First Search', 'Binary Tree']"
