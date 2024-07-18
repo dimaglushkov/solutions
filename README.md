@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 563
+Problems solved in total: 564
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -652,6 +652,7 @@ Problems solved in total: 563
 | [1598. Crawler log folder](https://leetcode.com/problems/crawler-log-folder/) | Easy | [golang](/leetcode/crawler-log-folder/crawler-log-folder.go)  |
 | [1190. Reverse substrings between each pair of parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [golang](/leetcode/reverse-substrings-between-each-pair-of-parentheses/reverse-substrings-between-each-pair-of-parentheses.go)  |
 | [1110. Delete nodes and return forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | Medium | [golang](/leetcode/delete-nodes-and-return-forest/delete-nodes-and-return-forest.go)  |
+| [1530. Number of good leaf nodes pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [golang](/leetcode/number-of-good-leaf-nodes-pairs/number-of-good-leaf-nodes-pairs.go)  |
 
 
 ## adventofcode/2022
