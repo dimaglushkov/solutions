@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 564
+Problems solved in total: 565
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -572,3 +572,4 @@ Problems solved in total: 564
 | [1190. Reverse substrings between each pair of parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | Medium | [golang](/leetcode/reverse-substrings-between-each-pair-of-parentheses/reverse-substrings-between-each-pair-of-parentheses.go)  |
 | [1110. Delete nodes and return forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | Medium | [golang](/leetcode/delete-nodes-and-return-forest/delete-nodes-and-return-forest.go)  |
 | [1530. Number of good leaf nodes pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [golang](/leetcode/number-of-good-leaf-nodes-pairs/number-of-good-leaf-nodes-pairs.go)  |
+| [2418. Sort the people](https://leetcode.com/problems/sort-the-people/) | Easy | [golang](/leetcode/sort-the-people/sort-the-people.go)  |
