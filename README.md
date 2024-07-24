@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 566
+Problems solved in total: 567
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -655,6 +655,7 @@ Problems solved in total: 566
 | [1530. Number of good leaf nodes pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | Medium | [golang](/leetcode/number-of-good-leaf-nodes-pairs/number-of-good-leaf-nodes-pairs.go)  |
 | [2418. Sort the people](https://leetcode.com/problems/sort-the-people/) | Easy | [golang](/leetcode/sort-the-people/sort-the-people.go)  |
 | [1636. Sort array by increasing frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | Easy | [golang](/leetcode/sort-array-by-increasing-frequency/sort-array-by-increasing-frequency.go)  |
+| [2191. Sort the jumbled numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | Medium | [golang](/leetcode/sort-the-jumbled-numbers/sort-the-jumbled-numbers.go)  |
 
 
 ## adventofcode/2022

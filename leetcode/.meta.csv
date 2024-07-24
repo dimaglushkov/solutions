@@ -565,3 +565,4 @@ delete-nodes-and-return-forest,Medium,1110,['golang'],"['Array', 'Hash Table', '
 number-of-good-leaf-nodes-pairs,Medium,1530,['golang'],"['Tree', 'Depth-First Search', 'Binary Tree']"
 sort-the-people,Easy,2418,['golang'],"['Array', 'Hash Table', 'String', 'Sorting']"
 sort-array-by-increasing-frequency,Easy,1636,['golang'],"['Array', 'Hash Table', 'Sorting']"
+sort-the-jumbled-numbers,Medium,2191,['golang'],"['Array', 'Sorting']"
