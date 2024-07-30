@@ -566,3 +566,5 @@ number-of-good-leaf-nodes-pairs,Medium,1530,['golang'],"['Tree', 'Depth-First Se
 sort-the-people,Easy,2418,['golang'],"['Array', 'Hash Table', 'String', 'Sorting']"
 sort-array-by-increasing-frequency,Easy,1636,['golang'],"['Array', 'Hash Table', 'Sorting']"
 sort-the-jumbled-numbers,Medium,2191,['golang'],"['Array', 'Sorting']"
+minimum-cost-to-convert-string-i,Medium,2976,['golang'],"['Array', 'String', 'Graph', 'Shortest Path']"
+minimum-deletions-to-make-string-balanced,Medium,1653,['golang'],"['String', 'Dynamic Programming', 'Stack']"

@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 567
+Problems solved in total: 569
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -575,3 +575,5 @@ Problems solved in total: 567
 | [2418. Sort the people](https://leetcode.com/problems/sort-the-people/) | Easy | [golang](/leetcode/sort-the-people/sort-the-people.go)  |
 | [1636. Sort array by increasing frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | Easy | [golang](/leetcode/sort-array-by-increasing-frequency/sort-array-by-increasing-frequency.go)  |
 | [2191. Sort the jumbled numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | Medium | [golang](/leetcode/sort-the-jumbled-numbers/sort-the-jumbled-numbers.go)  |
+| [2976. Minimum cost to convert string i](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) | Medium | [golang](/leetcode/minimum-cost-to-convert-string-i/minimum-cost-to-convert-string-i.go)  |
+| [1653. Minimum deletions to make string balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | [golang](/leetcode/minimum-deletions-to-make-string-balanced/minimum-deletions-to-make-string-balanced.go)  |
