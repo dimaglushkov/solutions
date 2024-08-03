@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 570
+Problems solved in total: 571
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -659,6 +659,7 @@ Problems solved in total: 570
 | [2976. Minimum cost to convert string i](https://leetcode.com/problems/minimum-cost-to-convert-string-i/) | Medium | [golang](/leetcode/minimum-cost-to-convert-string-i/minimum-cost-to-convert-string-i.go)  |
 | [1653. Minimum deletions to make string balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | [golang](/leetcode/minimum-deletions-to-make-string-balanced/minimum-deletions-to-make-string-balanced.go)  |
 | [2678. Number of senior citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [golang](/leetcode/number-of-senior-citizens/number-of-senior-citizens.go)  |
+| [1460. Make two arrays equal by reversing subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | Easy | [golang](/leetcode/make-two-arrays-equal-by-reversing-subarrays/make-two-arrays-equal-by-reversing-subarrays.go)  |
 
 
 ## adventofcode/2022
