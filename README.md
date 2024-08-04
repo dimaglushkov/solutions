@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 571
+Problems solved in total: 572
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -660,6 +660,7 @@ Problems solved in total: 571
 | [1653. Minimum deletions to make string balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | [golang](/leetcode/minimum-deletions-to-make-string-balanced/minimum-deletions-to-make-string-balanced.go)  |
 | [2678. Number of senior citizens](https://leetcode.com/problems/number-of-senior-citizens/) | Easy | [golang](/leetcode/number-of-senior-citizens/number-of-senior-citizens.go)  |
 | [1460. Make two arrays equal by reversing subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | Easy | [golang](/leetcode/make-two-arrays-equal-by-reversing-subarrays/make-two-arrays-equal-by-reversing-subarrays.go)  |
+| [1508. Range sum of sorted subarray sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) | Medium | [golang](/leetcode/range-sum-of-sorted-subarray-sums/range-sum-of-sorted-subarray-sums.go)  |
 
 
 ## adventofcode/2022
