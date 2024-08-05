@@ -571,3 +571,4 @@ minimum-deletions-to-make-string-balanced,Medium,1653,['golang'],"['String', 'Dy
 number-of-senior-citizens,Easy,2678,['golang'],"['Array', 'String']"
 make-two-arrays-equal-by-reversing-subarrays,Easy,1460,['golang'],"['Array', 'Hash Table', 'Sorting']"
 range-sum-of-sorted-subarray-sums,Medium,1508,['golang'],"['Array', 'Two Pointers', 'Binary Search', 'Sorting']"
+kth-distinct-string-in-an-array,Easy,2053,['golang'],"['Array', 'Hash Table', 'String', 'Counting']"
