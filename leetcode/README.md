@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 574
+Problems solved in total: 575
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -582,3 +582,4 @@ Problems solved in total: 574
 | [1508. Range sum of sorted subarray sums](https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/) | Medium | [golang](/leetcode/range-sum-of-sorted-subarray-sums/range-sum-of-sorted-subarray-sums.go)  |
 | [2053. Kth distinct string in an array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | Easy | [golang](/leetcode/kth-distinct-string-in-an-array/kth-distinct-string-in-an-array.go)  |
 | [2396. Strictly palindromic number](https://leetcode.com/problems/strictly-palindromic-number/) | Medium | [golang](/leetcode/strictly-palindromic-number/strictly-palindromic-number.go)  |
+| [840. Magic squares in grid](https://leetcode.com/problems/magic-squares-in-grid/) | Medium | [golang](/leetcode/magic-squares-in-grid/magic-squares-in-grid.go)  |
