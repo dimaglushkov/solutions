@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 577
+Problems solved in total: 579
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -666,6 +666,8 @@ Problems solved in total: 577
 | [840. Magic squares in grid](https://leetcode.com/problems/magic-squares-in-grid/) | Medium | [golang](/leetcode/magic-squares-in-grid/magic-squares-in-grid.go)  |
 | [650. 2 keys keyboard](https://leetcode.com/problems/2-keys-keyboard/) | Medium | [golang](/leetcode/2-keys-keyboard/2-keys-keyboard.go)  |
 | [664. Strange printer](https://leetcode.com/problems/strange-printer/) | Hard | [golang](/leetcode/strange-printer/strange-printer.go)  |
+| [476. Number complement](https://leetcode.com/problems/number-complement/) | Easy | [golang](/leetcode/number-complement/number-complement.go)  |
+| [1009. Complement of base 10 integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [golang](/leetcode/complement-of-base-10-integer/complement-of-base-10-integer.go)  |
 
 
 ## adventofcode/2022

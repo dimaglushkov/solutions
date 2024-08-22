@@ -576,3 +576,5 @@ strictly-palindromic-number,Medium,2396,['golang'],"['Math', 'Two Pointers', 'Br
 magic-squares-in-grid,Medium,840,['golang'],"['Array', 'Hash Table', 'Math', 'Matrix']"
 2-keys-keyboard,Medium,650,['golang'],"['Math', 'Dynamic Programming']"
 strange-printer,Hard,664,['golang'],"['String', 'Dynamic Programming']"
+number-complement,Easy,476,['golang'],['Bit Manipulation']
+complement-of-base-10-integer,Easy,1009,['golang'],['Bit Manipulation']
