@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 580
+Problems solved in total: 583
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -669,6 +669,9 @@ Problems solved in total: 580
 | [476. Number complement](https://leetcode.com/problems/number-complement/) | Easy | [golang](/leetcode/number-complement/number-complement.go)  |
 | [1009. Complement of base 10 integer](https://leetcode.com/problems/complement-of-base-10-integer/) | Easy | [golang](/leetcode/complement-of-base-10-integer/complement-of-base-10-integer.go)  |
 | [592. Fraction addition and subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | Medium | [golang](/leetcode/fraction-addition-and-subtraction/fraction-addition-and-subtraction.go)  |
+| [965. Univalued binary tree](https://leetcode.com/problems/univalued-binary-tree/) | Easy | [golang](/leetcode/univalued-binary-tree/univalued-binary-tree.go)  |
+| [993. Cousins in binary tree](https://leetcode.com/problems/cousins-in-binary-tree/) | Easy | [golang](/leetcode/cousins-in-binary-tree/cousins-in-binary-tree.go)  |
+| [114. Flatten binary tree to linked list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [golang](/leetcode/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.go)  |
 
 
 ## adventofcode/2022

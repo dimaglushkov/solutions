@@ -579,3 +579,6 @@ strange-printer,Hard,664,['golang'],"['String', 'Dynamic Programming']"
 number-complement,Easy,476,['golang'],['Bit Manipulation']
 complement-of-base-10-integer,Easy,1009,['golang'],['Bit Manipulation']
 fraction-addition-and-subtraction,Medium,592,['golang'],"['Math', 'String', 'Simulation']"
+univalued-binary-tree,Easy,965,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+cousins-in-binary-tree,Easy,993,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
+flatten-binary-tree-to-linked-list,Medium,114,['golang'],"['Linked List', 'Stack', 'Tree', 'Depth-First Search', 'Binary Tree']"
