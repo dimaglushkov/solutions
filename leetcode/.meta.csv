@@ -582,3 +582,4 @@ fraction-addition-and-subtraction,Medium,592,['golang'],"['Math', 'String', 'Sim
 univalued-binary-tree,Easy,965,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 cousins-in-binary-tree,Easy,993,['golang'],"['Tree', 'Depth-First Search', 'Breadth-First Search', 'Binary Tree']"
 flatten-binary-tree-to-linked-list,Medium,114,['golang'],"['Linked List', 'Stack', 'Tree', 'Depth-First Search', 'Binary Tree']"
+n-ary-tree-postorder-traversal,Easy,590,['golang'],"['Stack', 'Tree', 'Depth-First Search']"
