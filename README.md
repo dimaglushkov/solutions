@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 584
+Problems solved in total: 586
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -673,6 +673,8 @@ Problems solved in total: 584
 | [993. Cousins in binary tree](https://leetcode.com/problems/cousins-in-binary-tree/) | Easy | [golang](/leetcode/cousins-in-binary-tree/cousins-in-binary-tree.go)  |
 | [114. Flatten binary tree to linked list](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [golang](/leetcode/flatten-binary-tree-to-linked-list/flatten-binary-tree-to-linked-list.go)  |
 | [590. N ary tree postorder traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [golang](/leetcode/n-ary-tree-postorder-traversal/n-ary-tree-postorder-traversal.go)  |
+| [1514. Path with maximum probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | [golang](/leetcode/path-with-maximum-probability/path-with-maximum-probability.go)  |
+| [1905. Count sub islands](https://leetcode.com/problems/count-sub-islands/) | Medium | [golang](/leetcode/count-sub-islands/count-sub-islands.go)  |
 
 
 ## adventofcode/2022
