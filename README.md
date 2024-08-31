@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 586
+Problems solved in total: 588
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -675,6 +675,8 @@ Problems solved in total: 586
 | [590. N ary tree postorder traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | Easy | [golang](/leetcode/n-ary-tree-postorder-traversal/n-ary-tree-postorder-traversal.go)  |
 | [1514. Path with maximum probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | [golang](/leetcode/path-with-maximum-probability/path-with-maximum-probability.go)  |
 | [1905. Count sub islands](https://leetcode.com/problems/count-sub-islands/) | Medium | [golang](/leetcode/count-sub-islands/count-sub-islands.go)  |
+| [748. Shortest completing word](https://leetcode.com/problems/shortest-completing-word/) | Easy | [golang](/leetcode/shortest-completing-word/shortest-completing-word.go)  |
+| [821. Shortest distance to a character](https://leetcode.com/problems/shortest-distance-to-a-character/) | Easy | [golang](/leetcode/shortest-distance-to-a-character/shortest-distance-to-a-character.go)  |
 
 
 ## adventofcode/2022

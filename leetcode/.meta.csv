@@ -585,3 +585,5 @@ flatten-binary-tree-to-linked-list,Medium,114,['golang'],"['Linked List', 'Stack
 n-ary-tree-postorder-traversal,Easy,590,['golang'],"['Stack', 'Tree', 'Depth-First Search']"
 path-with-maximum-probability,Medium,1514,['golang'],"['Array', 'Graph', 'Heap (Priority Queue)', 'Shortest Path']"
 count-sub-islands,Medium,1905,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"
+shortest-completing-word,Easy,748,['golang'],"['Array', 'Hash Table', 'String']"
+shortest-distance-to-a-character,Easy,821,['golang'],"['Array', 'Two Pointers', 'String']"
