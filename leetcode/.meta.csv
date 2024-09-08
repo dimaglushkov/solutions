@@ -587,3 +587,4 @@ path-with-maximum-probability,Medium,1514,['golang'],"['Array', 'Graph', 'Heap (
 count-sub-islands,Medium,1905,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search', 'Union Find', 'Matrix']"
 shortest-completing-word,Easy,748,['golang'],"['Array', 'Hash Table', 'String']"
 shortest-distance-to-a-character,Easy,821,['golang'],"['Array', 'Two Pointers', 'String']"
+split-linked-list-in-parts,Medium,725,['golang'],['Linked List']

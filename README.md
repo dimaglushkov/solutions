@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 588
+Problems solved in total: 589
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -677,6 +677,7 @@ Problems solved in total: 588
 | [1905. Count sub islands](https://leetcode.com/problems/count-sub-islands/) | Medium | [golang](/leetcode/count-sub-islands/count-sub-islands.go)  |
 | [748. Shortest completing word](https://leetcode.com/problems/shortest-completing-word/) | Easy | [golang](/leetcode/shortest-completing-word/shortest-completing-word.go)  |
 | [821. Shortest distance to a character](https://leetcode.com/problems/shortest-distance-to-a-character/) | Easy | [golang](/leetcode/shortest-distance-to-a-character/shortest-distance-to-a-character.go)  |
+| [725. Split linked list in parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [golang](/leetcode/split-linked-list-in-parts/split-linked-list-in-parts.go)  |
 
 
 ## adventofcode/2022
