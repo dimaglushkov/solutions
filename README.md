@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 591
+Problems solved in total: 592
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -680,6 +680,7 @@ Problems solved in total: 591
 | [725. Split linked list in parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | [golang](/leetcode/split-linked-list-in-parts/split-linked-list-in-parts.go)  |
 | [1684. Count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | Easy | [golang](/leetcode/count-the-number-of-consistent-strings/count-the-number-of-consistent-strings.go)  |
 | [731. My calendar ii](https://leetcode.com/problems/my-calendar-ii/) | Medium | [golang](/leetcode/my-calendar-ii/my-calendar-ii.go)  |
+| [641. Design circular deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [golang](/leetcode/design-circular-deque/design-circular-deque.go)  |
 
 
 ## adventofcode/2022

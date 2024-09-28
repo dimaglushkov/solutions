@@ -590,3 +590,4 @@ shortest-distance-to-a-character,Easy,821,['golang'],"['Array', 'Two Pointers', 
 split-linked-list-in-parts,Medium,725,['golang'],['Linked List']
 count-the-number-of-consistent-strings,Easy,1684,['golang'],"['Array', 'Hash Table', 'String', 'Bit Manipulation', 'Counting']"
 my-calendar-ii,Medium,731,['golang'],"['Array', 'Binary Search', 'Design', 'Segment Tree', 'Prefix Sum', 'Ordered Set']"
+design-circular-deque,Medium,641,['golang'],"['Array', 'Linked List', 'Design', 'Queue']"
