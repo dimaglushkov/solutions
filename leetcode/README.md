@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 592
+Problems solved in total: 594
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -600,3 +600,5 @@ Problems solved in total: 592
 | [1684. Count the number of consistent strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/) | Easy | [golang](/leetcode/count-the-number-of-consistent-strings/count-the-number-of-consistent-strings.go)  |
 | [731. My calendar ii](https://leetcode.com/problems/my-calendar-ii/) | Medium | [golang](/leetcode/my-calendar-ii/my-calendar-ii.go)  |
 | [641. Design circular deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [golang](/leetcode/design-circular-deque/design-circular-deque.go)  |
+| [1381. Design a stack with increment operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | [golang](/leetcode/design-a-stack-with-increment-operation/design-a-stack-with-increment-operation.go)  |
+| [1497. Check if array pairs are divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [golang](/leetcode/check-if-array-pairs-are-divisible-by-k/check-if-array-pairs-are-divisible-by-k.go)  |
