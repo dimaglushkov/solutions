@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 594
+Problems solved in total: 595
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -602,3 +602,4 @@ Problems solved in total: 594
 | [641. Design circular deque](https://leetcode.com/problems/design-circular-deque/) | Medium | [golang](/leetcode/design-circular-deque/design-circular-deque.go)  |
 | [1381. Design a stack with increment operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | [golang](/leetcode/design-a-stack-with-increment-operation/design-a-stack-with-increment-operation.go)  |
 | [1497. Check if array pairs are divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [golang](/leetcode/check-if-array-pairs-are-divisible-by-k/check-if-array-pairs-are-divisible-by-k.go)  |
+| [1331. Rank transform of an array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | [golang](/leetcode/rank-transform-of-an-array/rank-transform-of-an-array.go)  |

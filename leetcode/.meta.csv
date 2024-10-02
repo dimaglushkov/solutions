@@ -593,3 +593,4 @@ my-calendar-ii,Medium,731,['golang'],"['Array', 'Binary Search', 'Design', 'Segm
 design-circular-deque,Medium,641,['golang'],"['Array', 'Linked List', 'Design', 'Queue']"
 design-a-stack-with-increment-operation,Medium,1381,['golang'],"['Array', 'Stack', 'Design']"
 check-if-array-pairs-are-divisible-by-k,Medium,1497,['golang'],"['Array', 'Hash Table', 'Counting']"
+rank-transform-of-an-array,Easy,1331,['golang'],"['Array', 'Hash Table', 'Sorting']"
