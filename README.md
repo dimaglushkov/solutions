@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 595
+Problems solved in total: 596
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -684,6 +684,7 @@ Problems solved in total: 595
 | [1381. Design a stack with increment operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | Medium | [golang](/leetcode/design-a-stack-with-increment-operation/design-a-stack-with-increment-operation.go)  |
 | [1497. Check if array pairs are divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | Medium | [golang](/leetcode/check-if-array-pairs-are-divisible-by-k/check-if-array-pairs-are-divisible-by-k.go)  |
 | [1331. Rank transform of an array](https://leetcode.com/problems/rank-transform-of-an-array/) | Easy | [golang](/leetcode/rank-transform-of-an-array/rank-transform-of-an-array.go)  |
+| [1590. Make sum divisible by p](https://leetcode.com/problems/make-sum-divisible-by-p/) | Medium | [golang](/leetcode/make-sum-divisible-by-p/make-sum-divisible-by-p.go)  |
 
 
 ## adventofcode/2022
