@@ -595,3 +595,4 @@ design-a-stack-with-increment-operation,Medium,1381,['golang'],"['Array', 'Stack
 check-if-array-pairs-are-divisible-by-k,Medium,1497,['golang'],"['Array', 'Hash Table', 'Counting']"
 rank-transform-of-an-array,Easy,1331,['golang'],"['Array', 'Hash Table', 'Sorting']"
 make-sum-divisible-by-p,Medium,1590,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
+sentence-similarity-iii,Medium,1813,['golang'],"['Array', 'Two Pointers', 'String']"
