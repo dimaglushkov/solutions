@@ -597,3 +597,4 @@ rank-transform-of-an-array,Easy,1331,['golang'],"['Array', 'Hash Table', 'Sortin
 make-sum-divisible-by-p,Medium,1590,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
 sentence-similarity-iii,Medium,1813,['golang'],"['Array', 'Two Pointers', 'String']"
 minimum-string-length-after-removing-substrings,Easy,2696,['golang'],"['String', 'Stack', 'Simulation']"
+minimum-number-of-swaps-to-make-the-string-balanced,Medium,1963,['golang'],"['Two Pointers', 'String', 'Stack', 'Greedy']"

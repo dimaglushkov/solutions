@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 598
+Problems solved in total: 599
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -606,3 +606,4 @@ Problems solved in total: 598
 | [1590. Make sum divisible by p](https://leetcode.com/problems/make-sum-divisible-by-p/) | Medium | [golang](/leetcode/make-sum-divisible-by-p/make-sum-divisible-by-p.go)  |
 | [1813. Sentence similarity iii](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | [golang](/leetcode/sentence-similarity-iii/sentence-similarity-iii.go)  |
 | [2696. Minimum string length after removing substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [golang](/leetcode/minimum-string-length-after-removing-substrings/minimum-string-length-after-removing-substrings.go)  |
+| [1963. Minimum number of swaps to make the string balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | Medium | [golang](/leetcode/minimum-number-of-swaps-to-make-the-string-balanced/minimum-number-of-swaps-to-make-the-string-balanced.go)  |
