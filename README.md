@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 599
+Problems solved in total: 600
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -688,6 +688,7 @@ Problems solved in total: 599
 | [1813. Sentence similarity iii](https://leetcode.com/problems/sentence-similarity-iii/) | Medium | [golang](/leetcode/sentence-similarity-iii/sentence-similarity-iii.go)  |
 | [2696. Minimum string length after removing substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [golang](/leetcode/minimum-string-length-after-removing-substrings/minimum-string-length-after-removing-substrings.go)  |
 | [1963. Minimum number of swaps to make the string balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | Medium | [golang](/leetcode/minimum-number-of-swaps-to-make-the-string-balanced/minimum-number-of-swaps-to-make-the-string-balanced.go)  |
+| [921. Minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [golang](/leetcode/minimum-add-to-make-parentheses-valid/minimum-add-to-make-parentheses-valid.go)  |
 
 
 ## adventofcode/2022
