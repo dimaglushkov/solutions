@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 600
+Problems solved in total: 601
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -608,3 +608,4 @@ Problems solved in total: 600
 | [2696. Minimum string length after removing substrings](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) | Easy | [golang](/leetcode/minimum-string-length-after-removing-substrings/minimum-string-length-after-removing-substrings.go)  |
 | [1963. Minimum number of swaps to make the string balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | Medium | [golang](/leetcode/minimum-number-of-swaps-to-make-the-string-balanced/minimum-number-of-swaps-to-make-the-string-balanced.go)  |
 | [921. Minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [golang](/leetcode/minimum-add-to-make-parentheses-valid/minimum-add-to-make-parentheses-valid.go)  |
+| [670. Maximum swap](https://leetcode.com/problems/maximum-swap/) | Medium | [golang](/leetcode/maximum-swap/maximum-swap.go)  |
