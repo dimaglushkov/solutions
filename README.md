@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 601
+Problems solved in total: 602
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -690,6 +690,7 @@ Problems solved in total: 601
 | [1963. Minimum number of swaps to make the string balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | Medium | [golang](/leetcode/minimum-number-of-swaps-to-make-the-string-balanced/minimum-number-of-swaps-to-make-the-string-balanced.go)  |
 | [921. Minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [golang](/leetcode/minimum-add-to-make-parentheses-valid/minimum-add-to-make-parentheses-valid.go)  |
 | [670. Maximum swap](https://leetcode.com/problems/maximum-swap/) | Medium | [golang](/leetcode/maximum-swap/maximum-swap.go)  |
+| [3163. String compression iii](https://leetcode.com/problems/string-compression-iii/) | Medium | [golang](/leetcode/string-compression-iii/string-compression-iii.go)  |
 
 
 ## adventofcode/2022

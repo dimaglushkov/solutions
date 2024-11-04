@@ -600,3 +600,4 @@ minimum-string-length-after-removing-substrings,Easy,2696,['golang'],"['String',
 minimum-number-of-swaps-to-make-the-string-balanced,Medium,1963,['golang'],"['Two Pointers', 'String', 'Stack', 'Greedy']"
 minimum-add-to-make-parentheses-valid,Medium,921,['golang'],"['String', 'Stack', 'Greedy']"
 maximum-swap,Medium,670,['golang'],"['Math', 'Greedy']"
+string-compression-iii,Medium,3163,['golang'],['String']
