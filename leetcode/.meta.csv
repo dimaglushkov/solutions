@@ -601,3 +601,4 @@ minimum-number-of-swaps-to-make-the-string-balanced,Medium,1963,['golang'],"['Tw
 minimum-add-to-make-parentheses-valid,Medium,921,['golang'],"['String', 'Stack', 'Greedy']"
 maximum-swap,Medium,670,['golang'],"['Math', 'Greedy']"
 string-compression-iii,Medium,3163,['golang'],['String']
+minimum-number-of-changes-to-make-binary-string-beautiful,Medium,2914,['golang'],['String']

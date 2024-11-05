@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 602
+Problems solved in total: 603
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -691,6 +691,7 @@ Problems solved in total: 602
 | [921. Minimum add to make parentheses valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | Medium | [golang](/leetcode/minimum-add-to-make-parentheses-valid/minimum-add-to-make-parentheses-valid.go)  |
 | [670. Maximum swap](https://leetcode.com/problems/maximum-swap/) | Medium | [golang](/leetcode/maximum-swap/maximum-swap.go)  |
 | [3163. String compression iii](https://leetcode.com/problems/string-compression-iii/) | Medium | [golang](/leetcode/string-compression-iii/string-compression-iii.go)  |
+| [2914. Minimum number of changes to make binary string beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium | [golang](/leetcode/minimum-number-of-changes-to-make-binary-string-beautiful/minimum-number-of-changes-to-make-binary-string-beautiful.go)  |
 
 
 ## adventofcode/2022
