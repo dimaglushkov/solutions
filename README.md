@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 605
+Problems solved in total: 606
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -694,6 +694,7 @@ Problems solved in total: 605
 | [2914. Minimum number of changes to make binary string beautiful](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | Medium | [golang](/leetcode/minimum-number-of-changes-to-make-binary-string-beautiful/minimum-number-of-changes-to-make-binary-string-beautiful.go)  |
 | [3011. Find if array can be sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [golang](/leetcode/find-if-array-can-be-sorted/find-if-array-can-be-sorted.go)  |
 | [2275. Largest combination with bitwise and greater than zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | Medium | [golang](/leetcode/largest-combination-with-bitwise-and-greater-than-zero/largest-combination-with-bitwise-and-greater-than-zero.go)  |
+| [1829. Maximum xor for each query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [golang](/leetcode/maximum-xor-for-each-query/maximum-xor-for-each-query.go)  |
 
 
 ## adventofcode/2022
