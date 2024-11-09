@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 606
+Problems solved in total: 607
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -614,3 +614,4 @@ Problems solved in total: 606
 | [3011. Find if array can be sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | Medium | [golang](/leetcode/find-if-array-can-be-sorted/find-if-array-can-be-sorted.go)  |
 | [2275. Largest combination with bitwise and greater than zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | Medium | [golang](/leetcode/largest-combination-with-bitwise-and-greater-than-zero/largest-combination-with-bitwise-and-greater-than-zero.go)  |
 | [1829. Maximum xor for each query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [golang](/leetcode/maximum-xor-for-each-query/maximum-xor-for-each-query.go)  |
+| [3133. Minimum array end](https://leetcode.com/problems/minimum-array-end/) | Medium | [golang](/leetcode/minimum-array-end/minimum-array-end.go)  |

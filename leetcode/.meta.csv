@@ -605,3 +605,4 @@ minimum-number-of-changes-to-make-binary-string-beautiful,Medium,2914,['golang']
 find-if-array-can-be-sorted,Medium,3011,['golang'],"['Array', 'Bit Manipulation', 'Sorting']"
 largest-combination-with-bitwise-and-greater-than-zero,Medium,2275,['golang'],"['Array', 'Hash Table', 'Bit Manipulation', 'Counting']"
 maximum-xor-for-each-query,Medium,1829,['golang'],"['Array', 'Bit Manipulation', 'Prefix Sum']"
+minimum-array-end,Medium,3133,['golang'],['Bit Manipulation']
