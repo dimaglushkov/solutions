@@ -10,8 +10,8 @@ codeforces: [@dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 [1. tools](#tools) <br>
 [2. contests](#contests) <br>
 [3. leetcode](#leetcode) <br>
-[4. adventofcode/2022](#adventofcode2022) <br>
-[5. adventofcode/2023](#adventofcode2023) <br>
+[4. adventofcode/2024](#adventofcode2024) <br>
+[5. adventofcode/2022](#adventofcode2022) <br>
 [6. codeforces](#codeforces) <br>
 [7. acm.timus](#acmtimus) <br>
 
@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 607
+Problems solved in total: 608
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -696,6 +696,14 @@ Problems solved in total: 607
 | [2275. Largest combination with bitwise and greater than zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | Medium | [golang](/leetcode/largest-combination-with-bitwise-and-greater-than-zero/largest-combination-with-bitwise-and-greater-than-zero.go)  |
 | [1829. Maximum xor for each query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [golang](/leetcode/maximum-xor-for-each-query/maximum-xor-for-each-query.go)  |
 | [3133. Minimum array end](https://leetcode.com/problems/minimum-array-end/) | Medium | [golang](/leetcode/minimum-array-end/minimum-array-end.go)  |
+| [2064. Minimized maximum of products distributed to any store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | Medium | [golang](/leetcode/minimized-maximum-of-products-distributed-to-any-store/minimized-maximum-of-products-distributed-to-any-store.go)  |
+
+
+## adventofcode/2024
+
+| Day                                          | Solution                                                                                        | 
+|----------------------------------------------|-------------------------------------------------------------------------------------------------|
+| [Day 1](https://adventofcode.com/2024/day/1) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day01/main.go) | 
 
 
 ## adventofcode/2022
@@ -721,13 +729,6 @@ Problems solved in total: 607
 | [Day 15](https://adventofcode.com/2022/day/15) | [python3](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day15/day15.py) |
 
 
-
-
-## adventofcode/2023
-
-| Day                                          | Solution                                                                                          | 
-|----------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [Day 1](https://adventofcode.com/2023/day/1) | [rust](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2023/day01/src/main.rs) | 
 
 
 ## codeforces
