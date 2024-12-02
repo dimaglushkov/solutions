@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"log"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -41,4 +42,43 @@ func ReadInput(fileName string) []string {
 		text = append(text, scanner.Text())
 	}
 	return text
+}
+
+func Abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
+
+func ParseToIntArray(str string, sep string) []int {
+	var res []int
+
+	values := strings.Split(str, sep)
+	for i := range values {
+		res = append(res, Atoi(values[i]))
+	}
+
+	return res
+}
+
+func Atoi(s string) int {
+	i, err := strconv.Atoi(s)
+	if err != nil {
+		panic(err)
+	}
+	return i
+}
+
+func MergeSlices(a, b []int) []int {
+	res := make([]int, 0, len(a)+len(b))
+
+	for i := range a {
+		res = append(res, a[i])
+	}
+	for i := range b {
+		res = append(res, b[i])
+	}
+
+	return res
 }
