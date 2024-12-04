@@ -23,6 +23,9 @@ allowed_calls = {
     'readme': {
         'generate'
     },
+    'adventofcode': {
+        'generate'
+    }
 }
 
 target_aliases = {
@@ -31,6 +34,7 @@ target_aliases = {
     'c': 'contests',
     'con': 'contests',
     'md': 'readme',
+    'aoc': 'adventofcode',
 }
 action_aliases = {
     'p': 'pull',
@@ -78,6 +82,9 @@ def main():
     elif target == 'readme':
         from lib import readme
         t = readme
+    elif target == 'adventofcode':
+        from lib import aoc
+        t = aoc
     else:
         return 1
 
