@@ -2,6 +2,7 @@ package util
 
 import (
 	"bufio"
+	"fmt"
 	"log"
 	"os"
 	"path"
@@ -13,6 +14,10 @@ import (
 const solutionsDir = "/Repos/solutions/adventofcode/"
 
 func ReadInput(example bool) []string {
+	if example {
+		fmt.Println("Reading example data")
+	}
+
 	_, callerFile, _, _ := runtime.Caller(1)
 	callerFileParts := strings.Split(callerFile, string(os.PathSeparator))
 
