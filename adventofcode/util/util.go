@@ -4,35 +4,36 @@ import (
 	"bufio"
 	"log"
 	"os"
+	"path"
+	"runtime"
 	"strconv"
 	"strings"
 )
 
-const solutionsDir = "/Repos/solutions/adventofcode/2024"
+const solutionsDir = "/Repos/solutions/adventofcode/"
 
-func ReadInput(fileName string) []string {
+func ReadInput(example bool) []string {
+	_, callerFile, _, _ := runtime.Caller(1)
+	callerFileParts := strings.Split(callerFile, string(os.PathSeparator))
+
+	year, day := callerFileParts[len(callerFileParts)-3], callerFileParts[len(callerFileParts)-2]
+	suffix := ".input"
+	if example {
+		suffix = ".example"
+	}
+
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
 		log.Fatal(err)
 	}
-	var dir string
-	if strings.Contains(fileName, "_") {
-		dir = strings.Split(fileName, "_")[0]
-	} else {
-		dir = strings.Split(fileName, ".")[0]
-	}
 
-	file, err := os.Open(homeDir + solutionsDir + string(os.PathSeparator) + dir + string(os.PathSeparator) + fileName)
+	inputFilePath := path.Join(homeDir, solutionsDir, year, day, day+suffix)
+	file, err := os.Open(inputFilePath)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	defer func() {
-		err := file.Close()
-		if err != nil {
-			log.Fatal(err)
-		}
-	}()
+	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
 	scanner.Split(bufio.ScanLines)

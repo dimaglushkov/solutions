@@ -2,15 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/dimaglushkov/solutions/adventofcode/2024/util"
+	"github.com/dimaglushkov/solutions/adventofcode/util"
 	"sort"
 	"strconv"
 	"strings"
-)
-
-const (
-	//inputFile = "day01.example.input"
-	inputFile = "day01.input"
 )
 
 func abs(x int) int {
@@ -49,7 +44,7 @@ func part2(left, right []int) {
 }
 
 func main() {
-	lines := util.ReadInput(inputFile)
+	lines := util.ReadInput(false)
 
 	var left, right []int
 	var v1, v2 int

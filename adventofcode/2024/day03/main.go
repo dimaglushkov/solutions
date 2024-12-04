@@ -2,14 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/dimaglushkov/solutions/adventofcode/2024/util"
+	"github.com/dimaglushkov/solutions/adventofcode/util"
 	"regexp"
 	"strings"
 )
 
 const (
-	inputFile = "day03.input"
-	//inputFile        = "day03.example.input"
 	mulPattern       = `mul\(\d{1,3},\d{1,3}\)`
 	mulDoDontPattern = `mul\(\d{1,3},\d{1,3}\)|do\(\)|don't\(\)`
 )
@@ -63,7 +61,7 @@ func part2(input string) {
 }
 
 func main() {
-	lines := util.ReadInput(inputFile)
+	lines := util.ReadInput(false)
 
 	part1(strings.Join(lines, "\n"))
 	part2(strings.Join(lines, "\n"))

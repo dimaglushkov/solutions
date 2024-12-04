@@ -2,13 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/dimaglushkov/solutions/adventofcode/2024/util"
+	"github.com/dimaglushkov/solutions/adventofcode/util"
 	"sort"
-)
-
-const (
-	//inputFile = "day02.example.input"
-	inputFile = "day02.input"
 )
 
 func checkReport(report []int) bool {
@@ -63,7 +58,7 @@ func part2(reports [][]int) {
 func main() {
 	var reports [][]int
 
-	for _, l := range util.ReadInput(inputFile) {
+	for _, l := range util.ReadInput(false) {
 		reports = append(reports, util.ParseToIntArray(l, " "))
 	}
 
