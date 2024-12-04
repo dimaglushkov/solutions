@@ -1,7 +1,5 @@
 ## adventofcode/2022
 
-![image](https://github.com/dimaglushkov/solutions/blob/master/adventofcode/2022/image.jpg)
-
 | Day | Solution | 
 |-|-|
 | [Day 1](https://adventofcode.com/2022/day/1) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2022/day01/day01.go) | 
