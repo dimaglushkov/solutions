@@ -88,3 +88,29 @@ func MergeSlices(a, b []int) []int {
 
 	return res
 }
+
+func SliceToSet[T comparable](slice []T) map[T]bool {
+	set := make(map[T]bool, len(slice))
+	for _, v := range slice {
+		set[v] = true
+	}
+	return set
+}
+
+func CopyMap[K comparable, V any](src map[K]V) map[K]V {
+	dst := make(map[K]V, len(src))
+	for k, v := range src {
+		dst[k] = v
+	}
+	return dst
+}
+
+func CopyFilterMap[K comparable, V any](src map[K]V, filter func(K) bool) map[K]V {
+	dst := make(map[K]V, len(src))
+	for k, v := range src {
+		if filter(k) {
+			dst[k] = v
+		}
+	}
+	return dst
+}

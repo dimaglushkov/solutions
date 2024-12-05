@@ -25,7 +25,7 @@ def create(values, sol_dir):
     shutil.copy(os.path.join(shared.get_templates_dir(), "adventofcode.go"), os.path.join(dir_path, "main.go"))
 
     with open(os.path.join(sol_dir, str(year), "README.md"), "a") as f:
-        f.write(f"| [Day {values[0]}](https://adventofcode.com/{year}/day/{values[0]}) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/{year}/{day}/main.go) |")
+        f.write(f"| [Day {values[0]}](https://adventofcode.com/{year}/day/{values[0]}) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/{year}/{day}/main.go) |\n")
 
     print(f"file://{os.path.join(dir_path, "main.go")}")
 
