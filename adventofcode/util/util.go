@@ -114,3 +114,21 @@ func CopyFilterMap[K comparable, V any](src map[K]V, filter func(K) bool) map[K]
 	}
 	return dst
 }
+
+func MakeMatrix[T any](n, m int) [][]T {
+	matrix := make([][]T, n)
+	for i := range matrix {
+		matrix[i] = make([]T, m)
+	}
+	return matrix
+}
+
+func CopyMatrix[T any](src [][]T) [][]T {
+	dst := make([][]T, len(src))
+	for i := range src {
+		row := make([]T, len(src[i]))
+		copy(row, src[i])
+		dst[i] = row
+	}
+	return dst
+}
