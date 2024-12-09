@@ -711,6 +711,7 @@ Problems solved in total: 608
 | [Day 6](https://adventofcode.com/2024/day/6) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day06/main.go) |
 | [Day 7](https://adventofcode.com/2024/day/7) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day07/main.go) |
 | [Day 8](https://adventofcode.com/2024/day/8) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day08/main.go) |
+| [Day 9](https://adventofcode.com/2024/day/9) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day09/main.go) |
 
 
 ## adventofcode/2022
