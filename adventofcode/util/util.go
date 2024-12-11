@@ -97,6 +97,14 @@ func SliceToSet[T comparable](slice []T) map[T]bool {
 	return set
 }
 
+func InsertAt[T any](slice []T, value T, index int) []T {
+	newSlice := make([]T, len(slice)+1)
+	copy(newSlice, slice)
+	newSlice[index] = value
+	copy(newSlice[index+1:], slice[index:])
+	return newSlice
+}
+
 func CopyMap[K comparable, V any](src map[K]V) map[K]V {
 	dst := make(map[K]V, len(src))
 	for k, v := range src {
