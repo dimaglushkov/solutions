@@ -13,3 +13,4 @@
 | [Day 9](https://adventofcode.com/2024/day/9) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day09/main.go) |
 | [Day 10](https://adventofcode.com/2024/day/10) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day10/main.go) |
 | [Day 11](https://adventofcode.com/2024/day/11) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day11/main.go) |
+| [Day 12](https://adventofcode.com/2024/day/12) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2024/day12/main.go) |
