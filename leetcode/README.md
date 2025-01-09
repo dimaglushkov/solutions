@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 608
+Problems solved in total: 609
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -616,3 +616,4 @@ Problems solved in total: 608
 | [1829. Maximum xor for each query](https://leetcode.com/problems/maximum-xor-for-each-query/) | Medium | [golang](/leetcode/maximum-xor-for-each-query/maximum-xor-for-each-query.go)  |
 | [3133. Minimum array end](https://leetcode.com/problems/minimum-array-end/) | Medium | [golang](/leetcode/minimum-array-end/minimum-array-end.go)  |
 | [2064. Minimized maximum of products distributed to any store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | Medium | [golang](/leetcode/minimized-maximum-of-products-distributed-to-any-store/minimized-maximum-of-products-distributed-to-any-store.go)  |
+| [2185. Counting words with a given prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | [golang](/leetcode/counting-words-with-a-given-prefix/counting-words-with-a-given-prefix.go)  |

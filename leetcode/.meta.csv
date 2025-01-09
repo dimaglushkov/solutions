@@ -607,3 +607,4 @@ largest-combination-with-bitwise-and-greater-than-zero,Medium,2275,['golang'],"[
 maximum-xor-for-each-query,Medium,1829,['golang'],"['Array', 'Bit Manipulation', 'Prefix Sum']"
 minimum-array-end,Medium,3133,['golang'],['Bit Manipulation']
 minimized-maximum-of-products-distributed-to-any-store,Medium,2064,['golang'],"['Array', 'Binary Search']"
+counting-words-with-a-given-prefix,Easy,2185,['golang'],"['Array', 'String', 'String Matching']"
