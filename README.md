@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 610
+Problems solved in total: 611
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -699,6 +699,7 @@ Problems solved in total: 610
 | [2064. Minimized maximum of products distributed to any store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | Medium | [golang](/leetcode/minimized-maximum-of-products-distributed-to-any-store/minimized-maximum-of-products-distributed-to-any-store.go)  |
 | [2185. Counting words with a given prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | [golang](/leetcode/counting-words-with-a-given-prefix/counting-words-with-a-given-prefix.go)  |
 | [2845. Count of interesting subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [golang](/leetcode/count-of-interesting-subarrays/count-of-interesting-subarrays.go)  |
+| [3392. Count subarrays of length three with a condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [golang](/leetcode/count-subarrays-of-length-three-with-a-condition/count-subarrays-of-length-three-with-a-condition.go)  |
 
 
 ## adventofcode/2024
