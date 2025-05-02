@@ -610,3 +610,4 @@ minimized-maximum-of-products-distributed-to-any-store,Medium,2064,['golang'],"[
 counting-words-with-a-given-prefix,Easy,2185,['golang'],"['Array', 'String', 'String Matching']"
 count-of-interesting-subarrays,Medium,2845,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
 count-subarrays-of-length-three-with-a-condition,Easy,3392,['golang'],['Array']
+push-dominoes,Medium,838,['golang'],"['Two Pointers', 'String', 'Dynamic Programming']"

@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 611
+Problems solved in total: 612
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -619,3 +619,4 @@ Problems solved in total: 611
 | [2185. Counting words with a given prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | [golang](/leetcode/counting-words-with-a-given-prefix/counting-words-with-a-given-prefix.go)  |
 | [2845. Count of interesting subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [golang](/leetcode/count-of-interesting-subarrays/count-of-interesting-subarrays.go)  |
 | [3392. Count subarrays of length three with a condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [golang](/leetcode/count-subarrays-of-length-three-with-a-condition/count-subarrays-of-length-three-with-a-condition.go)  |
+| [838. Push dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [golang](/leetcode/push-dominoes/push-dominoes.go)  |
