@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 612
+Problems solved in total: 613
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -620,3 +620,4 @@ Problems solved in total: 612
 | [2845. Count of interesting subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/) | Medium | [golang](/leetcode/count-of-interesting-subarrays/count-of-interesting-subarrays.go)  |
 | [3392. Count subarrays of length three with a condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [golang](/leetcode/count-subarrays-of-length-three-with-a-condition/count-subarrays-of-length-three-with-a-condition.go)  |
 | [838. Push dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [golang](/leetcode/push-dominoes/push-dominoes.go)  |
+| [1007. Minimum domino rotations for equal row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | Medium | [golang](/leetcode/minimum-domino-rotations-for-equal-row/minimum-domino-rotations-for-equal-row.go)  |

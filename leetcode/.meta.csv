@@ -611,3 +611,4 @@ counting-words-with-a-given-prefix,Easy,2185,['golang'],"['Array', 'String', 'St
 count-of-interesting-subarrays,Medium,2845,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
 count-subarrays-of-length-three-with-a-condition,Easy,3392,['golang'],['Array']
 push-dominoes,Medium,838,['golang'],"['Two Pointers', 'String', 'Dynamic Programming']"
+minimum-domino-rotations-for-equal-row,Medium,1007,['golang'],"['Array', 'Greedy']"
