@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 613
+Problems solved in total: 614
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -621,3 +621,4 @@ Problems solved in total: 613
 | [3392. Count subarrays of length three with a condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | Easy | [golang](/leetcode/count-subarrays-of-length-three-with-a-condition/count-subarrays-of-length-three-with-a-condition.go)  |
 | [838. Push dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [golang](/leetcode/push-dominoes/push-dominoes.go)  |
 | [1007. Minimum domino rotations for equal row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | Medium | [golang](/leetcode/minimum-domino-rotations-for-equal-row/minimum-domino-rotations-for-equal-row.go)  |
+| [3335. Total characters in string after transformations i](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/) | Medium | [golang](/leetcode/total-characters-in-string-after-transformations-i/total-characters-in-string-after-transformations-i.go)  |
