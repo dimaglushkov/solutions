@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 614
+Problems solved in total: 615
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -622,3 +622,4 @@ Problems solved in total: 614
 | [838. Push dominoes](https://leetcode.com/problems/push-dominoes/) | Medium | [golang](/leetcode/push-dominoes/push-dominoes.go)  |
 | [1007. Minimum domino rotations for equal row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | Medium | [golang](/leetcode/minimum-domino-rotations-for-equal-row/minimum-domino-rotations-for-equal-row.go)  |
 | [3335. Total characters in string after transformations i](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/) | Medium | [golang](/leetcode/total-characters-in-string-after-transformations-i/total-characters-in-string-after-transformations-i.go)  |
+| [3355. Zero array transformation i](https://leetcode.com/problems/zero-array-transformation-i/) | Medium | [golang](/leetcode/zero-array-transformation-i/zero-array-transformation-i.go)  |
