@@ -615,3 +615,4 @@ minimum-domino-rotations-for-equal-row,Medium,1007,['golang'],"['Array', 'Greedy
 total-characters-in-string-after-transformations-i,Medium,3335,['golang'],"['Hash Table', 'Math', 'String', 'Dynamic Programming', 'Counting']"
 zero-array-transformation-i,Medium,3355,['golang'],"['Array', 'Prefix Sum']"
 find-the-minimum-amount-of-time-to-brew-potions,Medium,3494,['golang'],"['Array', 'Simulation', 'Prefix Sum']"
+adjacent-increasing-subarrays-detection-i,Easy,3349,['golang'],['Array']

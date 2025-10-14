@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 616
+Problems solved in total: 617
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -624,3 +624,4 @@ Problems solved in total: 616
 | [3335. Total characters in string after transformations i](https://leetcode.com/problems/total-characters-in-string-after-transformations-i/) | Medium | [golang](/leetcode/total-characters-in-string-after-transformations-i/total-characters-in-string-after-transformations-i.go)  |
 | [3355. Zero array transformation i](https://leetcode.com/problems/zero-array-transformation-i/) | Medium | [golang](/leetcode/zero-array-transformation-i/zero-array-transformation-i.go)  |
 | [3494. Find the minimum amount of time to brew potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | Medium | [golang](/leetcode/find-the-minimum-amount-of-time-to-brew-potions/find-the-minimum-amount-of-time-to-brew-potions.go)  |
+| [3349. Adjacent increasing subarrays detection i](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | Easy | [golang](/leetcode/adjacent-increasing-subarrays-detection-i/adjacent-increasing-subarrays-detection-i.go)  |
