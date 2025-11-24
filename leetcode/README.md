@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 617
+Problems solved in total: 618
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -625,3 +625,4 @@ Problems solved in total: 617
 | [3355. Zero array transformation i](https://leetcode.com/problems/zero-array-transformation-i/) | Medium | [golang](/leetcode/zero-array-transformation-i/zero-array-transformation-i.go)  |
 | [3494. Find the minimum amount of time to brew potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | Medium | [golang](/leetcode/find-the-minimum-amount-of-time-to-brew-potions/find-the-minimum-amount-of-time-to-brew-potions.go)  |
 | [3349. Adjacent increasing subarrays detection i](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | Easy | [golang](/leetcode/adjacent-increasing-subarrays-detection-i/adjacent-increasing-subarrays-detection-i.go)  |
+| [1018. Binary prefix divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [golang](/leetcode/binary-prefix-divisible-by-5/binary-prefix-divisible-by-5.go)  |
