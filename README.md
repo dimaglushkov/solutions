@@ -81,7 +81,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 618
+Problems solved in total: 619
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -707,6 +707,7 @@ Problems solved in total: 618
 | [3494. Find the minimum amount of time to brew potions](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) | Medium | [golang](/leetcode/find-the-minimum-amount-of-time-to-brew-potions/find-the-minimum-amount-of-time-to-brew-potions.go)  |
 | [3349. Adjacent increasing subarrays detection i](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | Easy | [golang](/leetcode/adjacent-increasing-subarrays-detection-i/adjacent-increasing-subarrays-detection-i.go)  |
 | [1018. Binary prefix divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [golang](/leetcode/binary-prefix-divisible-by-5/binary-prefix-divisible-by-5.go)  |
+| [3512. Minimum operations to make array sum divisible by k](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [golang](/leetcode/minimum-operations-to-make-array-sum-divisible-by-k/minimum-operations-to-make-array-sum-divisible-by-k.go)  |
 
 
 ## adventofcode/2024

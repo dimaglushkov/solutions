@@ -617,3 +617,4 @@ zero-array-transformation-i,Medium,3355,['golang'],"['Array', 'Prefix Sum']"
 find-the-minimum-amount-of-time-to-brew-potions,Medium,3494,['golang'],"['Array', 'Simulation', 'Prefix Sum']"
 adjacent-increasing-subarrays-detection-i,Easy,3349,['golang'],['Array']
 binary-prefix-divisible-by-5,Easy,1018,['golang'],"['Array', 'Bit Manipulation']"
+minimum-operations-to-make-array-sum-divisible-by-k,Easy,3512,['golang'],"['Array', 'Math']"
