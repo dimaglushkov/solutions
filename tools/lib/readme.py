@@ -2,7 +2,7 @@ import os
 
 from . import shared
 
-order = ['tools', 'contests', 'leetcode', 'adventofcode/2024', 'adventofcode/2022', 'codeforces', 'acm.timus']
+order = ['tools', 'contests', 'leetcode', 'adventofcode/2025', 'adventofcode/2024', 'adventofcode/2022', 'codeforces', 'acm.timus']
 template_path = os.path.join(shared.get_templates_dir(), '.README.gen.md')
 
 

@@ -10,10 +10,11 @@ codeforces: [@dimaglushkov](https://codeforces.com/profile/dimaglushkov)
 [1. tools](#tools) <br>
 [2. contests](#contests) <br>
 [3. leetcode](#leetcode) <br>
-[4. adventofcode/2024](#adventofcode2024) <br>
-[5. adventofcode/2022](#adventofcode2022) <br>
-[6. codeforces](#codeforces) <br>
-[7. acm.timus](#acmtimus) <br>
+[4. adventofcode/2025](#adventofcode2025) <br>
+[5. adventofcode/2024](#adventofcode2024) <br>
+[6. adventofcode/2022](#adventofcode2022) <br>
+[7. codeforces](#codeforces) <br>
+[8. acm.timus](#acmtimus) <br>
 
 
 ## tools
@@ -708,6 +709,13 @@ Problems solved in total: 619
 | [3349. Adjacent increasing subarrays detection i](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | Easy | [golang](/leetcode/adjacent-increasing-subarrays-detection-i/adjacent-increasing-subarrays-detection-i.go)  |
 | [1018. Binary prefix divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [golang](/leetcode/binary-prefix-divisible-by-5/binary-prefix-divisible-by-5.go)  |
 | [3512. Minimum operations to make array sum divisible by k](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [golang](/leetcode/minimum-operations-to-make-array-sum-divisible-by-k/minimum-operations-to-make-array-sum-divisible-by-k.go)  |
+
+
+## adventofcode/2025
+
+| Day                                          | Solution                                                                                        | 
+|----------------------------------------------|-------------------------------------------------------------------------------------------------|
+| [Day 1](https://adventofcode.com/2025/day/1) | [golang](https://github.com/dimaglushkov/solutions/tree/master/adventofcode/2025/day01/main.go) | 
 
 
 ## adventofcode/2024
