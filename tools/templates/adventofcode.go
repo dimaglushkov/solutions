@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/dimaglushkov/solutions/adventofcode/util"
 )
 
@@ -18,8 +19,14 @@ func part2(input []string) {
 }
 
 func main() {
-	lines := util.ReadInput(true)
+	exampleLines := util.ReadInput(true)
 
+	fmt.Println("Example:")
+	part1(exampleLines)
+	part2(exampleLines)
+
+	lines := util.ReadInput(false)
+	fmt.Println("=========")
 	part1(lines)
 	part2(lines)
 }
