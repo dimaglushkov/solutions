@@ -618,3 +618,4 @@ find-the-minimum-amount-of-time-to-brew-potions,Medium,3494,['golang'],"['Array'
 adjacent-increasing-subarrays-detection-i,Easy,3349,['golang'],['Array']
 binary-prefix-divisible-by-5,Easy,1018,['golang'],"['Array', 'Bit Manipulation']"
 minimum-operations-to-make-array-sum-divisible-by-k,Easy,3512,['golang'],"['Array', 'Math']"
+maximum-square-area-by-removing-fences-from-a-field,Medium,2975,['golang'],"['Array', 'Hash Table', 'Enumeration']"
