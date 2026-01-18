@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 620
+Problems solved in total: 621
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -710,6 +710,7 @@ Problems solved in total: 620
 | [1018. Binary prefix divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | [golang](/leetcode/binary-prefix-divisible-by-5/binary-prefix-divisible-by-5.go)  |
 | [3512. Minimum operations to make array sum divisible by k](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [golang](/leetcode/minimum-operations-to-make-array-sum-divisible-by-k/minimum-operations-to-make-array-sum-divisible-by-k.go)  |
 | [2975. Maximum square area by removing fences from a field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/) | Medium | [golang](/leetcode/maximum-square-area-by-removing-fences-from-a-field/maximum-square-area-by-removing-fences-from-a-field.go)  |
+| [1895. Largest magic square](https://leetcode.com/problems/largest-magic-square/) | Medium | [golang](/leetcode/largest-magic-square/largest-magic-square.go)  |
 
 
 ## adventofcode/2025
