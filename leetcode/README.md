@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 621
+Problems solved in total: 622
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -629,3 +629,4 @@ Problems solved in total: 621
 | [3512. Minimum operations to make array sum divisible by k](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | [golang](/leetcode/minimum-operations-to-make-array-sum-divisible-by-k/minimum-operations-to-make-array-sum-divisible-by-k.go)  |
 | [2975. Maximum square area by removing fences from a field](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/) | Medium | [golang](/leetcode/maximum-square-area-by-removing-fences-from-a-field/maximum-square-area-by-removing-fences-from-a-field.go)  |
 | [1895. Largest magic square](https://leetcode.com/problems/largest-magic-square/) | Medium | [golang](/leetcode/largest-magic-square/largest-magic-square.go)  |
+| [1292. Maximum side length of a square with sum less than or equal to threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium | [golang](/leetcode/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.go)  |
