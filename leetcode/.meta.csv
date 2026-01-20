@@ -621,3 +621,4 @@ minimum-operations-to-make-array-sum-divisible-by-k,Easy,3512,['golang'],"['Arra
 maximum-square-area-by-removing-fences-from-a-field,Medium,2975,['golang'],"['Array', 'Hash Table', 'Enumeration']"
 largest-magic-square,Medium,1895,['golang'],"['Array', 'Matrix', 'Prefix Sum']"
 maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,Medium,1292,['golang'],"['Array', 'Binary Search', 'Matrix', 'Prefix Sum']"
+construct-the-minimum-bitwise-array-i,Easy,3314,['golang'],"['Array', 'Bit Manipulation']"
