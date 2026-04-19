@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 623
+Problems solved in total: 624
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -713,6 +713,7 @@ Problems solved in total: 623
 | [1895. Largest magic square](https://leetcode.com/problems/largest-magic-square/) | Medium | [golang](/leetcode/largest-magic-square/largest-magic-square.go)  |
 | [1292. Maximum side length of a square with sum less than or equal to threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium | [golang](/leetcode/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.go)  |
 | [3314. Construct the minimum bitwise array i](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | Easy | [golang](/leetcode/construct-the-minimum-bitwise-array-i/construct-the-minimum-bitwise-array-i.go)  |
+| [1855. Maximum distance between a pair of values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | [golang](/leetcode/maximum-distance-between-a-pair-of-values/maximum-distance-between-a-pair-of-values.go)  |
 
 
 ## adventofcode/2025

@@ -622,3 +622,4 @@ maximum-square-area-by-removing-fences-from-a-field,Medium,2975,['golang'],"['Ar
 largest-magic-square,Medium,1895,['golang'],"['Array', 'Matrix', 'Prefix Sum']"
 maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,Medium,1292,['golang'],"['Array', 'Binary Search', 'Matrix', 'Prefix Sum']"
 construct-the-minimum-bitwise-array-i,Easy,3314,['golang'],"['Array', 'Bit Manipulation']"
+maximum-distance-between-a-pair-of-values,Medium,1855,['golang'],"['Array', 'Two Pointers', 'Binary Search']"
