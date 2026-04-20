@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 624
+Problems solved in total: 625
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -714,6 +714,7 @@ Problems solved in total: 624
 | [1292. Maximum side length of a square with sum less than or equal to threshold](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium | [golang](/leetcode/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.go)  |
 | [3314. Construct the minimum bitwise array i](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | Easy | [golang](/leetcode/construct-the-minimum-bitwise-array-i/construct-the-minimum-bitwise-array-i.go)  |
 | [1855. Maximum distance between a pair of values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | [golang](/leetcode/maximum-distance-between-a-pair-of-values/maximum-distance-between-a-pair-of-values.go)  |
+| [2078. Two furthest houses with different colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | [golang](/leetcode/two-furthest-houses-with-different-colors/two-furthest-houses-with-different-colors.go)  |
 
 
 ## adventofcode/2025
