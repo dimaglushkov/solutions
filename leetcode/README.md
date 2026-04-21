@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 625
+Problems solved in total: 626
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -633,3 +633,4 @@ Problems solved in total: 625
 | [3314. Construct the minimum bitwise array i](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | Easy | [golang](/leetcode/construct-the-minimum-bitwise-array-i/construct-the-minimum-bitwise-array-i.go)  |
 | [1855. Maximum distance between a pair of values](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/) | Medium | [golang](/leetcode/maximum-distance-between-a-pair-of-values/maximum-distance-between-a-pair-of-values.go)  |
 | [2078. Two furthest houses with different colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | [golang](/leetcode/two-furthest-houses-with-different-colors/two-furthest-houses-with-different-colors.go)  |
+| [1722. Minimize hamming distance after swap operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | [golang](/leetcode/minimize-hamming-distance-after-swap-operations/minimize-hamming-distance-after-swap-operations.go)  |

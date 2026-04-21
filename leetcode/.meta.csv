@@ -624,3 +624,4 @@ maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,Medium,
 construct-the-minimum-bitwise-array-i,Easy,3314,['golang'],"['Array', 'Bit Manipulation']"
 maximum-distance-between-a-pair-of-values,Medium,1855,['golang'],"['Array', 'Two Pointers', 'Binary Search']"
 two-furthest-houses-with-different-colors,Easy,2078,['golang'],"['Array', 'Greedy']"
+minimize-hamming-distance-after-swap-operations,Medium,1722,['golang'],"['Array', 'Depth-First Search', 'Union-Find']"
