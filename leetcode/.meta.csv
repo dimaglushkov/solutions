@@ -627,3 +627,4 @@ two-furthest-houses-with-different-colors,Easy,2078,['golang'],"['Array', 'Greed
 minimize-hamming-distance-after-swap-operations,Medium,1722,['golang'],"['Array', 'Depth-First Search', 'Union-Find']"
 words-within-two-edits-of-dictionary,Medium,2452,['golang'],"['Array', 'String', 'Trie']"
 sum-of-distances,Medium,2615,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
+minimize-the-maximum-difference-of-pairs,Medium,2616,['golang'],"['Array', 'Binary Search', 'Dynamic Programming', 'Greedy', 'Sorting']"

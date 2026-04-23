@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 628
+Problems solved in total: 629
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -636,3 +636,4 @@ Problems solved in total: 628
 | [1722. Minimize hamming distance after swap operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | [golang](/leetcode/minimize-hamming-distance-after-swap-operations/minimize-hamming-distance-after-swap-operations.go)  |
 | [2452. Words within two edits of dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) | Medium | [golang](/leetcode/words-within-two-edits-of-dictionary/words-within-two-edits-of-dictionary.go)  |
 | [2615. Sum of distances](https://leetcode.com/problems/sum-of-distances/) | Medium | [golang](/leetcode/sum-of-distances/sum-of-distances.go)  |
+| [2616. Minimize the maximum difference of pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [golang](/leetcode/minimize-the-maximum-difference-of-pairs/minimize-the-maximum-difference-of-pairs.go)  |
