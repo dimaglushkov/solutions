@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 627
+Problems solved in total: 628
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -717,6 +717,7 @@ Problems solved in total: 627
 | [2078. Two furthest houses with different colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | Easy | [golang](/leetcode/two-furthest-houses-with-different-colors/two-furthest-houses-with-different-colors.go)  |
 | [1722. Minimize hamming distance after swap operations](https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/) | Medium | [golang](/leetcode/minimize-hamming-distance-after-swap-operations/minimize-hamming-distance-after-swap-operations.go)  |
 | [2452. Words within two edits of dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) | Medium | [golang](/leetcode/words-within-two-edits-of-dictionary/words-within-two-edits-of-dictionary.go)  |
+| [2615. Sum of distances](https://leetcode.com/problems/sum-of-distances/) | Medium | [golang](/leetcode/sum-of-distances/sum-of-distances.go)  |
 
 
 ## adventofcode/2025

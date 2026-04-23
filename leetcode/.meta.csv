@@ -626,3 +626,4 @@ maximum-distance-between-a-pair-of-values,Medium,1855,['golang'],"['Array', 'Two
 two-furthest-houses-with-different-colors,Easy,2078,['golang'],"['Array', 'Greedy']"
 minimize-hamming-distance-after-swap-operations,Medium,1722,['golang'],"['Array', 'Depth-First Search', 'Union-Find']"
 words-within-two-edits-of-dictionary,Medium,2452,['golang'],"['Array', 'String', 'Trie']"
+sum-of-distances,Medium,2615,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
