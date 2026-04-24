@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 629
+Problems solved in total: 630
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -637,3 +637,4 @@ Problems solved in total: 629
 | [2452. Words within two edits of dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) | Medium | [golang](/leetcode/words-within-two-edits-of-dictionary/words-within-two-edits-of-dictionary.go)  |
 | [2615. Sum of distances](https://leetcode.com/problems/sum-of-distances/) | Medium | [golang](/leetcode/sum-of-distances/sum-of-distances.go)  |
 | [2616. Minimize the maximum difference of pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [golang](/leetcode/minimize-the-maximum-difference-of-pairs/minimize-the-maximum-difference-of-pairs.go)  |
+| [496. Next greater element i](https://leetcode.com/problems/next-greater-element-i/) | Easy | [golang](/leetcode/next-greater-element-i/next-greater-element-i.go)  |
