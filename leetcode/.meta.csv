@@ -629,3 +629,4 @@ words-within-two-edits-of-dictionary,Medium,2452,['golang'],"['Array', 'String',
 sum-of-distances,Medium,2615,['golang'],"['Array', 'Hash Table', 'Prefix Sum']"
 minimize-the-maximum-difference-of-pairs,Medium,2616,['golang'],"['Array', 'Binary Search', 'Dynamic Programming', 'Greedy', 'Sorting']"
 next-greater-element-i,Easy,496,['golang'],"['Array', 'Hash Table', 'Stack', 'Monotonic Stack']"
+minimum-operations-to-make-a-uni-value-grid,Medium,2033,['golang'],"['Array', 'Math', 'Sorting', 'Matrix']"

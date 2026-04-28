@@ -6,7 +6,6 @@ import (
 
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	ids := map[int]int{}
-
 	for i, x := range nums2 {
 		ids[x] = i
 	}
