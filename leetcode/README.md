@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 631
+Problems solved in total: 632
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -639,3 +639,4 @@ Problems solved in total: 631
 | [2616. Minimize the maximum difference of pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/) | Medium | [golang](/leetcode/minimize-the-maximum-difference-of-pairs/minimize-the-maximum-difference-of-pairs.go)  |
 | [496. Next greater element i](https://leetcode.com/problems/next-greater-element-i/) | Easy | [golang](/leetcode/next-greater-element-i/next-greater-element-i.go)  |
 | [2033. Minimum operations to make a uni value grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | [golang](/leetcode/minimum-operations-to-make-a-uni-value-grid/minimum-operations-to-make-a-uni-value-grid.go)  |
+| [396. Rotate function](https://leetcode.com/problems/rotate-function/) | Medium | [golang](/leetcode/rotate-function/rotate-function.go)  |
