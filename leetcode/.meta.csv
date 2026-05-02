@@ -631,3 +631,5 @@ minimize-the-maximum-difference-of-pairs,Medium,2616,['golang'],"['Array', 'Bina
 next-greater-element-i,Easy,496,['golang'],"['Array', 'Hash Table', 'Stack', 'Monotonic Stack']"
 minimum-operations-to-make-a-uni-value-grid,Medium,2033,['golang'],"['Array', 'Math', 'Sorting', 'Matrix']"
 rotate-function,Medium,396,['golang'],"['Array', 'Math', 'Dynamic Programming']"
+rotated-digits,Medium,788,['golang'],"['Math', 'Dynamic Programming']"
+count-collisions-on-a-road,Medium,2211,['golang'],"['String', 'Stack', 'Simulation']"

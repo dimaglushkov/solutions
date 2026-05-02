@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 632
+Problems solved in total: 634
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -640,3 +640,5 @@ Problems solved in total: 632
 | [496. Next greater element i](https://leetcode.com/problems/next-greater-element-i/) | Easy | [golang](/leetcode/next-greater-element-i/next-greater-element-i.go)  |
 | [2033. Minimum operations to make a uni value grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | [golang](/leetcode/minimum-operations-to-make-a-uni-value-grid/minimum-operations-to-make-a-uni-value-grid.go)  |
 | [396. Rotate function](https://leetcode.com/problems/rotate-function/) | Medium | [golang](/leetcode/rotate-function/rotate-function.go)  |
+| [788. Rotated digits](https://leetcode.com/problems/rotated-digits/) | Medium | [golang](/leetcode/rotated-digits/rotated-digits.go)  |
+| [2211. Count collisions on a road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [golang](/leetcode/count-collisions-on-a-road/count-collisions-on-a-road.go)  |
