@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 636
+Problems solved in total: 637
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -726,6 +726,7 @@ Problems solved in total: 636
 | [2211. Count collisions on a road](https://leetcode.com/problems/count-collisions-on-a-road/) | Medium | [golang](/leetcode/count-collisions-on-a-road/count-collisions-on-a-road.go)  |
 | [3432. Count partitions with even sum difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | [golang](/leetcode/count-partitions-with-even-sum-difference/count-partitions-with-even-sum-difference.go)  |
 | [1925. Count square sum triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | [golang](/leetcode/count-square-sum-triples/count-square-sum-triples.go)  |
+| [61. Rotate list](https://leetcode.com/problems/rotate-list/) | Medium | [golang](/leetcode/rotate-list/rotate-list.go)  |
 
 
 ## adventofcode/2025
