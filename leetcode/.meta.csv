@@ -636,3 +636,4 @@ count-collisions-on-a-road,Medium,2211,['golang'],"['String', 'Stack', 'Simulati
 count-partitions-with-even-sum-difference,Easy,3432,['golang'],"['Array', 'Math', 'Prefix Sum']"
 count-square-sum-triples,Easy,1925,['golang'],"['Math', 'Enumeration']"
 rotate-list,Medium,61,['golang'],"['Linked List', 'Two Pointers']"
+rotating-the-box,Medium,1861,['golang'],"['Array', 'Two Pointers', 'Matrix']"

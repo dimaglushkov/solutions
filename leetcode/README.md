@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 637
+Problems solved in total: 638
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -645,3 +645,4 @@ Problems solved in total: 637
 | [3432. Count partitions with even sum difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | [golang](/leetcode/count-partitions-with-even-sum-difference/count-partitions-with-even-sum-difference.go)  |
 | [1925. Count square sum triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | [golang](/leetcode/count-square-sum-triples/count-square-sum-triples.go)  |
 | [61. Rotate list](https://leetcode.com/problems/rotate-list/) | Medium | [golang](/leetcode/rotate-list/rotate-list.go)  |
+| [1861. Rotating the box](https://leetcode.com/problems/rotating-the-box/) | Medium | [golang](/leetcode/rotating-the-box/rotating-the-box.go)  |
