@@ -637,3 +637,5 @@ count-partitions-with-even-sum-difference,Easy,3432,['golang'],"['Array', 'Math'
 count-square-sum-triples,Easy,1925,['golang'],"['Math', 'Enumeration']"
 rotate-list,Medium,61,['golang'],"['Linked List', 'Two Pointers']"
 rotating-the-box,Medium,1861,['golang'],"['Array', 'Two Pointers', 'Matrix']"
+jump-game-ix,Medium,3660,['golang'],"['Array', 'Dynamic Programming']"
+maximum-number-of-jumps-to-reach-the-last-index,Medium,2770,['golang'],"['Array', 'Dynamic Programming']"
