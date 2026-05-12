@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 640
+Problems solved in total: 641
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -730,6 +730,7 @@ Problems solved in total: 640
 | [1861. Rotating the box](https://leetcode.com/problems/rotating-the-box/) | Medium | [golang](/leetcode/rotating-the-box/rotating-the-box.go)  |
 | [3660. Jump game ix](https://leetcode.com/problems/jump-game-ix/) | Medium | [golang](/leetcode/jump-game-ix/jump-game-ix.go)  |
 | [2770. Maximum number of jumps to reach the last index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [golang](/leetcode/maximum-number-of-jumps-to-reach-the-last-index/maximum-number-of-jumps-to-reach-the-last-index.go)  |
+| [1665. Minimum initial energy to finish tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | [golang](/leetcode/minimum-initial-energy-to-finish-tasks/minimum-initial-energy-to-finish-tasks.go)  |
 
 
 ## adventofcode/2025
