@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 641
+Problems solved in total: 643
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -649,3 +649,5 @@ Problems solved in total: 641
 | [3660. Jump game ix](https://leetcode.com/problems/jump-game-ix/) | Medium | [golang](/leetcode/jump-game-ix/jump-game-ix.go)  |
 | [2770. Maximum number of jumps to reach the last index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | [golang](/leetcode/maximum-number-of-jumps-to-reach-the-last-index/maximum-number-of-jumps-to-reach-the-last-index.go)  |
 | [1665. Minimum initial energy to finish tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | [golang](/leetcode/minimum-initial-energy-to-finish-tasks/minimum-initial-energy-to-finish-tasks.go)  |
+| [2784. Check if array is good](https://leetcode.com/problems/check-if-array-is-good/) | Easy | [golang](/leetcode/check-if-array-is-good/check-if-array-is-good.go)  |
+| [1306. Jump game iii](https://leetcode.com/problems/jump-game-iii/) | Medium | [golang](/leetcode/jump-game-iii/jump-game-iii.go)  |
