@@ -82,7 +82,7 @@ For more information, check [tools](https://github.com/dimaglushkov/solutions/tr
 
 ## leetcode
 
-Problems solved in total: 643
+Problems solved in total: 644
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -733,6 +733,7 @@ Problems solved in total: 643
 | [1665. Minimum initial energy to finish tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | [golang](/leetcode/minimum-initial-energy-to-finish-tasks/minimum-initial-energy-to-finish-tasks.go)  |
 | [2784. Check if array is good](https://leetcode.com/problems/check-if-array-is-good/) | Easy | [golang](/leetcode/check-if-array-is-good/check-if-array-is-good.go)  |
 | [1306. Jump game iii](https://leetcode.com/problems/jump-game-iii/) | Medium | [golang](/leetcode/jump-game-iii/jump-game-iii.go)  |
+| [3120. Count the number of special characters i](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | Easy | [golang](/leetcode/count-the-number-of-special-characters-i/count-the-number-of-special-characters-i.go)  |
 
 
 ## adventofcode/2025

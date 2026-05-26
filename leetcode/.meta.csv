@@ -642,3 +642,4 @@ maximum-number-of-jumps-to-reach-the-last-index,Medium,2770,['golang'],"['Array'
 minimum-initial-energy-to-finish-tasks,Hard,1665,['golang'],"['Array', 'Greedy', 'Sorting']"
 check-if-array-is-good,Easy,2784,['golang'],"['Array', 'Hash Table', 'Sorting']"
 jump-game-iii,Medium,1306,['golang'],"['Array', 'Depth-First Search', 'Breadth-First Search']"
+count-the-number-of-special-characters-i,Easy,3120,['golang'],"['Hash Table', 'String']"
