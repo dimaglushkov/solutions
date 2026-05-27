@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 644
+Problems solved in total: 645
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -652,3 +652,4 @@ Problems solved in total: 644
 | [2784. Check if array is good](https://leetcode.com/problems/check-if-array-is-good/) | Easy | [golang](/leetcode/check-if-array-is-good/check-if-array-is-good.go)  |
 | [1306. Jump game iii](https://leetcode.com/problems/jump-game-iii/) | Medium | [golang](/leetcode/jump-game-iii/jump-game-iii.go)  |
 | [3120. Count the number of special characters i](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | Easy | [golang](/leetcode/count-the-number-of-special-characters-i/count-the-number-of-special-characters-i.go)  |
+| [3121. Count the number of special characters ii](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | Medium | [golang](/leetcode/count-the-number-of-special-characters-ii/count-the-number-of-special-characters-ii.go)  |
