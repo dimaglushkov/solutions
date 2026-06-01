@@ -1,6 +1,6 @@
 ## leetcode
 
-Problems solved in total: 645
+Problems solved in total: 647
 
 |Solutions by difficulty|Solutions by tags|
 |-|-|
@@ -653,3 +653,5 @@ Problems solved in total: 645
 | [1306. Jump game iii](https://leetcode.com/problems/jump-game-iii/) | Medium | [golang](/leetcode/jump-game-iii/jump-game-iii.go)  |
 | [3120. Count the number of special characters i](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | Easy | [golang](/leetcode/count-the-number-of-special-characters-i/count-the-number-of-special-characters-i.go)  |
 | [3121. Count the number of special characters ii](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | Medium | [golang](/leetcode/count-the-number-of-special-characters-ii/count-the-number-of-special-characters-ii.go)  |
+| [3300. Minimum element after replacement with digit sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | Easy | [golang](/leetcode/minimum-element-after-replacement-with-digit-sum/minimum-element-after-replacement-with-digit-sum.go)  |
+| [2144. Minimum cost of buying candies with discount](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | Easy | [golang](/leetcode/minimum-cost-of-buying-candies-with-discount/minimum-cost-of-buying-candies-with-discount.go)  |
