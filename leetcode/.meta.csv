@@ -646,3 +646,4 @@ count-the-number-of-special-characters-i,Easy,3120,['golang'],"['Hash Table', 'S
 count-the-number-of-special-characters-ii,Medium,3121,['golang'],"['Hash Table', 'String']"
 minimum-element-after-replacement-with-digit-sum,Easy,3300,['golang'],"['Array', 'Math']"
 minimum-cost-of-buying-candies-with-discount,Easy,2144,['golang'],"['Array', 'Greedy', 'Sorting']"
+maximum-alternating-sum-of-squares,Medium,3727,['golang'],"['Array', 'Greedy', 'Sorting']"
